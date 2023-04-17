@@ -139,7 +139,7 @@
 		{
 			"symbol": "KAR",
 			"parents": 1,
-			"interior": {
+			"interiors": {
                 "v1": [
 				    { "Parachain": 2000 },
 				    { "GeneralKeyV1": "0x0080" }
@@ -358,7 +358,7 @@
         {
             "symbol": "ARIS",
             "parents": 1,
-            "interior": {
+            "interiors": {
                 "v1": [
                     { "Parachain": 1000 },
                     { "PalletInstance": 50 },
