@@ -167,7 +167,7 @@
 		{
 			"symbol": "KSM",
 			"parents": 1,
-			"interiors": []
+			"interiors": {}
 		},
         {
             "symbol": "RMRK",
