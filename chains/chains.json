@@ -90,7 +90,25 @@
     },
     "options": [
       "crowdloans"
-    ]
+    ],
+    "xcm": {
+      "xcmVersion": "v3",
+      "availableAssets": ["KSM"],
+      "availableDestinations": [
+          {
+              "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+              "assets": ["KSM"]
+          }
+      ]
+  }
   },
   {
     "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
@@ -222,7 +240,21 @@
     "types": {
       "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/karura.json",
       "overridesCommon": true
-    }
+    },
+    "xcm": {
+      "xcmVersion": "v1",
+      "availableAssets": ["KSM", "BNC", "KAR", "KUSD"],
+      "availableDestinations": [
+          {
+              "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+              "assets" : ["KSM"]
+          },
+          {
+              "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+              "assets": ["KSM", "BNC", "KAR", "KUSD"]
+          }
+      ]
+  }
   },
   {
     "chainId": "f1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
@@ -288,6 +320,21 @@
     "types": {
       "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/bifrost.json",
       "overridesCommon": true
+    },
+    "xcm": { 
+        "xcmVersion": "v3", 
+        "availableAssets": ["KSM", "BNC", "KAR", "KUSD"],
+        "availableDestinations" : [
+            {
+                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                "assets" : ["KSM"]
+            },
+            {
+                "chainId" : "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b", 
+                "assets" : ["KSM", "BNC", "KAR", "KUSD"] 
+            }
+
+        ]
     }
   },
   {
@@ -896,7 +943,17 @@
     "types": {
       "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/statemine.json",
       "overridesCommon": true
-    }
+    },
+    "xcm": {
+      "xcmVersion": "v1",
+      "availableAssets": ["KSM"],
+      "availableDestinations": [
+          {
+              "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+              "assets": ["KSM"]
+          }
+      ]
+  }
   },
   {
     "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
