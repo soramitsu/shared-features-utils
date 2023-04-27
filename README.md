@@ -27,8 +27,8 @@ Contains JSON file with networks info: its tokens locations, destination fees
 #### appVersionSupport
 Contains JSON file with support app versions
 
-#### scumDetection
-Contains csv file with scum addresses
+#### scamDetection
+Contains csv file with scam addresses
 
 #### Icons
 Group of icons to saturate Fearless Wallet
