@@ -1,4 +1,4 @@
-# Fearless Utils
+# Shared Features Utils
 
 ## About 
 This repo contains static information (logos, links, etc) to support client apps in Polkadot & Kusama ecosystem (e.g. [Fearless Wallet]) to map it to the keys/ids from the network itself.
@@ -21,9 +21,19 @@ Crowdloans can be saturated with the following information:
 #### Chains
 Contains JSON file with networks info: its token (ticker, precision), types, available nodes, account prefix, set of options (is testnet, has crowdloans)
 
+#### Xcm
+Contains JSON file with networks info: its tokens locations, destination fees
+
+#### Polkaswap
+Contains JSON file with polkaswap remote settings
+
+#### appVersionSupport
+Contains JSON file with support app versions
+
+#### scumDetection
+Contains csv file with scum addresses
+
 #### Icons
 Group of icons to saturate Fearless Wallet
 
 Note: Icons should be used from trusted sources, however currently icons are not available on the participants' websites, so for convenience, there is /icons folder.
-
-[Fearless Wallet]: https://fearlesswallet.io
