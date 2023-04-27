@@ -1,0 +1,110 @@
+[
+  {
+    "destXcmFee": "80128000",
+    "weight": "800000000",
+    "destChain": "Bifrost Kusama",
+    "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed"
+  },
+  {
+    "destXcmFee": "409165302",
+    "weight": "800000000",
+    "destChain": "Moonriver",
+    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b"
+  },
+  {
+    "destXcmFee": "33135199",
+    "weight": "800000000",
+    "destChain": "Karura",
+    "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b"
+  },
+  {
+    "destXcmFee": "5275240",
+    "weight": "158004000",
+    "destChain": "Statemine",
+    "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a"
+  },
+  {
+    "destXcmFee": "161648000",
+    "weight": "800000000",
+    "destChain": "Kintsugi",
+    "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b"
+  },
+  {
+    "destXcmFee": "106666666",
+    "weight": "800000000",
+    "destChain": "Khala",
+    "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d"
+  },
+  {
+    "destXcmFee": "86130142",
+    "weight": "400000000",
+    "destChain": "Basilisk",
+    "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755"
+  },
+  {
+    "destXcmFee": "486973459",
+    "weight": "600000000",
+    "destChain": "Parallel Heiko",
+    "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b"
+  },
+  {
+    "destXcmFee": "262414656",
+    "weight": "600000000",
+    "destChain": "Mangata",
+    "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa"
+  },
+  {
+    "destXcmFee": "640000000",
+    "weight": "4000000000",
+    "destChain": "Turing",
+    "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d"
+  },
+  {
+    "destXcmFee": "8082400",
+    "weight": "800000000",
+    "destChain": "Bifrost Polkadot",
+    "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed"
+  },
+  {
+    "destXcmFee": "26455026",
+    "weight": "800000000",
+    "destChain": "Moonbeam",
+    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d"
+  },
+  {
+    "destXcmFee": "1107057",
+    "weight": "800000000",
+    "destChain": "Acala",
+    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c"
+  },
+  {
+    "destXcmFee": "14164737",
+    "weight": "800000000",
+    "destChain": "Interlay",
+    "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72"
+  },
+  {
+    "destXcmFee": "32226877",
+    "weight": "600000000",
+    "destChain": "Parallel",
+    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97"
+  },
+  {
+    "destXcmFee": "4000000",
+    "weight": "4000000000",
+    "destChain": "Astar",
+    "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6"
+  },
+  {
+    "destXcmFee": "10312677",
+    "weight": "1020687000",
+    "destChain": "Statemint",
+    "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f"
+  },
+  {
+    "destXcmFee": "0",
+    "weight": "800000000",
+    "destChain": "Equilibrium",
+    "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907"
+  }
+]
