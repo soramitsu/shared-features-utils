@@ -24,9 +24,6 @@ Contains JSON file with networks info: its token (ticker, precision), types, ava
 #### Xcm
 Contains JSON file with networks info: its tokens locations, destination fees
 
-#### Polkaswap
-Contains JSON file with polkaswap remote settings
-
 #### appVersionSupport
 Contains JSON file with support app versions
 
