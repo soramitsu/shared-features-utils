@@ -1,392 +1,264 @@
 [
-	{
-       "name": "Polkadot",
-       "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-       "assets": [
-        {
-            "symbol": "ASTR",
-            "parents": 1,
-            "interiors": {
-                "v1":[
-                    { "Parachain": 2006 }
-                ]
-            }
-        },
-        {
-            "symbol": "IBTC",
-            "parents": 1,
-            "interiors": {
-                "v1":[
-                    { "Parachain": 2032 },
-                    { "GeneralKeyV1": "0x0001" }
-                ]
-            }
-        },
-        {
-          "symbol": "GLMR",
-          "parents": 1,
-          "interiors": {
-                "v1": [
-                    { "Parachain": 2010 },
-                    { "PalletInstance": 10 }
-                ]
-            }
-        },
-        {
-            "symbol": "WBTC",
-            "parents": 1,
-            "interiors": { 
-                "v1": [
-                    { "Parachain": 1000 },
-                    { "PalletInstance": 50 },
-                    { "GeneralIndex": 21 }
-                ]
-            }
-        },
-        {
-            "symbol": "INTR",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2032 },
-                    { "GeneralKeyV1": "0x0002" }
-                ]
-            }
-        },
-        {
-            "symbol": "PHA",
-            "parents": 1,
-            "interiors": {
-                "v1":[
-                    { "Parachain": 2035 }
-                ]
-            }
-        },
-        {
-            "symbol": "CRU",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2008 }
-                ]
-            }
-        },
-        {
-            "symbol": "PARA",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2012 },
-                    { "GeneralKeyV1": "PARA" }
-                ]
-            }
-        },
-        {
-            "symbol": "EQ",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2011 }
-                ]
-            }
-        },
-        {
-            "symbol": "EQD",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2011 },
-                    { "GeneralKeyV1": "eqd" }
-                ]
-            } 
-        },
-        {
-            "symbol": "WETH",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 1000 },
-                    { "PalletInstance": 50 },
-                    { "GeneralIndex": 100 }
-                ]
-            }
-        },
-        {
-            "symbol": "UNQ",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2037 }
-                ]
-            }
+  {
+    "name": "Polkadot",
+    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "assets": [
+      {
+        "symbol": "DOT",
+        "parents": 1,
+        "interiors": {
+          "v1": [],
+          "v3": []
         }
+      },
+      {
+        "symbol": "GLMR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2004
+            },
+            {
+              "PalletInstance": 10
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ACA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKeyV1": "0x0000"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "INTR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2032
+            },
+            {
+              "GeneralKeyV1": "0x0002"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ASTR",
+        "parents": 0,
+        "interiors": {
+          "v1": []
+        }
+      },
+      {
+        "symbol": "BNC",
+        "parents": 0,
+        "interiors": {
+          "v1": [
+            {
+              "GeneralKeyV1": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "iBTC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2032
+            },
+            {
+              "GeneralKeyV1": "0x0001"
+            }
+          ]
+        }
+      }
     ]
-    },
-    {
-      "name": "Kusama",
-      "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-      "assets": [
-		{
-		    "symbol": "BNC",
-			"parents": 0,
-			"interiors": {
-                "v1": [
-			        { "Parachain": 2001 },
-			        { "GeneralKeyV1": "0x0001" }
-			    ],
-                "v3": [
-                    {
-                        "GeneralKeyV3": {
-                            "length": 2,
-                            "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-                        }
-                    }
-                ]
-            }
-		},
-		{
-			"symbol": "KAR",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2000 },
-				    { "GeneralKeyV1": "0x0080" }
-			    ]
-            }
-		},
-		{
-			"symbol": "KUSD",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2000 }
-			    ],
-                "v3": [
-                    { "Parachain": 2000 },
-                    { 
-                        "GeneralKeyV3": {
-                            "length": 2,
-                            "data": "0x0080"
-                        }
-                    }
-                ]
-            }
-		},
-		{
-			"symbol": "KSM",
-			"parents": 1,
-			"interiors": {
-			    "v1":[],
-			    "v3":[]
-			}
-		},
-        {
-            "symbol": "RMRK",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 1000 },
-                    { "PalletInstance": 50 },
-                    { "GeneralIndex": 8 }
-                ]
-            }
-        },
-        {
-            "symbol": "SDN",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2007 }
-                ]
-            }
-        },
-        {
-            "symbol": "MOVR",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2023 },
-                    { "PalletInstance": 10 }
-                ]
-            }
-        },
-        {
-            "symbol": "GENS",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2024 }
-                ]
-            }
-        },
-        {
-            "symbol": "QTZ",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2095 }
-                ]
-            }
-        },
-        {
-			"symbol": "AIR",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2088 },
-				    { "GeneralKeyV1": "0x0001" }
-			    ]
-            }   
-		},
-        {
-			"symbol": "CRAB",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2105 },
-				    { "PalletInstance": 5 }
-			    ]
-            }
-		},
-        {
-			"symbol": "HKO",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2085 },
-				    { "GeneralKeyV1": "HKO" }
-			    ]
-            }
-		},
-        {
-			"symbol": "TEER",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2015 },
-				    { "GeneralKeyV1": "TEER" }
-			    ]
-            }
-		},
-        {
-			"symbol": "BSX",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2090 },
-				    { "GeneralIndex": 0 }
-			    ]
-            }
-		},
-        {
-            "symbol": "TUR",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2114 }
-                ]
-            }
-        },
-        {
-			"symbol": "KICO",
-			"parents": 1,
-			"interiors": {
-                "v1": [
-				    { "Parachain": 2107 },
-				    { "GeneralKeyV1": "KICO" }
-			    ]
-            }
-		},
-        {
-            "symbol": "CSM",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2012 }
-                ]
-            }
-        },
-        {
-            "symbol": "USDT",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 1000 },
-                    { "PalletInstance": 50 },
-                    { "GeneralIndex": 1984 }
-                ]
-            }
-        },
-        {
-            "symbol": "NEER",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2096 },
-                    { "GeneralKeyV1": "0x000000000000000000" }
-                ]
-            }
-        },
-        {
-            "symbol": "EQD",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2024 },
-                    { "GeneralKeyV1": "eqd" }
-                ]
-            }
-        },
-        {
-            "symbol": "PCHU",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2102 },
-                    { "GeneralKeyV1": "PCHU" }
-                ]
-            }
-        },
-        {
-            "symbol": "KMA",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                { "Parachain": 2084 }
-                ]
-            }
-        },
-        {
-            "symbol": "LT",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2118 },
-                    { "GeneralKeyV1": "LT" }
-                ]
-            }
-        },
-        {
-            "symbol": "ARIS",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 1000 },
-                    { "PalletInstance": 50 },
-                    { "GeneralIndex": 16 }
-                ]
-            }
-        },
-        {
-            "symbol": "LIT",
-            "parents": 1,
-            "interiors": {
-                "v1": [
-                    { "Parachain": 2106 },
-                    { "PalletInstance": 10 }
-                ]
-            }
+  },
+  {
+    "name": "Kusama",
+    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "assets": [
+      {
+        "symbol": "KSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [],
+          "v3": []
         }
-	  ]
-    }
+      },
+      {
+        "symbol": "KAR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKeyV1": "0x0080"
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKeyV3": {
+                "length": 2,
+                "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "BNC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2001
+            },
+            {
+              "GeneralKeyV1": "0x0001"
+            }
+          ],
+          "v3": [
+            {
+              "GeneralKeyV3": {
+                "length": 2,
+                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "MOVR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2023
+            },
+            {
+              "PalletInstance": 10
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 2023
+            },
+            {
+              "PalletInstance": 10
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KINT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2092
+            },
+            {
+              "GeneralKeyV1": "0x000c"
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 2092
+            },
+            {
+              "GeneralKeyV3": {
+                "length": 2,
+                "data": "0x000c000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "PHA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2004
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 2004
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "USDt",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "BSX",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2090
+            },
+            {
+              "GeneralIndex": 0
+            }
+          ],
+          "v3": [
+            {
+              "Parachain": 2090
+            },
+            {
+              "GeneralIndex": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
 ]
