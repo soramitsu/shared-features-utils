@@ -1,6 +1,6 @@
 [
   {
-    "destXcmFee": "80128000",
+    "destXcmFee": "311847947",
     "weight": "800000000",
     "destChain": "Bifrost Kusama",
     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed"
@@ -12,7 +12,7 @@
     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b"
   },
   {
-    "destXcmFee": "33135199",
+    "destXcmFee": "264855146",
     "weight": "800000000",
     "destChain": "Karura",
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b"
@@ -36,7 +36,7 @@
     "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d"
   },
   {
-    "destXcmFee": "86130142",
+    "destXcmFee": "85236841",
     "weight": "400000000",
     "destChain": "Basilisk",
     "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755"
