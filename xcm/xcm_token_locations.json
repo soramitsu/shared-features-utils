@@ -258,7 +258,153 @@
             }
           ]
         }
+      },
+      {
+        "symbol": "RMRK",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 1000
+            },
+            {
+              "palletInstance": 50
+            },
+            {
+              "generalIndex": 8
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ZLK",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKey": "0x0207"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "vKSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKey": "0x0104"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KUSD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+           {
+              "generalKey": "0x0081"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "SDN",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2007
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "XRT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2048
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KMA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2084
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KBTC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2092
+            },
+            {
+              "generalKey": "0x000b"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "CSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "NEER",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2096
+            },
+            {
+              "generalKey": "0x000000000000000000"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "AIR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2088
+            },
+            {
+              "generalKey": "0x0001"
+            }
+          ]
+        }
       }
+
     ]
   }
 ]

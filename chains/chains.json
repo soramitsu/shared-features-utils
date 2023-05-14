@@ -77,6 +77,10 @@
             {
                 "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
                 "assets": ["DOT"]
+            },
+            {
+              "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+              "assets": ["DOT"]
             }
         ]
     },
@@ -155,19 +159,19 @@
         "xcmVersion": "v3",
         "availableAssets": ["KSM"],
         "availableDestinations": [
-            {
-                "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                "assets": ["KSM"]
-            },
-            {
-                "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                "assets": ["KSM"]
-            },
-            {
-                "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                "assets": ["KSM"]
-            },
-            {
+          {
+              "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+              "assets": ["KSM"]
+          },
+          {
               "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
               "assets": ["KSM"]
           },
@@ -185,10 +189,6 @@
           },
           {
               "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-              "assets": ["KSM"]
-          },
-          {
-              "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
               "assets": ["KSM"]
           }
         ]

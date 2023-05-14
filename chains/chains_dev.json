@@ -77,6 +77,10 @@
             {
                 "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
                 "assets": ["DOT"]
+            },
+            {
+                "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+                "assets": ["DOT"]
             }
         ]
     },
@@ -189,6 +193,14 @@
           },
           {
               "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+              "assets": ["KSM"]
+          },
+          {
+              "chainId": "6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
               "assets": ["KSM"]
           }
       ]
