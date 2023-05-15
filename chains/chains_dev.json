@@ -388,7 +388,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"],
+        "availableAssets": ["DOT", "USDt"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -396,27 +396,23 @@
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
-            },
-            {
-                "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             }
         ]
     },
@@ -507,7 +503,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
+        "availableAssets": ["DOT", "aUSD", "ACA", "GLMR", "INTR", "IBTC", "LcDOT", "ASTR", "WETH", "DAI"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -515,19 +511,23 @@
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["aUSD", "ACA", "GLMR"]
             },
             {
                 "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["lcDOT", "ACA"]
             },
             {
                 "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["ACA", "aUSD", "ASTR"]
             },
             {
                 "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["INTR", "IBTC"]
+            },
+            {
+                "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "assets": ["WETH", "DAI"]
             }
         ]
     },
@@ -1510,7 +1510,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
+        "availableAssets": ["DOT", "ASTR", "USDt", "EQ", "PHA"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -1518,24 +1518,36 @@
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["ASTR"]
             },
             {
                 "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["ASTR"]
             },
             {
                 "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-                "assets": ["GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["ASTR"]
             },
             {
                 "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                "assets": ["GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
-            }
+                "assets": ["IBTC", "INTR"]
+            },
+            {
+              "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+              "assets":  ["ASTR", "EQ"]
+          },
+          {
+              "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+              "assets": ["ASTR"]
+          },
+          {
+              "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+              "assets": ["ASTR", "PHA"]
+          }
         ]
     },
     "nodes": [
@@ -1591,7 +1603,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
+        "availableAssets": ["DOT", "GLMR", "INTR", "lcDOT", "ACA", "LDOT", "IBTC", "USDt", "cDOT-6/13", "cDOT-7/14", "cDOT-8/15", "PHA"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -1599,20 +1611,33 @@
             },
             {
                 "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["lcDOT", "ACA", "LDOT"]
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["GLMR", "INTR"]
             },
             {
                 "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
             },
             {
                 "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["INTR", "IBTC"]
+            },
+            {
+                "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+                "assets": ["GLMR"]
+            },
+            {
+                "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+                "assets": ["cDOT-6/13", "cDOT-7/14", "cDOT-8/15"]
+            },
+            {
+                "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+                "assets": ["PHA"]
             }
+          
         ]
     },
     "nodes": [
@@ -1734,7 +1759,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
+        "availableAssets": ["DOT", "GLMR", "aUSD", "ACA", "IBTC", "INTR", "ASTR", "USDt", "EQ", "EQD", "PHA"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -1742,27 +1767,39 @@
             },
             {
                 "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["aUSD", "ACA", "IBTC", "GLMR", "INTR"]
             },
             {
                 "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["INTR", "IBTC"]
             },
             {
                 "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["GLMR"]
             },
             {
                 "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["GLMR"]
             },
             {
                 "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["ASTR", "GLMR"]
             },
             {
                 "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
+            },
+            {
+                "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+                "assets": ["GLMR", "EQ", "EQD"]
+            },
+            {
+                "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "assets": ["IBTC"]
+            },
+            {
+                "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+                "assets": ["PHA", "GLMR"]
             }
         ]
     },
@@ -2238,7 +2275,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
+        "availableAssets": ["DOT", "INTR", "IBTC", "USDt"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -2246,23 +2283,31 @@
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["INTR", "IBTC"]
             },
             {
                 "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["IBTC", "INTR"]
             },
             {
                 "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["INTR"]
             },
             {
                 "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["IBTC", "INTR"]
             },
             {
                 "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                "assets": ["DOT", "GLMR", "ACA", "INTR", "ASTR", "BNC", "iBTC", "PARA"]
+                "assets": ["USDt"]
+            },
+            {
+                "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+                "assets": ["IBTC", "INTR"]
+            },
+            {
+                "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "assets": ["IBTC"]
             }
         ]
     },
