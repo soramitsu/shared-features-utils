@@ -808,6 +808,10 @@
         "assetId": "35346815-009a-4cf9-a5ad-85a0167e594d",
         "staking": "parachain",
         "isUtility": true
+      },
+      {
+        "assetId": "980af72c-d1b8-46c7-9793-fa87912652ec",
+        "type": "ormlAsset"
       }
     ],
     "xcm": {

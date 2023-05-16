@@ -39,6 +39,17 @@
     "color": "FFFFFF"
   },
   {
+    "id": "980af72c-d1b8-46c7-9793-fa87912652ec",
+    "name": "kusama",
+    "symbol": "xcksm",
+    "currencyId": "42259045809535163221576417993425387648",
+    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "precision": 12,
+    "priceId": "kusama",
+    "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+    "color": "FFFFFF"
+  },
+  {
     "id": "e40c8161-9fc9-4749-a3b8-ed1c0ad16475",
     "name": "moonbeam",
     "symbol": "glmr",
