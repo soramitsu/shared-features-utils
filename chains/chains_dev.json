@@ -796,6 +796,10 @@
         "assetId": "35346815-009a-4cf9-a5ad-85a0167e594d",
         "staking": "parachain",
         "isUtility": true
+      },
+      {
+        "type": "foreignAsset",
+        "assetId": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b"
       }
     ],
     "xcm": {
