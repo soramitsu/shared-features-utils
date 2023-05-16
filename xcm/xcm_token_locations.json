@@ -12,6 +12,23 @@
         }
       },
       {
+        "symbol": "USDt",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
+        }
+      },
+      {
         "symbol": "GLMR",
         "parents": 1,
         "interiors": {
@@ -40,6 +57,98 @@
         }
       },
       {
+        "symbol": "aUSD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "lcDOT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": "0x040d000000"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "LDOT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": "0x0003"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "WETH",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKey": "0x025a4d6acdc4e3e5ab15717f407afe957f7a242578"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "DAI",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKey": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "PHA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2035
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "UNQ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2037
+            }
+          ]
+        }
+      },
+      {
         "symbol": "INTR",
         "parents": 1,
         "interiors": {
@@ -55,24 +164,31 @@
       },
       {
         "symbol": "ASTR",
-        "parents": 0,
-        "interiors": {
-          "v1": []
-        }
-      },
-      {
-        "symbol": "BNC",
-        "parents": 0,
+        "parents": 1,
         "interiors": {
           "v1": [
             {
-              "GeneralKeyV1": "0x0001"
+              "Parachain": 2006
             }
           ]
         }
       },
       {
-        "symbol": "iBTC",
+        "symbol": "BNC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2030
+            },
+            {
+              "GeneralKey": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "IBTC",
         "parents": 1,
         "interiors": {
           "v1": [
@@ -81,6 +197,96 @@
             },
             {
               "GeneralKeyV1": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "EQ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "Parachain": 2011
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "EQD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2011
+            },
+            {
+              "generalKey": "0x657164"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-8/15",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200080015
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-6/13",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200060013
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-7/14",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200070014
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ZTG",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2092
+            },
+            {
+              "generalKey": "0x0001"
             }
           ]
         }
@@ -120,6 +326,20 @@
                 "length": 2,
                 "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
               }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "LKSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKey": "0x0083"
             }
           ]
         }
@@ -400,6 +620,56 @@
             },
             {
               "generalKey": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "HKO",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2085
+            },
+            {
+              "generalKey": "0x484b4f"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "TUR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2114
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "QTZ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2095
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "CRAB",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2105
+            },
+            {
+              "palletInstance": 5
             }
           ]
         }

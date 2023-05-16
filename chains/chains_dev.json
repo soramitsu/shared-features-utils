@@ -531,7 +531,7 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["DOT", "aUSD", "ACA", "GLMR", "INTR", "IBTC", "LcDOT", "ASTR", "WETH", "DAI"],
+        "availableAssets": ["DOT", "aUSD", "ACA", "GLMR", "INTR", "IBTC", "lcDOT", "ASTR", "WETH", "DAI"],
         "availableDestinations": [
             {
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
