@@ -19,18 +19,18 @@ Crowdloans can be saturated with the following information:
 * Reward rate (KSM multiplier)
 
 #### Chains
-Contains JSON file with networks info: its token (ticker, precision), types, available nodes, account prefix, set of options (is testnet, has crowdloans)
+Contains JSON file with networks info: its token (ticker, precision), types, available nodes, account prefix, set of options (is testnet, has crowdloans).
 
 #### Xcm
-Contains JSON file with networks info: its tokens locations, destination fees
+Contains JSON file with networks info: its tokens locations, destination fees.
 
 #### appVersionSupport
-Contains JSON file with support app versions
+Contains JSON file with support app versions.
 
 #### scamDetection
-Contains csv file with scam addresses
+Contains csv file with scam addresses.
 
 #### Icons
-Group of icons to saturate Fearless Wallet
+Group of icons to saturate Fearless Wallet.
 
 Note: Icons should be used from trusted sources, however currently icons are not available on the participants' websites, so for convenience, there is /icons folder.
