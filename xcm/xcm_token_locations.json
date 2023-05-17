@@ -17,13 +17,13 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 1000
+              "parachain": 1000
             },
             {
-              "PalletInstance": 50
+              "palletInstance": 50
             },
             {
-              "GeneralIndex": 1984
+              "generalIndex": 1984
             }
           ]
         }
@@ -34,10 +34,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ]
         }
@@ -48,10 +48,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV1": "0x0000"
+              "generalKeyV1": "0x0000"
             }
           ]
         }
@@ -62,10 +62,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKey": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -76,10 +76,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKey": "0x040d000000"
+              "generalKeyV1": "0x040d000000"
             }
           ]
         }
@@ -90,10 +90,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKey": "0x0003"
+              "generalKeyV1": "0x0003"
             }
           ]
         }
@@ -107,7 +107,7 @@
               "parachain": 2000
             },
             {
-              "generalKey": "0x025a4d6acdc4e3e5ab15717f407afe957f7a242578"
+              "generalKeyV1": "0x025a4d6acdc4e3e5ab15717f407afe957f7a242578"
             }
           ]
         }
@@ -121,7 +121,7 @@
               "parachain": 2000
             },
             {
-              "generalKey": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"
+              "generalKeyV1": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"
             }
           ]
         }
@@ -132,7 +132,7 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2035
+              "parachain": 2035
             }
           ]
         }
@@ -143,7 +143,7 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2037
+              "parachain": 2037
             }
           ]
         }
@@ -154,10 +154,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2032
+              "parachain": 2032
             },
             {
-              "GeneralKeyV1": "0x0002"
+              "generalKeyV1": "0x0002"
             }
           ]
         }
@@ -168,7 +168,7 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2006
+              "parachain": 2006
             }
           ]
         }
@@ -179,10 +179,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2030
+              "parachain": 2030
             },
             {
-              "GeneralKey": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -193,10 +193,10 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2032
+              "parachain": 2032
             },
             {
-              "GeneralKeyV1": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -207,7 +207,7 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2011
+              "parachain": 2011
             }
           ]
         }
@@ -221,7 +221,7 @@
               "parachain": 2011
             },
             {
-              "generalKey": "0x657164"
+              "generalKeyV1": "0x657164"
             }
           ]
         }
@@ -286,7 +286,7 @@
               "parachain": 2092
             },
             {
-              "generalKey": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -311,18 +311,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV1": "0x0080"
+              "generalKeyV1": "0x0080"
             }
           ],
           "v3": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
               }
@@ -339,7 +339,7 @@
               "parachain": 2000
             },
             {
-              "generalKey": "0x0083"
+              "generalKeyV1": "0x0083"
             }
           ]
         }
@@ -350,15 +350,15 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2001
+              "parachain": 2001
             },
             {
-              "GeneralKeyV1": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ],
           "v3": [
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
               }
@@ -372,18 +372,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2023
+              "parachain": 2023
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ],
           "v3": [
             {
-              "Parachain": 2023
+              "parachain": 2023
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ]
         }
@@ -394,18 +394,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2092
+              "parachain": 2092
             },
             {
-              "GeneralKeyV1": "0x000c"
+              "generalKeyV1": "0x000c"
             }
           ],
           "v3": [
             {
-              "Parachain": 2092
+              "parachain": 2092
             },
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x000c000000000000000000000000000000000000000000000000000000000000"
               }
@@ -419,12 +419,12 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             }
           ],
           "v3": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             }
           ]
         }
@@ -435,24 +435,24 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 1000
+              "parachain": 1000
             },
             {
-              "PalletInstance": 50
+              "palletInstance": 50
             },
             {
-              "GeneralIndex": 1984
+              "generalIndex": 1984
             }
           ],
           "v3": [
             {
-              "Parachain": 1000
+              "parachain": 1000
             },
             {
-              "PalletInstance": 50
+              "palletInstance": 50
             },
             {
-              "GeneralIndex": 1984
+              "generalIndex": 1984
             }
           ]
         }
@@ -463,18 +463,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2090
+              "parachain": 2090
             },
             {
-              "GeneralIndex": 0
+              "generalIndex": 0
             }
           ],
           "v3": [
             {
-              "Parachain": 2090
+              "parachain": 2090
             },
             {
-              "GeneralIndex": 0
+              "generalIndex": 0
             }
           ]
         }
@@ -505,7 +505,7 @@
               "parachain": 2001
             },
             {
-              "generalKey": "0x0207"
+              "generalKeyV1": "0x0207"
             }
           ]
         }
@@ -519,7 +519,7 @@
               "parachain": 2001
             },
             {
-              "generalKey": "0x0104"
+              "generalKeyV1": "0x0104"
             }
           ]
         }
@@ -533,7 +533,7 @@
               "parachain": 2000
             },
            {
-              "generalKey": "0x0081"
+              "generalKeyV1": "0x0081"
             }
           ]
         }
@@ -580,7 +580,7 @@
               "parachain": 2092
             },
             {
-              "generalKey": "0x000b"
+              "generalKeyV1": "0x000b"
             }
           ]
         }
@@ -605,7 +605,7 @@
               "parachain": 2096
             },
             {
-              "generalKey": "0x000000000000000000"
+              "generalKeyV1": "0x000000000000000000"
             }
           ]
         }
@@ -619,7 +619,7 @@
               "parachain": 2088
             },
             {
-              "generalKey": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -633,7 +633,7 @@
               "parachain": 2085
             },
             {
-              "generalKey": "0x484b4f"
+              "generalKeyV1": "0x484b4f"
             }
           ]
         }
