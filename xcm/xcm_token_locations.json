@@ -12,15 +12,32 @@
         }
       },
       {
+        "symbol": "USDt",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 1000
+            },
+            {
+              "palletInstance": 50
+            },
+            {
+              "generalIndex": 1984
+            }
+          ]
+        }
+      },
+      {
         "symbol": "GLMR",
         "parents": 1,
         "interiors": {
           "v1": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ]
         }
@@ -31,10 +48,102 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV1": "0x0000"
+              "generalKeyV1": "0x0000"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "aUSD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "lcDOT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x040d000000"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "LDOT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x0003"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "WETH",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x025a4d6acdc4e3e5ab15717f407afe957f7a242578"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "DAI",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "PHA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2035
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "UNQ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2037
             }
           ]
         }
@@ -45,42 +154,139 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2032
+              "parachain": 2032
             },
             {
-              "GeneralKeyV1": "0x0002"
+              "generalKeyV1": "0x0002"
             }
           ]
         }
       },
       {
         "symbol": "ASTR",
-        "parents": 0,
-        "interiors": {
-          "v1": []
-        }
-      },
-      {
-        "symbol": "BNC",
-        "parents": 0,
+        "parents": 1,
         "interiors": {
           "v1": [
             {
-              "GeneralKeyV1": "0x0001"
+              "parachain": 2006
             }
           ]
         }
       },
       {
-        "symbol": "iBTC",
+        "symbol": "BNC",
         "parents": 1,
         "interiors": {
           "v1": [
             {
-              "Parachain": 2032
+              "parachain": 2030
             },
             {
-              "GeneralKeyV1": "0x0001"
+              "generalKeyV1": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "IBTC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2032
+            },
+            {
+              "generalKeyV1": "0x0001"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "EQ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2011
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "EQD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2011
+            },
+            {
+              "generalKeyV1": "0x657164"
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-8/15",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200080015
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-6/13",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200060013
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "cDOT-7/14",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            },
+            {
+              "palletInstance": 6
+            },
+            {
+              "generalIndex": 200070014
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ZTG",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2092
+            },
+            {
+              "generalKeyV1": "0x0001"
             }
           ]
         }
@@ -105,20 +311,45 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV1": "0x0080"
+              "generalKeyV1": "0x0080"
             }
           ],
           "v3": [
             {
-              "Parachain": 2000
+              "parachain": 2000
             },
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "LKSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV1": "0x0083"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0083000000000000000000000000000000000000000000000000000000000000"
               }
             }
           ]
@@ -130,15 +361,15 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2001
+              "parachain": 2001
             },
             {
-              "GeneralKeyV1": "0x0001"
+              "generalKeyV1": "0x0001"
             }
           ],
           "v3": [
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
               }
@@ -152,18 +383,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2023
+              "parachain": 2023
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ],
           "v3": [
             {
-              "Parachain": 2023
+              "parachain": 2023
             },
             {
-              "PalletInstance": 10
+              "palletInstance": 10
             }
           ]
         }
@@ -174,18 +405,18 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2092
+              "parachain": 2092
             },
             {
-              "GeneralKeyV1": "0x000c"
+              "generalKeyV1": "0x000c"
             }
           ],
           "v3": [
             {
-              "Parachain": 2092
+              "parachain": 2092
             },
             {
-              "GeneralKeyV3": {
+              "generalKeyV3": {
                 "length": 2,
                 "data": "0x000c000000000000000000000000000000000000000000000000000000000000"
               }
@@ -199,12 +430,12 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             }
           ],
           "v3": [
             {
-              "Parachain": 2004
+              "parachain": 2004
             }
           ]
         }
@@ -215,24 +446,24 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 1000
+              "parachain": 1000
             },
             {
-              "PalletInstance": 50
+              "palletInstance": 50
             },
             {
-              "GeneralIndex": 1984
+              "generalIndex": 1984
             }
           ],
           "v3": [
             {
-              "Parachain": 1000
+              "parachain": 1000
             },
             {
-              "PalletInstance": 50
+              "palletInstance": 50
             },
             {
-              "GeneralIndex": 1984
+              "generalIndex": 1984
             }
           ]
         }
@@ -243,22 +474,344 @@
         "interiors": {
           "v1": [
             {
-              "Parachain": 2090
+              "parachain": 2090
             },
             {
-              "GeneralIndex": 0
+              "generalIndex": 0
             }
           ],
           "v3": [
             {
-              "Parachain": 2090
+              "parachain": 2090
             },
             {
-              "GeneralIndex": 0
+              "generalIndex": 0
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "RMRK",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 1000
+            },
+            {
+              "palletInstance": 50
+            },
+            {
+              "generalIndex": 8
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 1000
+            },
+            {
+              "palletInstance": 50
+            },
+            {
+              "generalIndex": 8
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "ZLK",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKeyV1": "0x0207"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0207000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "vKSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKeyV1": "0x0104"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2001
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0104000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KUSD",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2000
+            },
+           {
+              "generalKeyV1": "0x0081"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2000
+            },
+           {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0081000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "SDN",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2007
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2007
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "XRT",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2048
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2048
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KMA",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2084
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2084
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "KBTC",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2092
+            },
+            {
+              "generalKeyV1": "0x000b"
+            }
+          ],
+          "v1": [
+            {
+              "parachain": 2092
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x000b000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "CSM",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2012
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2012
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "NEER",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2096
+            },
+            {
+              "generalKeyV1": "0x000000000000000000"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2096
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "AIR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2088
+            },
+            {
+              "generalKeyV1": "0x0001"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2088
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "HKO",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2085
+            },
+            {
+              "generalKeyV1": "0x484b4f"
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2085
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x484b4f0000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "TUR",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2114
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2114
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "QTZ",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2095
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2095
+            }
+          ]
+        }
+      },
+      {
+        "symbol": "CRAB",
+        "parents": 1,
+        "interiors": {
+          "v1": [
+            {
+              "parachain": 2105
+            },
+            {
+              "palletInstance": 5
+            }
+          ],
+          "v3": [
+            {
+              "parachain": 2105
+            },
+            {
+              "palletInstance": 5
             }
           ]
         }
       }
+
     ]
   }
 ]
