@@ -936,7 +936,7 @@
       }
     ],
     "xcm": {
-      "xcmVersion": "v1",
+      "xcmVersion": "v3",
       "availableAssets": ["KSM", "SDN", "PHA"],
       "availableDestinations": [
         {
