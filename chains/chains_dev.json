@@ -1050,7 +1050,7 @@
     ],
     "xcm": {
         "xcmVersion": "v3",
-        "availableAssets": ["KSM", "MOVR", "KUSD", "PHA", "ZLK", "USDt"],
+        "availableAssets": ["KSM", "BNC", "MOVR", "KUSD", "PHA", "ZLK", "USDt"],
         "availableDestinations" : [
           {
               "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -1062,11 +1062,11 @@
           },
           {
               "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-              "assets": ["KSM", "KUSD"]
+              "assets": ["KSM", "BNC", "KUSD"]
           },
           {
               "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-              "assets": ["KSM", "MOVR"]
+              "assets": ["KSM", "BNC", "MOVR"]
           },
           {
               "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -1074,7 +1074,7 @@
           },
           {
               "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
-              "assets": ["ZLK"]
+              "assets": ["BNC", "ZLK"]
           }
       ]
     },
