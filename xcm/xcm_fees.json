@@ -4,7 +4,7 @@
     "destChain": "Bifrost Kusama",
     "destXcmFee": [
       {
-        "feeInPlanks": "32051200000",
+        "feeInPlanks": "8012800000",
         "symbol": "KAR"
       },
       {
@@ -122,7 +122,7 @@
         "symbol": "2088"
       },
       {
-        "feeInPlanks": "0",
+        "feeInPlanks": "21",
         "symbol": "KBTC"
       },
       {
@@ -238,7 +238,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "260834428",
+        "feeInPlanks": "239149473",
         "symbol": "KSM"
       },
       {
@@ -281,11 +281,11 @@
         "symbol": "KBTC"
       },
       {
-        "feeInPlanks": "5734633027878",
+        "feeInPlanks": "1895734597156398",
         "symbol": "MOVR"
       },
       {
-        "feeInPlanks": "0",
+        "feeInPlanks": "16634783331",
         "symbol": "KINT"
       },
       {
@@ -412,7 +412,7 @@
         "symbol": "UNQ"
       },
       {
-        "feeInPlanks": "0",
+        "feeInPlanks": "8082400000",
         "symbol": "ACA"
       },
       {
@@ -486,7 +486,7 @@
         "symbol": "ACA"
       },
       {
-        "feeInPlanks": "278172387758",
+        "feeInPlanks": "6535947712",
         "symbol": "INTR"
       },
       {
@@ -556,14 +556,14 @@
         "symbol": "1000"
       }
     ],
-    "weight": "1171364000"
+    "weight": "1020687000"
   },
   {
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "19055241",
+        "feeInPlanks": "18903591",
         "symbol": "DOT"
       },
       {
@@ -571,7 +571,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1912045889",
+        "feeInPlanks": "1915708812",
         "symbol": "ASTR"
       },
       {
@@ -579,7 +579,7 @@
         "symbol": "INTR"
       },
       {
-        "feeInPlanks": "24550968",
+        "feeInPlanks": "24407872",
         "symbol": "cDOT-7/14"
       },
       {
