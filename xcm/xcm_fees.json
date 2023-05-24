@@ -180,7 +180,7 @@
     "destChain": "Kintsugi",
     "destXcmFee": [
       {
-        "feeInPlanks": "215530666",
+        "feeInPlanks": "107",
         "symbol": "KINT"
       },
       {
@@ -238,7 +238,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "239149473",
+        "feeInPlanks": "248550787",
         "symbol": "KSM"
       },
       {
@@ -254,7 +254,7 @@
         "symbol": "USDt"
       },
       {
-        "feeInPlanks": "12073598658",
+        "feeInPlanks": "11205936067",
         "symbol": "aUSD"
       }
     ],
@@ -544,7 +544,7 @@
         "symbol": "xcUSDT"
       },
       {
-        "feeInPlanks": "1518253183",
+        "feeInPlanks": "0",
         "symbol": "DOT"
       },
       {
@@ -556,14 +556,14 @@
         "symbol": "1000"
       }
     ],
-    "weight": "1020687000"
+    "weight": "1171364000"
   },
   {
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "18903591",
+        "feeInPlanks": "18875047",
         "symbol": "DOT"
       },
       {
@@ -571,7 +571,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1915708812",
+        "feeInPlanks": "1888217522",
         "symbol": "ASTR"
       },
       {
@@ -587,7 +587,7 @@
         "symbol": "cDOT-8/15"
       },
       {
-        "feeInPlanks": "344708721",
+        "feeInPlanks": "362976406",
         "symbol": "GLMR"
       },
       {
@@ -599,7 +599,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "22714332",
+        "feeInPlanks": "22562950",
         "symbol": "cDOT-6/13"
       }
     ],
@@ -619,5 +619,27 @@
       }
     ],
     "weight": "800000000"
+  },
+  {
+    "chainId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "destChain": "Kusama",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "90287436",
+        "symbol": "KSM"
+      }
+    ],
+    "weight": "299506000"
+  },
+  {
+    "chainId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "destChain": "Polkadot",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "421434140",
+        "symbol": "DOT"
+      }
+    ],
+    "weight": "4000000000"
   }
 ]
