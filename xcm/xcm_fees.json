@@ -94,7 +94,7 @@
     "destChain": "Karura",
     "destXcmFee": [
       {
-        "feeInPlanks": "33135199",
+        "feeInPlanks": "264132335",
         "symbol": "KSM"
       },
       {
@@ -149,7 +149,7 @@
     "destChain": "Statemine",
     "destXcmFee": [
       {
-        "feeInPlanks": "9979980624",
+        "feeInPlanks": "9978458529",
         "symbol": "KSM"
       },
       {
@@ -238,7 +238,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "245292454",
+        "feeInPlanks": "239331582",
         "symbol": "KSM"
       },
       {
@@ -408,7 +408,7 @@
         "symbol": "DOT"
       },
       {
-        "feeInPlanks": "101030000001548288",
+        "feeInPlanks": "101030000005742592",
         "symbol": "UNQ"
       },
       {
@@ -544,7 +544,7 @@
         "symbol": "xcUSDT"
       },
       {
-        "feeInPlanks": "1945984456",
+        "feeInPlanks": "10312677",
         "symbol": "DOT"
       },
       {
@@ -563,7 +563,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "297190108648",
+        "feeInPlanks": "90192305474",
         "symbol": "DOT"
       },
       {
@@ -614,7 +614,7 @@
         "symbol": "DOT"
       },
       {
-        "feeInPlanks": "805306368",
+        "feeInPlanks": "808240128",
         "symbol": "GLMR"
       }
     ],
@@ -633,6 +633,28 @@
   },
   {
     "chainId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "destChain": "Polkadot",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "421434140",
+        "symbol": "DOT"
+      }
+    ],
+    "weight": "4000000000"
+  },
+  {
+    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "destChain": "Kusama",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "90005800",
+        "symbol": "KSM"
+      }
+    ],
+    "weight": "299506000"
+  },
+  {
+    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "destChain": "Polkadot",
     "destXcmFee": [
       {
