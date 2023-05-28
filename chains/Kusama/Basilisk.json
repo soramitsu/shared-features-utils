@@ -1,0 +1,30 @@
+[
+    {
+        "id": "f7cafffc-c8d9-4441-8d52-84c17082e514",
+        "asset": {
+            "Token": "1"
+        },
+        "name": "kusama",
+        "symbol": "ksm",
+        "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "precision": 12,
+        "currencyId": "1",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "125a05b1-1e0b-411d-8628-ffd3b84ed4c8",
+        "asset": {
+            "Token": "14"
+        },
+        "name": "tether usd",
+        "symbol": "usdt",
+        "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "precision": 6,
+        "currencyId": "14",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color":"26A17B"
+    }
+]
