@@ -1450,12 +1450,8 @@
     ],
     "xcm": {
       "xcmVersion": "v1",
-        "availableAssets": ["KSM", "NEER"],
+        "availableAssets": ["NEER"],
         "availableDestinations": [
-            {
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
             {
                 "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                 "assets": ["NEER"]
@@ -3157,6 +3153,7 @@
         "chainId": "d4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Crust Shadow Parachain",
+        "paraId": "2012",
         "externalApi": {
             "history": {
                 "type": "subquery",

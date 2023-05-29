@@ -1,0 +1,72 @@
+[
+    {
+        "id": "52509327-116a-4365-bf7d-03cecf7868bc",
+        "asset": {
+            "Token": "340282366920938463463374607431768211455"
+        },
+        "name": "kusama",
+        "symbol": "ksm",
+        "chainId": "f1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+        "precision": 12,
+        "currencyId": "340282366920938463463374607431768211455",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "aa494fdc-3411-438c-b69b-a53e36f062a1",
+        "asset": {
+            "Token": "18446744073709551623"
+        },
+        "name": "phala token",
+        "symbol": "pha",
+        "chainId": "f1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+        "precision": 12,
+        "currencyId": "18446744073709551623",
+        "priceId": "pha",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
+        "color": "DAFE6F"
+    },
+    {
+        "id": "34d7fc9d-d616-4c3e-9398-060b18220a55",
+        "asset": {
+            "Token": "0"
+        },
+        "name": "kusama",
+        "symbol": "ksm",
+        "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "precision": 12,
+        "currencyId": "0",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "e8774037-c4a5-42b5-87a4-cf946a60a406",
+        "asset": {
+            "Token": "1"
+        },
+        "name": "kusama",
+        "symbol": "ksm",
+        "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+        "precision": 12,
+        "currencyId": "1",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "b52b937a-f22b-4bab-a601-476aeeec4f2f",
+        "asset": {
+            "Token": "4294967295"
+        },
+        "name": "kusama",
+        "symbol": "ksm",
+        "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+        "precision": 12,
+        "currencyId": "4294967295",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+    }
+]
