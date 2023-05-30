@@ -1,0 +1,57 @@
+[
+    {
+        "id": "d898014a-5c0f-49a1-b563-51017e9dce38",
+        "asset": {
+            "Token": "340282366920938463463374607431768211455"
+        },
+        "name": "polkadot",
+        "symbol": "dot",
+        "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+        "precision": 10,
+        "currencyId": "340282366920938463463374607431768211455",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066" 
+    },
+    {
+        "id": "af1fc6a0-505c-43d7-b214-d64e4414e2e1",
+        "asset": {
+            "Token": "4294969280"
+        },
+        "name": "tether usd",
+        "symbol": "usdt",
+        "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+        "precision": 6,
+        "currencyId": "4294969280",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color":"26A17B"
+    },
+    {
+        "id": "3e0a1785-2faa-43bf-8af6-d02c96d6b30e",
+        "asset": {
+            "Token": "18446744073709551628"
+        },
+        "name": "equilibrium",
+        "symbol": "eq",
+        "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+        "precision": 9,
+        "currencyId": "18446744073709551628",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQ.svg",
+        "color": "5176E6"
+    },
+    {
+        "id": "39fb54c8-52c1-4cf7-8412-24ac38b63eb4",
+        "asset": {
+            "Token": "18446744073709551622"
+        },
+        "name": "phala token",
+        "symbol": "pha",
+        "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+        "precision": 12,
+        "currencyId": "18446744073709551622",
+        "priceId": "pha",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
+        "color": "DAFE6F"
+    }
+]

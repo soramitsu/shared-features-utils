@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1611fb64-2cb0-46c4-96af-87f0e3ce3b62",
+        "asset": {
+            "Token": "DOT"
+        },
+        "name": "polkadot",
+        "symbol": "dot",
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "precision": 10,
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "ea33432f-9bd9-4d42-93bc-cd45a0e8a44c",
+        "asset": {
+            "Token": "1984"
+        },
+        "name": "tether usd",
+        "symbol": "usdt",
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "precision": 6,
+        "currencyID": "1984",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color":"26A17B"
+    }
+]

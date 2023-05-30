@@ -1,0 +1,139 @@
+[
+    {
+        "id": "7e4e064e-2b23-4eb5-96db-e6491c4031e5",
+        "asset": {
+            "Token": "42259045809535163221576417993425387648"
+        },
+        "name": "polkadot",
+        "symbol": "xcdot",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 10,
+        "currencyId": "42259045809535163221576417993425387648",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "311e3073-1bfb-40de-b601-20278e457577",
+        "asset": {
+            "Token": "110021739665376159354538090254163045594"
+        },
+        "name": "acala dollar",
+        "symbol": "xcausd",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 12,
+        "currencyId": "110021739665376159354538090254163045594",
+        "priceId": "acala-dollar",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AUSD.svg",
+        "color": "E40C5B"  
+    },
+    {
+        "id": "9539da0e-3610-406a-b1b9-c811b6508a17",
+        "asset": {
+            "Token": "224821240862170613278369189818311486111"
+        },
+        "name": "acala",
+        "symbol": "xcaca",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 12,
+        "currencyId": "224821240862170613278369189818311486111",
+        "priceId": "acala",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ACA.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "8bdd8f59-eda9-4069-997a-51bb381cef1b",
+        "asset": {
+            "Token": "120637696315203257380661607956669368914"
+        },
+        "name": "inter ibtc",
+        "symbol": "xcibtc",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 8,
+        "currencyId": "120637696315203257380661607956669368914",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
+        "color": "F2AE7F"
+    },
+    {
+        "id": "1509c799-b30f-4fde-934e-791f1c88f3d1",
+        "asset": {
+            "Token": "101170542313601871197860408087030232491"
+        },
+        "name": "interlay",
+        "symbol": "xcintr",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 10,
+        "currencyId": "101170542313601871197860408087030232491",
+        "priceId": "interlay",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/INTR.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "9e738e1a-81be-4ac2-8de0-b56e565699ce",
+        "asset": {
+            "Token": "224077081838586484055667086558292981199"
+        },
+        "name": "astar",
+        "symbol": "xcastr",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 18,
+        "currencyId": "224077081838586484055667086558292981199",
+        "priceId": "astar",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ASTR.svg",
+        "color": "0AE2FF"
+    },
+    {
+        "id": "5d4c759c-0f38-4c63-bdde-9359bdb0fa24",
+        "asset": {
+            "Token": "311091173110107856861649819128533077277"
+        },
+        "name": "tether usd",
+        "symbol": "xcusdt",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 6,
+        "currencyId": "311091173110107856861649819128533077277",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color":"26A17B"
+    },
+    {
+        "id": "d69e3203-d914-4c70-8f38-ed66ea5d94ea",
+        "asset": {
+            "Token": "190590555344745888270686124937537713878"
+        },
+        "name": "equilibrium token",
+        "symbol": "xceq",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 9,
+        "currencyId": "190590555344745888270686124937537713878",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQ.svg",
+        "color": "5176E6"
+    },
+    {
+        "id": "6cdc81d9-28a4-4b3c-8358-78a93f207ce7",
+        "asset": {
+            "Token": "187224307232923873519830480073807488153"
+        },
+        "name": "equilibrium dollar protocol",
+        "symbol": "xceqd",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 9,
+        "currencyId": "187224307232923873519830480073807488153",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQD.svg",
+        "color": "4D8BED"
+    },
+    {
+        "id": "f68a9550-7d4c-4358-81bc-61c5ea233f20",
+        "asset": {
+            "Token": "132685552157663328694213725410064821485"
+        },
+        "name": "phala token",
+        "symbol": "xcpha",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "precision": 12,
+        "currencyId": "132685552157663328694213725410064821485",
+        "priceId": "pha",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
+        "color": "DAFE6F"
+    }
+]
