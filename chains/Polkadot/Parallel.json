@@ -1,0 +1,161 @@
+[
+    {
+        "id": "769ffb89-fd2f-4add-94a1-d2f9f716c143",
+        "asset": {
+            "Token": "101"
+        },
+        "name": "polkadot",
+        "symbol": "dot",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "101",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "1d850850-a2fb-4728-8dfc-13679c470017",
+        "asset": {
+            "Token": "114"
+        },
+        "name": "moonbeam",
+        "symbol": "glmr",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 18,
+        "currencyId": "114",
+        "priceId": "moonbeam",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
+        "color": "FFFFFF"   
+    },
+    {
+        "id": "5e745a28-9827-4d7f-9df9-e2cfbe4d11a5",
+        "asset": {
+            "Token": "120"
+        },
+        "name": "interlay",
+        "symbol": "intr",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "120",
+        "priceId": "interlay",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/INTR.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "ba44778d-f7a2-4adb-91f9-efd9a46468a7",
+        "asset": {
+            "Token": "106"
+        },
+        "name": "liquid crowdloan dot",
+        "symbol": "lcdot",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "106",
+        "priceId": "liquid-crowdloan-dot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LCDOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "01adcd11-256d-4ac2-966e-9bb87ed5f769",
+        "asset": {
+            "Token": "108"
+        },
+        "name": "acala",
+        "symbol": "aca",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 12,
+        "currencyId": "108",
+        "priceId": "acala",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ACA.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "bf70329b-421a-4b68-87eb-ef85e0d0044e",
+        "asset": {
+            "Token": "110"
+        },
+        "name": "liquid dot",
+        "symbol": "ldot",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "110",
+        "priceId": "liquid-staking-dot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LDOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "b4dc02ce-3e71-4d92-8e1a-9599a75d20e4",
+        "asset": {
+            "Token": "122"
+        },
+        "name": "inter ibtc",
+        "symbol": "ibtc",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 8,
+        "currencyId": "122",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
+        "color": "F2AE7F" 
+    },
+    {
+        "id": "c5453123-c85e-4226-b2a8-fbf0deb88e9f",
+        "asset": {
+            "Token": "102"
+        },
+        "name": "tether usd",
+        "symbol": "usdt",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 6,
+        "currencyId": "102",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B"
+    },
+    {
+        "id": "e52c5825-3076-4277-84e2-8b45f778d981",
+        "asset": {
+            "Token": "200060013"
+        },
+        "name": "cdot-6/13",
+        "symbol": "cdot-6/13",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyID": "200060013"
+        
+    },
+    {
+        "id": "1236185c-fa70-481e-befa-deda855054df",
+        "asset": {
+            "Token": "200070014"
+        },
+        "name": "cdot-7/14",
+        "symbol": "cdot-7/14",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "200070014"
+    },
+    {
+        "id": "afe2d55d-2fa7-4e7b-ab2c-c4c4aea15a87",
+        "asset": {
+            "Token": "200080015"
+        },
+        "name": "cdot-8/15",
+        "symbol": "cdot-8/15",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 10,
+        "currencyId": "200080015"
+    },
+    {
+        "id": "d6d35753-a3dc-4987-8995-2afbe0a65606",
+        "asset": {
+            "Token": "115"
+        },
+        "name": "phala token",
+        "symbol": "pha",
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "precision": 12,
+        "currencyId": "115",
+        "priceId": "pha",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
+        "color": "DAFE6F"
+    }
+]
