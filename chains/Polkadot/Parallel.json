@@ -119,7 +119,9 @@
         "symbol": "cdot-6/13",
         "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
         "precision": 10,
-        "currencyID": "200060013"
+        "currencyID": "200060013",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/%D1%81DOT.svg",
+        "color": "FF0066"
         
     },
     {
@@ -131,7 +133,9 @@
         "symbol": "cdot-7/14",
         "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
         "precision": 10,
-        "currencyId": "200070014"
+        "currencyId": "200070014",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/%D1%81DOT.svg",
+        "color": "FF0066"
     },
     {
         "id": "afe2d55d-2fa7-4e7b-ab2c-c4c4aea15a87",
@@ -142,7 +146,9 @@
         "symbol": "cdot-8/15",
         "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
         "precision": 10,
-        "currencyId": "200080015"
+        "currencyId": "200080015",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/%D1%81DOT.svg",
+        "color": "FF0066"
     },
     {
         "id": "d6d35753-a3dc-4987-8995-2afbe0a65606",
