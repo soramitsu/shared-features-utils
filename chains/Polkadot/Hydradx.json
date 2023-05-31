@@ -1,0 +1,57 @@
+[
+    {
+        "id": "4697396b-37c4-426f-a36a-fda1935f365a",
+        "asset": {
+            "Token": "5"
+        },
+        "name": "polkadot",
+        "symbol": "dot",
+        "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "precision": 10,
+        "currencyId": "5",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+    },
+    {
+        "id": "0de05a52-3686-486c-a80e-f7feb6e228d7",
+        "asset": {
+            "Token": "11"
+        },
+        "name": "inter ibtc",
+        "symbol": "ibtc",
+        "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "precision": 8,
+        "currencyId": "11",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
+         "color": "F2AE7F"  
+    },
+    {
+        "id": "880664d6-71f6-473e-95ba-4cc697429578",
+        "asset": {
+            "Token": "16"
+        },
+        "name": "moonbeam",
+        "symbol": "glmr",
+        "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "precision": 18,
+        "currencyId": "16",
+        "priceId": "moonbeam",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
+        "color": "FFFFFF"
+    },
+    {
+        "id": "53bd7f6e-b8eb-468f-a2ec-2bf347e702a7",
+        "asset": {
+            "Token": "10"
+        },
+        "name": "tether usd",
+        "symbol": "usdt",
+        "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "precision": 6,
+        "currencyID": "10",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
+        "color":"26A17B"
+    }
+]
