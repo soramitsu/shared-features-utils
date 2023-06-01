@@ -40,7 +40,7 @@
         "symbol": "RMRK"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
@@ -51,7 +51,7 @@
         "symbol": "aUSD"
       },
       {
-        "feeInPlanks": "640162438",
+        "feeInPlanks": "409165302",
         "symbol": "KSM"
       },
       {
@@ -94,7 +94,7 @@
     "destChain": "Karura",
     "destXcmFee": [
       {
-        "feeInPlanks": "33135199",
+        "feeInPlanks": "264132335",
         "symbol": "KSM"
       },
       {
@@ -142,14 +142,14 @@
         "symbol": "DAI"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "destChain": "Statemine",
     "destXcmFee": [
       {
-        "feeInPlanks": "4896953",
+        "feeInPlanks": "9852129607",
         "symbol": "KSM"
       },
       {
@@ -173,7 +173,7 @@
         "symbol": "xcUSDT"
       }
     ],
-    "weight": "314522000"
+    "weight": "200332800"
   },
   {
     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
@@ -200,7 +200,7 @@
         "symbol": "LKSM"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -238,7 +238,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "441373986",
+        "feeInPlanks": "205388417",
         "symbol": "KSM"
       },
       {
@@ -273,7 +273,7 @@
         "symbol": "USDt"
       },
       {
-        "feeInPlanks": "717970595",
+        "feeInPlanks": "486973459",
         "symbol": "KSM"
       },
       {
@@ -281,7 +281,7 @@
         "symbol": "KBTC"
       },
       {
-        "feeInPlanks": "1895734597156384",
+        "feeInPlanks": "1895734597156352",
         "symbol": "MOVR"
       },
       {
@@ -381,7 +381,7 @@
         "symbol": "INTR"
       },
       {
-        "feeInPlanks": "79859447372624192",
+        "feeInPlanks": "79859447372611584",
         "symbol": "ASTR"
       },
       {
@@ -404,11 +404,11 @@
     "destChain": "Acala",
     "destXcmFee": [
       {
-        "feeInPlanks": "422373195",
+        "feeInPlanks": "939055",
         "symbol": "DOT"
       },
       {
-        "feeInPlanks": "101030000001548288",
+        "feeInPlanks": "101029999997353984",
         "symbol": "UNQ"
       },
       {
@@ -470,7 +470,7 @@
         "symbol": "DOT"
       },
       {
-        "feeInPlanks": "44033465433729632",
+        "feeInPlanks": "44033465433726976",
         "symbol": "GLMR"
       },
       {
@@ -486,7 +486,7 @@
         "symbol": "ACA"
       },
       {
-        "feeInPlanks": "165",
+        "feeInPlanks": "6535947712",
         "symbol": "INTR"
       },
       {
@@ -494,7 +494,7 @@
         "symbol": "LDOT"
       }
     ],
-    "weight": "600000000"
+    "weight": "720000000"
   },
   {
     "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
@@ -525,7 +525,7 @@
         "symbol": "USDt"
       },
       {
-        "feeInPlanks": "4041465435357184",
+        "feeInPlanks": "4041465435389952",
         "symbol": "ASTR"
       },
       {
@@ -556,14 +556,14 @@
         "symbol": "1000"
       }
     ],
-    "weight": "1224824400"
+    "weight": "1171364000"
   },
   {
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "90182659745",
+        "feeInPlanks": "118988437515",
         "symbol": "DOT"
       },
       {
@@ -571,7 +571,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "7940916031495164928",
+        "feeInPlanks": "21302066094402479063040",
         "symbol": "ASTR"
       },
       {
@@ -599,7 +599,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "45225354855",
+        "feeInPlanks": "117022455304",
         "symbol": "cDOT-6/13"
       }
     ],
@@ -651,7 +651,7 @@
         "symbol": "KSM"
       }
     ],
-    "weight": "922407600"
+    "weight": "359407200"
   },
   {
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
