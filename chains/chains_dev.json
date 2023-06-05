@@ -1,112 +1,114 @@
 [{
-    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "name": "Polkadot",
-    "externalApi": {
-        "staking": {
-            "type": "subquery",
-            "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-dot"
+        "disabled": false,
+        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot",
+        "externalApi": {
+            "staking": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-dot"
+            },
+            "history": {
+                "type": "subsquid",
+                "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
+            },
+            "crowdloans": {
+                "type": "github",
+                "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/polkadot.json"
+            },
+            "explorers": [{
+                    "type": "subscan",
+                    "types": [
+                        "extrinsic",
+                        "account"
+                    ],
+                    "url": "https://polkadot.subscan.io/{type}/{value}"
+                },
+                {
+                    "type": "polkascan",
+                    "types": [
+                        "extrinsic",
+                        "account",
+                        "event"
+                    ],
+                    "url": "https://polkascan.io/polkadot/{type}/{value}"
+                }
+            ]
         },
-        "history": {
-            "type": "subsquid",
-            "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
-        },
-        "crowdloans": {
-            "type": "github",
-            "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/polkadot.json"
-        },
-        "explorers": [{
-            "type": "subscan",
-            "types": [
-                "extrinsic",
-                "account"
+        "assets": [{
+            "isUtility": true,
+            "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
+            "name": "polkadot",
+            "symbol": "dot",
+            "precision": 10,
+            "priceId": "polkadot",
+            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+            "color": "FF0066",
+            "staking": "relaychain",
+            "purchaseProviders": [
+                "moonpay",
+                "ramp"
             ],
-            "url": "https://polkadot.subscan.io/{type}/{value}"
+            "type": "normal"
+        }],
+        "xcm": {
+            "xcmVersion": "v1",
+            "availableAssets": ["DOT"],
+            "availableDestinations": [{
+                    "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+                    "assets": ["DOT"]
+                },
+                {
+                    "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+                    "assets": ["DOT"]
+                }
+            ]
         },
+        "nodes": [{
+                "url": "wss://polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
-                "type": "polkascan",
-                "types": [
-                    "extrinsic",
-                    "account",
-                    "event"
-                ],
-                "url": "https://polkascan.io/polkadot/{type}/{value}"
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node"
+            },
+            {
+                "url": "wss://polkadot-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
-        ]
-    },
-    "assets": [{
-        "isUtility": true,
-        "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
-        "name": "polkadot",
-        "symbol": "dot",
-        "precision": 10,
-        "priceId": "polkadot",
-        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
-        "color": "FF0066",
-        "staking": "relaychain",
-        "purchaseProviders": [
-            "moonpay",
-            "ramp"
         ],
-        "type": "normal"
-    }],
-    "xcm": {
-        "xcmVersion": "v1",
-        "availableAssets": ["DOT"],
-        "availableDestinations": [{
-            "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-            "assets": ["DOT"]
-        },
-            {
-                "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-                "assets": ["DOT"]
-            },
-            {
-                "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-                "assets": ["DOT"]
-            }
+        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/Polkadot.svg",
+        "addressPrefix": 0,
+        "options": [
+            "crowdloans",
+            "poolStaking"
         ]
     },
-    "nodes": [{
-        "url": "wss://polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
-    },
-        {
-            "url": "wss://rpc.polkadot.io",
-            "name": "Parity node"
-        },
-        {
-            "url": "wss://polkadot-rpc.dwellir.com",
-            "name": "Dwellir node"
-        }
-    ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/Polkadot.svg",
-    "addressPrefix": 0,
-    "options": [
-        "crowdloans",
-        "poolStaking"
-    ]
-},
     {
+        "disabled": false,
         "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Kusama",
         "externalApi": {
@@ -123,13 +125,13 @@
                 "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/kusama.json"
             },
             "explorers": [{
-                "type": "subscan",
-                "types": [
-                    "extrinsic",
-                    "account"
-                ],
-                "url": "https://kusama.subscan.io/{type}/{value}"
-            },
+                    "type": "subscan",
+                    "types": [
+                        "extrinsic",
+                        "account"
+                    ],
+                    "url": "https://kusama.subscan.io/{type}/{value}"
+                },
                 {
                     "type": "polkascan",
                     "types": [
@@ -160,9 +162,9 @@
             "xcmVersion": "v3",
             "availableAssets": ["KSM"],
             "availableDestinations": [{
-                "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                "assets": ["KSM"]
-            },
+                    "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["KSM"]
@@ -226,9 +228,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://kusama-rpc.polkadot.io",
-            "name": "Parity node"
-        },
+                "url": "wss://kusama-rpc.polkadot.io",
+                "name": "Parity node"
+            },
             {
                 "url": "wss://kusama-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -246,6 +248,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
         "name": "Westend",
         "externalApi": {
@@ -282,9 +285,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://westend.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://westend.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://westend-rpc.polkadot.io",
                 "name": "Parity node"
@@ -303,6 +306,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "1000",
@@ -322,20 +326,20 @@
             }]
         },
         "assets": [{
-            "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
-            "name": "kusama",
-            "symbol": "ksm",
-            "precision": 12,
-            "priceId": "kusama",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
-            "color": "FFFFFF",
-            "staking": "relaychain",
-            "purchaseProviders": [
-                "ramp"
-            ],
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
+                "name": "kusama",
+                "symbol": "ksm",
+                "precision": 12,
+                "priceId": "kusama",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
+                "color": "FFFFFF",
+                "staking": "relaychain",
+                "purchaseProviders": [
+                    "ramp"
+                ],
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "27768227-8a9a-4443-a57d-6013c24f85e9",
                 "type": "assets",
@@ -366,9 +370,9 @@
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "RMRK", "USDt"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["RMRK"]
@@ -400,9 +404,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://statemine.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://statemine.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://statemine-rpc.polkadot.io",
                 "name": "Parity node"
@@ -416,6 +420,7 @@
         "addressPrefix": 2
     },
     {
+        "disabled": false,
         "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "1000",
@@ -427,21 +432,21 @@
             }
         },
         "assets": [{
-            "isUtility": true,
-            "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
-            "name": "polkadot",
-            "symbol": "dot",
-            "precision": 10,
-            "priceId": "polkadot",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
-            "color": "FF0066",
-            "staking": "relaychain",
-            "purchaseProviders": [
-                "moonpay",
-                "ramp"
-            ],
-            "type": "normal"
-        },
+                "isUtility": true,
+                "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
+                "name": "polkadot",
+                "symbol": "dot",
+                "precision": 10,
+                "priceId": "polkadot",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
+                "color": "FF0066",
+                "staking": "relaychain",
+                "purchaseProviders": [
+                    "moonpay",
+                    "ramp"
+                ],
+                "type": "normal"
+            },
             {
                 "id": "ea33432f-9bd9-4d42-93bc-cd45a0e8a44c",
                 "type": "assets",
@@ -458,9 +463,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "USDt"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["USDt"]
@@ -484,9 +489,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://statemint.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://statemint.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://statemint-rpc.polkadot.io",
                 "name": "Parity node"
@@ -500,6 +505,7 @@
         "addressPrefix": 0
     },
     {
+        "disabled": false,
         "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Acala",
@@ -519,16 +525,16 @@
             }]
         },
         "assets": [{
-            "id": "c801d6c1-3edf-41a9-9aea-da705eab249b",
-            "name": "acala",
-            "symbol": "aca",
-            "precision": 12,
-            "priceId": "acala",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ACA.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "c801d6c1-3edf-41a9-9aea-da705eab249b",
+                "name": "acala",
+                "symbol": "aca",
+                "precision": 12,
+                "priceId": "acala",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ACA.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "cfe26eae-f566-4b8d-a44c-bd4380c27bc5",
                 "name": "acala dollar",
@@ -622,9 +628,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "aUSD", "ACA", "GLMR", "INTR", "IBTC", "lcDOT", "ASTR", "WETH", "DAI"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["aUSD", "ACA", "GLMR"]
@@ -648,9 +654,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://acala-polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://acala-polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://acala-rpc-0.aca-api.network",
                 "name": "Acala Foundation node 0"
@@ -672,6 +678,7 @@
         "addressPrefix": 10
     },
     {
+        "disabled": false,
         "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Karura",
@@ -691,16 +698,16 @@
             }]
         },
         "assets": [{
-            "id": "e71b30a0-2a44-40ff-8b53-a166fadef6c5",
-            "name": "karura",
-            "symbol": "kar",
-            "precision": 12,
-            "priceId": "karura",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KAR.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "e71b30a0-2a44-40ff-8b53-a166fadef6c5",
+                "name": "karura",
+                "symbol": "kar",
+                "precision": 12,
+                "priceId": "karura",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KAR.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "91a69026-0ab7-4db0-af53-8d571fd33ac4",
                 "name": "acala dollar",
@@ -1000,9 +1007,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "BNC", "KUSD", "KAR", "RMRK", "USDT", "KINT", "LKSM", "MOVR"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
                     "assets": ["RMRK", "USDt"]
@@ -1034,9 +1041,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://karura.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://karura.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://karura-rpc-0.aca-api.network",
                 "name": "Acala Foundation node 0"
@@ -1066,6 +1073,7 @@
         "addressPrefix": 8
     },
     {
+        "disabled": false,
         "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Moonriver",
@@ -1089,17 +1097,17 @@
             }]
         },
         "assets": [{
-            "id": "35346815-009a-4cf9-a5ad-85a0167e594d",
-            "name": "moonriver",
-            "symbol": "movr",
-            "precision": 18,
-            "priceId": "moonriver",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MOVR.svg",
-            "color": "FFFFFF",
-            "staking": "parachain",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "35346815-009a-4cf9-a5ad-85a0167e594d",
+                "name": "moonriver",
+                "symbol": "movr",
+                "precision": 18,
+                "priceId": "moonriver",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MOVR.svg",
+                "color": "FFFFFF",
+                "staking": "parachain",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "980af72c-d1b8-46c7-9793-fa87912652ec",
                 "name": "kusama",
@@ -1182,9 +1190,9 @@
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "MOVR", "KUSD", "RMRK", "KINT", "PHA", "XRT", "KBTC"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
                     "assets": ["MOVR", "KSM"]
@@ -1216,9 +1224,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://moonriver.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://moonriver.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://wss.moonriver.moonbeam.network",
                 "name": "PureStake node"
@@ -1239,6 +1247,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "f1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2007",
@@ -1258,16 +1267,16 @@
             }]
         },
         "assets": [{
-            "id": "6dbb524b-a2d7-4c32-b0f9-6825b3e7d2c4",
-            "name": "shiden network",
-            "symbol": "sdn",
-            "precision": 18,
-            "priceId": "shiden",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/SDN.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "6dbb524b-a2d7-4c32-b0f9-6825b3e7d2c4",
+                "name": "shiden network",
+                "symbol": "sdn",
+                "precision": 18,
+                "priceId": "shiden",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/SDN.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "52509327-116a-4365-bf7d-03cecf7868bc",
                 "type": "assets",
@@ -1295,9 +1304,9 @@
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "SDN", "PHA"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["SDN"]
@@ -1309,9 +1318,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://shiden.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://shiden.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://rpc.shiden.astar.network",
                 "name": "StakeTechnologies node"
@@ -1329,7 +1338,7 @@
         "addressPrefix": 5
     },
     {
-        "disabled": true,
+        "disabled": false,
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2001",
@@ -1349,16 +1358,16 @@
             }]
         },
         "assets": [{
-            "isUtility": true,
-            "id": "559e80d6-fb38-4dd5-bbd6-c0a7c2f600e1",
-            "name": "bifrost native coin",
-            "symbol": "bnc",
-            "precision": 12,
-            "priceId": "bifrost-native-coin",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
-            "color": "FFFFFF",
-            "type": "normal"
-        },
+                "isUtility": true,
+                "id": "559e80d6-fb38-4dd5-bbd6-c0a7c2f600e1",
+                "name": "bifrost native coin",
+                "symbol": "bnc",
+                "precision": 12,
+                "priceId": "bifrost-native-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
+                "color": "FFFFFF",
+                "type": "normal"
+            },
             {
                 "id": "922c191c-4cb8-407e-8b81-2cfc52170c3b",
                 "name": "kusama",
@@ -1481,20 +1490,20 @@
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "BNC", "KAR", "KUSD"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["KSM", "BNC", "KAR", "KUSD"]
                 }
-                
+
             ]
         },
         "nodes": [{
-            "url": "wss://bifrost-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://bifrost-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://bifrost-rpc.liebi.com/ws",
                 "name": "Liebi node"
@@ -1512,6 +1521,7 @@
         }
     },
     {
+        "disabled": false,
         "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2004",
@@ -1531,16 +1541,16 @@
             }]
         },
         "assets": [{
-            "id": "3feb7de3-e881-4c04-a4de-1b9091dbc324",
-            "name": "phala",
-            "symbol": "pha",
-            "precision": 12,
-            "priceId": "pha",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
-            "color": "DAFE6F",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "3feb7de3-e881-4c04-a4de-1b9091dbc324",
+                "name": "phala",
+                "symbol": "pha",
+                "precision": 12,
+                "priceId": "pha",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
+                "color": "DAFE6F",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "34d7fc9d-d616-4c3e-9398-060b18220a55",
                 "type": "assets",
@@ -1557,9 +1567,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "PHA"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["PHA"]
@@ -1567,9 +1577,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://khala-api.phala.network/ws",
                 "name": "Phala node"
@@ -1583,6 +1593,7 @@
         "addressPrefix": 30
     },
     {
+        "disabled": false,
         "chainId": "411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2086",
@@ -1609,9 +1620,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://spiritnet.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://spiritnet.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://spiritnet.kilt.io/",
                 "name": "KILT Protocol node"
@@ -1625,6 +1636,7 @@
         "addressPrefix": 38
     },
     {
+        "disabled": false,
         "chainId": "4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2084",
@@ -1644,16 +1656,16 @@
             }]
         },
         "assets": [{
-            "id": "39d4080e-e2ab-43f3-bcc2-2fa281d9290c",
-            "name": "calamari network",
-            "symbol": "kma",
-            "precision": 12,
-            "priceId": "calamari-network",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KMA.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "39d4080e-e2ab-43f3-bcc2-2fa281d9290c",
+                "name": "calamari network",
+                "symbol": "kma",
+                "precision": 12,
+                "priceId": "calamari-network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KMA.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "bd018ed9-069b-4d51-b5db-56b70bb5434c",
                 "type": "assets",
@@ -1692,9 +1704,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "KMA", "MOVR", "KAR"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["KMA", "MOVR"]
@@ -1713,6 +1725,7 @@
         "addressPrefix": 78
     },
     {
+        "disabled": false,
         "chainId": "cd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2095",
@@ -1738,9 +1751,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "QTZ"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["QTZ"]
@@ -1748,9 +1761,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://quartz.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://quartz.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://eu-ws-quartz.unique.network",
                 "name": "Unique Europe node"
@@ -1768,6 +1781,7 @@
         "addressPrefix": 255
     },
     {
+        "disabled": false,
         "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2085",
@@ -1787,15 +1801,15 @@
             }]
         },
         "assets": [{
-            "id": "02b54158-4f4f-4077-b6a7-7c9edd75a1ca",
-            "name": "heiko finance",
-            "symbol": "hko",
-            "precision": 12,
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HKO.svg",
-            "color": "CC3474",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "02b54158-4f4f-4077-b6a7-7c9edd75a1ca",
+                "name": "heiko finance",
+                "symbol": "hko",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HKO.svg",
+                "color": "CC3474",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "382a7dd4-5444-4797-8cec-d921000144ed",
                 "type": "assets",
@@ -1878,9 +1892,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "MOVR", "KAR", "USDt", "KINT", "KBTC", "PHA", "HKO"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["KAR", "KBTC"]
@@ -1908,9 +1922,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://parallel-heiko.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://parallel-heiko.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://heiko-rpc.parallel.fi",
                 "name": "Parallel node"
@@ -1920,6 +1934,7 @@
         "addressPrefix": 110
     },
     {
+        "disabled": false,
         "chainId": "6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2087",
@@ -1952,9 +1967,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
                     "assets": ["KSM"]
@@ -1962,9 +1977,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://picasso-rpc.composable.finance",
-            "name": "Composable node"
-        },
+                "url": "wss://picasso-rpc.composable.finance",
+                "name": "Composable node"
+            },
             {
                 "url": "wss://picasso-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -1974,6 +1989,7 @@
         "addressPrefix": 49
     },
     {
+        "disabled": false,
         "chainId": "aa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2088",
@@ -2004,9 +2020,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://altair.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://altair.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://fullnode.altair.centrifuge.io",
                 "name": "Centrifuge node"
@@ -2016,6 +2032,7 @@
         "addressPrefix": 136
     },
     {
+        "disabled": false,
         "chainId": "f22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2096",
@@ -2046,9 +2063,9 @@
             }]
         },
         "nodes": [{
-            "url": "wss://pioneer.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://pioneer.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://pioneer-1-rpc.bit.country",
                 "name": "Bit.Country node"
@@ -2058,6 +2075,7 @@
         "addressPrefix": 268
     },
     {
+        "disabled": false,
         "chainId": "5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2002",
@@ -2088,9 +2106,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://clover.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://clover.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://rpc-para.clover.finance",
                 "name": "Clover node"
@@ -2100,6 +2118,7 @@
         "addressPrefix": 128
     },
     {
+        "disabled": false,
         "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2006",
@@ -2119,16 +2138,16 @@
             }]
         },
         "assets": [{
-            "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
-            "name": "astar",
-            "symbol": "astr",
-            "precision": 18,
-            "priceId": "astar",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ASTR.svg",
-            "color": "0AE2FF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
+                "name": "astar",
+                "symbol": "astr",
+                "precision": 18,
+                "priceId": "astar",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ASTR.svg",
+                "color": "0AE2FF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "d898014a-5c0f-49a1-b563-51017e9dce38",
                 "type": "assets",
@@ -2177,9 +2196,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "ASTR", "USDt", "EQ", "PHA"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["ASTR"]
@@ -2215,9 +2234,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://rpc.astar.network",
-            "name": "Astar node"
-        },
+                "url": "wss://rpc.astar.network",
+                "name": "Astar node"
+            },
             {
                 "url": "wss://astar.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "OnFinality node"
@@ -2234,6 +2253,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2012",
@@ -2253,16 +2273,16 @@
             }]
         },
         "assets": [{
-            "id": "f78aa731-a33c-4d8d-a3bb-74835064366b",
-            "name": "parallel finance",
-            "symbol": "para",
-            "precision": 12,
-            "priceId": "parallel-finance",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PARA.svg",
-            "color": "4C19E7",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "f78aa731-a33c-4d8d-a3bb-74835064366b",
+                "name": "parallel finance",
+                "symbol": "para",
+                "precision": 12,
+                "priceId": "parallel-finance",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PARA.svg",
+                "color": "4C19E7",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "769ffb89-fd2f-4add-94a1-d2f9f716c143",
                 "type": "assets",
@@ -2396,9 +2416,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "GLMR", "INTR", "lcDOT", "ACA", "LDOT", "IBTC", "USDt", "cDOT-6/13", "cDOT-7/14", "cDOT-8/15", "PHA"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
                     "assets": ["lcDOT", "ACA", "LDOT"]
@@ -2427,13 +2447,13 @@
                     "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
                     "assets": ["PHA"]
                 }
-                
+
             ]
         },
         "nodes": [{
-            "url": "wss://parallel.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://parallel.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://rpc.parallel.fi",
                 "name": "Parallel node"
@@ -2443,6 +2463,7 @@
         "addressPrefix": 172
     },
     {
+        "disabled": false,
         "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2090",
@@ -2454,16 +2475,16 @@
             }
         },
         "assets": [{
-            "id": "7dae28e2-9f5e-49ff-9140-aa750a9579ea",
-            "name": "basilisk",
-            "symbol": "bsx",
-            "precision": 12,
-            "priceId": "basilisk",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BSX.svg",
-            "color": "87FCB6",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "7dae28e2-9f5e-49ff-9140-aa750a9579ea",
+                "name": "basilisk",
+                "symbol": "bsx",
+                "precision": 12,
+                "priceId": "basilisk",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BSX.svg",
+                "color": "87FCB6",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "f7cafffc-c8d9-4441-8d52-84c17082e514",
                 "name": "kusama",
@@ -2491,9 +2512,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "BSX", "USDt"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["KSM", "BSX"]
@@ -2509,9 +2530,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://basilisk.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://basilisk.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://rpc.basilisk.cloud",
                 "name": "Basilisk node"
@@ -2525,6 +2546,7 @@
         "addressPrefix": 10041
     },
     {
+        "disabled": false,
         "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2004",
@@ -2548,17 +2570,17 @@
             }]
         },
         "assets": [{
-            "id": "e40c8161-9fc9-4749-a3b8-ed1c0ad16475",
-            "name": "moonbeam",
-            "symbol": "glmr",
-            "precision": 18,
-            "priceId": "moonbeam",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
-            "color": "FFFFFF",
-            "staking": "parachain",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "e40c8161-9fc9-4749-a3b8-ed1c0ad16475",
+                "name": "moonbeam",
+                "symbol": "glmr",
+                "precision": 18,
+                "priceId": "moonbeam",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
+                "color": "FFFFFF",
+                "staking": "parachain",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "7e4e064e-2b23-4eb5-96db-e6491c4031e5",
                 "type": "assets",
@@ -2661,9 +2683,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "GLMR", "aUSD", "ACA", "IBTC", "INTR", "ASTR", "USDt", "EQ", "EQD", "PHA"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
                     "assets": ["aUSD", "ACA", "IBTC", "GLMR", "INTR"]
@@ -2703,9 +2725,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://moonbeam.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://moonbeam.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://wss.api.moonbeam.network",
                 "name": "PureStake node"
@@ -2722,6 +2744,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
         "name": "Moonbase Alpha",
         "externalApi": {
@@ -2754,9 +2777,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
-            "name": "OnFinality node"
-        },
+                "url": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://wss.api.moonbase.moonbeam.network",
                 "name": "Moonbeam Network node"
@@ -2774,6 +2797,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2092",
@@ -2785,16 +2809,16 @@
             }
         },
         "assets": [{
-            "id": "f5d1db12-0a68-4897-903d-51a887daa1db",
-            "name": "kintsugi",
-            "symbol": "kint",
-            "precision": 12,
-            "priceId": "kintsugi",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KINT.svg",
-            "color": "FFFFFF",
-            "type": "ormlChain",
-            "isUtility": true
-        },
+                "id": "f5d1db12-0a68-4897-903d-51a887daa1db",
+                "name": "kintsugi",
+                "symbol": "kint",
+                "precision": 12,
+                "priceId": "kintsugi",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KINT.svg",
+                "color": "FFFFFF",
+                "type": "ormlChain",
+                "isUtility": true
+            },
             {
                 "id": "a6761186-60ba-4ea8-bec1-2db08a420301",
                 "type": "ormlChain",
@@ -2831,9 +2855,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "KINT", "KBTC", "USDt"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["KINT", "KBTC"]
@@ -2857,9 +2881,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://kintsugi.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://kintsugi.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://api-kusama.interlay.io/parachain",
                 "name": "Kintsugi Labs node"
@@ -2874,6 +2898,7 @@
         "iosMinAppVersion": "2.0.7"
     },
     {
+        "disabled": false,
         "chainId": "9b8cefc0eb5c568b527998bdd76c184e2b76ae561be76e4667072230217ea243",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2024",
@@ -2897,6 +2922,7 @@
         "addressPrefix": 67
     },
     {
+        "disabled": false,
         "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2048",
@@ -2916,16 +2942,16 @@
             }
         },
         "assets": [{
-            "id": "ca39e03e-dde3-41ac-b1f4-a3d20202b79e",
-            "name": "robonomics network",
-            "symbol": "xrt",
-            "precision": 9,
-            "priceId": "robonomics-network",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XRT.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "ca39e03e-dde3-41ac-b1f4-a3d20202b79e",
+                "name": "robonomics network",
+                "symbol": "xrt",
+                "precision": 9,
+                "priceId": "robonomics-network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XRT.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "b52b937a-f22b-4bab-a601-476aeeec4f2f",
                 "type": "assets",
@@ -2942,9 +2968,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "XRT"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["XRT"]
@@ -2956,9 +2982,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://kusama.rpc.robonomics.network/",
-            "name": "Airalab node"
-        },
+                "url": "wss://kusama.rpc.robonomics.network/",
+                "name": "Airalab node"
+            },
             {
                 "url": "wss://robonomics.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -2972,6 +2998,7 @@
         "addressPrefix": 32
     },
     {
+        "disabled": false,
         "chainId": "4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2100",
@@ -2994,6 +3021,7 @@
         "addressPrefix": 28
     },
     {
+        "disabled": false,
         "chainId": "1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2101",
@@ -3010,9 +3038,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc-0.zeitgeist.pm",
-            "name": "ZeitgeistPM node"
-        },
+                "url": "wss://rpc-0.zeitgeist.pm",
+                "name": "ZeitgeistPM node"
+            },
             {
                 "url": "wss://zeitgeist.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinalty node"
@@ -3026,6 +3054,7 @@
         "addressPrefix": 73
     },
     {
+        "disabled": false,
         "chainId": "335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2021",
@@ -3056,9 +3085,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc.efinity.io",
-            "name": "Efinity node"
-        },
+                "url": "wss://rpc.efinity.io",
+                "name": "Efinity node"
+            },
             {
                 "url": "wss://efinity.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -3072,6 +3101,7 @@
         "addressPrefix": 1110
     },
     {
+        "disabled": false,
         "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2034",
@@ -3091,15 +3121,15 @@
             }]
         },
         "assets": [{
-            "id": "fce79b6c-e071-4271-837e-6ec87a719390",
-            "name": "hydradx",
-            "symbol": "hdx",
-            "precision": 12,
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HDX.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "fce79b6c-e071-4271-837e-6ec87a719390",
+                "name": "hydradx",
+                "symbol": "hdx",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HDX.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "4697396b-37c4-426f-a36a-fda1935f365a",
                 "type": "assetId",
@@ -3148,9 +3178,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "GLMR", "IBTC", "USDt"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["IBTC", "GLMR"]
@@ -3170,9 +3200,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://rpc.hydradx.cloud",
-            "name": "Galactic Council node"
-        },
+                "url": "wss://rpc.hydradx.cloud",
+                "name": "Galactic Council node"
+            },
             {
                 "url": "wss://hydradx-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -3186,6 +3216,7 @@
         "addressPrefix": 63
     },
     {
+        "disabled": false,
         "chainId": "b3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2031",
@@ -3216,9 +3247,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://fullnode.parachain.centrifuge.io",
-            "name": "Centrufge node"
-        },
+                "url": "wss://fullnode.parachain.centrifuge.io",
+                "name": "Centrufge node"
+            },
             {
                 "url": "wss://centrifuge-parachain.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -3228,6 +3259,7 @@
         "addressPrefix": 36
     },
     {
+        "disabled": false,
         "chainId": "97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2026",
@@ -3244,9 +3276,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://nodle-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://nodle-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://eden-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -3256,21 +3288,22 @@
         "addressPrefix": 37
     },
     {
+        "disabled": false,
         "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2032",
         "name": "Interlay",
         "assets": [{
-            "id": "7a77b6b0-f015-4ccc-a5bb-3456e17775dd",
-            "name": "interlay",
-            "symbol": "intr",
-            "precision": 10,
-            "priceId": "interlay",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/INTR.svg",
-            "color": "FFFFFF",
-            "type": "ormlChain",
-            "isUtility": true
-        },
+                "id": "7a77b6b0-f015-4ccc-a5bb-3456e17775dd",
+                "name": "interlay",
+                "symbol": "intr",
+                "precision": 10,
+                "priceId": "interlay",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/INTR.svg",
+                "color": "FFFFFF",
+                "type": "ormlChain",
+                "isUtility": true
+            },
             {
                 "id": "2a45aeb9-f585-4f1b-9558-ee3aa186a809",
                 "type": "ormlChain",
@@ -3307,9 +3340,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "INTR", "IBTC", "USDt"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["INTR", "IBTC"]
@@ -3341,9 +3374,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://interlay.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://interlay.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://api.interlay.io/parachain",
                 "name": "Kintsugi Labs node"
@@ -3353,6 +3386,7 @@
         "addressPrefix": 2032
     },
     {
+        "disabled": false,
         "chainId": "da5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2106",
@@ -3376,6 +3410,7 @@
         "addressPrefix": 131
     },
     {
+        "disabled": false,
         "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2040",
@@ -3392,19 +3427,20 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://polkadex.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "Onfinalty node"
-        },
+                "url": "wss://polkadex.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "Onfinalty node"
+            },
             {
                 "url": "wss://mainnet.polkadex.trade",
                 "name": "Polkadex team node"
             }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/polkadex.svg",
         "addressPrefix": 88
     },
     {
+        "disabled": false,
         "chainId": "577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2115",
@@ -3427,15 +3463,16 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://kusama.dorafactory.org",
-            "name": "DORA node"
-        }
-            
+                "url": "wss://kusama.dorafactory.org",
+                "name": "DORA node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/DoraFactory.svg",
         "addressPrefix": 128
     },
     {
+        "disabled": false,
         "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2043",
@@ -3451,15 +3488,16 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://parachain-rpc.origin-trail.network",
-            "name": "TraceLabs node"
-        }
-            
+                "url": "wss://parachain-rpc.origin-trail.network",
+                "name": "TraceLabs node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/OriginTrail.svg",
         "addressPrefix": 101
     },
     {
+        "disabled": false,
         "chainId": "84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2037",
@@ -3485,9 +3523,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "UNQ"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
                     "assets": ["UNQ"]
@@ -3495,9 +3533,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://eu-ws.unique.network",
-            "name": "Unique Europe node"
-        },
+                "url": "wss://eu-ws.unique.network",
+                "name": "Unique Europe node"
+            },
             {
                 "url": "wss://asia-ws.unique.network",
                 "name": "Unique Asia node"
@@ -3511,6 +3549,7 @@
         "addressPrefix": 7391
     },
     {
+        "disabled": false,
         "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2030",
@@ -3526,16 +3565,16 @@
             }]
         },
         "assets": [{
-            "id": "dc9e23e8-f4bf-4864-9f2c-c2fbd4b03886",
-            "name": "bifrost native coin",
-            "symbol": "bnc",
-            "precision": 12,
-            "priceId": "bifrost-native-coin",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
-            "color": "FFFFFF",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "dc9e23e8-f4bf-4864-9f2c-c2fbd4b03886",
+                "name": "bifrost native coin",
+                "symbol": "bnc",
+                "precision": 12,
+                "priceId": "bifrost-native-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
+                "color": "FFFFFF",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "fd62d09e-cfae-44f8-81a0-bf99732643fc",
                 "type": "ormlAsset",
@@ -3574,9 +3613,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["DOT", "GLMR", "USDt"],
             "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["DOT"]
-            },
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": ["DOT"]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": ["GLMR"]
@@ -3595,6 +3634,7 @@
         "addressPrefix": 6
     },
     {
+        "disabled": false,
         "chainId": "2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2013",
@@ -3617,9 +3657,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc.litentry-parachain.litentry.io",
-            "name": "Litentry node"
-        },
+                "url": "wss://rpc.litentry-parachain.litentry.io",
+                "name": "Litentry node"
+            },
             {
                 "url": "wss://litentry-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -3629,6 +3669,7 @@
         "addressPrefix": 31
     },
     {
+        "disabled": false,
         "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2035",
@@ -3658,6 +3699,7 @@
         "addressPrefix": 30
     },
     {
+        "disabled": false,
         "chainId": "daab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2019",
@@ -3688,9 +3730,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc.composable.finance",
-            "name": "Composable node"
-        },
+                "url": "wss://rpc.composable.finance",
+                "name": "Composable node"
+            },
             {
                 "url": "wss://composable-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -3700,6 +3742,7 @@
         "addressPrefix": 49
     },
     {
+        "disabled": false,
         "chainId": "35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2119",
@@ -3715,9 +3758,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc-parachain.bajun.network",
-            "name": "AjunaNetwork node"
-        },
+                "url": "wss://rpc-parachain.bajun.network",
+                "name": "AjunaNetwork node"
+            },
             {
                 "url": "wss://bajun.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -3731,6 +3774,7 @@
         "addressPrefix": 1337
     },
     {
+        "disabled": false,
         "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2113",
@@ -3759,6 +3803,7 @@
         "addressPrefix": 27
     },
     {
+        "disabled": false,
         "chainId": "52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2107",
@@ -3780,9 +3825,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc.kico.dico.io",
-            "name": "DICO Foundation node"
-        },
+                "url": "wss://rpc.kico.dico.io",
+                "name": "DICO Foundation node"
+            },
             {
                 "url": "wss://rpc.api.kico.dico.io",
                 "name": "DICO Foundation 2 node"
@@ -3792,20 +3837,21 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2110",
         "name": "Mangata Kusama Mainnet",
         "assets": [{
-            "id": "27ccf12f-3ae0-4c5e-b337-ee43b7c23928",
-            "name": "mangata x",
-            "symbol": "mgx",
-            "precision": 18,
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MGX.svg",
-            "color": "10C5C5",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "27ccf12f-3ae0-4c5e-b337-ee43b7c23928",
+                "name": "mangata x",
+                "symbol": "mgx",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MGX.svg",
+                "color": "10C5C5",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "f63730eb-9fe2-41e9-9ec3-3cc4e6f02d0a",
                 "type": "ormlChain",
@@ -3887,9 +3933,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "BNC", "vKSM", "ZLK", "RMRK", "USDT", "TUR"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": ["KSM"]
@@ -3909,9 +3955,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://prod-kusama-collator-01.mangatafinance.cloud",
-            "name": "Mangata node"
-        },
+                "url": "wss://prod-kusama-collator-01.mangatafinance.cloud",
+                "name": "Mangata node"
+            },
             {
                 "url": "wss://mangata-x.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -3921,6 +3967,7 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "eacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2116",
@@ -3949,6 +3996,7 @@
         "addressPrefix": 33
     },
     {
+        "disabled": false,
         "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2011",
@@ -3964,17 +4012,17 @@
             }]
         },
         "assets": [{
-            "id": "47d1f5c5-c43d-4082-b577-ba0af91cb1a6",
-            "name": "equilibrium",
-            "symbol": "eq",
-            "currencyId": "25969",
-            "precision": 9,
-            "existentialDeposit": "1000000000",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQ.svg",
-            "color": "5176E6",
-            "isUtility": true,
-            "type": "equilibrium"
-        },
+                "id": "47d1f5c5-c43d-4082-b577-ba0af91cb1a6",
+                "name": "equilibrium",
+                "symbol": "eq",
+                "currencyId": "25969",
+                "precision": 9,
+                "existentialDeposit": "1000000000",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQ.svg",
+                "color": "5176E6",
+                "isUtility": true,
+                "type": "equilibrium"
+            },
             {
                 "id": "50bb6d02-1aad-4a94-b41c-2a15b4aee0e8",
                 "name": "equilibrium dollar protocol",
@@ -4119,9 +4167,9 @@
             }
         ],
         "nodes": [{
-            "url": "wss://node.pol.equilibrium.io",
-            "name": "Parity node"
-        },
+                "url": "wss://node.pol.equilibrium.io",
+                "name": "Parity node"
+            },
             {
                 "url": "wss://equilibrium-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -4131,6 +4179,7 @@
         "addressPrefix": 68
     },
     {
+        "disabled": false,
         "chainId": "724c168d8e86b78b831c641e2cc822b8d1bf99fa0b4b28fe59985cd6fd580215",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2039",
@@ -4160,6 +4209,7 @@
         "addressPrefix": 13
     },
     {
+        "disabled": false,
         "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2114",
@@ -4171,15 +4221,15 @@
             }
         },
         "assets": [{
-            "id": "148ce615-aea3-42fa-be45-5eb5606813b8",
-            "name": "turing token",
-            "symbol": "tur",
-            "precision": 10,
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TUR.svg",
-            "color": "5DCBD0",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "148ce615-aea3-42fa-be45-5eb5606813b8",
+                "name": "turing token",
+                "symbol": "tur",
+                "precision": 10,
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TUR.svg",
+                "color": "5DCBD0",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "e8774037-c4a5-42b5-87a4-cf946a60a406",
                 "type": "assetId",
@@ -4196,9 +4246,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "TUR"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
                     "assets": ["TUR"]
@@ -4206,9 +4256,9 @@
             ]
         },
         "nodes": [{
-            "url": "wss://rpc.turing.oak.tech",
-            "name": "OAK node"
-        },
+                "url": "wss://rpc.turing.oak.tech",
+                "name": "OAK node"
+            },
             {
                 "url": "wss://turing-rpc.dwellir.com",
                 "name": "Dwellir node"
@@ -4218,6 +4268,7 @@
         "addressPrefix": 51
     },
     {
+        "disabled": false,
         "chainId": "7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "1001",
@@ -4238,9 +4289,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://kusama.api.encointer.org",
-            "name": "Encointer Association node"
-        },
+                "url": "wss://kusama.api.encointer.org",
+                "name": "Encointer Association node"
+            },
             {
                 "url": "wss://encointer.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinalty node"
@@ -4250,6 +4301,7 @@
         "addressPrefix": 2
     },
     {
+        "disabled": false,
         "chainId": "0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2102",
@@ -4271,9 +4323,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://kusama.kylin-node.co.uk",
-            "name": "Kylin Network node"
-        },
+                "url": "wss://kusama.kylin-node.co.uk",
+                "name": "Kylin Network node"
+            },
             {
                 "url": "wss://pichiu.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "Onfinality node"
@@ -4283,6 +4335,7 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "d42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2125",
@@ -4311,6 +4364,7 @@
         "addressPrefix": 117
     },
     {
+        "disabled": false,
         "chainId": "19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2123",
@@ -4332,9 +4386,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://leemo.gmordie.com",
-            "name": "leemo node"
-        },
+                "url": "wss://leemo.gmordie.com",
+                "name": "leemo node"
+            },
             {
                 "url": "wss://ws.gm.bldnodes.org",
                 "name": "bLd Nodes node"
@@ -4343,12 +4397,13 @@
                 "url": "wss://intern.gmordie.com",
                 "name": "intern node"
             }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/GM%20Parachain.svg",
         "addressPrefix": 7013
     },
     {
+        "disabled": false,
         "chainId": "ca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2121",
@@ -4370,15 +4425,16 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://imbue-kusama.imbue.network",
-            "name": "Imbue Network node node"
-        }
-            
+                "url": "wss://imbue-kusama.imbue.network",
+                "name": "Imbue Network node node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/Imbue.svg",
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "cceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2124",
@@ -4394,9 +4450,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://amplitude-rpc.dwellir.com",
-            "name": "Dwellir node"
-        },
+                "url": "wss://amplitude-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
             {
                 "url": "wss://rpc-amplitude.pendulumchain.tech",
                 "name": "PendulumChain node"
@@ -4406,6 +4462,7 @@
         "addressPrefix": 57
     },
     {
+        "disabled": false,
         "chainId": "e71578b37a7c799b0ab4ee87ffa6f059a6b98f71f06fb8c84a8d88013a548ad6",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2046",
@@ -4438,6 +4495,7 @@
         "addressPrefix": 18
     },
     {
+        "disabled": false,
         "chainId": "f2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2052",
@@ -4460,6 +4518,7 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "d4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Crust Shadow Parachain",
@@ -4493,9 +4552,9 @@
             "xcmVersion": "v1",
             "availableAssets": ["KSM", "CSM"],
             "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["KSM"]
-            },
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": ["KSM"]
+                },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": ["CSM"]
@@ -4503,15 +4562,16 @@
             ]
         },
         "nodes": [{
-            "url": "wss://rpc-shadow.crust.network",
-            "name": "Crust node"
-        }
-            
+                "url": "wss://rpc-shadow.crust.network",
+                "name": "Crust node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/crustshadow.svg",
         "addressPrefix": 66
     },
     {
+        "disabled": false,
         "chainId": "6e938c4a786f8df6f38d0c06f00a8573f1f7aabeebf48aee5157a93cc5fe3271",
         "name": "Kusama (test)",
         "assets": [{
@@ -4536,6 +4596,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "fd4d46e9a51e16babf791b94d6dbf771ed1d7de8a11b310aa98c847890fa9ff3",
         "name": "Polkadot (test)",
         "assets": [{
@@ -4560,6 +4621,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "b34f6cd03a41f0fab38ba9fd5b11cce5f303633c46f39f0c6fdc7c3c602bafa9",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Snow Kusama",
@@ -4574,15 +4636,16 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://snow-rpc.icenetwork.io",
-            "name": "Snow node"
-        }
-            
+                "url": "wss://snow-rpc.icenetwork.io",
+                "name": "Snow node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/SNOW.svg",
         "addressPrefix": 2207
     },
     {
+        "disabled": false,
         "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
         "name": "SORA test",
         "externalApi": {
@@ -4592,17 +4655,17 @@
             }
         },
         "assets": [{
-            "id": "b5a44630-920e-43ee-809f-61890d0888b0",
-            "name": "sora",
-            "symbol": "xor",
-            "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
-            "precision": 18,
-            "priceId": "sora",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
-            "color": "EE2233",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "b5a44630-920e-43ee-809f-61890d0888b0",
+                "name": "sora",
+                "symbol": "xor",
+                "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
+                "precision": 18,
+                "priceId": "sora",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
+                "color": "EE2233",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "0ecacd48-ffd4-4a2e-87e3-c5f72f9a9877",
                 "name": "sora validator",
@@ -4733,9 +4796,9 @@
             }
         ],
         "nodes": [{
-            "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
-            "name": "Sora Test Node #1"
-        },
+                "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
+                "name": "Sora Test Node #1"
+            },
             {
                 "url": "wss://ws.framenode-2.s1.stg1.sora2.soramitsu.co.jp",
                 "name": "Sora Test Node #2"
@@ -4765,6 +4828,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
         "name": "SORA Mainnet",
         "externalApi": {
@@ -4782,17 +4846,17 @@
             }]
         },
         "assets": [{
-            "id": "b774c386-5cce-454a-a845-1ec0381538ec",
-            "name": "sora",
-            "symbol": "xor",
-            "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
-            "precision": 18,
-            "priceId": "sora",
-            "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
-            "color": "EE2233",
-            "isUtility": true,
-            "type": "normal"
-        },
+                "id": "b774c386-5cce-454a-a845-1ec0381538ec",
+                "name": "sora",
+                "symbol": "xor",
+                "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
+                "precision": 18,
+                "priceId": "sora",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
+                "color": "EE2233",
+                "isUtility": true,
+                "type": "normal"
+            },
             {
                 "id": "24d0809e-0a4c-42ea-bdd8-dc7a518f389c",
                 "name": "sora validator",
@@ -4955,9 +5019,9 @@
             }
         ],
         "nodes": [{
-            "url": "wss://ws.mof.sora.org",
-            "name": "SORA Parliament Ministry of Finance Node"
-        },
+                "url": "wss://ws.mof.sora.org",
+                "name": "SORA Parliament Ministry of Finance Node"
+            },
             {
                 "url": "wss://ws.mof2.sora.org",
                 "name": "SORA Parliament Ministry of Finance Node"
@@ -4978,6 +5042,7 @@
         ]
     },
     {
+        "disabled": false,
         "chainId": "70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
         "name": "Aleph Zero",
         "assets": [{
@@ -4992,15 +5057,16 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://ws.azero.dev",
-            "name": "Aleph Zero Foundation node"
-        }
-            
+                "url": "wss://ws.azero.dev",
+                "name": "Aleph Zero Foundation node"
+            }
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/white/Aleph%20Zero.svg",
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "1002",
@@ -5024,6 +5090,7 @@
         "addressPrefix": 2
     },
     {
+        "disabled": false,
         "chainId": "6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2222",
@@ -5046,6 +5113,7 @@
         "addressPrefix": 32
     },
     {
+        "disabled": false,
         "chainId": "cdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2015",
@@ -5072,9 +5140,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://integritee-kusama.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-            "name": "OnFinality node"
-        },
+                "url": "wss://integritee-kusama.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
             {
                 "url": "wss://kusama.api.integritee.network",
                 "name": "Integritee node"
@@ -5084,6 +5152,7 @@
         "addressPrefix": 13
     },
     {
+        "disabled": false,
         "chainId": "2991d4125ac465d64c4c0b915fedd7168b5961b7676480636e3747f1ad64cfb9",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2236",
@@ -5106,6 +5175,7 @@
         "addressPrefix": 25
     },
     {
+        "disabled": false,
         "chainId": "e358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2051",
@@ -5122,9 +5192,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://rpc-parachain.ajuna.network.io",
-            "name": "AjunaNetwork node"
-        },
+                "url": "wss://rpc-parachain.ajuna.network.io",
+                "name": "AjunaNetwork node"
+            },
             {
                 "url": "wss://ajuna.public.curie.radiumblock.co/ws",
                 "name": "RadiumBlock node"
@@ -5134,6 +5204,7 @@
         "addressPrefix": 1328
     },
     {
+        "disabled": false,
         "chainId": "c14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2048",
@@ -5156,6 +5227,7 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2008",
@@ -5179,6 +5251,7 @@
         "addressPrefix": 88
     },
     {
+        "disabled": false,
         "chainId": "4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2091",
@@ -5194,9 +5267,9 @@
             "type": "normal"
         }],
         "nodes": [{
-            "url": "wss://0.rpc.frequency.xyz",
-            "name": "Frequency 0 node"
-        },
+                "url": "wss://0.rpc.frequency.xyz",
+                "name": "Frequency 0 node"
+            },
             {
                 "url": "wss://1.rpc.frequency.xyz",
                 "name": "Frequency 1 node"
@@ -5206,6 +5279,7 @@
         "addressPrefix": 90
     },
     {
+        "disabled": false,
         "chainId": "7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2007",
@@ -5228,6 +5302,7 @@
         "addressPrefix": 2007
     },
     {
+        "disabled": false,
         "chainId": "5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2094",
@@ -5250,6 +5325,7 @@
         "addressPrefix": 56
     },
     {
+        "disabled": false,
         "chainId": "6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
         "name": "Ternoa Mainnet",
         "assets": [{
@@ -5271,6 +5347,7 @@
         "addressPrefix": 42
     },
     {
+        "disabled": false,
         "chainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2011",
