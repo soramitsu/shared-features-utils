@@ -708,7 +708,7 @@
       }
     ],
     "xcm": {
-        "xcmVersion": "v1",
+        "xcmVersion": "v3",
         "availableAssets": ["KSM", "BNC", "KUSD", "KAR", "RMRK", "USDT", "KINT", "LKSM", "MOVR"],
         "availableDestinations": [
           {
