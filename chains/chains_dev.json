@@ -1772,7 +1772,7 @@
       }
     ],
     "xcm": {
-      "xcmVersion": "v1",
+      "xcmVersion": "v3",
         "availableAssets": ["DOT", "GLMR", "aUSD", "ACA", "IBTC", "INTR", "ASTR", "USDt", "EQ", "EQD", "PHA"],
         "availableDestinations": [
             {
