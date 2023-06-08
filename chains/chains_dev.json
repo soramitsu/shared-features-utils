@@ -429,7 +429,15 @@
             "history": {
                 "type": "giantsquid",
                 "url": "https://squid.subsquid.io/gs-main-statemint/graphql"
-            }
+            },
+            "explorers": [{
+                "type": "subscan",
+                "types": [
+                    "extrinsic",
+                    "account"
+                ],
+                "url": "https://statemint.subscan.io/{type}/{value}"
+            }]
         },
         "assets": [{
                 "isUtility": true,
@@ -1406,6 +1414,7 @@
                 "id": "07f2a7fc-9b0a-4583-9267-57b68ecd4350",
                 "name": "voucher ksm",
                 "symbol": "vksm",
+                "currencyId": "ksm",
                 "precision": 12,
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/VKSM.svg",
@@ -1418,6 +1427,7 @@
                 "id": "dd0efecb-51a1-481d-a949-80cb7663c105",
                 "name": "voucher slot ksm",
                 "symbol": "vsksm",
+                "currencyId": "ksm",
                 "precision": 12,
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/VSKSM.svg",
@@ -2493,7 +2503,8 @@
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
-                "type": "assetId"
+                "type": "assetId",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "125a05b1-1e0b-411d-8628-ffd3b84ed4c8",
@@ -2504,7 +2515,8 @@
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
-                "type": "assetId"
+                "type": "assetId",
+                "existentialDeposit": "10000"
             }
         ],
         "xcm": {
@@ -2837,17 +2849,6 @@
                 "priceId": "kintsugi-btc",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KBTC.svg",
                 "color": "FFFFFF"
-            },
-            {
-                "id": "a0392303-7433-442a-9d70-c4191257b1c8",
-                "type": "ormlChain",
-                "name": "tether usd",
-                "symbol": "usdt",
-                "precision": 6,
-                "currencyId": "3",
-                "priceId": "tether",
-                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
-                "color": "26A17B"
             }
         ],
         "xcm": {
@@ -3138,7 +3139,8 @@
                 "currencyId": "5",
                 "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
-                "color": "FF0066"
+                "color": "FF0066",
+                "existentialDeposit": "17540000"
             },
             {
                 "id": "0de05a52-3686-486c-a80e-f7feb6e228d7",
@@ -3148,7 +3150,8 @@
                 "precision": 8,
                 "currencyId": "11",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
-                "color": "F2AE7F"
+                "color": "F2AE7F",
+                "existentialDeposit": "36"
             },
             {
                 "id": "880664d6-71f6-473e-95ba-4cc697429578",
@@ -3159,7 +3162,8 @@
                 "currencyId": "16",
                 "priceId": "moonbeam",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
-                "color": "FFFFFF"
+                "color": "FFFFFF",
+                "existentialDeposit": "34854864344868000"
             },
             {
                 "id": "53bd7f6e-b8eb-468f-a2ec-2bf347e702a7",
@@ -3170,7 +3174,8 @@
                 "currencyId": "10",
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
-                "color": "26A17B"
+                "color": "26A17B",
+                "existentialDeposit": "10000"
             }
         ],
         "xcm": {
@@ -3322,17 +3327,6 @@
                 "precision": 8,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
                 "color": "F2AE7F"
-            },
-            {
-                "id": "0f7b35bb-6591-4f84-8679-8e1eacdd49a3",
-                "type": "ormlChain",
-                "name": "tether usd",
-                "symbol": "usdt",
-                "precision": 6,
-                "currencyId": "2",
-                "priceId": "tether",
-                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
-                "color": "26A17B"
             }
         ],
         "xcm": {
@@ -3576,7 +3570,7 @@
             },
             {
                 "id": "fd62d09e-cfae-44f8-81a0-bf99732643fc",
-                "type": "ormlAsset",
+                "type": "token2",
                 "currencyId": "0",
                 "name": "polkadot",
                 "symbol": "dot",
@@ -3587,7 +3581,7 @@
             },
             {
                 "id": "9ff3dbb1-5986-44b9-b247-db82ae3584a1",
-                "type": "ormlAsset",
+                "type": "token2",
                 "currencyId": "1",
                 "name": "moonbeam",
                 "symbol": "glmr",
@@ -3598,7 +3592,7 @@
             },
             {
                 "id": "8dc39b21-04c9-4d1d-b9ec-8ea111052e77",
-                "type": "ormlAsset",
+                "type": "token2",
                 "currencyId": "2",
                 "name": "tether usd",
                 "symbol": "usdt",
@@ -4238,7 +4232,8 @@
                 "currencyId": "1",
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
-                "color": "FFFFFF"
+                "color": "FFFFFF",
+                "existentialDeposit": "100000000"
             }
         ],
         "xcm": {
