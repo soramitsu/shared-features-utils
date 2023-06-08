@@ -1196,7 +1196,7 @@
             }
         ],
         "xcm": {
-            "xcmVersion": "v3",
+            "xcmVersion": "v1",
             "availableAssets": ["KSM", "MOVR", "KSM", "KUSD", "RMRK", "KINT", "PHA", "XRT", "KBTC"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
