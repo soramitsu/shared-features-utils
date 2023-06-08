@@ -1,0 +1,54 @@
+[
+    {
+        "platform": "iOS",
+        "version": "2.2.5",
+        "chains": {
+            "Polkadot": true,
+            "Kusama": true
+        },
+        "staking": {
+            "Polkadot": true,
+            "Polkadot pools": true,
+            "Kusama": true,
+            "Kusama pools": true,
+            "Moonbeam": true,
+            "Moonriver": true,
+            "SORA Mainnet": true,
+            "Ternoa": true
+        },
+        "dex": {
+            "SORA Mainnet": true
+        },
+        "fiat": {
+            "SORA Card": false,
+            "Moonpay": true,
+            "Ramp": true
+        }
+    },
+    {
+        "platform": "Android",
+        "version": "2.2.5",
+        "chains": {
+            "Polkadot": true,
+            "Kusama": true
+        },
+        "staking": {
+            "Polkadot": true,
+            "Polkadot pools": true,
+            "Kusama": true,
+            "Kusama pools": true,
+            "Moonbeam": true,
+            "Moonriver": true,
+            "SORA Mainnet": true,
+            "Ternoa": true
+        },
+        "dex": {
+            "Polkaswap": true
+        },
+        "fiat": {
+            "SORA Card": false,
+            "Moonpay": true,
+            "Ramp": true
+        }
+    }
+]
