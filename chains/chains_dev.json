@@ -1587,19 +1587,6 @@
                 "color": "FFFFFF"
             }
         ],
-        "xcm": {
-            "xcmVersion": "v1",
-            "availableAssets": ["KSM", "PHA"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["PHA"]
-                }
-            ]
-        },
         "nodes": [{
                 "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "OnFinality node"
