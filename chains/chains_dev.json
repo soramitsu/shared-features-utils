@@ -333,7 +333,6 @@
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
-                "staking": "relaychain",
                 "purchaseProviders": [
                     "ramp"
                 ],
@@ -448,7 +447,6 @@
                 "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
                 "color": "FF0066",
-                "staking": "relaychain",
                 "purchaseProviders": [
                     "moonpay",
                     "ramp"
@@ -4282,7 +4280,6 @@
             "priceId": "kusama",
             "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
             "color": "FFFFFF",
-            "staking": "relaychain",
             "purchaseProviders": [
                 "ramp"
             ],
@@ -4856,7 +4853,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
                 "color": "EE2233",
                 "isUtility": true,
-                "type": "normal"
+                "type": "normal",
+                "staking": "relaychain"
             },
             {
                 "id": "24d0809e-0a4c-42ea-bdd8-dc7a518f389c",
@@ -5338,7 +5336,8 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CAPS.svg",
             "color": "FF002B",
             "isUtility": true,
-            "type": "normal"
+            "type": "normal",
+            "staking": "relaychain"
         }],
         "nodes": [{
             "url": "wss://mainnet.ternoa.network",
