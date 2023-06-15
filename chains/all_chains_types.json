@@ -178,8 +178,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "bifrost_polkadot_runtime::Event",
-                    "GenericCall": "bifrost_polkadot_runtime::Call"
+                    "GenericEvent": "bifrost_polkadot_runtime::RuntimeEvent",
+                    "GenericCall": "bifrost_polkadot_runtime::RuntimeCall"
                 }
             }
         ]
@@ -1443,8 +1443,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "unique_runtime::Event",
-                    "GenericCall": "unique_runtime::Call"
+                    "GenericEvent": "unique_runtime::RuntimeEvent",
+                    "GenericCall": "unique_runtime::RuntimeCall"
                 }
             }
         ]
