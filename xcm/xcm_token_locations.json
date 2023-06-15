@@ -653,7 +653,7 @@
               "generalKeyV1": "0x000b"
             }
           ],
-          "v1": [
+          "v3": [
             {
               "parachain": 2092
             },
