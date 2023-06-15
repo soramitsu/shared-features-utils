@@ -629,6 +629,24 @@
                 "color": "FF0066",
                 "type": "liquidCrowdloan",
                 "isNative": true
+            },
+            {
+                "id": "402c606d-691f-4889-a48d-a459a0e37c56",
+                "name": "interBTC",
+                "symbol": "ibtc",
+                "precision": 8,
+                "currencyId": "3",
+                "color": "FF0066",
+                "type": "foreignAsset"
+            },
+            {
+                "id": "7fffd65a-d971-4bdc-a6bd-216674b83a97",
+                "name": "Wrapped Ether",
+                "symbol": "weth",
+                "precision": 18,
+                "currencyId": "6",
+                "color": "FF0066",
+                "type": "foreignAsset"
             }
         ],
         "xcm": {
