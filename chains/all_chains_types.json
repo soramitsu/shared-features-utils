@@ -1424,8 +1424,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "turing_runtime::Event",
-                    "GenericCall": "turing_runtime::Call"
+                    "GenericEvent": "turing_runtime::RuntimeEvent",
+                    "GenericCall": "turing_runtime::RuntimeCall"
                 }
             }
         ]
