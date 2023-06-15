@@ -743,7 +743,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AUSD.svg",
                 "color": "E40C5B",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "10000000000"
             },
             {
                 "id": "223b0282-b5c9-48ed-87e3-5e9ef6714ac8",
@@ -753,7 +754,8 @@
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "e605149c-0f41-4ec9-960f-21c07e2d9361",
@@ -764,7 +766,8 @@
                 "priceId": "rmrk",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/RMRK.svg",
                 "color": "392B73",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "10757cfa-b590-43c1-8524-efc28d798bcb",
@@ -774,7 +777,8 @@
                 "priceId": "bifrost-native-coin",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "8000000000"
             },
             {
                 "id": "77562113-9e01-49b6-a39d-87a47bde24fe",
@@ -784,7 +788,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LKSM.svg",
                 "color": "FFFFFF",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "500000000"
             },
             {
                 "id": "c6fd5a1e-3052-4bdf-b0f3-ad1b7b9fbff0",
@@ -795,7 +800,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CSM_Crust_Shadow.svg",
                 "color": "F3AD56",
                 "priceId": "crust-storage-market",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "5e9c76a4-9f89-487d-80aa-db0588b60aa4",
@@ -806,7 +812,8 @@
                 "color": "FFFFFF",
                 "priceId": "taiga",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "4b9f4cba-3b26-4f99-8666-3ee305683706",
@@ -817,7 +824,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ARIS.svg",
                 "color": "423F47",
                 "priceId": "polarisdao",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "3d32d7cb-4de5-427e-9668-a9763648a555",
@@ -828,7 +836,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/QTZ.svg",
                 "color": "EC5B6D",
                 "priceId": "quartz",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000000"
             },
             {
                 "id": "17142348-16f6-49f2-9006-098f5562bda0",
@@ -838,7 +847,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KBTC.svg",
                 "color": "FFFFFF",
                 "priceId": "kintsugi-btc",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "66"
             },
             {
                 "id": "6aa4622c-42b9-4976-9f7c-35447bb24128",
@@ -848,7 +858,8 @@
                 "priceId": "kintsugi",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KINT.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "133330000"
             },
             {
                 "id": "e27e5b58-3229-4656-b9ff-de309f49f17f",
@@ -858,7 +869,8 @@
                 "priceId": "pha",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
                 "color": "DAFE6F",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "40000000000"
             },
             {
                 "id": "8e975c47-df51-48a8-a29e-a89ee0f4bf9e",
@@ -869,7 +881,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TAIKSM.svg",
                 "color": "FFFFFF",
                 "type": "stableAssetPoolToken",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "536deaa6-49b0-4b54-adc7-9619e15c79b2",
@@ -878,7 +891,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/VSKSM.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "f2257792-ffb9-4dff-95ae-5f98c1cb594b",
@@ -889,7 +903,8 @@
                 "priceId": "moonriver",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MOVR.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000"
             },
             {
                 "id": "54b7f751-ef62-45b2-ad65-837852de5af4",
@@ -899,7 +914,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HKO.svg",
                 "color": "CC3474",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "bb3dc769-394f-40fb-b54f-4a0d0de7e49e",
@@ -909,7 +925,8 @@
                 "precision": 14,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KICO.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000"
             },
             {
                 "id": "5fd5f3ce-4a2c-4647-923e-6c29cc95a4f7",
@@ -920,7 +937,8 @@
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "10000"
             },
             {
                 "id": "8cf27ed8-11bf-4b16-be22-5aa6bbc10736",
@@ -931,7 +949,8 @@
                 "priceId": "integritee",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TEER.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "805e945b-54a6-47ec-a62b-7bcbae46fb70",
@@ -941,7 +960,8 @@
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/NEER.svg",
                 "color": "B8FBFE",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             },
             {
                 "id": "addd6fed-51af-4088-8d6d-05c73b48b8df",
@@ -952,7 +972,8 @@
                 "priceId": "calamari-network",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KMA.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "f8d6e0db-e50b-46ea-b870-c2e97abb99d7",
@@ -962,7 +983,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BSX.svg",
                 "color": "87FCB6",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "4879d0ed-810b-4792-8e83-387180cc3a9c",
@@ -973,7 +995,8 @@
                 "priceId": "altair",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AIR.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             },
             {
                 "id": "e0fe6aac-a52e-4e78-be60-defee1006569",
@@ -984,7 +1007,8 @@
                 "priceId": "darwinia-crab-network",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CRAB.svg",
                 "color": "581BD1",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000000"
             },
             {
                 "id": "1d534f94-bc5a-41a5-a295-c84f9ee0d95c",
@@ -995,7 +1019,8 @@
                 "priceId": "genshiro",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GENS.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "b8f7bcbc-fe2d-457d-903f-c8c126127231",
@@ -1005,7 +1030,8 @@
                 "precision": 9,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQD.svg",
                 "color": "4D8BED",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "10000000000"
             },
             {
                 "id": "2433813f-403f-40e1-9e00-688b037113d5",
@@ -1015,7 +1041,8 @@
                 "precision": 10,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TUR.svg",
                 "color": "5DCBD0",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "40000000000"
             },
             {
                 "id": "1a6e5327-80da-439a-8294-8b3dbeb8172c",
@@ -1025,7 +1052,8 @@
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PCHU.svg",
                 "color": "AE4071",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             }
         ],
         "xcm": {
@@ -5389,4 +5417,3 @@
         "addressPrefix": 420
     }
 ]
-
