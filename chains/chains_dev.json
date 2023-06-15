@@ -632,20 +632,23 @@
             },
             {
                 "id": "402c606d-691f-4889-a48d-a459a0e37c56",
-                "name": "interBTC",
+                "name": "inter btc",
                 "symbol": "ibtc",
                 "precision": 8,
                 "currencyId": "3",
-                "color": "FF0066",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
+                "color": "F2AE7F",
                 "type": "foreignAsset"
             },
             {
                 "id": "7fffd65a-d971-4bdc-a6bd-216674b83a97",
-                "name": "Wrapped Ether",
+                "name": "wrapped ether",
                 "symbol": "weth",
                 "precision": 18,
                 "currencyId": "6",
-                "color": "FF0066",
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ETH.svg",
+                "color":"627EEA",
                 "type": "foreignAsset"
             }
         ],
@@ -1228,7 +1231,7 @@
                 "color": "FFFFFF"
             },
             {
-                "id": "",
+                "id": "db8fdbe6-26b0-4910-a267-d7a58c22c7ec",
                 "type": "assets",
                 "name": "kintsugi native token",
                 "symbol": "xckint",
