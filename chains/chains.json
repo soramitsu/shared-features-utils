@@ -333,7 +333,6 @@
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
-                "staking": "relaychain",
                 "purchaseProviders": [
                     "ramp"
                 ],
@@ -448,7 +447,6 @@
                 "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg",
                 "color": "FF0066",
-                "staking": "relaychain",
                 "purchaseProviders": [
                     "moonpay",
                     "ramp"
@@ -631,18 +629,39 @@
                 "color": "FF0066",
                 "type": "liquidCrowdloan",
                 "isNative": true
+            },
+            {
+                "id": "402c606d-691f-4889-a48d-a459a0e37c56",
+                "name": "inter btc",
+                "symbol": "ibtc",
+                "precision": 8,
+                "currencyId": "3",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg",
+                "color": "F2AE7F",
+                "type": "foreignAsset"
+            },
+            {
+                "id": "7fffd65a-d971-4bdc-a6bd-216674b83a97",
+                "name": "wrapped ether",
+                "symbol": "weth",
+                "precision": 18,
+                "currencyId": "6",
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ETH.svg",
+                "color":"627EEA",
+                "type": "foreignAsset"
             }
         ],
         "xcm": {
             "xcmVersion": "v1",
-            "availableAssets": ["DOT", "aUSD", "ACA", "GLMR", "INTR", "IBTC", "lcDOT", "ASTR", "WETH", "DAI"],
+            "availableAssets": ["DOT", "AUSD", "ACA", "GLMR", "INTR", "IBTC", "lcDOT", "ASTR", "WETH", "DAI"],
             "availableDestinations": [{
                     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
                     "assets": ["DOT"]
                 },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["aUSD", "ACA", "GLMR"]
+                    "assets": ["AUSD", "ACA", "GLMR"]
                 },
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
@@ -650,7 +669,7 @@
                 },
                 {
                     "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-                    "assets": ["ACA", "aUSD", "ASTR"]
+                    "assets": ["ACA", "AUSD", "ASTR"]
                 },
                 {
                     "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
@@ -727,7 +746,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AUSD.svg",
                 "color": "E40C5B",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "10000000000"
             },
             {
                 "id": "223b0282-b5c9-48ed-87e3-5e9ef6714ac8",
@@ -737,7 +757,8 @@
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "e605149c-0f41-4ec9-960f-21c07e2d9361",
@@ -748,7 +769,8 @@
                 "priceId": "rmrk",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/RMRK.svg",
                 "color": "392B73",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "10757cfa-b590-43c1-8524-efc28d798bcb",
@@ -758,7 +780,8 @@
                 "priceId": "bifrost-native-coin",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "8000000000"
             },
             {
                 "id": "77562113-9e01-49b6-a39d-87a47bde24fe",
@@ -768,7 +791,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LKSM.svg",
                 "color": "FFFFFF",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "500000000"
             },
             {
                 "id": "c6fd5a1e-3052-4bdf-b0f3-ad1b7b9fbff0",
@@ -779,7 +803,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CSM_Crust_Shadow.svg",
                 "color": "F3AD56",
                 "priceId": "crust-storage-market",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "5e9c76a4-9f89-487d-80aa-db0588b60aa4",
@@ -790,7 +815,8 @@
                 "color": "FFFFFF",
                 "priceId": "taiga",
                 "type": "ormlAsset",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "4b9f4cba-3b26-4f99-8666-3ee305683706",
@@ -801,7 +827,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ARIS.svg",
                 "color": "423F47",
                 "priceId": "polarisdao",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "3d32d7cb-4de5-427e-9668-a9763648a555",
@@ -812,7 +839,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/QTZ.svg",
                 "color": "EC5B6D",
                 "priceId": "quartz",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000000"
             },
             {
                 "id": "17142348-16f6-49f2-9006-098f5562bda0",
@@ -822,7 +850,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KBTC.svg",
                 "color": "FFFFFF",
                 "priceId": "kintsugi-btc",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "66"
             },
             {
                 "id": "6aa4622c-42b9-4976-9f7c-35447bb24128",
@@ -832,7 +861,8 @@
                 "priceId": "kintsugi",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KINT.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "133330000"
             },
             {
                 "id": "e27e5b58-3229-4656-b9ff-de309f49f17f",
@@ -842,7 +872,8 @@
                 "priceId": "pha",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PHA.svg",
                 "color": "DAFE6F",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "40000000000"
             },
             {
                 "id": "8e975c47-df51-48a8-a29e-a89ee0f4bf9e",
@@ -853,7 +884,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TAIKSM.svg",
                 "color": "FFFFFF",
                 "type": "stableAssetPoolToken",
-                "isNative": true
+                "isNative": true,
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "536deaa6-49b0-4b54-adc7-9619e15c79b2",
@@ -862,7 +894,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/VSKSM.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "ormlAsset",
+                "existentialDeposit": "100000000"
             },
             {
                 "id": "f2257792-ffb9-4dff-95ae-5f98c1cb594b",
@@ -873,7 +906,8 @@
                 "priceId": "moonriver",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/MOVR.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000"
             },
             {
                 "id": "54b7f751-ef62-45b2-ad65-837852de5af4",
@@ -883,7 +917,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HKO.svg",
                 "color": "CC3474",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "bb3dc769-394f-40fb-b54f-4a0d0de7e49e",
@@ -893,7 +928,8 @@
                 "precision": 14,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KICO.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000"
             },
             {
                 "id": "5fd5f3ce-4a2c-4647-923e-6c29cc95a4f7",
@@ -904,7 +940,8 @@
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "10000"
             },
             {
                 "id": "8cf27ed8-11bf-4b16-be22-5aa6bbc10736",
@@ -915,7 +952,8 @@
                 "priceId": "integritee",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TEER.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "805e945b-54a6-47ec-a62b-7bcbae46fb70",
@@ -925,7 +963,8 @@
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/NEER.svg",
                 "color": "B8FBFE",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             },
             {
                 "id": "addd6fed-51af-4088-8d6d-05c73b48b8df",
@@ -936,7 +975,8 @@
                 "priceId": "calamari-network",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KMA.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000"
             },
             {
                 "id": "f8d6e0db-e50b-46ea-b870-c2e97abb99d7",
@@ -946,7 +986,8 @@
                 "precision": 12,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BSX.svg",
                 "color": "87FCB6",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "4879d0ed-810b-4792-8e83-387180cc3a9c",
@@ -957,7 +998,8 @@
                 "priceId": "altair",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AIR.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             },
             {
                 "id": "e0fe6aac-a52e-4e78-be60-defee1006569",
@@ -968,7 +1010,8 @@
                 "priceId": "darwinia-crab-network",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CRAB.svg",
                 "color": "581BD1",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000000000"
             },
             {
                 "id": "1d534f94-bc5a-41a5-a295-c84f9ee0d95c",
@@ -979,7 +1022,8 @@
                 "priceId": "genshiro",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GENS.svg",
                 "color": "FFFFFF",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "1000000000000"
             },
             {
                 "id": "b8f7bcbc-fe2d-457d-903f-c8c126127231",
@@ -989,7 +1033,8 @@
                 "precision": 9,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/EQD.svg",
                 "color": "4D8BED",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "10000000000"
             },
             {
                 "id": "2433813f-403f-40e1-9e00-688b037113d5",
@@ -999,7 +1044,8 @@
                 "precision": 10,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TUR.svg",
                 "color": "5DCBD0",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "40000000000"
             },
             {
                 "id": "1a6e5327-80da-439a-8294-8b3dbeb8172c",
@@ -1009,12 +1055,13 @@
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PCHU.svg",
                 "color": "AE4071",
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "existentialDeposit": "100000000000000000"
             }
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["KSM", "BNC", "KUSD", "KAR", "RMRK", "USDT", "KINT", "LKSM", "MOVR"],
+            "availableAssets": ["KSM", "BNC", "AUSD", "KAR", "RMRK", "USDT", "KINT", "LKSM", "MOVR"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
                     "assets": ["KSM"]
@@ -1025,11 +1072,11 @@
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["KSM", "BNC", "KUSD", "KAR"]
+                    "assets": ["KSM", "BNC", "AUSD", "KAR"]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["KSM", "MOVR", "KAR", "KUSD"]
+                    "assets": ["KSM", "MOVR", "KAR", "AUSD"]
                 },
                 {
                     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
@@ -1041,7 +1088,7 @@
                 },
                 {
                     "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
-                    "assets": ["KUSD"]
+                    "assets": ["AUSD"]
                 },
                 {
                     "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
@@ -1184,7 +1231,7 @@
                 "color": "FFFFFF"
             },
             {
-                "id": "",
+                "id": "db8fdbe6-26b0-4910-a267-d7a58c22c7ec",
                 "type": "assets",
                 "name": "kintsugi native token",
                 "symbol": "xckint",
@@ -1197,7 +1244,7 @@
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["KSM", "MOVR", "KSM", "KUSD", "RMRK", "KINT", "PHA", "XRT", "KBTC"],
+            "availableAssets": ["KSM", "MOVR", "KSM", "AUSD", "RMRK", "KINT", "PHA", "XRT", "KBTC"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
                     "assets": ["KSM"]
@@ -1208,7 +1255,7 @@
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["KUSD"]
+                    "assets": ["AUSD"]
                 },
                 {
                     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
@@ -1497,7 +1544,7 @@
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["KSM", "BNC", "MOVR", "KUSD", "PHA", "ZLK", "USDt"],
+            "availableAssets": ["KSM", "BNC", "MOVR", "AUSD", "PHA", "ZLK", "USDt"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
                     "assets": ["KSM"]
@@ -1508,7 +1555,7 @@
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["KSM", "BNC", "KUSD"]
+                    "assets": ["KSM", "BNC", "AUSD"]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
@@ -1587,19 +1634,6 @@
                 "color": "FFFFFF"
             }
         ],
-        "xcm": {
-            "xcmVersion": "v1",
-            "availableAssets": ["KSM", "PHA"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["PHA"]
-                }
-            ]
-        },
         "nodes": [{
                 "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
                 "name": "OnFinality node"
@@ -2080,6 +2114,7 @@
         }],
         "xcm": {
             "xcmVersion": "v1",
+            "destWeightIsPrimitive": true,
             "availableAssets": ["KSM", "NEER"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -2540,7 +2575,7 @@
             }
         ],
         "xcm": {
-            "xcmVersion": "v1",
+            "xcmVersion": "v3",
             "availableAssets": ["KSM", "BSX", "USDt"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -2712,14 +2747,14 @@
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["DOT", "GLMR", "aUSD", "ACA", "IBTC", "INTR", "ASTR", "USDt", "EQ", "EQD", "PHA"],
+            "availableAssets": ["DOT", "GLMR", "AUSD", "ACA", "IBTC", "INTR", "ASTR", "USDt", "EQ", "EQD", "PHA"],
             "availableDestinations": [{
                     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
                     "assets": ["DOT"]
                 },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                    "assets": ["aUSD", "ACA", "IBTC", "GLMR", "INTR"]
+                    "assets": ["AUSD", "ACA", "IBTC", "GLMR", "INTR"]
                 },
                 {
                     "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
@@ -3200,6 +3235,7 @@
         ],
         "xcm": {
             "xcmVersion": "v1",
+            "destWeightIsPrimitive": true,
             "availableAssets": ["DOT", "INTR", "ACA", "USDt"],
             "availableDestinations": [{
                     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -3533,7 +3569,7 @@
             "type": "normal"
         }],
         "xcm": {
-            "xcmVersion": "v1",
+            "xcmVersion": "v3",
             "availableAssets": ["DOT", "UNQ"],
             "availableDestinations": [{
                     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -3850,7 +3886,7 @@
         "addressPrefix": 42
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2110",
@@ -4257,7 +4293,7 @@
             }
         ],
         "xcm": {
-            "xcmVersion": "v1",
+            "xcmVersion": "v3",
             "availableAssets": ["KSM", "TUR"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -4295,7 +4331,6 @@
             "priceId": "kusama",
             "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg",
             "color": "FFFFFF",
-            "staking": "relaychain",
             "purchaseProviders": [
                 "ramp"
             ],
@@ -4564,6 +4599,7 @@
         }],
         "xcm": {
             "xcmVersion": "v1",
+            "destWeightIsPrimitive": true,
             "availableAssets": ["KSM", "CSM"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -4678,7 +4714,7 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
                 "color": "EE2233",
                 "isUtility": true,
-                "type": "normal"
+                "type": "soraAsset"
             },
             {
                 "id": "0ecacd48-ffd4-4a2e-87e3-c5f72f9a9877",
@@ -4869,7 +4905,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
                 "color": "EE2233",
                 "isUtility": true,
-                "type": "normal"
+                "type": "soraAsset",
+                "staking": "relaychain"
             },
             {
                 "id": "24d0809e-0a4c-42ea-bdd8-dc7a518f389c",
@@ -5351,7 +5388,8 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CAPS.svg",
             "color": "FF002B",
             "isUtility": true,
-            "type": "normal"
+            "type": "normal",
+            "staking": "relaychain"
         }],
         "nodes": [{
             "url": "wss://mainnet.ternoa.network",
@@ -5385,5 +5423,3 @@
         "addressPrefix": 420
     }
 ]
-
-
