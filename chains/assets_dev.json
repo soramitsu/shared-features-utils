@@ -80,7 +80,7 @@
   },
   {
     "id": "3feb7de3-e881-4c04-a4de-1b9091dbc324",
-    "name": "phala",
+    "name": "phala token",
     "symbol": "pha",
     "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "precision": 12,
@@ -139,7 +139,7 @@
   },
   {
     "id": "f5d1db12-0a68-4897-903d-51a887daa1db",
-    "name": "kintsugi",
+    "name": "kintsugi native token",
     "symbol": "kint",
     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
     "precision": 12,
@@ -489,7 +489,7 @@
   },
   {
     "id": "6aa4622c-42b9-4976-9f7c-35447bb24128",
-    "name": "kintsugi",
+    "name": "kintsugi native token",
     "symbol": "kint",
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "precision": 12,
@@ -500,7 +500,7 @@
   },
   {
     "id": "e27e5b58-3229-4656-b9ff-de309f49f17f",
-    "name": "phala",
+    "name": "phala token",
     "symbol": "pha",
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "precision": 12,
@@ -522,7 +522,7 @@
   },
   {
     "id": "536deaa6-49b0-4b54-adc7-9619e15c79b2",
-    "name": "voucher slot ksm",
+    "name": "bifrost voucher slot ksm",
     "symbol": "vsksm",
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "precision": 12,
@@ -841,7 +841,7 @@
   {
     "id": "07f2a7fc-9b0a-4583-9267-57b68ecd4350",
     "name": "voucher ksm",
-    "symbol": "ksm",
+    "symbol": "vksm",
     "displayName": "vksm",
     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "precision": 12,
@@ -853,8 +853,8 @@
   },
   {
     "id": "dd0efecb-51a1-481d-a949-80cb7663c105",
-    "name": "voucher slot ksm",
-    "symbol": "ksm",
+    "name": "bifrost voucher slot ksm",
+    "symbol": "vsksm",
     "displayName": "vsksm",
     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "precision": 12,
@@ -916,7 +916,7 @@
   },
   {
     "id": "33746c72-6806-47d0-a1c4-7b433df862f1",
-    "name": "phala",
+    "name": "phala token",
     "symbol": "pha",
     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "precision": 12,
@@ -987,7 +987,7 @@
   },
   {
     "id": "50add3d2-baa6-4bf3-9995-e6532ad51726",
-    "name": "phala",
+    "name": "phala token",
     "symbol": "pha",
     "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
     "precision": 12,
