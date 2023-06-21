@@ -650,6 +650,17 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ETH.svg",
                 "color":"627EEA",
                 "type": "foreignAsset"
+            },
+            {
+                "id": "184a1b21-d512-4de9-ab54-6c014e24f90c",
+                "name": "astar",
+                "symbol": "astr",
+                "precision": 18,
+                "currencyId": "2",
+                "priceId": "astar",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ASTR.svg",
+                "color": "0AE2FF",
+                "type": "foreignAsset"
             }
         ],
         "xcm": {
