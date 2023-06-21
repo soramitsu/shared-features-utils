@@ -190,10 +190,6 @@
                     "assets": ["KSM"]
                 },
                 {
-                    "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-                    "assets": ["KSM"]
-                },
-                {
                     "chainId": "4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
                     "assets": ["KSM"]
                 },
@@ -202,23 +198,7 @@
                     "assets": ["KSM"]
                 },
                 {
-                    "chainId": "f22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "d4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "cd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
-                    "assets": ["KSM"]
-                },
-                {
                     "chainId": "6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
                     "assets": ["KSM"]
                 },
                 {
@@ -688,7 +668,7 @@
                 },
                 {
                     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-                    "assets": ["WETH", "DAI"]
+                    "assets": ["DAI"]
                 }
             ]
         },
@@ -1088,10 +1068,6 @@
                 {
                     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
                     "assets": ["KINT", "LKSM"]
-                },
-                {
-                    "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-                    "assets": ["KAR"]
                 },
                 {
                     "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
