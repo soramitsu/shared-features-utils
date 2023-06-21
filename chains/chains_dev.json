@@ -4750,7 +4750,8 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XOR.svg",
                 "color": "EE2233",
                 "isUtility": true,
-                "type": "soraAsset"
+                "type": "soraAsset",
+                "staking": "relaychain"
             },
             {
                 "id": "0ecacd48-ffd4-4a2e-87e3-c5f72f9a9877",
