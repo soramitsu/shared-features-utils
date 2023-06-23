@@ -2237,18 +2237,29 @@
                 "priceId": "pha",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PHA.svg",
                 "color": "DAFE6F"
+            },
+            {
+                "id": "ee6b0152-326f-4e15-a62f-ac02d357d840",
+                "type": "assets",
+                "name": "moonbeam",
+                "symbol": "glmr",
+                "precision": 18,
+                "currencyId": "18446744073709551619",
+                "priceId": "moonbeam",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
+                "color": "FFFFFF"             
             }
         ],
         "xcm": {
             "xcmVersion": "v1",
-            "availableAssets": ["DOT", "ASTR", "USDt", "EQ", "PHA"],
+            "availableAssets": ["DOT", "ASTR", "USDt", "EQ", "PHA", "GLMR"],
             "availableDestinations": [{
                     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
                     "assets": ["DOT"]
                 },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["ASTR"]
+                    "assets": ["ASTR", "GLMR"]
                 },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
