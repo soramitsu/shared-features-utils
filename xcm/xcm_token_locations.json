@@ -272,12 +272,12 @@
         "symbol": "ASTR",
         "parents": 1,
         "interiors": {
-          "v1": [
+          "v1": [],
+          "v3": [
             {
               "parachain": 2006
             }
-          ],
-          "v3": []
+          ]
         }
       },
       {
