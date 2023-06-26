@@ -972,7 +972,7 @@
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["KSM", "BNC", "AUSD", "KAR", "RMRK", "USDT", "LKSM", "MOVR"],
+            "availableAssets": ["KSM", "BNC", "AUSD", "KAR", "RMRK", "USDT", "MOVR"],
             "availableDestinations": [{
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
                     "assets": ["KSM"]
