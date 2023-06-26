@@ -272,11 +272,7 @@
         "symbol": "ASTR",
         "parents": 1,
         "interiors": {
-          "v1": [
-            {
-              "parachain": 2006
-            }
-          ],
+          "v1": [],
           "v3": [
             {
               "parachain": 2006
