@@ -67,9 +67,6 @@
         "interiors": {
           "v1": [
             {
-              "parachain": 2000
-            },
-            {
               "generalKeyV1": "0x0000"
             }
           ],
