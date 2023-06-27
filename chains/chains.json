@@ -3087,7 +3087,7 @@
         "addressPrefix": 88
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2115",
@@ -3914,7 +3914,7 @@
         "addressPrefix": 2
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2102",
@@ -4006,7 +4006,7 @@
         "addressPrefix": 7013
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "ca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2121",
@@ -4170,7 +4170,7 @@
         "addressPrefix": 66
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "6e938c4a786f8df6f38d0c06f00a8573f1f7aabeebf48aee5157a93cc5fe3271",
         "name": "Kusama (test)",
         "assets": [{
@@ -4244,7 +4244,7 @@
         "addressPrefix": 2207
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
         "name": "SORA test",
         "externalApi": {
