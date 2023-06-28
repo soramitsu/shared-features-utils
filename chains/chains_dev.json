@@ -242,7 +242,7 @@
         "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "1000",
-        "name": "Statemine",
+        "name": "Kusama AssetHub",
         "externalApi": {
             "history": {
                 "type": "giantsquid",
@@ -331,7 +331,7 @@
                 "name": "Dwellir node"
             }
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Statemine.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Assethub.svg",
         "addressPrefix": 2
     },
     {
@@ -339,7 +339,7 @@
         "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "1000",
-        "name": "Statemint",
+        "name": "Polkadot AssetHub",
         "externalApi": {
             "history": {
                 "type": "giantsquid",
@@ -423,7 +423,7 @@
                 "name": "Dwellir node"
             }
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Statemine.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Assethub.svg",
         "addressPrefix": 0
     },
     {
