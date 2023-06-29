@@ -395,14 +395,6 @@
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
                     "assets": ["USDt"]
-                },
-                {
-                    "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-                    "assets": ["USDt"]
-                },
-                {
-                    "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-                    "assets": ["USDt"]
                 }
             ]
         },
