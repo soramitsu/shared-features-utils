@@ -145,7 +145,7 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "3480028737618",
+        "feeInPlanks": "801",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -228,6 +228,10 @@
       {
         "symbol": "USDC",
         "feeInPlanks": "0"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -354,7 +358,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "2928",
+        "feeInPlanks": "2985",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -534,12 +538,16 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "93",
+        "feeInPlanks": "2823423118",
         "precision": "8"
       },
       {
         "symbol": "CFG",
         "feeInPlanks": "97446416651643677"
+      },
+      {
+        "symbol": "USDT",
+        "feeInPlanks": "23734355136"
       }
     ],
     "weight": "800000000"
@@ -771,7 +779,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "20271639",
+        "feeInPlanks": "19998400",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -780,7 +788,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2105263157",
+        "feeInPlanks": "2197802197",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -828,7 +836,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "99999000"
+        "feeInPlanks": "100005000"
       }
     ],
     "weight": "960000000"
@@ -976,6 +984,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1045,7 +1057,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "60525760920984505",
+        "feeInPlanks": "58779675654816888",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1066,7 +1078,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2657",
+        "feeInPlanks": "2625",
         "precision": "6"
       },
       {
