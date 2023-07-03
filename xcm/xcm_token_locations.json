@@ -41,6 +41,7 @@
       },
       {
         "symbol": "GLMR",
+        "nativeParachainIds" : [2004],
         "parents": 1,
         "interiors": {
           "v1": [
@@ -568,6 +569,7 @@
       },
       {
         "symbol": "MOVR",
+        "nativeParachainIds" : [2023],
         "parents": 1,
         "interiors": {
           "v1": [
@@ -631,6 +633,7 @@
       },
       {
         "symbol": "USDt",
+        "nativeParachainIds": [1000],
         "parents": 1,
         "interiors": {
           "v1": [
