@@ -13,6 +13,7 @@
       },
       {
         "symbol": "USDt",
+        "nativeParachainIds" : [1000],
         "parents": 1,
         "interiors": {
           "v1": [
