@@ -4026,7 +4026,7 @@
         "addressPrefix": 57
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "e71578b37a7c799b0ab4ee87ffa6f059a6b98f71f06fb8c84a8d88013a548ad6",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2046",
