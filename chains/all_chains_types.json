@@ -1893,6 +1893,24 @@
             }
         }
     ]
+},
+{
+    "chainId": "d12003ac837853b062aaccca5ce87ac4838c48447e41db4a3dcfb5bf312350c6",
+    "runtime_id": 10,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "da_runtime::RuntimeEvent",
+                "GenericCall": "da_runtime::RuntimeCall"
+            }
+        }
+    ]
 }
-
 ]
