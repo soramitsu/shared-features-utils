@@ -292,6 +292,10 @@
       {
         "symbol": "KMA",
         "feeInPlanks": "8012800000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -638,7 +642,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "101030000000000000",
+        "feeInPlanks": "100160000000000000",
         "symbol": "UNQ",
         "precision": "18"
       },
@@ -678,7 +682,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "8082400000000000",
+        "feeInPlanks": "8012800000000000",
         "precision": "18"
       },
       {
@@ -1116,6 +1120,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1185,7 +1193,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "67945479104927529",
+        "feeInPlanks": "68912686181043972",
         "symbol": "ASTR",
         "precision": "18"
       },
