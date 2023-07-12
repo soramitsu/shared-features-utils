@@ -5011,5 +5011,64 @@
         "options": [
             "ethereum"
         ]
+    },
+    {
+        "disabled": false,
+        "chainId": "11155111",
+        "name": "Sepolia",
+        "externalApi": {
+            "explorers": [{
+                "type": "etherscan",
+                "types": [
+                    "tx",
+                    "address"
+                ],
+                "url": "https://sepolia.etherscan.io/{type}/{value}"
+            }
+            ]
+        },
+        "assets": [
+            {
+                "isUtility": true,
+                "id": "c2a6c062-d511-4bde-9ce6-ea775d2a302s",
+                "name": "sepolia eth",
+                "symbol": "seth",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal"
+            },
+            {
+                "isUtility": false,
+                "id": "0x53844F9577C2334e541Aec7Df7174ECe5dF1fCf0",
+                "name": "DAI Mock",
+                "symbol": "tdai",
+                "precision": 18,
+                "priceId": "dai",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+                "color": "FF0066",
+                "type": "normal"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.sepolia.org",
+                "name": "rpc.sepolia.org node"
+            },
+            {
+                "url": "https://eth-sepolia.public.blastapi.io",
+                "name": "blastapi node"
+            },
+            {
+                "url": "https://eth-sepolia-public.unifra.io",
+                "name": "unifra"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+        "addressPrefix": 0,
+        "options": [
+            "ethereum"
+        ]
     }
 ]
