@@ -5004,6 +5004,14 @@
             {
                 "url": "https://ethereum.publicnode.com",
                 "name": "ethereum publicnode"
+            },
+            {
+                "url": "https://rpc.mevblocker.io",
+                "name": "mevblocker node"  
+            },
+            {
+               "url": "https://eth-mainnet.public.blastapi.io",
+               "name": "blastapi node"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
