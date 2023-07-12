@@ -5019,5 +5019,71 @@
         "options": [
             "ethereum"
         ]
+    },
+    {
+        "disabled": false,
+        "chainId": "0x5",
+        "name": "Ethereum Goerli",
+        "externalApi": {
+            "explorers": [{
+                "type": "etherscan",
+                "types": [
+                    "tx",
+                    "address"
+                ],
+                "url": "https://goerli.etherscan.io/{type}/{value}"
+            }
+            ]
+        },
+        "assets": [
+            {
+                "isUtility": true,
+                "id": "a31e35a9-5026-4816-9b8b-08029627b256",
+                "name": "ethereum",
+                "symbol": "eth",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal"
+            },
+            {
+                "isUtility": false,
+                "id": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+                "name": "dai stablecoin",
+                "symbol": "dai",
+                "precision": 18,
+                "priceId": "dai",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+                "color": "FF0066",
+                "type": "normal"
+            },
+            {
+                "isUtility": false,
+                "id": "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
+                "name": "usdc stablecoin",
+                "symbol": "usdc",
+                "precision": 6,
+                "priceId": "usd-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+                "color": "3E73C4",
+                "type": "normal"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "https://ethereum-goerli.publicnode.com",
+                "name": "ethereum publicnode"
+            },
+            {
+               "url": "https://base-goerli.public.blastapi.io",
+               "name": "blastapi node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+        "addressPrefix": 0,
+        "options": [
+            "ethereum"
+        ]
     }
 ]
