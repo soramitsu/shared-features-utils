@@ -1119,6 +1119,17 @@
                 "priceId": "kintsugi",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KINT.svg",
                 "color": "FFFFFF"
+            },
+            {
+                "id": "1854feda-ca0c-4e82-9076-af2c7978f042",
+                "type": "assets",
+                "name": "karura",
+                "symbol": "xckar",
+                "currencyId": "10810581592933651521121702237638664357",
+                "precision": 12,
+                "priceId": "karura",
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KAR.svg",
+                "color": "FFFFFF"
             }
         ],
         "xcm": {
