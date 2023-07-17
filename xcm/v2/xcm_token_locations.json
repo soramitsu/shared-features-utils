@@ -4,483 +4,165 @@
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "assets": [
       {
+        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
         "symbol": "DOT",
-        "parents": 1,
-        "interiors": {
-          "v1": [],
-          "v3": []
-        }
+        "versions": ["v1", "v3"],
+        "interiors": []
       },
       {
+        "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
         "symbol": "USDt",
-        "nativeParachainIds" : [1000],
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 1984
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 1984
-            }
-          ]
-        }
+        "versions": ["v1", "v3"],
+        "interiors": [
+          {
+            "parachain": 1000
+          },
+          {
+            "palletInstance": 50
+          },
+          {
+            "generalIndex": 1984
+          }
+        ]
       },
       {
+        "id": "1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2",
+        "symbol": "USDt",
+        "versions": ["v1", "v3"],
+        "interiors": [
+          {
+            "palletInstance": 50
+          },
+          {
+            "generalIndex": 1984
+          }
+        ]
+      },
+      {
+        "id": "31b03360-5c73-4733-a72d-65daf4600315",
         "symbol": "GLMR",
-        "nativeParachainIds" : [2004],
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2004
-            },
-            {
-              "palletInstance": 10
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2004
-            },
-            {
-              "palletInstance": 10
-            }
-          ]
-        }
+        "versions": ["v1", "v3"],
+        "interiors": [
+          {
+            "palletInstance": 10
+          }
+        ]
       },
       {
+        "id": "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
+        "symbol": "GLMR",
+        "versions": ["v1", "v3"],
+        "interiors": [
+          {
+            "parachain": 2004
+          },
+          {
+            "palletInstance": 10
+          }
+        ]
+      },
+      {
+        "id": "0c7df36b-4ebd-4e66-a78b-77fa08b54c54",
         "symbol": "ACA",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0000"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+        "versions": ["v1"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV1": "0x0000"
+          }
+        ]
       },
       {
+        "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+        "symbol": "ACA",
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          }
+        ]
+      },
+      {
+        "id": "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
         "symbol": "aUSD",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0001"
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
             }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+          }
+        ]
       },
       {
+        "id": "bc05b313-67f2-454d-bdfa-78a4feb82259",
         "symbol": "lcDOT",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x040d000000"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x040d000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+        "versions": ["v1"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV1": "0x040d000000"
+          }
+        ]
       },
       {
+        "id": "163a89b9-d140-44ca-b119-218a54e4235b",
+        "symbol": "lcDOT",
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x040d000000000000000000000000000000000000000000000000000000000000"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a3ecbda6-80b6-492f-a656-5ab0bdcc9d1f",
         "symbol": "LDOT",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0003"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0003000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+        "versions": ["v1"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV1": "0x0003"
+          }
+        ]
       },
       {
-        "symbol": "WETH",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x025a4d6acdc4e3e5ab15717f407afe957f7a242578"
+        "id": "0794183a-f528-4cbe-bef9-9b4d906f5b5a",
+        "symbol": "LDOT",
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0003000000000000000000000000000000000000000000000000000000000000"
             }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x025a4d6acdc4e3e5ab15717f407afe957f7a2425780000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "DAI",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae0000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "PHA",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2035
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2035
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "UNQ",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2037
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2037
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "INTR",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2032
-            },
-            {
-              "generalKeyV1": "0x0002"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2032
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0002000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "ASTR",
-        "parents": 1,
-        "interiors": {
-          "v1": [],
-          "v3": [
-            {
-              "parachain": 2006
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "BNC",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2030
-            },
-            {
-              "generalKeyV1": "0x0001"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2030
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "IBTC",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2032
-            },
-            {
-              "generalKeyV1": "0x0001"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2032
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "EQ",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2011
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2011
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "EQD",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2011
-            },
-            {
-              "generalKeyV1": "0x657164"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2011
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x6571640000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "cDOT-8/15",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200080015
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200080015
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "cDOT-6/13",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200060013
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200060013
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "cDOT-7/14",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200070014
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2012
-            },
-            {
-              "palletInstance": 6
-            },
-            {
-              "generalIndex": 200070014
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "ZTG",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV1": "0x0001"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+          }
+        ]
       }
     ]
   },
@@ -489,522 +171,124 @@
     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "assets": [
       {
+        "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
         "symbol": "KSM",
-        "parents": 1,
-        "interiors": {
-          "v1": [],
-          "v3": []
-        }
+        "versions": ["v3"],
+        "interiors": []
       },
       {
+        "id": "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
         "symbol": "KAR",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0080"
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
             }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0080000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+          }
+        ]
       },
       {
-        "symbol": "LKSM",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV1": "0x0083"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0083000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
+        "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
         "symbol": "BNC",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2001
-            },
-            {
-              "generalKeyV1": "0x0001"
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
             }
-          ],
-          "v3": [
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+          }
+        ]
       },
       {
+        "id": "5b1a0b8f-74c9-4073-b288-0d2ca16dfb77",
         "symbol": "MOVR",
-        "nativeParachainIds" : [2023],
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2023
-            },
-            {
-              "palletInstance": 10
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2023
-            },
-            {
-              "palletInstance": 10
-            }
-          ]
-        }
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "palletInstance": 10
+          }
+        ]
       },
       {
-        "symbol": "KINT",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV1": "0x000c"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x000c000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
+        "id": "d5647f60-f838-4343-a33a-83c6e9fe1845",
+        "symbol": "MOVR",
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2023
+          },
+          {
+            "palletInstance": 10
+          }
+        ]
       },
       {
-        "symbol": "PHA",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2004
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2004
-            }
-          ]
-        }
-      },
-      {
+        "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
         "symbol": "USDt",
-        "nativeParachainIds": [1000],
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 1984
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 1984
-            }
-          ]
-        }
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "palletInstance": 50
+          },
+          {
+            "generalIndex": 1984
+          }
+        ]
       },
       {
-        "symbol": "BSX",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2090
-            },
-            {
-              "generalIndex": 0
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2090
-            },
-            {
-              "generalIndex": 0
-            }
-          ]
-        }
+        "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
+        "symbol": "USDt",
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 1000
+          },
+          {
+            "palletInstance": 50
+          },
+          {
+            "generalIndex": 1984
+          }
+        ]
       },
       {
+        "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
         "symbol": "RMRK",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 8
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 1000
-            },
-            {
-              "palletInstance": 50
-            },
-            {
-              "generalIndex": 8
-            }
-          ]
-        }
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 1000
+          },
+          {
+            "palletInstance": 50
+          },
+          {
+            "generalIndex": 8
+          }
+        ]
       },
       {
-        "symbol": "ZLK",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2001
-            },
-            {
-              "generalKeyV1": "0x0207"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2001
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0207000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "vKSM",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2001
-            },
-            {
-              "generalKeyV1": "0x0104"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2001
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0104000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
+        "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
         "symbol": "AUSD",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2000
-            },
-           {
-              "generalKeyV1": "0x0081"
+        "versions": ["v3"],
+        "interiors": [
+          {
+            "parachain": 2000
+          },
+          {
+            "generalKeyV3": {
+              "length": 2,
+              "data": "0x0081000000000000000000000000000000000000000000000000000000000000"
             }
-          ],
-          "v3": [
-            {
-              "parachain": 2000
-            },
-           {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0081000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "SDN",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2007
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2007
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "XRT",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2048
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2048
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "KMA",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2084
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2084
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "KBTC",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV1": "0x000b"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2092
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x000b000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "CSM",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2012
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2012
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "NEER",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2096
-            },
-            {
-              "generalKeyV1": "0x000000000000000000"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2096
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "AIR",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2088
-            },
-            {
-              "generalKeyV1": "0x0001"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2088
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "HKO",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2085
-            },
-            {
-              "generalKeyV1": "0x484b4f"
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2085
-            },
-            {
-              "generalKeyV3": {
-                "length": 2,
-                "data": "0x484b4f0000000000000000000000000000000000000000000000000000000000"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "TUR",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2114
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2114
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "QTZ",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2095
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2095
-            }
-          ]
-        }
-      },
-      {
-        "symbol": "CRAB",
-        "parents": 1,
-        "interiors": {
-          "v1": [
-            {
-              "parachain": 2105
-            },
-            {
-              "palletInstance": 5
-            }
-          ],
-          "v3": [
-            {
-              "parachain": 2105
-            },
-            {
-              "palletInstance": 5
-            }
-          ]
-        }
+          }
+        ]
       }
-
     ]
   }
 ]
