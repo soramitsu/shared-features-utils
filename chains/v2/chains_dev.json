@@ -52,23 +52,48 @@
     }],
     "xcm": {
         "xcmVersion": "v3",
-        "availableAssets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"],
+        "availableAssets": [
+            {
+                "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                "symbol": "DOT"
+            }
+        ],
         "availableDestinations": [
             {
                 "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             },
             {
                 "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             },
             {
                 "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             },
             {
                 "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             }
         ]
     },
@@ -145,19 +170,39 @@
         }],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["0ceffe96-8090-404e-815c-91118ee5dd65"],
+            "availableAssets": [
+                {
+                    "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                    "symbol": "KSM"
+                }
+            ],
             "availableDestinations": [
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 }
             ]
         },
@@ -302,31 +347,62 @@
             "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
             "xcmVersion": "v3",
             "availableAssets": [
-                "0ceffe96-8090-404e-815c-91118ee5dd65",
-                "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-                "043a5aba-075a-4b14-91ae-f5bffe640477"
+                {
+                    "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                    "symbol": "KSM"
+                },
+                {
+                    "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                    "symbol": "RMRK"
+                },
+                {
+                    "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
+                    "symbol": "USDt"
+                }
             ],
             "availableDestinations": [
                 {
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["c62c16f5-ac6b-410f-8804-4100dfb1bf33"]
+                    "assets": [
+                        {
+                            "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                            "symbol": "RMRK"
+                        }
+                    ]
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": [
-                        "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-                        "043a5aba-075a-4b14-91ae-f5bffe640477"
+                        {
+                            "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                            "symbol": "RMRK"
+                        },
+                        {
+                            "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
+                            "symbol": "USDt"
+                        }
                     ]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
                     "assets": [
-                        "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-                        "043a5aba-075a-4b14-91ae-f5bffe640477"
+                        {
+                            "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                            "symbol": "RMRK"
+                        },
+                        {
+                            "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
+                            "symbol": "USDt"
+                        }
                     ]
                 }
             ]
@@ -397,20 +473,41 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
-                "1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2"
+                {
+                    "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                    "symbol": "DOT"
+                },
+                {
+                    "id": "1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2",
+                    "symbol": "USDt"
+                }
             ],
             "availableDestinations": [{
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2"]
+                    "assets": [
+                        {
+                            "id": "1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2",
+                            "symbol": "USDt"
+                        }
+                    ]
                 },
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2"]
+                    "assets": [
+                        {
+                            "id": "1c9cea4c-f369-4bfa-a8c4-3d3264d3d7c2",
+                            "symbol": "USDt"
+                        }
+                    ]
                 }
             ]
         },
@@ -586,29 +683,65 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
-                "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
-                "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
-                "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
-                "163a89b9-d140-44ca-b119-218a54e4235b"
+                {
+                    "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                    "symbol": "DOT"
+                },
+                {
+                    "id": "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
+                    "symbol": "aUSD"
+                },
+                {
+                    "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                    "symbol": "ACA"
+                },
+                {
+                    "id": "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
+                    "symbol": "GLMR"
+                },
+                {
+                    "id": "163a89b9-d140-44ca-b119-218a54e4235b",
+                    "symbol": "lcDOT"
+                }
             ],
-            "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
-            },
+            "availableDestinations": [
+                {
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": [
+                        {
+                            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                            "symbol": "DOT"
+                        }
+                    ]
+                },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
                     "assets": [
-                        "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
-                        "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
-                        "e9be3a4f-77c8-4861-8607-b7a76a690ac7"
+                        {
+                            "id": "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
+                            "symbol": "aUSD"
+                        },
+                        {
+                            "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                            "symbol": "ACA"
+                        },
+                        {
+                            "id": "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
+                            "symbol": "GLMR"
+                        }
                     ]
                 },
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
                     "assets": [
-                        "163a89b9-d140-44ca-b119-218a54e4235b",
-                        "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d"
+                        {
+                            "id": "163a89b9-d140-44ca-b119-218a54e4235b",
+                            "symbol": "lcDOT"
+                        },
+                        {
+                            "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                            "symbol": "ACA"
+                        }
                     ]
                 }
             ]
@@ -990,41 +1123,98 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "0ceffe96-8090-404e-815c-91118ee5dd65",
-                "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-                "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
-                "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
-                "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-                "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
-                "d5647f60-f838-4343-a33a-83c6e9fe1845"
+                {
+                    "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                    "symbol": "KSM"
+                },
+                {
+                    "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
+                    "symbol": "BNC"
+                },
+                {
+                    "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                    "symbol": "AUSD"
+                },
+                {
+                    "id": "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
+                    "symbol": "KAR"
+                },
+                {
+                    "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                    "symbol": "RMRK"
+                },
+                {
+                    "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
+                    "symbol": "USDt"
+                },
+                {
+                    "id": "d5647f60-f838-4343-a33a-83c6e9fe1845",
+                    "symbol": "MOVR"
+                }
             ],
-            "availableDestinations": [{
-                "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
-            },
+            "availableDestinations": [
+                {
+                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
+                },
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
                     "assets": [
-                        "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-                        "af3ac245-db18-4d40-aa1c-6b70e724fc5e"
+                        {
+                            "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                            "symbol": "RMRK"
+                        },
+                        {
+                            "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
+                            "symbol": "USDt"
+                        }
                     ]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
                     "assets": [
-                        "0ceffe96-8090-404e-815c-91118ee5dd65",
-                        "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-                        "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
-                        "0fef7483-1f4c-4339-a12c-1b537e8e62ba"
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        },
+                        {
+                            "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
+                            "symbol": "BNC"
+                        },
+                        {
+                            "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                            "symbol": "AUSD"
+                        },
+                        {
+                            "id": "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
+                            "symbol": "KAR"
+                        }
                     ]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": [
-                        "0ceffe96-8090-404e-815c-91118ee5dd65",
-                        "d5647f60-f838-4343-a33a-83c6e9fe1845",
-                        "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
-                        "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061"
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        },
+                        {
+                            "id": "d5647f60-f838-4343-a33a-83c6e9fe1845",
+                            "symbol": "MOVR"
+                        },
+                        {
+                            "id": "0fef7483-1f4c-4339-a12c-1b537e8e62ba",
+                            "symbol": "KAR"
+                        },
+                        {
+                            "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                            "symbol": "AUSD"
+                        }
                     ]
                 }
             ]
@@ -1185,33 +1375,62 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "5b1a0b8f-74c9-4073-b288-0d2ca16dfb77",
-                "0ceffe96-8090-404e-815c-91118ee5dd65",
-                "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
-                "c62c16f5-ac6b-410f-8804-4100dfb1bf33"
+                {
+                    "id": "5b1a0b8f-74c9-4073-b288-0d2ca16dfb77",
+                    "symbol": "MOVR"
+                },
+                {
+                    "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                    "symbol": "KSM"
+                },
+                {
+                    "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                    "symbol": "AUSD"
+                },
+                {
+                    "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                    "symbol": "RMRK"
+                }
             ],
             "availableDestinations": [
                 {
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
                     "assets": [
-                        "5b1a0b8f-74c9-4073-b288-0d2ca16dfb77",
-                        "0ceffe96-8090-404e-815c-91118ee5dd65"
+                        {
+                            "id": "5b1a0b8f-74c9-4073-b288-0d2ca16dfb77",
+                            "symbol": "MOVR"
+                        },
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
                     ]
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": [
-                        "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061"
+                        {
+                            "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                            "symbol": "AUSD"
+                        }
                     ]
                 },
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
                     "assets": [
-                        "c62c16f5-ac6b-410f-8804-4100dfb1bf33"
+                        {
+                            "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
+                            "symbol": "RMRK"
+                        }
                     ]
                 }
             ]
@@ -1465,35 +1684,78 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "0ceffe96-8090-404e-815c-91118ee5dd65",
-                "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-                "d5647f60-f838-4343-a33a-83c6e9fe1845",
-                "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
-                "af3ac245-db18-4d40-aa1c-6b70e724fc5e"
+                {
+                    "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                    "symbol": "KSM"
+                },
+                {
+                    "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
+                    "symbol": "BNC"
+                },
+                {
+                    "id": "d5647f60-f838-4343-a33a-83c6e9fe1845",
+                    "symbol": "MOVR"
+                },
+                {
+                    "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                    "symbol": "AUSD"
+                },
+                {
+                    "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
+                    "symbol": "USDt"
+                }
             ],
             "availableDestinations": [
                 {
                     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["0ceffe96-8090-404e-815c-91118ee5dd65"]
+                    "assets": [
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        }
+                    ]
                 },
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["af3ac245-db18-4d40-aa1c-6b70e724fc5e"]
+                    "assets": [
+                        {
+                            "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
+                            "symbol": "USDt"
+                        }
+                    ]
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
                     "assets": [
-                        "0ceffe96-8090-404e-815c-91118ee5dd65",
-                        "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-                        "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061"
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        },
+                        {
+                            "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
+                            "symbol": "BNC"
+                        },
+                        {
+                            "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
+                            "symbol": "AUSD"
+                        }
                     ]
                 },
                 {
                     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
                     "assets": [
-                        "0ceffe96-8090-404e-815c-91118ee5dd65",
-                        "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-                        "d5647f60-f838-4343-a33a-83c6e9fe1845"
+                        {
+                            "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                            "symbol": "KSM"
+                        },
+                        {
+                            "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
+                            "symbol": "BNC"
+                        },
+                        {
+                            "id": "d5647f60-f838-4343-a33a-83c6e9fe1845",
+                            "symbol": "MOVR"
+                        }
                     ]
                 }
             ]
@@ -2298,32 +2560,75 @@
         "xcm": {
             "xcmVersion": "v1",
             "availableAssets": [
-                "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
-                "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
-                "bc05b313-67f2-454d-bdfa-78a4feb82259",
-                "0c7df36b-4ebd-4e66-a78b-77fa08b54c54",
-                "a3ecbda6-80b6-492f-a656-5ab0bdcc9d1f",
-                "886db77c-ce4a-430c-9e53-81c57ffa7d74"
+                {
+                    "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                    "symbol": "DOT"
+                },
+                {
+                    "id": "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
+                    "symbol": "GLMR"
+                },
+                {
+                    "id": "bc05b313-67f2-454d-bdfa-78a4feb82259",
+                    "symbol": "lcDOT"
+                },
+                {
+                    "id": "0c7df36b-4ebd-4e66-a78b-77fa08b54c54",
+                    "symbol": "ACA"
+                },
+                {
+                    "id": "a3ecbda6-80b6-492f-a656-5ab0bdcc9d1f",
+                    "symbol": "LDOT"
+                },
+                {
+                    "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                    "symbol": "USDt"
+                }
             ],
-            "availableDestinations": [{
-                "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
-            },
+            "availableDestinations": [
+                {
+                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+                    "assets": [
+                        {
+                            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                            "symbol": "DOT"
+                        }
+                    ]
+                },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
                     "assets": [
-                        "bc05b313-67f2-454d-bdfa-78a4feb82259",
-                        "0c7df36b-4ebd-4e66-a78b-77fa08b54c54",
-                        "a3ecbda6-80b6-492f-a656-5ab0bdcc9d1f"
+                        {
+                            "id": "bc05b313-67f2-454d-bdfa-78a4feb82259",
+                            "symbol": "lcDOT"
+                        },
+                        {
+                            "id": "0c7df36b-4ebd-4e66-a78b-77fa08b54c54",
+                            "symbol": "ACA"
+                        },
+                        {
+                            "id": "a3ecbda6-80b6-492f-a656-5ab0bdcc9d1f",
+                            "symbol": "LDOT"
+                        }
                     ]
                 },
                 {
                     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["e9be3a4f-77c8-4861-8607-b7a76a690ac7"]
+                    "assets": [
+                        {
+                            "id": "e9be3a4f-77c8-4861-8607-b7a76a690ac7",
+                            "symbol": "GLMR"
+                        }
+                    ]
                 },
                 {
                     "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                    "assets": ["886db77c-ce4a-430c-9e53-81c57ffa7d74"]
+                    "assets": [
+                        {
+                            "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                            "symbol": "USDt"
+                        }
+                    ]
                 }
                 
             ]
@@ -2537,31 +2842,70 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": [
-                "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
-                "31b03360-5c73-4733-a72d-65daf4600315",
-                "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
-                "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
-                "886db77c-ce4a-430c-9e53-81c57ffa7d74"
+                {
+                    "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                    "symbol": "DOT"
+                },
+                {
+                    "id": "31b03360-5c73-4733-a72d-65daf4600315",
+                    "symbol": "GLMR"
+                },
+                {
+                    "id": "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
+                    "symbol": "aUSD"
+                },
+                {
+                    "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                    "symbol": "ACA"
+                },
+                {
+                    "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                    "symbol": "USDt"
+                }
             ],
             "availableDestinations": [{
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                "assets": ["99e66d4f-00cd-4d73-bd1b-3adadcacffb2"]
+                "assets": [
+                    {
+                        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                        "symbol": "DOT"
+                    }
+                ]
             },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
                     "assets": [
-                        "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
-                        "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
-                        "31b03360-5c73-4733-a72d-65daf4600315"
+                        {
+                            "id": "91912dbb-65f3-48c1-8ec1-4bb584e5ff2e",
+                            "symbol": "aUSD"
+                        },
+                        {
+                            "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                            "symbol": "ACA"
+                        },
+                        {
+                            "id": "31b03360-5c73-4733-a72d-65daf4600315",
+                            "symbol": "GLMR"
+                        }
                     ]
                 },
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["31b03360-5c73-4733-a72d-65daf4600315"]
+                    "assets": [
+                        {
+                            "id": "31b03360-5c73-4733-a72d-65daf4600315",
+                            "symbol": "GLMR"
+                        }
+                    ]
                 },
                 {
                     "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                    "assets": ["886db77c-ce4a-430c-9e53-81c57ffa7d74"]
+                    "assets": [
+                        {
+                            "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                            "symbol": "USDt"
+                        }
+                    ]
                 }
             ]
         },
