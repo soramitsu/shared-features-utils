@@ -5420,7 +5420,11 @@
                 ],
                 "url": "https://etherscan.io/{type}/{value}"
             }
-            ]
+            ],
+            "history": {
+                "type": "etherscan",
+                    "url": "https://api.etherscan.io/api"
+            }
         },
         "assets": [
             {
@@ -5476,7 +5480,7 @@
     },
     {
         "disabled": false,
-        "chainId": "0x5",
+        "chainId": "0x65",
         "name": "Ethereum Goerli",
         "externalApi": {
             "explorers": [{
@@ -5487,7 +5491,11 @@
                 ],
                 "url": "https://goerli.etherscan.io/{type}/{value}"
             }
-            ]
+            ],
+            "history": {
+                "type": "etherscan",
+                    "url": "https://api-goerli.etherscan.io/api"
+            }
         },
         "assets": [
             {
@@ -5539,5 +5547,127 @@
         "options": [
             "ethereum"
         ]
-    }
+    },
+    {
+        "disabled": false,
+        "chainId": "0x38",
+        "name": "Binance Smart Chain",
+        "externalApi": {
+          "history": {
+            "type": "etherscan",
+            "url": "https://api.bscscan.com/api"
+          },
+          "explorers": [
+            {
+              "type": "etherscan",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://bscscan.com/{type}/{value}"
+            }
+          ]
+        },
+        "assets": [
+          {
+            "symbol": "BNB",
+            "precision": 18,
+            "name": "BNB",
+            "isUtility": true,
+            "color": "FF0066",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
+            "id": "0x6fE8424Af31a422e3088b4D08637E5A193279D6F",
+            "type": "normal"
+          },
+          {
+            "symbol": "DAI",
+            "precision": 18,
+            "name": "DAI",
+            "color": "FF0066",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+            "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+            "type": "normal"
+          }
+        ],
+        "nodes": [
+          {
+            "url": "https://bsc-dataseed.binance.org/",
+            "name": "Binance"
+          },
+          {
+            "url": "https://bsc-dataseed1.defibit.io",
+            "name": "Defibit"
+          },
+          {
+            "url": "https://bsc-dataseed1.ninicoin.io/",
+            "name": "Ninicoin"
+          },
+          {
+            "url": "https://bsc.nodereal.io/",
+            "name": "Nodereal"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "0x38",
+        "name": "Binance Smart Chain Testnet",
+        "externalApi": {
+          "history": {
+            "type": "etherscan",
+            "url": "https://testnet.bscscan.comi"
+          },
+          "explorers": [
+            {
+              "type": "etherscan",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://testnet.bscscan.com/{type}/{value}"
+            }
+          ]
+        },
+        "assets": [
+          {
+            "symbol": "BNB",
+            "precision": 18,
+            "name": "BNB",
+            "isUtility": true,
+            "color": "FF0066",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
+            "id": "0x6fE8424Af31a422e3088b4D08637E5A193279D6Ffdf",
+            "type": "normal"
+          },
+          {
+            "symbol": "DAI",
+            "precision": 18,
+            "name": "DAI",
+            "color": "FF0066",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+            "id": "0x05a137f9f66b974a0fbaff4ea2e69b8186d6b03a",
+            "type": "normal"
+          }
+        ],
+        "nodes": [
+          {
+            "url": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+            "name": "Binance"
+          },
+          {
+            "url": "https://data-seed-prebsc-2-s1.binance.org:8545/",
+            "name": "Binance 2"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum"
+        ]
+      }
 ]
