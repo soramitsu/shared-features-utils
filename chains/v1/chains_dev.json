@@ -2447,18 +2447,22 @@
         ],
         "xcm": {
             "xcmVersion": "v3",
-            "availableAssets": ["DOT", "GLMR", "AUSD", "ACA"],
+            "availableAssets": ["DOT", "GLMR", "AUSD", "ACA", "USDt"],
             "availableDestinations": [{
                 "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
                 "assets": ["DOT"]
             },
                 {
                     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                    "assets": ["AUSD", "ACA", "GLMR"]
+                    "assets": ["AUSD", "ACA", "IBTC", "GLMR"]
                 },
                 {
                     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
                     "assets": ["GLMR"]
+                },
+                {
+                    "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                    "assets": ["USDt"]
                 }
             ]
         },
