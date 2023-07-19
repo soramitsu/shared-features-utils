@@ -2857,6 +2857,10 @@
                 {
                     "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
                     "symbol": "ACA"
+                },
+                {
+                    "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                    "symbol": "USDt"
                 }
             ],
             "availableDestinations": [{
@@ -2891,6 +2895,15 @@
                         {
                             "id": "31b03360-5c73-4733-a72d-65daf4600315",
                             "symbol": "GLMR"
+                        }
+                    ]
+                },
+                {
+                    "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                    "assets": [
+                        {
+                            "id": "886db77c-ce4a-430c-9e53-81c57ffa7d74",
+                            "symbol": "USDt"
                         }
                     ]
                 }
