@@ -68,7 +68,7 @@
     "destChain": "Moonriver",
     "destXcmFee": [
       {
-        "feeInPlanks": "20000000000",
+        "feeInPlanks": "17156850000",
         "symbol": "aUSD",
         "precision": "12"
       },
@@ -316,6 +316,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -446,7 +450,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "2906",
+        "feeInPlanks": "3116",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -702,7 +706,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "8012800000000000",
+        "feeInPlanks": "10000000000000000",
         "precision": "18"
       },
       {
@@ -915,7 +919,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "19229290",
+        "feeInPlanks": "19305019",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -944,7 +948,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "414250207",
+        "feeInPlanks": "418935902",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -957,7 +961,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "20862310",
+        "feeInPlanks": "21370653",
         "symbol": "cDOT-6/13",
         "precision": "10"
       },
@@ -1160,6 +1164,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1217,7 +1225,7 @@
         "precision": "6"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1229,12 +1237,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "62781476707715842",
+        "feeInPlanks": "66170973346278848",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "8",
+        "feeInPlanks": "9",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -1250,7 +1258,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2682",
+        "feeInPlanks": "2770",
         "precision": "6"
       },
       {
