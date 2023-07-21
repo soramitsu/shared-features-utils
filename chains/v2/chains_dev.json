@@ -5669,5 +5669,73 @@
         "options": [
           "ethereum"
         ]
+      },
+      {
+          "disabled": false,
+          "chainId": "11155111",
+          "name": "Sepolia",
+          "externalApi": {
+              "history": {
+                  "type": "alchemy",
+                  "url": "https://eth-sepolia.g.alchemy.com/v2/16bz4S4bROJsWH-eDpiJ21cx_c-KAAaP"
+              },
+              "explorers": [{
+                  "type": "etherscan",
+                  "types": [
+                      "tx",
+                      "address"
+                  ],
+                  "url": "https://sepolia.etherscan.io/{type}/{value}"
+              }
+              ]
+          },
+          "assets": [
+              {
+                  "isUtility": true,
+                  "id": "c2a6c062-d511-4bde-9ce6-ea775d2a302s",
+                  "name": "sepolia eth",
+                  "symbol": "seth",
+                  "precision": 18,
+                  "priceId": "ethereum",
+                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                  "color": "FF0066",
+                  "type": "normal"
+              },
+              {
+                  "isUtility": false,
+                  "id": "0x7AF17A48a6336F7dc1beF9D485139f7B6f4FB5C8",
+                  "name": "dai stablecoin",
+                  "symbol": "dai",
+                  "precision": 18,
+                  "priceId": "dai",
+                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+                  "color": "FF0066",
+                  "type": "normal"
+              }
+          ],
+          "nodes": [
+              {
+                  "url": "https://rpc.sepolia.org",
+                  "name": "rpc.sepolia.org node"
+              },
+              {
+                  "url": "https://eth-sepolia.public.blastapi.io",
+                  "name": "blastapi node"
+              },
+              {
+                  "url": "https://eth-sepolia-public.unifra.io",
+                  "name": "unifra"
+              },
+              {
+                  "url" : "wss://sepolia.infura.io/ws/v3/550f1aa1e8a147f8b43184507686569b",
+                  "name": "infura.io wss"
+              }
+          ],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+          "addressPrefix": 0,
+          "options": [
+              "ethereum"
+          ]
       }
+
 ]
