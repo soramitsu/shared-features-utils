@@ -336,6 +336,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -466,7 +470,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "2562",
+        "feeInPlanks": "2526",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -537,6 +541,10 @@
       {
         "feeInPlanks": "291545189504",
         "symbol": "2085"
+      },
+      {
+        "symbol": "LKSM",
+        "feeInPlanks": "3983270264"
       }
     ],
     "weight": "600000000"
@@ -908,7 +916,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "3499160"
+        "feeInPlanks": "8703999160"
       },
       {
         "symbol": "PHA",
@@ -1212,6 +1220,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1269,7 +1281,7 @@
         "precision": "6"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1281,7 +1293,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "54379083686886664",
+        "feeInPlanks": "52158205709944282",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1302,7 +1314,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2423",
+        "feeInPlanks": "2625",
         "precision": "6"
       },
       {
@@ -1311,7 +1323,11 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1253111678732"
+        "feeInPlanks": "1396807651322"
+      },
+      {
+        "symbol": "USDT",
+        "feeInPlanks": "2575"
       }
     ],
     "weight": "480000000"
@@ -1338,7 +1354,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "25247875000",
+        "feeInPlanks": "25210525000",
         "symbol": "KAR",
         "precision": "12"
       },
