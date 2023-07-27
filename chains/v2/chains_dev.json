@@ -5628,7 +5628,7 @@
         "externalApi": {
           "history": {
             "type": "etherscan",
-            "url": "https://testnet.bscscan.comi"
+            "url": "https://testnet.bscscan.com/api"
           },
           "explorers": [
             {
