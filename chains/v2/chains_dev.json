@@ -5446,7 +5446,8 @@
                 "priceId": "ethereum",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
                 "color": "FF0066",
-                "type": "normal"
+                "type": "normal",
+                "ethereumType": "normal"
             },
             {
                 "isUtility": false,
@@ -5457,7 +5458,8 @@
                 "priceId": "dai",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
                 "color": "FF0066",
-                "type": "normal"
+                "type": "normal",
+                "ethereumType": "erc20"
             }
         ],
         "nodes": [
@@ -5521,7 +5523,8 @@
                 "priceId": "ethereum",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
                 "color": "FF0066",
-                "type": "normal"
+                "type": "normal",
+                "ethereumType": "normal"
             },
             {
                 "isUtility": false,
@@ -5532,7 +5535,8 @@
                 "priceId": "dai",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
                 "color": "FF0066",
-                "type": "normal"
+                "type": "normal",
+                "ethereumType": "erc20"
             },
             {
                 "isUtility": false,
@@ -5543,7 +5547,8 @@
                 "priceId": "usd-coin",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
-                "type": "normal"
+                "type": "normal",
+                "ethereumType": "erc20"
             }
         ],
         "nodes": [
@@ -5593,7 +5598,8 @@
             "priceId": "binancecoin",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
             "color": "FF0066",
-            "type": "normal"
+            "type": "normal",
+            "ethereumType": "normal"
           },
           {
             "isUtility": false,
@@ -5604,7 +5610,8 @@
             "priceId": "dai",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
             "color": "FF0066",
-            "type": "normal"
+            "type": "normal",
+            "ethereumType": "erc20"
           }
         ],
         "nodes": [
@@ -5661,7 +5668,8 @@
             "priceId": "binancecoin",
             "color": "FF0066",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
-            "type": "normal"
+            "type": "normal",
+            "ethereumType": "normal"
           },
           {
             "isUtility": false,
@@ -5672,7 +5680,8 @@
             "priceId": "dai",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
             "color": "FF0066",
-            "type": "normal"
+            "type": "normal",
+            "ethereumType": "erc20"
           }
         ],
         "nodes": [
@@ -5720,7 +5729,8 @@
                   "priceId": "ethereum",
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
                   "color": "FF0066",
-                  "type": "normal"
+                  "type": "normal",
+                  "ethereumType": "normal"
               },
               {
                   "isUtility": false,
@@ -5731,7 +5741,8 @@
                   "priceId": "dai",
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
                   "color": "FF0066",
-                  "type": "normal"
+                  "type": "normal",
+                  "ethereumType": "erc20"
               }
           ],
           "nodes": [
