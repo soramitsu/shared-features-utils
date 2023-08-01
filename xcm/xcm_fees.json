@@ -348,6 +348,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -1248,6 +1252,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1317,7 +1325,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "49806649167805233",
+        "feeInPlanks": "50175975264794963",
         "symbol": "ASTR",
         "precision": "18"
       },
