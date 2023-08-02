@@ -43,7 +43,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "8012800",
+        "feeInPlanks": "7039200",
         "symbol": "RMRK",
         "precision": "10"
       },
@@ -128,7 +128,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "105081753604"
+        "feeInPlanks": "90143594216"
       },
       {
         "symbol": "HKO",
@@ -340,6 +340,22 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -465,12 +481,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "1082817",
+        "feeInPlanks": "883521",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2526",
+        "feeInPlanks": "2492",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -768,6 +784,10 @@
       {
         "symbol": "DAI.aca.eth",
         "feeInPlanks": "0"
+      },
+      {
+        "symbol": "aSEED",
+        "feeInPlanks": "1248686086"
       }
     ],
     "weight": "800000000"
@@ -849,6 +869,10 @@
       {
         "symbol": "IBTC",
         "feeInPlanks": "103"
+      },
+      {
+        "symbol": "PARA",
+        "feeInPlanks": "1129943502824"
       }
     ],
     "weight": "720000000"
@@ -959,7 +983,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "19218203",
+        "feeInPlanks": "19451468",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -968,7 +992,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2227171492",
+        "feeInPlanks": "1848428835",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -978,7 +1002,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "22130799",
+        "feeInPlanks": "23217256",
         "symbol": "cDOT-7/14",
         "precision": "10"
       },
@@ -988,7 +1012,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "405679513",
+        "feeInPlanks": "432338953",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1001,7 +1025,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "20888860",
+        "feeInPlanks": "21524260",
         "symbol": "cDOT-6/13",
         "precision": "10"
       },
@@ -1016,7 +1040,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "100009000"
+        "feeInPlanks": "100013000"
       }
     ],
     "weight": "960000000"
@@ -1042,7 +1066,7 @@
       },
       {
         "symbol": "ASTR",
-        "feeInPlanks": "8012800000000",
+        "feeInPlanks": "7039200000000",
         "precision": "18"
       },
       {
@@ -1224,6 +1248,22 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1293,7 +1333,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "49747431905938984",
+        "feeInPlanks": "50764001598703925",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1314,7 +1354,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2668",
+        "feeInPlanks": "2765",
         "precision": "6"
       },
       {
@@ -1323,7 +1363,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1424411847909"
+        "feeInPlanks": "1442928445793"
       }
     ],
     "weight": "480000000"
