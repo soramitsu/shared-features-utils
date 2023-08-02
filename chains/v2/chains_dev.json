@@ -5555,10 +5555,6 @@
             {
                 "url": "https://ethereum-goerli.publicnode.com",
                 "name": "ethereum publicnode"
-            },
-            {
-               "url": "https://base-goerli.public.blastapi.io",
-               "name": "blastapi node"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
