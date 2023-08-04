@@ -5052,7 +5052,7 @@
     },
     {
         "disabled": false,
-        "chainId": "0x65",
+        "chainId": "0x5",
         "name": "Ethereum Goerli",
         "externalApi": {
             "explorers": [{
