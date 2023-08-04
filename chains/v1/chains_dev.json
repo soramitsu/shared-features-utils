@@ -4591,7 +4591,8 @@
                 "currencyId": "0x02000a0000000000000000000000000000000000000000000000000000000000",
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TBCD.svg",
-                "color":"6D8954"
+                "color":"6D8954",
+                "type": "soraAsset"
               },
               {
                 "id": "61f864b5-9fe0-4ba5-b5b6-c338ceaeee91",
@@ -4600,7 +4601,8 @@
                 "currencyId": "0x002d4e9e03f192cc33b128319a049f353db98fbf4d98f717fd0b7f66a0462142",
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HMX.svg",
-                "color":"FFFFFF"
+                "color":"FFFFFF",
+                "type": "soraAsset"
               }
         ],
         "nodes": [{
