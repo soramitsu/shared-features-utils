@@ -107,7 +107,7 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "80",
+        "feeInPlanks": "10652331730",
         "symbol": "KBTC",
         "precision": "8"
       },
@@ -312,6 +312,10 @@
       {
         "symbol": "LKSM",
         "feeInPlanks": "272289596"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       },
       {
         "symbol": "AUSD",
@@ -991,7 +995,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "20063400",
+        "feeInPlanks": "20177969",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1000,7 +1004,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1937984496",
+        "feeInPlanks": "2057613168",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1069,7 +1073,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "641024000",
+        "feeInPlanks": "563136000",
         "precision": "12"
       },
       {
@@ -1280,6 +1284,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1337,7 +1345,7 @@
         "precision": "6"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1349,7 +1357,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "54272075189715076",
+        "feeInPlanks": "55248289186675973",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1370,7 +1378,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2685",
+        "feeInPlanks": "2712",
         "precision": "6"
       },
       {
@@ -1379,7 +1387,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1446296734648"
+        "feeInPlanks": "1459653130393"
       },
       {
         "symbol": "USDT",
@@ -1421,7 +1429,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "25247"
+        "feeInPlanks": "25210"
       },
       {
         "symbol": "USDCet",
