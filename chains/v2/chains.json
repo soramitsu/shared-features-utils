@@ -2935,7 +2935,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
     "name": "Moonbase Alpha",
     "externalApi": {
@@ -5415,7 +5415,7 @@
     "addressPrefix": 42
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2011",
@@ -5439,7 +5439,7 @@
     "addressPrefix": 420
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "0x1",
     "rank": 1,
     "name": "Ethereum",
@@ -5517,7 +5517,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "0x5",
     "name": "Ethereum Goerli",
     "externalApi": {
@@ -5586,7 +5586,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "0x38",
     "rank": 2,
     "name": "Binance Smart Chain",
@@ -5657,7 +5657,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "0x61",
     "name": "Binance Smart Chain Testnet",
     "externalApi": {
@@ -5719,7 +5719,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "11155111",
     "name": "Sepolia",
     "externalApi": {
