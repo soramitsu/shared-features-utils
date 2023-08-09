@@ -376,6 +376,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -682,7 +686,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "92427848510",
+        "feeInPlanks": "79288536636",
         "symbol": "ACA",
         "precision": "12"
       },
@@ -703,7 +707,7 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "97446416651643677"
+        "feeInPlanks": "83593677676487641"
       },
       {
         "symbol": "USDT",
@@ -711,7 +715,7 @@
       },
       {
         "symbol": "HDX",
-        "feeInPlanks": "785959617394"
+        "feeInPlanks": "674229563085"
       },
       {
         "symbol": "BNC",
@@ -1003,7 +1007,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "20433183",
+        "feeInPlanks": "19854269",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1017,7 +1021,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "5813953488",
+        "feeInPlanks": "7812500000",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1304,6 +1308,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1373,7 +1381,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "52630525617575609",
+        "feeInPlanks": "52796045013817967",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1394,7 +1402,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2749",
+        "feeInPlanks": "2780",
         "precision": "6"
       },
       {
@@ -1403,7 +1411,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1491585300436"
+        "feeInPlanks": "1484308135365"
       },
       {
         "symbol": "USDT",
