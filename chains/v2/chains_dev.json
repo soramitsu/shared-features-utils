@@ -5765,10 +5765,6 @@
           ],
           "nodes": [
               {
-                  "url": "https://rpc.sepolia.org",
-                  "name": "rpc.sepolia.org node"
-              },
-              {
                   "url": "https://eth-sepolia.public.blastapi.io",
                   "name": "blastapi node"
               },
@@ -5779,6 +5775,10 @@
               {
                   "url" : "wss://sepolia.infura.io/ws/v3/550f1aa1e8a147f8b43184507686569b",
                   "name": "infura.io wss"
+              },
+              {
+                  "url": "https://rpc.sepolia.org",
+                  "name": "rpc.sepolia.org node"
               }
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
