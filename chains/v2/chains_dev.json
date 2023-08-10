@@ -5486,6 +5486,10 @@
         ],
         "nodes": [
             {
+               "url": "https://eth-mainnet.public.blastapi.io",
+               "name": "blastapi node"
+            },
+            {
                 "url": "https://eth.llamarpc.com",
                 "name": "llamarpc node"
             },
@@ -5500,10 +5504,6 @@
             {
                 "url": "https://rpc.mevblocker.io",
                 "name": "mevblocker node"  
-            },
-            {
-               "url": "https://eth-mainnet.public.blastapi.io",
-               "name": "blastapi node"
             },
             {
                 "url": "wss://mainnet.infura.io/ws/v3/550f1aa1e8a147f8b43184507686569b",
