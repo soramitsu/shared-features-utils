@@ -5486,28 +5486,12 @@
         ],
         "nodes": [
             {
-               "url": "https://eth-mainnet.public.blastapi.io",
-               "name": "blastapi node"
+               "url": "https://eth-mainnet.blastapi.io/",
+               "name": "Blast https"
             },
             {
-                "url": "https://eth.llamarpc.com",
-                "name": "llamarpc node"
-            },
-            {
-                "url": "https://rpc.payload.de",
-                "name": "payload.de node"
-            },
-            {
-                "url": "https://ethereum.publicnode.com",
-                "name": "ethereum publicnode"
-            },
-            {
-                "url": "https://rpc.mevblocker.io",
-                "name": "mevblocker node"  
-            },
-            {
-                "url": "wss://mainnet.infura.io/ws/v3/550f1aa1e8a147f8b43184507686569b",
-                "name": "Infura.io ws"
+                "url": "wss://eth-mainnet.blastapi.io/",
+                "name": "Blast wss"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
@@ -5575,8 +5559,12 @@
         ],
         "nodes": [
             {
-                "url": "https://ethereum-goerli.publicnode.com",
-                "name": "ethereum publicnode"
+                "url": "https://eth-goerli.blastapi.io/",
+                "name": "Blast https"
+            },
+            {
+                "url": "wss://eth-goerli.blastapi.io/",
+                "name": "Blast wss"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
@@ -5634,12 +5622,12 @@
         ],
         "nodes": [
           {
-            "url": "https://bsc-dataseed.binance.org/",
-            "name": "Binance"
+            "url": "https://bsc-mainnet.blastapi.io/",
+            "name": "Blast https"
           },
           {
-            "url": "https://bsc-dataseed1.defibit.io",
-            "name": "Defibit"
+            "url": "wss://bsc-mainnet.blastapi.io/",
+            "name": "Blast wss"
           },
           {
             "url": "https://bsc-dataseed1.ninicoin.io/",
@@ -5704,12 +5692,12 @@
         ],
         "nodes": [
           {
-            "url": "https://data-seed-prebsc-1-s1.binance.org:8545/",
-            "name": "Binance"
+            "url": "https://bsc-testnet.blastapi.io/",
+            "name": "Blast https"
           },
           {
-            "url": "https://data-seed-prebsc-2-s1.binance.org:8545/",
-            "name": "Binance 2"
+            "url": "wss://bsc-testnet.blastapi.io/",
+            "name": "Blast wss"
           }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
@@ -5765,20 +5753,12 @@
           ],
           "nodes": [
               {
-                  "url": "https://eth-sepolia.public.blastapi.io",
-                  "name": "blastapi node"
+                  "url": "https://eth-sepolia.blastapi.io/",
+                  "name": "Blast https"
               },
               {
-                  "url": "https://eth-sepolia-public.unifra.io",
-                  "name": "unifra"
-              },
-              {
-                  "url" : "wss://sepolia.infura.io/ws/v3/550f1aa1e8a147f8b43184507686569b",
-                  "name": "infura.io wss"
-              },
-              {
-                  "url": "https://rpc.sepolia.org",
-                  "name": "rpc.sepolia.org node"
+                  "url" : "wss://eth-sepolia.blastapi.io/",
+                  "name": "Blast wss"
               }
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
