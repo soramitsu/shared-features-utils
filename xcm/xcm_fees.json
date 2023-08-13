@@ -392,6 +392,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -517,12 +521,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "1049197",
+        "feeInPlanks": "964500",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2389",
+        "feeInPlanks": "2395",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -714,7 +718,7 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "3127908125",
+        "feeInPlanks": "80",
         "precision": "8"
       },
       {
@@ -1027,7 +1031,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "20111012",
+        "feeInPlanks": "19880715",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1036,7 +1040,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1783484929",
+        "feeInPlanks": "1721170395",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1046,12 +1050,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "23832064",
+        "feeInPlanks": "23666268",
         "symbol": "cDOT-7/14",
         "precision": "10"
       },
       {
-        "feeInPlanks": "24443921",
+        "feeInPlanks": "24255477",
         "symbol": "cDOT-8/15",
         "precision": "10"
       },
@@ -1344,6 +1348,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1413,7 +1421,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "47410516482525856",
+        "feeInPlanks": "48052947317968542",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1434,7 +1442,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2826",
+        "feeInPlanks": "2824",
         "precision": "6"
       },
       {
