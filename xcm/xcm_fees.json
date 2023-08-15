@@ -191,7 +191,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "4000028245394",
+        "feeInPlanks": "64102400000",
         "symbol": "PHA"
       },
       {
@@ -312,6 +312,10 @@
       {
         "symbol": "LKSM",
         "feeInPlanks": "272289596"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
       },
       {
         "symbol": "AUSD",
@@ -525,7 +529,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "966019",
+        "feeInPlanks": "1028759",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -1035,7 +1039,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "19892580",
+        "feeInPlanks": "20028039",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1044,7 +1048,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1669449081",
+        "feeInPlanks": "1661957786",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1054,7 +1058,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "23577343",
+        "feeInPlanks": "23710073",
         "symbol": "cDOT-7/14",
         "precision": "10"
       },
@@ -1088,11 +1092,11 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "3390"
+        "feeInPlanks": "3370"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "100058000"
+        "feeInPlanks": "100097000"
       }
     ],
     "weight": "960000000"
@@ -1360,6 +1364,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1429,7 +1437,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "46425842772112961",
+        "feeInPlanks": "46199391885915358",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1450,7 +1458,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2762",
+        "feeInPlanks": "2756",
         "precision": "6"
       },
       {
@@ -1459,7 +1467,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1494424034659"
+        "feeInPlanks": "1494266440436"
       },
       {
         "symbol": "USDT",
@@ -1490,7 +1498,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "25210525000",
+        "feeInPlanks": "25261525000",
         "symbol": "KAR",
         "precision": "12"
       },
@@ -1505,7 +1513,7 @@
       },
       {
         "symbol": "USDCet",
-        "feeInPlanks": "25210"
+        "feeInPlanks": "25261"
       },
       {
         "symbol": "DAI",
