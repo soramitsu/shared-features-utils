@@ -4490,11 +4490,11 @@
         "addressPrefix": 57
     },
     {
-        "disabled": false,
+        "disabled": true,
         "chainId": "f0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2046",
-        "name": "Darwinia Parachain",
+        "name": "Darwinia2",
         "externalApi": {
             "explorers": [{
                 "type": "subscan",
