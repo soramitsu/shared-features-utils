@@ -1,0 +1,38 @@
+{
+    "en": {
+      "new": [
+        {
+            "title": "Manage your assets",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain",
+            "image": "http://imageurl.png"
+        },
+        {
+            "title": "Cross-chain",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain or solochain with a few clicks",
+            "image": "http://imageurl.png"
+        },
+        {
+            "title": "Network management",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain or solochain with a few clicks",
+            "image": "http://imageurl.png"
+        }
+      ],
+      "regular": [
+        {
+            "title": "Manage your assets",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain",
+            "image": "http://imageurl.png"
+        },
+        {
+            "title": "Cross-chain",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain or solochain with a few clicks",
+            "image": "http://imageurl.png"
+        },
+        {
+            "title": "Network management",
+            "description": "All your assets available within your desktop, quickly access your assets on any parachain or solochain with a few clicks",
+            "image": "http://imageurl.png"
+        }
+      ]
+    }
+  }
