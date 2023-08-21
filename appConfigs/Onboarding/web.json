@@ -1,74 +1,74 @@
 {
-"en-EN": {
-  "new": [
-    {
-        "title": "Manage your assets",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain",
-        "image": "http://imageurl.png"
-    },
-    {
-        "title": "Cross-chain",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain or solochain with a few clicks",
-        "image": "http://imageurl.png"
-    },
-    {
-        "title": "Network management",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain or solochain with a few clicks",
-        "image": "http://imageurl.png"
-    }
-  ],
-  "regular": [
-    {
-        "title": "Manage your assets",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain",
-        "image": "http://imageurl.png"
-    },
-    {
-        "title": "Cross-chain",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain or solochain with a few clicks",
-        "image": "http://imageurl.png"
-    },
-    {
-        "title": "Network management",
-        "description": "All your assets available within your desktop, quickly access youassets on any parachain or solochain with a few clicks",
-        "image": "http://imageurl.png"
-    }
-  ]
-},
-"ru-RU": {
+  "en-EN": {
     "new": [
       {
-          "title": "Управляй своими активами",
-          "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+          "title": "Manage your assets",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain",
           "image": "http://imageurl.png"
       },
       {
-          "title": "Переводы между сетями",
-          "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+          "title": "Cross-chain",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
           "image": "http://imageurl.png"
       },
       {
-          "title": "Управление сетями",
-          "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+          "title": "Network management",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
           "image": "http://imageurl.png"
       }
     ],
     "regular": [
+      {
+          "title": "Manage your assets",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain",
+          "image": "http://imageurl.png"
+      },
+      {
+          "title": "Cross-chain",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
+          "image": "http://imageurl.png"
+      },
+      {
+          "title": "Network management",
+          "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
+          "image": "http://imageurl.png"
+      }
+    ]
+  },
+  "ru-RU": {
+      "new": [
         {
             "title": "Управляй своими активами",
-            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
             "image": "http://imageurl.png"
         },
         {
             "title": "Переводы между сетями",
-            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
             "image": "http://imageurl.png"
         },
         {
             "title": "Управление сетями",
-            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всеактивам на любом парачейне",
+            "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
             "image": "http://imageurl.png"
         }
-    ]
+      ],
+      "regular": [
+          {
+              "title": "Управляй своими активами",
+              "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
+              "image": "http://imageurl.png"
+          },
+          {
+              "title": "Переводы между сетями",
+              "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
+              "image": "http://imageurl.png"
+          },
+          {
+              "title": "Управление сетями",
+              "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
+              "image": "http://imageurl.png"
+          }
+      ]
+    }
   }
-}
