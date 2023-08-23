@@ -5441,7 +5441,6 @@
         "addressPrefix": 420
     },
     {
-        "disabled": true,
         "chainId": "1",
         "rank": 1,
         "name": "Ethereum",
@@ -5503,7 +5502,6 @@
         ]
     },
     {
-        "disabled": true,
         "chainId": "5",
         "name": "Ethereum Goerli",
         "externalApi": {
@@ -5576,7 +5574,6 @@
         ]
     },
     {
-        "disabled": true,
         "chainId": "38",
         "rank": 2,
         "name": "Binance Smart Chain",
@@ -5647,7 +5644,6 @@
         ]
       },
       {
-        "disabled": true,
         "chainId": "61",
         "name": "Binance Smart Chain Testnet",
         "externalApi": {
@@ -5709,7 +5705,6 @@
         ]
       },
       {
-          "disabled": true,
           "chainId": "11155111",
           "name": "Sepolia",
           "externalApi": {
