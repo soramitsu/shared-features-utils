@@ -1,6 +1,7 @@
 [{
         "disabled": false,
         "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "rank": 1,
         "name": "Polkadot",
         "externalApi": {
             "staking": {
@@ -94,6 +95,7 @@
     {
         "disabled": false,
         "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "rank": 2,
         "name": "Kusama",
         "externalApi": {
             "staking": {
@@ -417,6 +419,7 @@
     {
         "disabled": false,
         "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "rank": 5,
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Acala",
         "paraId": "2000",
@@ -607,6 +610,7 @@
     {
         "disabled": false,
         "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "rank": 6,
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Karura",
         "paraId": "2000",
@@ -1010,6 +1014,7 @@
     {
         "disabled": false,
         "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+        "rank": 4,
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Moonriver",
         "paraId": "2023",
@@ -1253,6 +1258,7 @@
     {
         "disabled": false,
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+        "rank": 9,
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2001",
         "name": "Bifrost",
@@ -1502,7 +1508,7 @@
     {
         "disabled": false,
         "chainId": "411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2086",
         "name": "KILT Spiritnet",
         "externalApi": {
@@ -1668,6 +1674,7 @@
     {
         "disabled": false,
         "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+        "rank": 8,
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2085",
         "name": "Parallel Heiko",
@@ -2060,6 +2067,7 @@
     {
         "disabled": false,
         "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "rank": 7,
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2012",
         "name": "Parallel",
@@ -2314,6 +2322,7 @@
     {
         "disabled": false,
         "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "rank": 3,
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2004",
         "name": "Moonbeam",
@@ -4394,6 +4403,7 @@
     {
         "disabled": false,
         "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+        "rank": 0,
         "name": "SORA Mainnet",
         "externalApi": {
             "history": {
