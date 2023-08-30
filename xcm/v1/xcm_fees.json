@@ -420,6 +420,14 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "aSEED",
+        "feeInPlanks": "2120203588"
       }
     ],
     "weight": "800000000"
@@ -545,12 +553,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "827944",
+        "feeInPlanks": "860936",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2002",
+        "feeInPlanks": "2055",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -577,6 +585,10 @@
       {
         "symbol": "aSEED",
         "feeInPlanks": "4061972991"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "4545812808"
       },
       {
         "symbol": "AUSD",
@@ -1040,7 +1052,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "8598999160"
+        "feeInPlanks": "7448999160"
       },
       {
         "symbol": "PHA",
@@ -1416,6 +1428,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1473,7 +1489,7 @@
         "precision": "6"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1485,7 +1501,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "40992889119442275",
+        "feeInPlanks": "42387383162380550",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1506,12 +1522,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2440",
+        "feeInPlanks": "2536",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "399888248972673397697"
+        "feeInPlanks": "9987259206509617"
       },
       {
         "symbol": "WETH",
