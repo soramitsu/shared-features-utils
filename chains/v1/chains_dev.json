@@ -5104,6 +5104,28 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
                 "type": "normal"
+            },
+            {
+                "isUtility": false,
+                "id": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                "name": "Uniswap",
+                "symbol": "uni",
+                "precision": 18,
+                "priceId": "uniswap",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "3E73C4",
+                "type": "normal"
+            },
+            {
+                "isUtility": false,
+                "id": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                "name": "wrapped ether",
+                "symbol": "weth",
+                "precision": 18,
+                "priceId": "weth",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "3E73C4",
+                "type": "normal"
             }
         ],
         "nodes": [
