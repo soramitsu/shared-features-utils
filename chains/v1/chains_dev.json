@@ -5179,7 +5179,7 @@
           },
           {
             "isUtility": false,
-            "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+            "id": "1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
             "name": "DAI",
             "symbol": "DAI",
             "precision": 18,
@@ -5247,7 +5247,7 @@
           },
           {
             "isUtility": false,
-            "id": "0x05a137f9f66b974a0fbaff4ea2e69b8186d6b03a",
+            "id": "05a137f9f66b974a0fbaff4ea2e69b8186d6b03a",
             "name": "DAI",
             "symbol": "DAI",
             "precision": 18,
