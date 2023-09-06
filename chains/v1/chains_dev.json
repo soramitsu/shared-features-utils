@@ -5276,7 +5276,7 @@
       {
         "disabled": false,
         "chainId": "89",
-        "name": "Poligon Mainnet",
+        "name": "Polygon Mainnet",
         "externalApi": {
             "history": {
               "type": "etherscan",
@@ -5325,7 +5325,7 @@
       {
         "disabled": false,
         "chainId": "13881",
-        "name": "Poligon Mumbai",
+        "name": "Polygon Mumbai",
         "externalApi": {
             "history": {
               "type": "etherscan",
