@@ -4829,6 +4829,18 @@
             {
                 "url": "wss://ws.framenode-5.s3.stg1.sora2.soramitsu.co.jp",
                 "name": "Sora Test Node #5"
+            },
+            {
+                "url": "wss://ws.framenode-1.r0.dev.sora2.soramitsu.co.jp",
+                "name": "Sora Card Test Node #1"
+            },
+            {
+                "url": "wss://ws.framenode-2.r0.dev.sora2.soramitsu.co.jp",
+                "name": "Sora Card Test Node #2"
+            },
+            {
+                "url": "wss://ws.framenode-3.r0.dev.sora2.soramitsu.co.jp",
+                "name": "Sora Card Test Node #3"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
