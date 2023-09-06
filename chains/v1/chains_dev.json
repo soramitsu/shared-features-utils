@@ -5014,7 +5014,7 @@
             },
             {
                 "isUtility": false,
-                "id": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "id": "6B175474E89094C44Da98b954EedeAC495271d0F",
                 "name": "dai stablecoin",
                 "symbol": "dai",
                 "precision": 18,
@@ -5085,7 +5085,7 @@
             },
             {
                 "isUtility": false,
-                "id": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+                "id": "11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
                 "name": "dai stablecoin",
                 "symbol": "dai",
                 "precision": 18,
@@ -5096,7 +5096,7 @@
             },
             {
                 "isUtility": false,
-                "id": "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
+                "id": "07865c6e87b9f70255377e024ace6630c1eaa37f",
                 "name": "usdc stablecoin",
                 "symbol": "usdc",
                 "precision": 6,
@@ -5107,7 +5107,7 @@
             },
             {
                 "isUtility": false,
-                "id": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                "id": "1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
                 "name": "Uniswap",
                 "symbol": "uni",
                 "precision": 18,
@@ -5118,7 +5118,7 @@
             },
             {
                 "isUtility": false,
-                "id": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                "id": "B4FBF271143F4FBf7B91A5ded31805e42b2208d6",
                 "name": "wrapped ether",
                 "symbol": "weth",
                 "precision": 18,
@@ -5272,5 +5272,99 @@
         "options": [
           "ethereum"
         ]
+      },
+      {
+        "disabled": false,
+        "chainId": "89",
+        "name": "Poligon Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://api.polygonscan.com/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://polygonscan.com/{type}/{value}"
+              }
+            ]
+          },
+          "assets": [
+            {
+              "isUtility": true,
+              "id": "0000000000000000000000000000000000001010",
+              "name": "MATIC",
+              "symbol": "matic",
+              "precision": 18,
+              "priceId": "matic-network",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+              "color": "FF0066",
+              "type": "normal"
+            }
+          ],
+          "nodes": [
+            {
+              "url": "https://polygon.llamarpc.com",
+              "name": "LLamarpc"
+            },
+            {
+                "url": "https://polygon-bor.publicnode.com",
+                "name": "Poligon Public Node #1"
+              }
+          ],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+          "addressPrefix": 0,
+          "options": [
+            "ethereum"
+          ]
+      },
+      {
+        "disabled": false,
+        "chainId": "13881",
+        "name": "Poligon Mumbai",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://api.mumbai.polygonscan.com//api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://mumbai.polygonscan.com/{type}/{value}"
+              }
+            ]
+          },
+          "assets": [
+            {
+              "isUtility": true,
+              "id": "0000000000000000000000000000000000001010",
+              "name": "MATIC",
+              "symbol": "matic",
+              "precision": 18,
+              "priceId": "matic-network",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+              "color": "FF0066",
+              "type": "normal"
+            }
+          ],
+          "nodes": [
+            {
+                "url": "https://polygon-mumbai-bor.publicnode.com",
+                "name": "Poligon Public Node #1"
+              }
+          ],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+          "addressPrefix": 0,
+          "options": [
+            "ethereum"
+          ]
       }
 ]
