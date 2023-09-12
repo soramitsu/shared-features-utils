@@ -5436,5 +5436,180 @@
     }],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
     "addressPrefix": 420
+  },
+  {
+    "disabled": false,
+    "chainId": "1",
+    "rank": 1,
+    "name": "Ethereum",
+    "externalApi": {
+        "explorers": [{
+            "type": "etherscan",
+            "types": [
+                "tx",
+                "address"
+            ],
+            "url": "https://etherscan.io/{type}/{value}"
+        }
+        ],
+        "history": {
+            "type": "etherscan",
+                "url": "https://api.etherscan.io/api"
+        }
+    },
+    "assets": [
+        {
+            "isUtility": true,
+            "id": "c2a6c062-d511-4bde-9ce6-ea775d2a302c",
+            "name": "ethereum",
+            "symbol": "eth",
+            "precision": 18,
+            "priceId": "ethereum",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+            "color": "FF0066",
+            "type": "normal",
+            "ethereumType": "normal"
+        },
+        {
+            "isUtility": false,
+            "id": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "name": "dai stablecoin",
+            "symbol": "dai",
+            "precision": 18,
+            "priceId": "dai",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+            "color": "FF0066",
+            "type": "normal",
+            "ethereumType": "erc20"
+        }
+    ],
+    "nodes": [
+        {
+           "url": "https://eth-mainnet.blastapi.io/",
+           "name": "Blast https"
+        },
+        {
+            "url": "wss://eth-mainnet.blastapi.io/",
+            "name": "Blast wss"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+    "addressPrefix": 0,
+    "options": [
+        "ethereum",
+        "nft"
+    ]
+},
+{
+    "disabled": false,
+    "chainId": "38",
+    "rank": 2,
+    "name": "Binance Smart Chain",
+    "externalApi": {
+      "history": {
+        "type": "etherscan",
+        "url": "https://api.bscscan.com/api"
+      },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://bscscan.com/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "6e43f1b7-1ec3-48a7-8ecd-8d680578d2b8",
+        "name": "BNB",
+        "symbol": "BNB",
+        "precision": 18,
+        "priceId": "binancecoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
+        "color": "FF0066",
+        "type": "normal",
+        "ethereumType": "normal"
+      },
+      {
+        "isUtility": false,
+        "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+        "name": "DAI",
+        "symbol": "DAI", 
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "type": "normal",
+        "ethereumType": "erc20"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://bsc-mainnet.blastapi.io/",
+        "name": "Blast https"
+      },
+      {
+        "url": "wss://bsc-mainnet.blastapi.io/",
+        "name": "Blast wss"
+      },
+      {
+        "url": "https://bsc-dataseed1.ninicoin.io/",
+        "name": "Ninicoin"
+      },
+      {
+        "url": "https://bsc.nodereal.io/",
+        "name": "Nodereal"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum"
+    ]
+  },
+  {
+      "disabled": false,
+      "chainId": "137",
+      "name": "Polygon",
+      "externalApi": {
+          "history": {
+              "type": "etherscan",
+                  "url": "https://api.polygonscan.com/api"
+          }
+      },
+      "assets": [
+          {
+              "isUtility": true,
+              "id": "0x0000000000000000000000000000000000001010",
+              "name": "matic",
+              "symbol": "matic",
+              "precision": 18,
+              "priceId": "matic",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+              "color": "FF0066",
+              "type": "normal",
+              "ethereumType": "normal"
+          }
+      ],
+      "nodes": [
+          {
+              "url": "https://polygon-mainnet.blastapi.io/",
+              "name": "Blast https"
+          },
+          {
+              "url" : "wss://polygon-mainnet.blastapi.io/",
+              "name": "Blast wss"
+          }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+      "addressPrefix": 0,
+      "options": [
+          "ethereum",
+          "nft"
+      ]
   }
 ]
