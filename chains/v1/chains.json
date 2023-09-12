@@ -4900,6 +4900,7 @@
             "id": "ebf2822f-2dd4-4f59-aeb3-ae7defa53932",
             "name": "pendulum",
             "symbol": "pen",
+            "priceId": "pendulum-chain",
             "precision": 12,
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PEN.svg",
             "color": "8D809E",
