@@ -440,6 +440,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -570,7 +574,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "2200",
+        "feeInPlanks": "2031",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -868,7 +872,7 @@
       },
       {
         "symbol": "ASTR",
-        "feeInPlanks": "8012800000000000",
+        "feeInPlanks": "6429600000000000",
         "precision": "18"
       },
       {
@@ -878,7 +882,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "8012800000000000",
+        "feeInPlanks": "6429600000000000",
         "precision": "18"
       },
       {
@@ -1111,7 +1115,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "23605504",
+        "feeInPlanks": "25132574",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1120,7 +1124,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1646361540",
+        "feeInPlanks": "1724137931",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1140,7 +1144,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "522739153",
+        "feeInPlanks": "565610859",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1153,7 +1157,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "23810911",
+        "feeInPlanks": "26280091",
         "symbol": "cDOT-6/13",
         "precision": "10"
       },
@@ -1456,6 +1460,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1525,7 +1533,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "46837546543808180",
+        "feeInPlanks": "46639085497324380",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1546,16 +1554,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2782",
+        "feeInPlanks": "2654",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "399888248972673397697"
+        "feeInPlanks": "9987259206509617"
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1686181789919"
+        "feeInPlanks": "1696098463432"
       },
       {
         "symbol": "USDT",
