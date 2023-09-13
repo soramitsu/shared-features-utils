@@ -2633,7 +2633,7 @@
                         }
                     ]
                 }
-                
+
             ]
         },
         "nodes": [{
@@ -3531,7 +3531,7 @@
             "url": "wss://kusama.dorafactory.org",
             "name": "DORA node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/DoraFactory.svg",
         "addressPrefix": 128
@@ -3556,7 +3556,7 @@
             "url": "wss://parachain-rpc.origin-trail.network",
             "name": "TraceLabs node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/OriginTrail.svg",
         "addressPrefix": 101
@@ -4456,7 +4456,7 @@
             "url": "wss://imbue-kusama.imbue.network",
             "name": "Imbue Network node node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Imbue.svg",
         "addressPrefix": 42
@@ -4589,7 +4589,7 @@
             "url": "wss://rpc-shadow.crust.network",
             "name": "Crust node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/crustshadow.svg",
         "addressPrefix": 66
@@ -4663,7 +4663,7 @@
             "url": "wss://snow-rpc.icenetwork.io",
             "name": "Snow node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SNOW.svg",
         "addressPrefix": 2207
@@ -5117,7 +5117,7 @@
             "url": "wss://ws.azero.dev",
             "name": "Aleph Zero Foundation node"
         }
-            
+
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Aleph%20Zero.svg",
         "addressPrefix": 42
@@ -5626,7 +5626,7 @@
             "isUtility": false,
             "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
             "name": "DAI",
-            "symbol": "DAI", 
+            "symbol": "DAI",
             "precision": 18,
             "priceId": "dai",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
@@ -5666,7 +5666,7 @@
         "externalApi": {
           "history": {
             "type": "etherscan",
-            "url": "https://testnet.bscscan.com/api"
+            "url": "https://api-testnet.bscscan.com/api"
           },
           "explorers": [
             {
