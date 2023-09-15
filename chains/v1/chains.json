@@ -4019,6 +4019,12 @@
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "paraId": "2124",
         "name": "Amplitude",
+        "externalApi": {
+            "history": {
+                "type": "giantsquid",
+                "url": "https://squid.subsquid.io/gs-main-amplitude/graphql"
+            }
+        },
         "assets": [{
             "id": "b2e6c029-ae73-46f9-9660-51d7034ddc53",
             "name": "amplitude",
@@ -4896,6 +4902,12 @@
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "paraId": "2094",
         "name": "Pendulum",
+        "externalApi": {
+            "history": {
+                "type": "giantsquid",
+                "url": "https://squid.subsquid.io/gs-main-pendulum/graphql"
+            }
+        },
         "assets": [{
             "id": "ebf2822f-2dd4-4f59-aeb3-ae7defa53932",
             "name": "pendulum",
