@@ -5585,7 +5585,8 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
         "addressPrefix": 0,
         "options": [
-            "ethereum"
+            "ethereum",
+            "testnet"
         ]
     },
     {
@@ -5718,7 +5719,8 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
         "addressPrefix": 0,
         "options": [
-          "ethereum"
+          "ethereum",
+          "testnet"
         ]
       },
       {
@@ -5779,7 +5781,8 @@
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "addressPrefix": 0,
           "options": [
-              "ethereum"
+              "ethereum",
+              "testnet"
           ]
       },
       {
