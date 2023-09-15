@@ -5590,7 +5590,7 @@
     },
     {
         "disabled": false,
-        "chainId": "38",
+        "chainId": "56",
         "rank": 2,
         "name": "Binance Smart Chain",
         "externalApi": {
