@@ -5927,7 +5927,7 @@
                   "name": "Blast wss"
               }
           ],
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
           "addressPrefix": 0,
           "options": [
               "ethereum",

@@ -5297,11 +5297,11 @@
             {
               "isUtility": true,
               "id": "0000000000000000000000000000000000001010",
-              "name": "MATIC",
+              "name": "polygon",
               "symbol": "matic",
               "precision": 18,
               "priceId": "matic-network",
-              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
               "color": "FF0066",
               "type": "normal"
             }
@@ -5316,7 +5316,7 @@
                 "name": "Poligon Public Node #1"
               }
           ],
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
           "addressPrefix": 0,
           "options": [
             "ethereum"
@@ -5346,11 +5346,11 @@
             {
               "isUtility": true,
               "id": "0000000000000000000000000000000000001010",
-              "name": "MATIC",
+              "name": "polygon",
               "symbol": "matic",
               "precision": 18,
               "priceId": "matic-network",
-              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
               "color": "FF0066",
               "type": "normal"
             }
@@ -5361,7 +5361,7 @@
                 "name": "Poligon Public Node #1"
               }
           ],
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
           "addressPrefix": 0,
           "options": [
             "ethereum"
