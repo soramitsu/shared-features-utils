@@ -5496,6 +5496,114 @@
                 "color": "FF0066",
                 "type": "normal",
                 "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "name": "tether usd",
+                "symbol": "usdt",
+                "precision": 6,
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+                "color": "26A17B",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "name": "usd coin",
+                "symbol": "usdc",
+                "precision": 6,
+                "priceId": "usd-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+                "color": "3E73C4",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+                "name": "aave",
+                "symbol": "aave",
+                "precision": 18,
+                "priceId": "aave",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
+                "color": "B6509E",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+                "name": "curve dao",
+                "symbol": "crv",
+                "precision": 18,
+                "priceId": "curve-dao-token",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
+                "color": "B6509E",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+                "name": "uniswap",
+                "symbol": "uni",
+                "precision": 18,
+                "priceId": "uniswap",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
+                "color": "FF007A",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+                "name": "chainlink",
+                "symbol": "link",
+                "precision": 18,
+                "priceId": "chainlink",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
+                "color": "FFFFFF",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x111111111117dC0aa78b770fA6A738034120C302",
+                "name": "1inch",
+                "symbol": "1inch",
+                "precision": 18,
+                "priceId": "1inch",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/1INCH.svg",
+                "color": "FFFFFF",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+                "name": "bnb",
+                "symbol": "bnb",
+                "precision": 18,
+                "priceId": "binancecoin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
+                "color": "F3BA2F",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+                "name": "polygon",
+                "symbol": "matic",
+                "precision": 18,
+                "priceId": "matic-network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+                "color": "8247E5",
+                "type": "normal",
+                "ethereumType": "erc20"
             }
         ],
         "nodes": [
@@ -5796,12 +5904,12 @@
               {
                   "isUtility": true,
                   "id": "0x0000000000000000000000000000000000001010",
-                  "name": "matic",
+                  "name": "polygon",
                   "symbol": "matic",
                   "precision": 18,
                   "priceId": "matic",
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
-                  "color": "FF0066",
+                  "color": "8247E5",
                   "type": "normal",
                   "ethereumType": "normal"
               }
@@ -5837,12 +5945,12 @@
               {
                   "isUtility": true,
                   "id": "0x0000000000000000000000000000000000001010",
-                  "name": "matic",
+                  "name": "polygon",
                   "symbol": "matic",
                   "precision": 18,
                   "priceId": "matic",
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
-                  "color": "FF0066",
+                  "color": "8247E5",
                   "type": "normal",
                   "ethereumType": "normal"
               }
