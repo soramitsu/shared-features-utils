@@ -163,7 +163,7 @@
         "feeInPlanks": "116414032617"
       }
     ],
-    "weight": "686274000"
+    "weight": "886274000"
   },
   {
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -556,6 +556,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -681,12 +685,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "1024294",
+        "feeInPlanks": "1055884",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2162",
+        "feeInPlanks": "2157",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -785,6 +789,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "5089856662"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "4073400318"
       },
       {
         "symbol": "AUSD",
@@ -1095,7 +1103,7 @@
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "1248686086"
+        "feeInPlanks": "1001965862"
       },
       {
         "symbol": "MATIC.aca.poly",
@@ -1316,7 +1324,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "1992031872",
+        "feeInPlanks": "2006018054",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1780,6 +1788,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1849,7 +1861,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "47848881771116727",
+        "feeInPlanks": "48247034340862368",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1870,7 +1882,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2403",
+        "feeInPlanks": "2425",
         "precision": "6"
       },
       {
@@ -1879,7 +1891,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1493231730910"
+        "feeInPlanks": "998994090598"
       },
       {
         "symbol": "USDT",
