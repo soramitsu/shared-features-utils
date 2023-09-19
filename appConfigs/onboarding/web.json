@@ -4,34 +4,34 @@
       {
           "title": "Manage your assets",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Manage_assets.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Manage_assets.svg"
       },
       {
           "title": "Cross-chain",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
       },
       {
           "title": "Network management",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Networks_management.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Networks_management.svg"
       }
     ],
     "regular": [
       {
           "title": "Manage your assets",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Manage_assets.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Manage_assets.svg"
       },
       {
           "title": "Cross-chain",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
       },
       {
           "title": "Network management",
           "description": "All your assets available within your desktop, quickly access yourassets on any parachain or solochain with a few clicks",
-          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Networks_management.svg"
+          "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Networks_management.svg"
       }
     ]
   },
@@ -40,34 +40,34 @@
         {
             "title": "Управляй своими активами",
             "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Manage_assets.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Manage_assets.svg"
         },
         {
             "title": "Переводы между сетями",
             "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
         },
         {
             "title": "Управление сетями",
             "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Networks_management.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Networks_management.svg"
         }
       ],
       "regular": [
           {
               "title": "Управляй своими активами",
               "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Manage_assets.svg"
+              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Manage_assets.svg"
           },
           {
               "title": "Переводы между сетями",
               "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
+              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Cross-Chain.svg"
           },
           {
               "title": "Управление сетями",
               "description": "Все ваши активны доступны на компьютере, быстрый доступ ко всемактивам на любом парачейне",
-              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/Networks_management.svg"
+              "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/screensWeb/Networks_management.svg"
           }
       ]
     }
