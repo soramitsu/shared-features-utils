@@ -5741,7 +5741,115 @@
             "color": "FF0066",
             "type": "normal",
             "ethereumType": "erc20"
-          }
+          },
+          {
+            "isUtility": false,
+            "id": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "name": "ethereum",
+            "symbol": "eth",
+            "precision": 18,
+            "priceId": "ethereum",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+            "color": "FF0066",
+            "type": "normal",
+            "ethereumType": "bep20" 
+        },
+        {
+            "isUtility": false,
+            "id": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "name": "usd coin",
+            "symbol": "usdc",
+            "precision": 18,
+            "priceId": "usd-coin",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+            "color": "3E73C4",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "name": "binance usd",
+            "symbol": "busd",
+            "precision": 18,
+            "priceId": "binance-usd",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
+            "color": "F3BA2F",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+            "name": "trueusd",
+            "symbol": "tusd",
+            "precision": 18,
+            "priceId": "true-usd",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TUSD.svg",
+            "color": "005ADD",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+            "name": "polygon",
+            "symbol": "matic",
+            "precision": 18,
+            "priceId": "matic-network",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+            "color": "8247E5",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "name": "pancakeswap",
+            "symbol": "cake",
+            "precision": 18,
+            "priceId": "pancakeswap-token",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAKE.svg",
+            "color": "D1884F",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+            "name": "biswap",
+            "symbol": "bsw",
+            "precision": 18,
+            "priceId": "biswap",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BSW.svg",
+            "color": "E42648",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+            "name": "hooked protocol",
+            "symbol": "hook",
+            "precision": 18,
+            "priceId": "hooked-protocol",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HOOK.svg",
+            "color": "048EC8",
+            "type": "normal",
+            "ethereumType": "bep20"
+        },
+        {
+            "isUtility": false,
+            "id": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+            "name": "venus",
+            "symbol": "xvs",
+            "precision": 18,
+            "priceId": "venus",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XVS.svg",
+            "color": "048EC8",
+            "type": "normal",
+            "ethereumType": "bep20"
+        }
         ],
         "nodes": [
           {
