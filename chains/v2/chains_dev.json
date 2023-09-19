@@ -6023,7 +6023,115 @@
                   "color": "8247E5",
                   "type": "normal",
                   "ethereumType": "normal"
-              }
+              },
+              {
+                "isUtility": false,
+                "id": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                "name": "weth",
+                "symbol": "weth",
+                "precision": 18,
+                "priceId": "weth",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
+                "color": "FFFFFF",
+                "type": "normal",
+                "ethereumType": "erc20" 
+            },
+            {
+                "isUtility": false,
+                "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                "name": "usd coin",
+                "symbol": "usdc",
+                "precision": 6,
+                "priceId": "usd-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+                "color": "3E73C4",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+                "name": "tether usd",
+                "symbol": "usdt",
+                "precision": 6,
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+                "color": "26A17B",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3",
+                "name": "bnb",
+                "symbol": "bnb",
+                "precision": 18,
+                "priceId": "binancecoin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
+                "color": "F3BA2F",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+                "name": "binance usd",
+                "symbol": "busd",
+                "precision": 18,
+                "priceId": "binance-usd",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
+                "color": "F3BA2F",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                "name": "dai",
+                "symbol": "dai",
+                "precision": 18,
+                "priceId": "dai",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+                "color": "F9AF1A",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+                "name": "aave",
+                "symbol": "aave",
+                "precision": 18,
+                "priceId": "aave",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
+                "color": "B6509E",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+                "name": "curve dao",
+                "symbol": "crv",
+                "precision": 18,
+                "priceId": "curve-dao-token",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
+                "color": "B6509E",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+                "name": "uniswap",
+                "symbol": "uni",
+                "precision": 18,
+                "priceId": "uniswap",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
+                "color": "FF007A",
+                "type": "normal",
+                "ethereumType": "erc20"
+            }
           ],
           "nodes": [
               {
