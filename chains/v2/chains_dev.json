@@ -5701,7 +5701,7 @@
         "disabled": false,
         "chainId": "56",
         "rank": 2,
-        "name": "Binance Smart Chain",
+        "name": "BNB Smart Chain",
         "externalApi": {
           "history": {
             "type": "etherscan",
@@ -5762,7 +5762,7 @@
             "name": "Nodereal"
           }
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/bnbchain.svg",
         "addressPrefix": 0,
         "options": [
           "ethereum"
@@ -5771,7 +5771,7 @@
       {
         "disabled": false,
         "chainId": "97",
-        "name": "Binance Smart Chain Testnet",
+        "name": "BNB Smart Chain Testnet",
         "externalApi": {
           "history": {
             "type": "etherscan",
@@ -5824,7 +5824,7 @@
             "name": "Blast wss"
           }
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/bnbchain.svg",
         "addressPrefix": 0,
         "options": [
           "ethereum",
