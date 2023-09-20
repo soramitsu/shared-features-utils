@@ -6174,9 +6174,19 @@
           "chainId": "80001",
           "name": "Polygon mumbai testnet",
           "externalApi": {
+              "explorers": [
+                  {
+                      "type": "etherscan",
+                      "types": [
+                          "tx",
+                          "address"
+                      ],
+                      "url": "https://mumbai.polygonscan.com/{type}/{value}"
+                  }
+              ],
               "history": {
                   "type": "etherscan",
-                      "url": "https://api-testnet.polygonscan.com/api"
+                  "url": "https://api-testnet.polygonscan.com/api"
               }
           },
           "assets": [
