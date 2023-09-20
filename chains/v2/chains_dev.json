@@ -6018,9 +6018,19 @@
           "chainId": "137",
           "name": "Polygon",
           "externalApi": {
+              "explorers": [
+                  {
+                      "type": "etherscan",
+                      "types": [
+                          "tx",
+                          "address"
+                      ],
+                      "url": "https://polygonscan.com/{type}/{value}"
+                  }
+              ],
               "history": {
                   "type": "etherscan",
-                      "url": "https://api.polygonscan.com/api"
+                  "url": "https://api.polygonscan.com/api"
               }
           },
           "assets": [
