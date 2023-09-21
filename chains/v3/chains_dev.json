@@ -303,7 +303,7 @@
                     "extrinsic",
                     "account"
                 ],
-                "url": "https://assethub-kusama.subscan.io//{type}/{value}"
+                "url": "https://assethub-kusama.subscan.io/{type}/{value}"
             }]
         },
         "assets": [{
