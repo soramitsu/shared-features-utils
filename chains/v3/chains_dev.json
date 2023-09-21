@@ -303,7 +303,7 @@
                     "extrinsic",
                     "account"
                 ],
-                "url": "https://statemine.subscan.io/{type}/{value}"
+                "url": "https://assethub-kusama.subscan.io//{type}/{value}"
             }]
         },
         "assets": [{
@@ -442,7 +442,7 @@
                     "extrinsic",
                     "account"
                 ],
-                "url": "https://statemint.subscan.io/{type}/{value}"
+                "url": "https://assethub-polkadot.subscan.io/{type}/{value}"
             }]
         },
         "assets": [{
@@ -5764,7 +5764,7 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
             "color": "FF0066",
             "type": "normal",
-            "ethereumType": "bep20" 
+            "ethereumType": "bep20"
         },
         {
             "isUtility": false,
@@ -6053,7 +6053,7 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
                 "color": "FFFFFF",
                 "type": "normal",
-                "ethereumType": "erc20" 
+                "ethereumType": "erc20"
             },
             {
                 "isUtility": false,
