@@ -303,7 +303,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://statemine.subscan.io/{type}/{value}"
+        "url": "https://assethub-kusama.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -442,7 +442,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://statemint.subscan.io/{type}/{value}"
+        "url": "https://assethub-polkadot.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -5659,7 +5659,7 @@
         "isUtility": false,
         "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
         "name": "DAI",
-        "symbol": "DAI", 
+        "symbol": "DAI",
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
@@ -5677,7 +5677,7 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
         "type": "normal",
-        "ethereumType": "bep20" 
+        "ethereumType": "bep20"
     },
     {
         "isUtility": false,
@@ -5843,7 +5843,7 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
             "color": "FFFFFF",
             "type": "normal",
-            "ethereumType": "erc20" 
+            "ethereumType": "erc20"
         },
         {
             "isUtility": false,

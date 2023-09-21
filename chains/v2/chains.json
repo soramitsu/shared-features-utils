@@ -303,7 +303,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://statemine.subscan.io/{type}/{value}"
+        "url": "https://assethub-kusama.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -442,7 +442,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://statemint.subscan.io/{type}/{value}"
+        "url": "https://assethub-polkadot.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
