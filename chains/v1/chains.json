@@ -256,7 +256,7 @@
                     "extrinsic",
                     "account"
                 ],
-                "url": "https://statemine.subscan.io/{type}/{value}"
+                "url": "https://assethub-kusama.subscan.io/{type}/{value}"
             }]
         },
         "assets": [{
@@ -353,7 +353,7 @@
                     "extrinsic",
                     "account"
                 ],
-                "url": "https://statemint.subscan.io/{type}/{value}"
+                "url": "https://assethub-polkadot.subscan.io/{type}/{value}"
             }]
         },
         "assets": [{
@@ -2034,7 +2034,7 @@
                 "currencyId": "18446744073709551619",
                 "priceId": "moonbeam",
                 "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg",
-                "color": "FFFFFF"             
+                "color": "FFFFFF"
             }
         ],
         "nodes": [{
