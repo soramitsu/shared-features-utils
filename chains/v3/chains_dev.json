@@ -5922,7 +5922,7 @@
           },
           {
             "isUtility": false,
-            "id": "0x05a137f9f66b974a0fbaff4ea2e69b8186d6b03a",
+            "id": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
             "name": "DAI",
             "symbol": "DAI",
             "precision": 18,
@@ -5930,7 +5930,7 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
             "color": "FF0066",
             "type": "normal",
-            "ethereumType": "erc20"
+            "ethereumType": "bep20"
           }
         ],
         "nodes": [
