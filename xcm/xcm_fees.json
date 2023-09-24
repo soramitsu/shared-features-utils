@@ -132,7 +132,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "116414032617"
+        "feeInPlanks": "90143594216"
       },
       {
         "symbol": "HKO",
@@ -163,7 +163,7 @@
         "feeInPlanks": "116414032617"
       }
     ],
-    "weight": "886274000"
+    "weight": "686274000"
   },
   {
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -576,6 +576,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -701,7 +705,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "1095288",
+        "feeInPlanks": "1069350",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -805,6 +809,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "5089856662"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "4073400318"
       },
       {
         "symbol": "AUSD",
@@ -1359,7 +1367,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "24413466",
+        "feeInPlanks": "24838549",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1852,6 +1860,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1909,7 +1921,7 @@
         "precision": "6"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1942,7 +1954,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2311",
+        "feeInPlanks": "2328",
         "precision": "6"
       },
       {
@@ -1951,7 +1963,7 @@
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1473658714241"
+        "feeInPlanks": "1443376527073"
       },
       {
         "symbol": "USDT",
