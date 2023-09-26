@@ -5402,7 +5402,7 @@
         },
         {
             "id": "bc55b3f0-2b34-4561-aeb6-bd4ca9c88b7e",
-            "type": "ormlAsset",
+            "type": "ormlPendulum",
             "name": "tether usd",
             "symbol": "usdt",
             "precision": 6,
