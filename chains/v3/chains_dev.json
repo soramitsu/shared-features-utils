@@ -6022,7 +6022,7 @@
           ]
       },
       {
-          "disabled": false,
+          "disabled": true,
           "chainId": "137",
           "name": "Polygon",
           "externalApi": {
@@ -6181,7 +6181,7 @@
           ]
       },
       {
-          "disabled": false,
+          "disabled": true,
           "chainId": "80001",
           "name": "Polygon mumbai testnet",
           "externalApi": {
