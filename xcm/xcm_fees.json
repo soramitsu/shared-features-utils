@@ -163,7 +163,7 @@
         "feeInPlanks": "116414032617"
       }
     ],
-    "weight": "886274000"
+    "weight": "686274000"
   },
   {
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -516,6 +516,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "2120203588"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       },
       {
         "symbol": "AUSD",
@@ -1001,7 +1005,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1051,7 +1055,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "23734355136"
+        "feeInPlanks": "1998982844"
       },
       {
         "symbol": "HDX",
@@ -1403,7 +1407,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "24576062",
+        "feeInPlanks": "24501996",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1432,7 +1436,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "597014925",
+        "feeInPlanks": "401284109",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1463,7 +1467,7 @@
         "feeInPlanks": "100013000"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -1920,6 +1924,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2010,12 +2018,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2296",
+        "feeInPlanks": "2295",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "9467264749235353"
+        "feeInPlanks": "9795098996384742"
       },
       {
         "symbol": "WETH",
