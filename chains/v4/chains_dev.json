@@ -4824,27 +4824,37 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
                 "type": "soraAsset"
-            }
+            },
+            {
+                "id": "db07f99c-0c76-483a-891f-86fbd028fdc5",
+                "name": "bokolo cash",
+                "symbol": "BCSI",
+                "currencyId": "0x00eacaea6599a04358fda986388ef0bb0c17a553ec819d5de2900c0af0862502",
+                "precision": 18,
+                "icon": "",
+                "color": "FFFFFF",
+                "type": "soraAsset"
+              }
         ],
         "nodes": [{
                 "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Test Node #1"
+                "name": "Sora Stage Node #1"
             },
             {
                 "url": "wss://ws.framenode-2.s1.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Test Node #2"
+                "name": "Sora Stage Node #2"
             },
             {
                 "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Test Node #3"
+                "name": "Sora Stage Node #3"
             },
             {
                 "url": "wss://ws.framenode-4.s2.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Test Node #4"
+                "name": "Sora Stage Node #4"
             },
             {
                 "url": "wss://ws.framenode-5.s3.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Test Node #5"
+                "name": "Sora Stage Node #5"
             },
             {
                 "url": "wss://ws.framenode-1.r0.dev.sora2.soramitsu.co.jp",
