@@ -4831,7 +4831,7 @@
                 "symbol": "BCSI",
                 "currencyId": "0x00eacaea6599a04358fda986388ef0bb0c17a553ec819d5de2900c0af0862502",
                 "precision": 18,
-                "icon": "",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
                 "color": "FFFFFF",
                 "type": "soraAsset"
               }
@@ -5096,7 +5096,7 @@
                 "symbol": "BCSI",
                 "currencyId": "0x00eacaea6599a04358fda986388ef0bb0c17a553ec819d5de2900c0af0862502",
                 "precision": 18,
-                "icon": "",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
                 "color": "FFFFFF",
                 "type": "soraAsset"
               }
