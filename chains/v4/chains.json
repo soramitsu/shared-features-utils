@@ -5622,7 +5622,7 @@
     ]
 },
 {
-  "disabled": false,
+  "disabled": true,
   "chainId": "56",
   "rank": 2,
   "name": "BNB Smart Chain",
