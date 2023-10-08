@@ -476,6 +476,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -606,7 +610,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1367",
+        "feeInPlanks": "1397",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -867,7 +871,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "134614207701"
+        "feeInPlanks": "173844663088"
       },
       {
         "symbol": "aSEED",
@@ -1199,7 +1203,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "24648755",
+        "feeInPlanks": "24643895",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1208,7 +1212,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2055921052",
+        "feeInPlanks": "2164502164",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1241,7 +1245,7 @@
         "symbol": "xcEQD"
       },
       {
-        "feeInPlanks": "25289470",
+        "feeInPlanks": "24974685",
         "symbol": "cDOT-6/13",
         "precision": "10"
       },
@@ -1252,11 +1256,11 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "3530"
+        "feeInPlanks": "3630"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "100013000"
+        "feeInPlanks": "99982000"
       }
     ],
     "weight": "960000000"
@@ -1592,6 +1596,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1661,12 +1669,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "49085589857997800",
+        "feeInPlanks": "48278104252033251",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "8",
+        "feeInPlanks": "7",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -1682,16 +1690,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2212",
+        "feeInPlanks": "2238",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "11091505817762757"
+        "feeInPlanks": "10935530686695596"
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1355520959691"
+        "feeInPlanks": "1345116387603"
       },
       {
         "symbol": "USDT",
@@ -1745,7 +1753,7 @@
       },
       {
         "symbol": "USDCet",
-        "feeInPlanks": "25261"
+        "feeInPlanks": "25251"
       },
       {
         "symbol": "DAI",
