@@ -624,6 +624,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -1427,7 +1431,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "24545900",
+        "feeInPlanks": "24643895",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1436,7 +1440,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2192982456",
+        "feeInPlanks": "2164502164",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1968,6 +1972,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2037,7 +2045,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "48810132729384847",
+        "feeInPlanks": "48278104252033251",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2058,16 +2066,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2235",
+        "feeInPlanks": "2238",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "11133090679879567"
+        "feeInPlanks": "10935530686695596"
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1344596658094"
+        "feeInPlanks": "1345116387603"
       },
       {
         "symbol": "USDT",
