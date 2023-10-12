@@ -5064,6 +5064,16 @@
         "color":"FFFFFF",
         "type": "soraAsset",
         "isNative": true
+      },
+      {
+        "id": "a13169a1-32fa-4b44-aecb-c404c5f3cdbc",
+        "name": "bokolo cash",
+        "symbol": "BCSI",
+        "currencyId": "0x00eacaea6599a04358fda986388ef0bb0c17a553ec819d5de2900c0af0862502",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
+        "color": "FFFFFF",
+        "type": "soraAsset"
       }
     ],
     "nodes": [{
