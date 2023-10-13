@@ -1772,6 +1772,29 @@
     ]
   },
   {
+    "chainId": "c1ab5cf494c7f4e4eec3d12c471ea89fe94ceebba1a44ce4859f7e140fc60d74",
+    "runtime_id": 42,
+    "types": { },
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "GenericAccountId",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "framenode_runtime::RuntimeEvent": "GenericEvent",
+          "framenode_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "runtime_id": 700,
     "types": { },
