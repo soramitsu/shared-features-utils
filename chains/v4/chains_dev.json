@@ -6240,5 +6240,50 @@
               "ethereum",
               "nft"
           ]
-      }
+      },
+      {
+        "disabled": false,
+        "chainId": "c1ab5cf494c7f4e4eec3d12c471ea89fe94ceebba1a44ce4859f7e140fc60d74",
+        "name": "SORA-dev Testnet",
+        "externalApi": {
+            "history": {
+                "type": "sora",
+                "url": "https://api.subquery.network/sq/sora-xor/sora-dev"
+            }
+        },
+        "assets": [{
+            "id": "0ab149b0-aa1f-498b-b165-7b8349106038",
+            "name": "sora",
+            "symbol": "xor",
+            "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
+            "precision": 18,
+            "priceId": "sora",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+            "color": "EE2233",
+            "isUtility": true,
+            "type": "soraAsset",
+            "staking": "relaychain"
+        },
+            {
+                "id": "9ce929bf-711f-440e-aaf1-10fb977f7982",
+                "name": "bokolo cash",
+                "symbol": "BCSI",
+                "currencyId": "0x00eacaea6599a04358fda986388ef0bb0c17a553ec819d5de2900c0af0862502",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
+                "color": "FFFFFF",
+                "type": "soraAsset"
+              }
+        ],
+        "nodes": [{
+                "url": "wss://ws.framenode-2.r0.dev.sora2.soramitsu.co.jp",
+                "name": "SORA Dev Node #1"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
+        "addressPrefix": 69,
+        "options": [
+            "polkaswap"
+        ]
+    }
 ]
