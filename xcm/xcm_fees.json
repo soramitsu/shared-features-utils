@@ -132,7 +132,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "116414032617"
+        "feeInPlanks": "90143594216"
       },
       {
         "symbol": "HKO",
@@ -167,7 +167,7 @@
         "feeInPlanks": "1954820097325"
       }
     ],
-    "weight": "886274000"
+    "weight": "686274000"
   },
   {
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -664,6 +664,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "4700023386728"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -794,7 +798,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1206",
+        "feeInPlanks": "1142",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1100,7 +1104,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "160115442404",
+        "feeInPlanks": "5636274000000000",
         "symbol": "PHA",
         "precision": "12"
       },
@@ -1115,7 +1119,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "686274000000000"
+        "feeInPlanks": "5636274000000000"
       },
       {
         "symbol": "HDX",
@@ -1172,6 +1176,10 @@
       {
         "symbol": "DAI",
         "feeInPlanks": "686274000000000"
+      },
+      {
+        "symbol": "WBTC",
+        "feeInPlanks": "5636274000000000"
       }
     ],
     "weight": "800000000"
@@ -2108,6 +2116,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2177,7 +2189,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "42695472016493020",
+        "feeInPlanks": "42650093482045483",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2198,12 +2210,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1815",
+        "feeInPlanks": "1834",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "9914583905152983"
+        "feeInPlanks": "9968038614001176"
       },
       {
         "symbol": "WETH",
