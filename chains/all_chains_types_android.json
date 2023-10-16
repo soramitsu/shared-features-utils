@@ -652,8 +652,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "eq_node_runtime::Event": "GenericEvent",
-          "eq_node_runtime::Call": "GenericCall",
+          "eq_node_runtime::RuntimeEvent": "GenericEvent",
+          "eq_node_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
