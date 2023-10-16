@@ -1992,16 +1992,12 @@
         "name": "Unique Asia node"
       },
       {
-        "url": "wss://quartz.unique.network",
-        "name": "Unique node"
-      },
-      {
         "url": "wss://us-ws-quartz.unique.network",
         "name": "Unique America node"
       },
       {
-        "url": "wss://quartz.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
+        "url": "wss://quartz-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/quartz.svg",
@@ -2118,10 +2114,6 @@
     "nodes": [{
         "url": "wss://heiko-rpc.parallel.fi",
         "name": "Parallel node"
-      },
-      {
-        "url": "wss://parallel-heiko.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/parallelfinance.svg",
@@ -2205,7 +2197,7 @@
         "name": "Centrifuge node"
       },
       {
-        "url": "wss://altair.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://altair.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -2217,7 +2209,7 @@
     "chainId": "f22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2096",
-    "name": "Bit.Country Pioneer",
+    "name": "Pioneer Network",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -2236,8 +2228,8 @@
       "type": "normal"
     }],
     "nodes": [{
-      "url": "wss://pioneer.api.onfinality.io/public-ws",
-      "name": "OnFinality node"
+      "url": "wss://pioneer-rpc-3.bit.country/wss",
+      "name": "MetaverseNetwork node"
     }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/bitcountry.svg",
@@ -3185,53 +3177,6 @@
   },
   {
     "disabled": false,
-    "chainId": "335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
-    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "paraId": "2021",
-    "name": "Efinity",
-    "externalApi": {
-      "history": {
-        "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-efinity/graphql"
-      },
-      "explorers": [{
-        "type": "subscan",
-        "types": [
-          "extrinsic",
-          "account"
-        ],
-        "url": "https://efinity.subscan.io/{type}/{value}"
-      }]
-    },
-    "assets": [{
-      "id": "80b7c347-161d-40a9-aed6-b2f202e3577e",
-      "name": "efinity",
-      "symbol": "efi",
-      "precision": 18,
-      "priceId": "efinity",
-      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/EFI.svg",
-      "color": "516CD4",
-      "isUtility": true,
-      "type": "normal"
-    }],
-    "nodes": [{
-        "url": "wss://rpc.efinity.io",
-        "name": "Efinity node"
-      },
-      {
-        "url": "wss://efinity-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://efinity.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
-      }
-    ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/efinity.svg",
-    "addressPrefix": 1110
-  },
-  {
-    "disabled": false,
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2034",
@@ -3364,7 +3309,15 @@
         "name": "Centrufge node"
       },
       {
-        "url": "wss://centrifuge-parachain.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://centrifuge-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://rpc-centrifuge.luckyfriday.io",
+        "name": "LuckyFriday node"
+      },
+      {
+        "url": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -3393,7 +3346,7 @@
         "name": "Dwellir node"
       },
       {
-        "url": "wss://nodle-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://nodle-parachain.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -3477,8 +3430,6 @@
   {
     "disabled": false,
     "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "paraId": "2040",
     "name": "Polkadex Main Network",
     "assets": [{
       "id": "5502c9cb-14f7-4de8-a35d-71263dc3f78f",
@@ -3496,7 +3447,7 @@
         "name": "Polkadex Team node"
       },
       {
-        "url": "wss://polkadex.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://polkadex.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -3785,7 +3736,7 @@
         "name": "Composable node"
       },
       {
-        "url": "wss://composable.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://composable.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -4387,8 +4338,8 @@
       "type": "normal"
     }],
     "nodes": [{
-      "url": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
-      "name": "OnFinality node"
+      "url": "wss://tinkernet-rpc.dwellir.com",
+      "name": "Dwellir node"
     }],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Tinkernet.svg",
     "addressPrefix": 117
