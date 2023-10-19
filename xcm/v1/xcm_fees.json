@@ -58,7 +58,7 @@
       },
       {
         "symbol": "SDN",
-        "feeInPlanks": "80128000000000"
+        "feeInPlanks": "70392000000000"
       },
       {
         "symbol": "aSEED",
@@ -206,7 +206,7 @@
         "symbol": "2088"
       },
       {
-        "feeInPlanks": "143602",
+        "feeInPlanks": "16",
         "symbol": "KBTC",
         "precision": "8"
       },
@@ -488,6 +488,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -613,12 +617,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "714933",
+        "feeInPlanks": "658973",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "1224",
+        "feeInPlanks": "1099",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -871,7 +875,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "23734355136"
+        "feeInPlanks": "35376980"
       },
       {
         "symbol": "HDX",
@@ -1004,6 +1008,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1206341945642138"
+      },
+      {
+        "symbol": "iBTC",
+        "feeInPlanks": "6"
       }
     ],
     "weight": "800000000"
@@ -1047,6 +1055,10 @@
       {
         "symbol": "USDT",
         "feeInPlanks": "9510"
+      },
+      {
+        "symbol": "iBTC",
+        "feeInPlanks": "63"
       }
     ],
     "weight": "800000000"
@@ -1219,7 +1231,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "26792412",
+        "feeInPlanks": "27442371",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1228,12 +1240,12 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2337540906",
+        "feeInPlanks": "2457002457",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "13469827586",
+        "feeInPlanks": "10369141435",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1248,7 +1260,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "554016620",
+        "feeInPlanks": "556483027",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1272,14 +1284,14 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "3750"
+        "feeInPlanks": "3710"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "99992000"
+        "feeInPlanks": "99994000"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -1326,6 +1338,10 @@
       {
         "symbol": "VDOT",
         "feeInPlanks": "703"
+      },
+      {
+        "symbol": "WBTC",
+        "feeInPlanks": "7039200000000"
       }
     ],
     "weight": "800000000"
@@ -1620,6 +1636,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1689,12 +1709,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "45286671879986526",
+        "feeInPlanks": "43284088506780812",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "7",
+        "feeInPlanks": "6",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -1710,12 +1730,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1874",
+        "feeInPlanks": "1707",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "10405749113668560"
+        "feeInPlanks": "10281257605779124"
       },
       {
         "symbol": "WETH",
@@ -1732,6 +1752,10 @@
       {
         "symbol": "USDC",
         "feeInPlanks": "2724"
+      },
+      {
+        "symbol": "CFG",
+        "feeInPlanks": "5506798034817950"
       }
     ],
     "weight": "480000000"
