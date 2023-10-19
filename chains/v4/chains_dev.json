@@ -4682,7 +4682,11 @@
             "history": {
                 "type": "sora",
                 "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
-            }
+            },
+            "staking": {
+                "type": "subsquid",
+                "url": "https://squid.subsquid.io/sora-stage/v/v2/graphqll"
+             }
         },
         "assets": [{
             "id": "b5a44630-920e-43ee-809f-61890d0888b0",
