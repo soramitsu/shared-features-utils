@@ -4685,7 +4685,7 @@
             },
             "staking": {
                 "type": "subsquid",
-                "url": "https://squid.subsquid.io/sora-stage/v/v2/graphqll"
+                "url": "https://squid.subsquid.io/sora-stage/v/v2/graphql"
              }
         },
         "assets": [{
