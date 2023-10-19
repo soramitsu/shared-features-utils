@@ -58,7 +58,7 @@
       },
       {
         "symbol": "SDN",
-        "feeInPlanks": "80128000000000"
+        "feeInPlanks": "70392000000000"
       },
       {
         "symbol": "aSEED",
@@ -676,6 +676,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -806,7 +810,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1142",
+        "feeInPlanks": "1099",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1077,7 +1081,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1127,7 +1131,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "5636274000000000"
+        "feeInPlanks": "35376980"
       },
       {
         "symbol": "HDX",
@@ -1559,7 +1563,7 @@
     "destChain": "Equilibrium",
     "destXcmFee": [
       {
-        "feeInPlanks": "26737967",
+        "feeInPlanks": "27442371",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1568,7 +1572,7 @@
         "symbol": "xcEQ"
       },
       {
-        "feeInPlanks": "2390628735",
+        "feeInPlanks": "2457002457",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1619,7 +1623,7 @@
         "feeInPlanks": "99994000"
       }
     ],
-    "weight": "800000000"
+    "weight": "960000000"
   },
   {
     "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -2152,6 +2156,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2221,7 +2229,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "44013007661006065",
+        "feeInPlanks": "43284088506780812",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2242,12 +2250,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1770",
+        "feeInPlanks": "1707",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "10589268106839212"
+        "feeInPlanks": "10281257605779124"
       },
       {
         "symbol": "WETH",
@@ -2267,7 +2275,7 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5633797427339348"
+        "feeInPlanks": "5506798034817950"
       }
     ],
     "weight": "480000000"
