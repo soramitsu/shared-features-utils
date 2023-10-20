@@ -696,6 +696,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -1097,7 +1101,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1804,6 +1808,10 @@
         "feeInPlanks": "25600000000",
         "symbol": "AUSD",
         "precision": "12"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       },
       {
         "symbol": "AUSD",
