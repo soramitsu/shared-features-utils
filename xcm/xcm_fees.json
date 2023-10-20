@@ -692,6 +692,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -822,7 +826,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1087",
+        "feeInPlanks": "1099",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1093,7 +1097,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1371,6 +1375,10 @@
       {
         "symbol": "iBTC",
         "feeInPlanks": "63"
+      },
+      {
+        "symbol": "vDOT",
+        "feeInPlanks": "18012501"
       }
     ],
     "weight": "800000000"
@@ -2184,6 +2192,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2253,7 +2265,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "42593597991876553",
+        "feeInPlanks": "42080730299812326",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2269,12 +2281,12 @@
       },
       {
         "symbol": "DAI",
-        "feeInPlanks": "2277418029439214",
+        "feeInPlanks": "1681937136606722",
         "precision": "18"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1694",
+        "feeInPlanks": "1696",
         "precision": "6"
       },
       {
@@ -2299,11 +2311,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5654421746583223"
+        "feeInPlanks": "5684045671393631"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3868018"
+        "feeInPlanks": "3859363"
       }
     ],
     "weight": "480000000"
