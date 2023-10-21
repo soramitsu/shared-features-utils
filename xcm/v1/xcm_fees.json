@@ -206,7 +206,7 @@
         "symbol": "2088"
       },
       {
-        "feeInPlanks": "143602",
+        "feeInPlanks": "16",
         "symbol": "KBTC",
         "precision": "8"
       },
@@ -496,6 +496,10 @@
       {
         "symbol": "aUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -626,7 +630,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1099",
+        "feeInPlanks": "1000",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -879,7 +883,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "23734355136"
+        "feeInPlanks": "2498982844"
       },
       {
         "symbol": "HDX",
@@ -1652,6 +1656,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1709,7 +1717,7 @@
         "precision": "6"
       }
     ],
-    "weight": "960000000"
+    "weight": "800000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1721,12 +1729,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "42080730299812326",
+        "feeInPlanks": "40726602883158075",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "7",
+        "feeInPlanks": "5",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -1742,12 +1750,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1696",
+        "feeInPlanks": "1672",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "10405749113668560"
+        "feeInPlanks": "9702165347103558"
       },
       {
         "symbol": "WETH",
@@ -1767,7 +1775,7 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5684045671393631"
+        "feeInPlanks": "5653111520611291"
       },
       {
         "symbol": "vDOT",
