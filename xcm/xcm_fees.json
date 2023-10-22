@@ -704,6 +704,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -829,12 +833,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "638548",
+        "feeInPlanks": "624320",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "1000",
+        "feeInPlanks": "1070",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -2212,6 +2216,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2281,7 +2289,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "40726602883158075",
+        "feeInPlanks": "40532394165366843",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2297,17 +2305,17 @@
       },
       {
         "symbol": "DAI",
-        "feeInPlanks": "1681937136606722",
+        "feeInPlanks": "1669545220958911",
         "precision": "18"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1672",
+        "feeInPlanks": "1698",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "9702165347103558"
+        "feeInPlanks": "9463764095762187"
       },
       {
         "symbol": "WETH",
@@ -2327,11 +2335,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5653111520611291"
+        "feeInPlanks": "5701396882613204"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3859363"
+        "feeInPlanks": "3615354"
       }
     ],
     "weight": "480000000"
