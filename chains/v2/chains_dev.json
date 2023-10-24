@@ -6230,7 +6230,7 @@
         ],
         "nodes": [
             {
-                "url": "ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
+                "url": "wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
                 "name": "Soramitsu node"
             }
         ],
