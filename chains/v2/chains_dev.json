@@ -6185,7 +6185,7 @@
       },
   {
     "disabled": false,
-    "chainId": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+    "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
     "name": "Rococo",
     "assets": [
       {
@@ -6210,5 +6210,34 @@
     "options": [
       "testnet"
     ]
-  }
+  },
+    {
+        "disabled": false,
+        "chainId": "8685a8d3e57fa8024b91b8ead6cc97acf953889c6fb0a355602826a1e2db198f",
+        "parentId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+        "name": "Sora Rococo",
+        "assets": [
+            {
+                "isUtility": true,
+                "id": "c8388910-5399-4ad7-898c-1828f1b32bcf",
+                "name": "rxor",
+                "symbol": "rxor",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+                "color": "FFFFFF",
+                "type": "normal"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
+                "name": "Soramitsu node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+        "addressPrefix": 420,
+        "options": [
+            "testnet"
+        ]
+    }
 ]
