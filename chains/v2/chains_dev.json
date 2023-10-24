@@ -5776,7 +5776,7 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
             "color": "FF0066",
             "type": "normal",
-            "ethereumType": "bep20" 
+            "ethereumType": "bep20"
         },
         {
             "isUtility": false,
@@ -6182,5 +6182,33 @@
               "ethereum",
               "nft"
           ]
+      },
+  {
+    "disabled": false,
+    "chainId": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+    "name": "Rococo",
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2",
+        "name": "rococo",
+        "symbol": "roc",
+        "precision": 12,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+        "color": "FFFFFF",
+        "type": "normal"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rococo-rpc.polkadot.io",
+        "name": "Parity node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
+    "addressPrefix": 42,
+    "options": [
+      "testnet"
+    ]
+  }
 ]
