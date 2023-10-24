@@ -2287,8 +2287,8 @@
         "name": "Clover node"
       },
       {
-        "url": "wss://clover.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
+        "url": "wss://clover-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/clover.svg",
@@ -2648,8 +2648,8 @@
         "name": "Parallel node"
       },
       {
-        "url": "wss://parallel.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
+        "url": "wss://parallel-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/parallelfinance.svg",
@@ -3142,8 +3142,8 @@
   {
     "disabled": false,
     "chainId": "4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "paraId": "2100",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "2101",
     "name": "Subsocial",
     "assets": [{
       "id": "07f9e907-d099-4893-a67b-96cb2fe63049",
@@ -3216,6 +3216,7 @@
       "name": "hydradx",
       "symbol": "hdx",
       "precision": 12,
+      "priceId": "hydradx",
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HDX.svg",
       "color": "FFFFFF",
       "isUtility": true,
@@ -3240,6 +3241,7 @@
         "symbol": "ibtc",
         "precision": 8,
         "currencyId": "11",
+        "priceId": "interbtc",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/iBTC.svg",
         "color": "F2AE7F",
         "existentialDeposit": "36"
@@ -3276,14 +3278,6 @@
       {
         "url": "wss://hydradx-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://hydradx.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
-      },
-      {
-        "url": "wss://rpc-lb.data6.zp-labs.net:8443/hydradx/ws/?token=2ZGuGivPJJAxXiT1hR1Yg2MXGjMrhEBYFjgbdPi",
-        "name": "ZeePrime node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/hydradx.svg",
@@ -3403,6 +3397,7 @@
         "name": "inter ibtc",
         "symbol": "ibtc",
         "precision": 8,
+        "priceId": "interbtc",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/iBTC.svg",
         "color": "F2AE7F"
       }
@@ -3412,8 +3407,12 @@
         "name": "Kintsugi Labs node"
       },
       {
-        "url": "wss://interlay.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
+        "url": "wss://interlay-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://rpc-interlay.luckyfriday.io",
+        "name": "LuckyFriday node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/interlay.svg",
@@ -3752,8 +3751,8 @@
         "name": "Composable node"
       },
       {
-        "url": "wss://composable.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
+        "url": "wss://composable-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/composable.svg",
@@ -4019,6 +4018,7 @@
       "currencyId": "25969",
       "precision": 9,
       "existentialDeposit": "1000000000",
+      "priceId": "equilibrium-token",
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/EQ.svg",
       "color": "5176E6",
       "isUtility": true,
@@ -4041,6 +4041,7 @@
         "symbol": "aca",
         "currencyId": "6382433",
         "precision": 9,
+        "priceId": "acala",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ACA.svg",
         "color": "FFFFFF",
         "type": "equilibrium"
@@ -4051,6 +4052,7 @@
         "symbol": "bnb",
         "currencyId": "6450786",
         "precision": 9,
+        "priceId": "binancecoin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
         "color": "F3BA2F",
         "type": "equilibrium"
@@ -4061,6 +4063,7 @@
         "symbol": "dot",
         "currencyId": "6582132",
         "precision": 9,
+        "priceId": "polkadot",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
         "color": "FF0066",
         "type": "equilibrium"
@@ -4071,6 +4074,7 @@
         "symbol": "astr",
         "currencyId": "1634956402",
         "precision": 9,
+        "priceId": "astar",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ASTR.svg",
         "color": "0AE2FF",
         "type": "equilibrium"
@@ -4081,6 +4085,7 @@
         "symbol": "ausd",
         "currencyId": "1635087204",
         "precision": 9,
+        "priceId": "acala-dollar",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AUSD.svg",
         "color": "E40C5B",
         "type": "equilibrium"
@@ -4091,6 +4096,7 @@
         "symbol": "busd",
         "currencyId": "1651864420",
         "precision": 9,
+        "priceId": "binance-usd",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
         "color": "F3BA2F",
         "type": "equilibrium"
@@ -4101,6 +4107,7 @@
         "symbol": "glmr",
         "currencyId": "1735159154",
         "precision": 9,
+        "priceId": "moonbeam",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/GLMR.svg",
         "color": "FFFFFF",
         "type": "equilibrium"
@@ -4111,6 +4118,7 @@
         "symbol": "ibtc",
         "currencyId": "1768060003",
         "precision": 9,
+        "priceId": "interbtc",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/iBTC.svg",
         "color": "F2AE7F",
         "type": "equilibrium"
@@ -4121,6 +4129,7 @@
         "symbol": "intr",
         "currencyId": "1768846450",
         "precision": 9,
+        "priceId": "interlay",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INTR.svg",
         "color": "FFFFFF",
         "type": "equilibrium"
@@ -4142,6 +4151,7 @@
         "symbol": "usdt",
         "currencyId": "1970496628",
         "precision": 9,
+        "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
         "type": "equilibrium"
@@ -4167,10 +4177,7 @@
         "type": "equilibrium"
       }
     ],
-    "nodes": [{
-        "url": "wss://node.pol.equilibrium.io",
-        "name": "Equilibrium node"
-      },
+    "nodes": [
       {
         "url": "wss://equilibrium-rpc.dwellir.com",
         "name": "Dwellir node"
@@ -4206,10 +4213,6 @@
       {
         "url": "wss://integritee-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://polkadot.api.integritee.network",
-        "name": "Integritee node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/integritee.svg",
@@ -4295,8 +4298,8 @@
         "name": "IBP-GeoDNS2 node"
       },
       {
-        "url": "wss://encointer.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
+        "url": "wss://ksm-rpc.stakeworld.io/encointer",
+        "name": "Stakeworld node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/encointer.svg",
@@ -5328,10 +5331,7 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
-        "url": "wss://k-ui.kapex.network",
-        "name": "Totem node"
-      },
+    "nodes": [
       {
         "url": "wss://kapex-rpc.dwellir.com",
         "name": "Dwellir node"
