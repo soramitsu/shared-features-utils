@@ -2104,5 +2104,28 @@
         }
       }
     ]
+  },
+  {
+    "chainId": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+    "runtime_id": 102000,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "rococo_runtime::RuntimeEvent": "GenericEvent",
+          "rococo_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
   }
 ]
