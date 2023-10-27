@@ -1359,5 +1359,17 @@
       }
     ],
     "weight": "800000000"
+  },
+  {
+    "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+    "destChain": "Rococo",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "70392000000",
+        "symbol": "ROC",
+        "precision": "12"
+      }
+    ],
+    "weight": "800000000"
   }
 ]
