@@ -6199,6 +6199,15 @@
         "type": "normal"
       }
     ],
+      "xcm": {
+        "xcmVersion": "v3",
+        "availableAssets": [
+            {
+                "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                "symbol": "ROC"
+            }
+        ]
+    },
     "nodes": [
       {
         "url": "wss://rococo-rpc.polkadot.io",
