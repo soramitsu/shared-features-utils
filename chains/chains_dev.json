@@ -64,7 +64,7 @@
                 "currencyId": "0x00dc9b4341fde46c9ac80b623d0d43afd9ac205baabdc087cadaa06f92b309c7",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
                 "color": "FFFFFF",
-                "type": "normal"
+                "type": "ormlAsset"
             }],
         "nodes": [{
                 "url": "wss://westend-rpc.polkadot.io",
@@ -276,7 +276,7 @@
                 "currencyId": "0x00dc9b4341fde46c9ac80b623d0d43afd9ac205baabdc087cadaa06f92b309c7",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
                 "color": "FFFFFF",
-                "type": "normal"
+                "type": "soraAsset"
             }
         ],
         "nodes": [{
