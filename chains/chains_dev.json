@@ -2,7 +2,7 @@
     {
         "disabled": false,
         "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-        "name": "Westend",
+        "name": "Rococo",
         "externalApi": {
             "staking": {
                 "type": "subquery",
@@ -45,38 +45,21 @@
                 }
             ]
         },
-        "assets": [{
-            "staking": "relaychain",
-            "isUtility": true,
-            "id": "a3868e1b-922e-42d4-b73e-b41712f0843c",
-            "name": "westend",
-            "symbol": "wnd",
-            "precision": 12,
-            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
-            "color": "FFFFFF",
-            "type": "normal"
-        },
+        "assets": [
             {
                 "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2",
                 "name": "rococo",
                 "symbol": "roc",
-                "precision": 18,
+                "precision": 12,
                 "currencyId": "0x00dc9b4341fde46c9ac80b623d0d43afd9ac205baabdc087cadaa06f92b309c7",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
                 "color": "FFFFFF",
-                "type": "ormlAsset"
+                "type": "normal"
             }],
-        "nodes": [{
-                "url": "wss://westend-rpc.polkadot.io",
-                "name": "Parity node"
-            },
+        "nodes": [
             {
-                "url": "wss://westend-rpc.dwellir.com",
-                "name": "Dwellir node"
-            },
-            {
-                "url": "wss://westend.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-                "name": "OnFinality node"
+              "url": "wss://rococo-rpc.polkadot.io",
+              "name": "Parity node"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
