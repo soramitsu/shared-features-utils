@@ -1926,12 +1926,12 @@
          "types": {
            "Balance": "u128",
            "Index": "u32",
-           "Phase": "frame_system::Phase",
-           "Address": "sp_runtime::multiaddress::MultiAddress",
-           "ExtrinsicSignature": "sp_runtime::MultiSignature",
-           "rococo_runtime::RuntimeEvent": "GenericEvent",
-           "rococo_runtime::RuntimeCall": "GenericCall",
-           "sp_core::crypto::AccountId32": "GenericAccountId"
+           "Phase": "177",
+           "Address": "226",
+           "ExtrinsicSignature": "443",
+           "20": "GenericEvent",
+           "305": "GenericCall",
+           "0": "GenericAccountId"
          }
        }
      ]
