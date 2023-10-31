@@ -1937,26 +1937,26 @@
      ]
    },
    {
-     "chainId": "8685a8d3e57fa8024b91b8ead6cc97acf953889c6fb0a355602826a1e2db198f",
-     "runtime_id": 7,
-     "types": {},
-     "versioning": [
-       {
-         "runtime_range": [
-           0,
-           null
-         ],
-         "types": {
-           "Balance": "u128",
-           "Index": "u32",
-           "Phase": "frame_system::Phase",
-           "Address": "sp_runtime::multiaddress::MultiAddress",
-           "ExtrinsicSignature": "sp_runtime::MultiSignature",
-           "sora2_parachain_runtime::RuntimeEvent": "GenericEvent",
-           "sora2_parachain_runtime::RuntimeCall": "GenericCall",
-           "sp_core::crypto::AccountId32": "GenericAccountId"
-         }
-       }
-     ]
+       "chainId": "8685a8d3e57fa8024b91b8ead6cc97acf953889c6fb0a355602826a1e2db198f",
+       "runtime_id": 1,
+       "types": { },
+       "versioning": [
+           {
+               "runtime_range": [
+                   0,
+                   null
+               ],
+               "types": {
+                   "Balance": "u128",
+                   "Index": "u32",
+                   "Phase": "78",
+                   "Address": "140",
+                   "ExtrinsicSignature": "224",
+                   "ParaId": "110",
+                   "17": "GenericEvent",
+                   "221": "GenericCall"
+               }
+           }
+       ]
    }
 ]
