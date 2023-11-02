@@ -6338,7 +6338,8 @@
                   "precision": 12,
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
                   "color": "FFFFFF",
-                  "type": "normal"
+                  "type": "normal",
+                  "isUtility": true
               }],
           "nodes": [
               {
