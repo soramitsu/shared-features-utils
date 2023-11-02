@@ -4696,6 +4696,26 @@
                 "url": "https://squid.subsquid.io/sora-stage/v/v4/graphql"
             }
         },
+        "xcm": {
+            "xcmVersion": "v3",
+            "availableAssets": [
+                {
+                    "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b1",
+                    "symbol": "ROC"
+                }
+            ],
+            "availableDestinations": [
+                {
+                    "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+                    "assets": [
+                        {
+                            "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b1",
+                            "symbol": "ROC"
+                        }
+                    ]
+                }
+            ]
+        },
         "assets": [{
             "id": "b5a44630-920e-43ee-809f-61890d0888b0",
             "name": "sora",
@@ -4846,7 +4866,17 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
                 "color": "FFFFFF",
                 "type": "soraAsset"
-              }
+              },
+            {
+                "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b1",
+                "name": "rococo",
+                "symbol": "roc",
+                "precision": 18,
+                "currencyId": "0x00dc9b4341fde46c9ac80b623d0d43afd9ac205baabdc087cadaa06f92b309c7",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
+                "color": "FFFFFF",
+                "type": "soraAsset"
+            }
         ],
         "nodes": [{
                 "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
@@ -6252,5 +6282,111 @@
               "ethereum",
               "nft"
           ]
+      },
+      {
+          "disabled": false,
+          "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+          "name": "Rococo",
+          "externalApi": {
+              "staking": {
+                  "type": "subquery",
+                  "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-westend"
+              },
+              "history": {
+                  "type": "subquery",
+                  "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-westend"
+              },
+              "crowdloans": {
+                  "type": "github",
+                  "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/westend.json"
+              },
+              "explorers": [{
+                  "type": "subscan",
+                  "types": [
+                      "extrinsic",
+                      "account"
+                  ],
+                  "url": "https://westend.subscan.io/{type}/{value}"
+              }]
+          },
+          "xcm": {
+              "xcmVersion": "v3",
+              "availableAssets": [
+                  {
+                      "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2",
+                      "symbol": "ROC"
+                  }
+              ],
+              "availableDestinations": [
+                  {
+                      "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+                      "assets": [
+                          {
+                              "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2",
+                              "symbol": "ROC"
+                          }
+                      ]
+                  }
+              ]
+          },
+          "assets": [
+              {
+                  "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2",
+                  "name": "rococo",
+                  "symbol": "roc",
+                  "precision": 12,
+                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+                  "color": "FFFFFF",
+                  "type": "normal"
+              }],
+          "nodes": [
+              {
+                "url": "wss://rococo-rpc.polkadot.io",
+                "name": "Parity node"
+              }
+          ],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
+          "addressPrefix": 42,
+          "options": [
+              "testnet",
+              "crowdloans",
+              "poolStaking"
+          ]
+      },
+      {
+          "disabled": false,
+          "chainId": "8685a8d3e57fa8024b91b8ead6cc97acf953889c6fb0a355602826a1e2db198f",
+          "parentId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+          "paraId": "2011",
+          "name": "SORA Rococo parachain",
+          "assets": [{
+              "id": "b5a44630-920e-43ee-809f-61890d0888b0123",
+              "name": "sora",
+              "symbol": "rxor",
+              "currencyId": "0x0200000000000000000000000000000000000000000000000000000000000000",
+              "precision": 18,
+              "priceId": "sora",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+              "color": "EE2233",
+              "isUtility": true,
+              "type": "soraAsset",
+              "staking": "relaychain"
+          },
+              {
+                  "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2123",
+                  "name": "rococo",
+                  "symbol": "roc",
+                  "precision": 18,
+                  "currencyId": "0x00dc9b4341fde46c9ac80b623d0d43afd9ac205baabdc087cadaa06f92b309c7",
+                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+                  "color": "FFFFFF",
+                  "type": "soraAsset"
+              }],
+          "nodes": [{
+              "url": "wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
+              "name": "Soramitsu node"
+          }],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
+          "addressPrefix": 420
       }
 ]
