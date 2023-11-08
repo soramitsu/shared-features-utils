@@ -4835,6 +4835,10 @@
     "rank": 0,
     "name": "SORA Mainnet",
     "externalApi": {
+        "staking": {
+            "type": "sora",
+            "url": "https://squid.subsquid.io/sora/v/v4/graphql"
+        },
       "history": {
         "type": "sora",
         "url": "https://api.subquery.network/sq/sora-xor/sora-prod-sub4"
