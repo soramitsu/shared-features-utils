@@ -122,7 +122,7 @@
   },
   {
     "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-    "runtime_id": 9,
+    "runtime_id": 71,
     "types": { },
     "versioning": [
       {
@@ -137,8 +137,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "astar_runtime::Event": "GenericEvent",
-          "astar_runtime::Call": "GenericCall",
+          "astar_runtime::RuntimeEvent": "GenericEvent",
+          "astar_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
@@ -951,7 +951,7 @@
   },
   {
     "chainId": "411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-    "runtime_id": 10400,
+    "runtime_id": 11110,
     "types": { },
     "versioning": [
       {
@@ -966,8 +966,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "spiritnet_runtime::Event": "GenericEvent",
-          "spiritnet_runtime::Call": "GenericCall",
+          "spiritnet_runtime::RuntimeEvent": "GenericEvent",
+          "spiritnet_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
