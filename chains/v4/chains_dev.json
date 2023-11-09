@@ -4690,6 +4690,10 @@
             "history": {
                 "type": "sora",
                 "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
+            },
+            "staking": {
+                "type": "sora",
+                "url": "https://squid.subsquid.io/sora-stage/v/v4/graphql"
             }
         },
         "assets": [{
@@ -4893,6 +4897,10 @@
             "history": {
                 "type": "sora",
                 "url": "https://api.subquery.network/sq/sora-xor/sora-prod-sub4"
+            },
+            "staking": {
+                "type:" : "sora",
+                "url": "https://squid.subsquid.io/sora/v/v4/graphql"
             },
             "explorers": [{
                 "type": "subscan",
