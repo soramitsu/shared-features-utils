@@ -1245,25 +1245,14 @@
         }
       ]
     },
-    "nodes": [{
-        "url": "wss://karura-rpc-0.aca-api.network",
-        "name": "Acala Foundation node 0"
-      },
+    "nodes": [
       {
-        "url": "wss://karura-rpc-2.aca-api.network/ws",
-        "name": "Acala Foundation node 2"
-      },
-      {
-        "url": "wss://karura-rpc-3.aca-api.network/ws",
-        "name": "Acala Foundation node 3"
+        "url": "wss://karura-rpc.dwellir.com",
+        "name": "Dwellir node"
       },
       {
         "url": "wss://karura.polkawallet.io",
         "name": "Polkawallet node"
-      },
-      {
-        "url": "wss://karura-rpc.dwellir.com",
-        "name": "Dwellir node"
       },
       {
         "url": "wss://karura.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
