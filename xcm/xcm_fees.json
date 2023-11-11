@@ -792,6 +792,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -917,7 +921,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "534168",
+        "feeInPlanks": "517055",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -1209,7 +1213,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1287,7 +1291,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "54347826"
+        "feeInPlanks": "173844663088"
       },
       {
         "symbol": "vGLMR",
@@ -2416,6 +2420,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2489,7 +2497,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "34107873232467895",
+        "feeInPlanks": "36458558843055710",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2510,16 +2518,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2398",
+        "feeInPlanks": "2489",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "8540379196857334"
+        "feeInPlanks": "8944729451670871"
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1027217606557"
+        "feeInPlanks": "1197133167627"
       },
       {
         "symbol": "USDT",
@@ -2535,11 +2543,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "4621602508728720"
+        "feeInPlanks": "4746557304079165"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3835525"
+        "feeInPlanks": "3927440"
       }
     ],
     "weight": "480000000"
