@@ -60,8 +60,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "amplitude_runtime::Event",
-                    "GenericCall": "amplitude_runtime::Call"
+                    "GenericEvent": "amplitude_runtime::RuntimeEvent",
+                    "GenericCall": "amplitude_runtime::RuntimeCall"
                 }
             }
         ]
