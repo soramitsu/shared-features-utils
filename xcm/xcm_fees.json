@@ -808,6 +808,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -1303,7 +1307,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "173844663088"
+        "feeInPlanks": "54347826"
       },
       {
         "symbol": "vGLMR",
@@ -2456,6 +2460,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2539,7 +2547,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1421992551",
+        "feeInPlanks": "1428930434",
         "symbol": "INTR",
         "precision": "10"
       },
