@@ -214,7 +214,8 @@
                             "symbol": "KSM"
                         }
                         
-                    ]
+                    ],
+                    "bridgeParachainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9"
                 }
             ]
         },
@@ -5184,8 +5185,7 @@
                             "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
                             "symbol": "KSM"
                         }
-                    ],
-                    "bridgeParachainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9"
+                    ]
                 }
             ]
         },
