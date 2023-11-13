@@ -6336,7 +6336,7 @@
                   "name": "rococo",
                   "symbol": "roc",
                   "precision": 12,
-                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+                  "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ROC.svg",
                   "color": "FFFFFF",
                   "type": "normal",
                   "isUtility": true
@@ -6347,7 +6347,7 @@
                 "name": "Parity node"
               }
           ],
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Rococo.svg",
           "addressPrefix": 42,
           "options": [
               "testnet",
