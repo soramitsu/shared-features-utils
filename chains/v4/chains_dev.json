@@ -6350,9 +6350,7 @@
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Rococo.svg",
           "addressPrefix": 42,
           "options": [
-              "testnet",
-              "crowdloans",
-              "poolStaking"
+              "testnet"
           ]
       },
       {
@@ -6371,8 +6369,7 @@
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
               "color": "EE2233",
               "isUtility": true,
-              "type": "soraAsset",
-              "staking": "relaychain"
+              "type": "soraAsset"
           },
               {
                   "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b2123",
@@ -6389,6 +6386,9 @@
               "name": "Soramitsu node"
           }],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
-          "addressPrefix": 420
+          "addressPrefix": 420,
+          "options": [
+              "testnet"
+          ]
       }
 ]
