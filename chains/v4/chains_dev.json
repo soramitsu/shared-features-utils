@@ -5494,16 +5494,30 @@
                 "url": "https://squid.subsquid.io/gs-main-pendulum/graphql"
             }
         },
-        "assets": [{
-            "id": "ebf2822f-2dd4-4f59-aeb3-ae7defa53932",
-            "name": "pendulum",
-            "symbol": "pen",
-            "precision": 12,
-            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PEN.svg",
-            "color": "8D809E",
-            "isUtility": true,
-            "type": "normal"
-        }],
+        "assets": [
+            {
+                "id": "ebf2822f-2dd4-4f59-aeb3-ae7defa53932",
+                "name": "pendulum",
+                "symbol": "pen",
+                "precision": 12,
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PEN.svg",
+                "color": "8D809E",
+                "isUtility": true,
+                "type": "normal"
+            },
+            {
+                "id": "bc55b3f0-2b34-4561-aeb6-bd4ca9c88b7e",
+                "type": "xcm",
+                "name": "tether usd",
+                "symbol": "usdt",
+                "precision": 6,
+                "currencyId": "1",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+                "color": "26A17B",
+                "existentialDeposit": "10000"
+            }
+        ],
         "nodes": [{
             "url": "wss://rpc-pendulum.prd.pendulumchain.tech",
             "name": "PendulumChain node"
