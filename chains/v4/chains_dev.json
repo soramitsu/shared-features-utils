@@ -213,7 +213,7 @@
                             "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
                             "symbol": "KSM"
                         }
-                        
+
                     ],
                     "bridgeParachainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9"
                 }
@@ -6862,7 +6862,7 @@
               "name": "okb",
               "symbol": "okb",
               "precision": 18,
-              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OKT.svg",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OKTC.svg",
               "color": "FFFFFF",
               "type": "normal",
               "ethereumType": "normal"
