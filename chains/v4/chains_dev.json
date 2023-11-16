@@ -6684,7 +6684,7 @@
                     "tx",
                     "address"
                   ],
-                  "url": "https://optimistic.etherscan.io//{type}/{value}"
+                  "url": "https://optimistic.etherscan.io/{type}/{value}"
                 }
               ]
             },
@@ -6769,7 +6769,7 @@
           "externalApi": {
               "history": {
                 "type": "etherscan",
-                "url": "https://api.snowtrace.io//api"
+                "url": "https://api.snowtrace.io/api"
               },
               "explorers": [
                 {
@@ -6778,7 +6778,7 @@
                     "tx",
                     "address"
                   ],
-                  "url": "https://snowtrace.io//{type}/{value}"
+                  "url": "https://snowtrace.io/{type}/{value}"
                 }
               ]
             },
@@ -6926,5 +6926,80 @@
           "options": [
             "ethereum"
           ]
-        }
+        },
+        {
+            "disabled": false,
+            "chainId": "1001",
+            "rank": 20,
+            "name": "Polygon zkEVM",
+            "externalApi": {
+                "history": {
+                  "type": "etherscan",
+                  "url": "https://api.zkevm.polygonscan.com/api"
+                },
+                "explorers": [
+                  {
+                    "type": "etherscan",
+                    "types": [
+                      "tx",
+                      "address"
+                    ],
+                    "url": "https://zkevm.polygonscan.com/{type}/{value}"
+                  }
+                ]
+              },
+            "assets": [
+              {
+                "isUtility": true,
+                "id": "8f85b561-18f5-4cf0-9077-305ebc84d015",
+                "name": "ethereum",
+                "symbol": "eth",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal",
+                "ethereumType": "normal"
+              },
+              {
+                "isUtility": false,
+                "id": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035",
+                "name": "usd coin",
+                "symbol": "usdc",
+                "precision": 6,
+                "priceId": "usd-coin",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+                "color": "3E73C4",
+                "type": "normal",
+                "ethereumType": "erc20"
+            },
+            {
+                "isUtility": false,
+                "id": "0xa2036f0538221a77A3937F1379699f44945018d0",
+                "name": "polygon",
+                "symbol": "matic",
+                "precision": 18,
+                "priceId": "matic-network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
+                "color": "8247E5",
+                "type": "normal",
+                "ethereumType": "erc20"
+            }
+            ],
+            "nodes": [
+                {
+                    "url": "https://zkevm-rpc.com",
+                    "name": "Zkevm https node"
+                },
+                {
+                    "url": "https://polygon-zkevm-mainnet.public.blastapi.io",
+                    "name": "Blast https node"
+                }
+            ],
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
+            "addressPrefix": 0,
+            "options": [
+              "ethereum"
+            ]
+          }
 ]
