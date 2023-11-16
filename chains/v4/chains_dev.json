@@ -6929,7 +6929,7 @@
         },
         {
             "disabled": false,
-            "chainId": "1001",
+            "chainId": "1101",
             "rank": 20,
             "name": "Polygon zkEVM",
             "externalApi": {
