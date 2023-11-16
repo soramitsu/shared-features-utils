@@ -6651,7 +6651,7 @@
                 "ethereumType": "normal"
             },
             {
-              "isUtility": true,
+              "isUtility": false,
               "id": "0x912CE59144191C1204E64559FE8253a0e49E6548",
               "name": "arbitrum",
               "symbol": "arb",
