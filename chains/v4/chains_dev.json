@@ -6639,8 +6639,20 @@
             },
           "assets": [
             {
+                "isUtility": true,
+                "id": "37b6375a-0708-4728-bec9-bf15b8680aff",
+                "name": "ethereum",
+                "symbol": "eth",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal",
+                "ethereumType": "normal"
+            },
+            {
               "isUtility": true,
-              "id": "37b6375a-0708-4728-bec9-bf15b8680aff",
+              "id": "0x912CE59144191C1204E64559FE8253a0e49E6548",
               "name": "arbitrum",
               "symbol": "arb",
               "precision": 18,
