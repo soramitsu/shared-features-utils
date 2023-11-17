@@ -5492,7 +5492,16 @@
             "history": {
                 "type": "giantsquid",
                 "url": "https://squid.subsquid.io/gs-main-pendulum/graphql"
-            }
+            },
+            "explorers": [{
+                "type": "polkascan",
+                "types": [
+                    "extrinsic",
+                    "account",
+                    "event"
+                ],
+                "url": "https://polkascan.io/pendulum/{type}/{value}"
+            }]
         },
         "assets": [
             {
