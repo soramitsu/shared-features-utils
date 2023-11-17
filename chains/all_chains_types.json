@@ -1063,8 +1063,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "node_polkadex_runtime::Event",
-                    "GenericCall": "node_polkadex_runtime::Call"
+                    "GenericEvent": "node_polkadex_runtime::RuntimeEvent",
+                    "GenericCall": "node_polkadex_runtime::RuntimeCall"
                 }
             }
         ]
