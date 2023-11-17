@@ -1383,5 +1383,17 @@
       }
     ],
     "weight": "10000000000"
+  },
+  {
+    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+    "destChain": "SORA Mainnet",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "0",
+        "symbol": "KSM",
+        "precision": "12"
+      }
+    ],
+    "weight": "10000000000"
   }
 ]
