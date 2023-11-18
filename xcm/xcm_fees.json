@@ -828,6 +828,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -953,12 +957,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "597867",
+        "feeInPlanks": "659860",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "1890",
+        "feeInPlanks": "1904",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1323,7 +1327,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "54347826"
+        "feeInPlanks": "173844663088"
       },
       {
         "symbol": "vGLMR",
@@ -2500,6 +2504,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2573,7 +2581,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "43541315553735991",
+        "feeInPlanks": "44709780703851781",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2583,7 +2591,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1157964837",
+        "feeInPlanks": "992650060",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -2594,12 +2602,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2841",
+        "feeInPlanks": "2822",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "11000563008074615"
+        "feeInPlanks": "11482865450298295"
       },
       {
         "symbol": "WETH",
@@ -2619,11 +2627,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5288876007990108"
+        "feeInPlanks": "5415195752081696"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "4305155"
+        "feeInPlanks": "4481704"
       }
     ],
     "weight": "480000000"
