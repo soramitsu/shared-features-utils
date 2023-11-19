@@ -552,6 +552,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -677,12 +681,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "597867",
+        "feeInPlanks": "659860",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "1901",
+        "feeInPlanks": "1904",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1100,6 +1104,10 @@
       {
         "symbol": "iBTC",
         "feeInPlanks": "6"
+      },
+      {
+        "symbol": "WBTC",
+        "feeInPlanks": "0"
       }
     ],
     "weight": "800000000"
@@ -1804,6 +1812,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1877,7 +1889,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "40738435728358754",
+        "feeInPlanks": "45347156034874797",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1887,7 +1899,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1191328196",
+        "feeInPlanks": "993416255",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1898,16 +1910,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2901",
+        "feeInPlanks": "2841",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "10985812708639325"
+        "feeInPlanks": "11729393854876885"
       },
       {
         "symbol": "WETH",
-        "feeInPlanks": "1196698797412"
+        "feeInPlanks": "1393714506151"
       },
       {
         "symbol": "USDT",
@@ -1923,11 +1935,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5607178610561362"
+        "feeInPlanks": "5944623738688857"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "4241439"
+        "feeInPlanks": "4492189"
       }
     ],
     "weight": "480000000"
