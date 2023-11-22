@@ -6453,5 +6453,74 @@
           "options": [
               "testnet"
           ]
+      },
+      {
+        "disabled": false,
+        "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
+        "name": "Enjin Matrixchain",
+        "externalApi": {
+          "explorers": [{
+            "type": "subscan",
+            "types": [
+              "extrinsic",
+              "account"
+            ],
+            "url": "https://enjin.subscan.io//{type}/{value}"
+          }]
+        },
+        "assets": [{
+          "id": "13c8d9cb-897b-4507-8ae7-ba2c219d270d",
+          "name": "enjin coin",
+          "symbol": "enj",
+          "precision": 18,
+          "priceId": "enjincoin",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ENJ.svg",
+          "color": "5A27ED",
+          "isUtility": true,
+          "type": "normal"
+        }],
+        "nodes": [{
+          "url": "wss://rpc.matrix.blockchain.enjin.io",
+          "name": "Enjin Foundation node"
+        }
+    
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Enjin.svg",
+        "addressPrefix": 1110
+      },
+      {
+        "disabled": false,
+        "chainId": "a37725fd8943d2a524cb7ecc65da438f9fa644db78ba24dcd0003e2f95645e8f",
+        "parentId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
+        "name": "Canary Matrixchain",
+        "externalApi": {
+          "explorers": [{
+            "type": "subscan",
+            "types": [
+              "extrinsic",
+              "account"
+            ],
+            "url": "https://matrix.subscan.io///{type}/{value}"
+          }]
+        },
+        "assets": [{
+          "id": "85c17bd8-2565-4cf3-8e0f-14f38ff55eee",
+          "name": "enjin coin",
+          "symbol": "cenj",
+          "precision": 18,
+          "priceId": "enjincoin",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ENJ.svg",
+          "color": "5A27ED",
+          "isUtility": true,
+          "type": "normal"
+        }],
+        "nodes": [{
+          "url": "wss://rpc.matrix.blockchain.enjin.io",
+          "name": "Enjin Foundation node"
+        }
+    
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Enjin.svg",
+        "addressPrefix": 9030
       }
 ]
