@@ -2150,5 +2150,53 @@
         }
       }
     ]
+  },
+  {
+    "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
+    "runtime_id": 605,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "ParaId": "polkadot_parachain::primitives::Id",
+          "matrix_runtime::RuntimeEvent": "GenericEvent",
+          "matrix_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
+    "chainId": "a37725fd8943d2a524cb7ecc65da438f9fa644db78ba24dcd0003e2f95645e8f",
+    "runtime_id": 605,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "ParaId": "polkadot_parachain::primitives::Id",
+          "matrix_runtime::RuntimeEvent": "GenericEvent",
+          "matrix_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
   }
 ]
