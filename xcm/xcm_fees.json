@@ -81,7 +81,7 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "409165302",
+        "feeInPlanks": "80999646333368",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -844,6 +844,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "1701285567"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -974,7 +978,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "1801",
+        "feeInPlanks": "1649",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1319,7 +1323,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "173844663088"
+        "feeInPlanks": "134614207701"
       },
       {
         "symbol": "aSEED",
@@ -2532,6 +2536,10 @@
       {
         "symbol": "AUSD",
         "feeInPlanks": "25600000000"
+      },
+      {
+        "symbol": "AUSD",
+        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -2605,7 +2613,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "46739343303438727",
+        "feeInPlanks": "47529590690043633",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -2615,7 +2623,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1173407156",
+        "feeInPlanks": "1218468629",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -2626,12 +2634,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2959",
+        "feeInPlanks": "2911",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "12122357226822810"
+        "feeInPlanks": "12426507792309859"
       },
       {
         "symbol": "WETH",
@@ -2651,11 +2659,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "5948726685719655"
+        "feeInPlanks": "6445494368636781"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "4735886"
+        "feeInPlanks": "4813115"
       }
     ],
     "weight": "480000000"
