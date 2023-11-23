@@ -6485,7 +6485,7 @@
         }
     
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Enjin.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Enjin.svg",
         "addressPrefix": 1110
       },
       {
@@ -6520,7 +6520,7 @@
         }
     
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Enjin.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Enjin.svg",
         "addressPrefix": 9030
       }
 ]
