@@ -6515,7 +6515,7 @@
           "type": "normal"
         }],
         "nodes": [{
-          "url": "wss://rpc.matrix.blockchain.enjin.io",
+          "url": "wss://rpc.matrix.canary.enjin.io",
           "name": "Enjin Foundation node"
         }
     
