@@ -266,28 +266,8 @@
         "feeInPlanks": "9952659378"
       },
       {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
         "symbol": "USDC",
         "feeInPlanks": "0"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
       },
       {
         "symbol": "APE",
@@ -314,199 +294,19 @@
         "feeInPlanks": "0"
       },
       {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
         "symbol": "KMA",
         "feeInPlanks": "8012800000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
       },
       {
         "symbol": "LKSM",
         "feeInPlanks": "218489565"
       },
       {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "56999971577409"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
         "symbol": "aSEED",
         "feeInPlanks": "2120203588"
       },
       {
-        "symbol": "AUSD",
-        "feeInPlanks": "2120203588"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
         "symbol": "aUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
         "feeInPlanks": "1701285567"
       },
       {
@@ -514,60 +314,8 @@
         "feeInPlanks": "6429600000000000"
       },
       {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
         "symbol": "VSKSM",
         "feeInPlanks": "128592000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "1701285567"
       }
     ],
     "weight": "800000000"
@@ -693,12 +441,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "612838",
+        "feeInPlanks": "575347",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "1693",
+        "feeInPlanks": "1772",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -725,58 +473,6 @@
       {
         "symbol": "aSEED",
         "feeInPlanks": "2591976231"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4545812808"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "5089856662"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4073400318"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4073400318"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4073400318"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "4073400318"
       }
     ],
     "weight": "480000000"
@@ -1592,258 +1288,6 @@
         "feeInPlanks": "25600000000",
         "symbol": "AUSD",
         "precision": "12"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
-      },
-      {
-        "symbol": "AUSD",
-        "feeInPlanks": "25600000000"
       }
     ],
     "weight": "480000000"
@@ -1917,7 +1361,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "46782272942440205",
+        "feeInPlanks": "40100914665263708",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1927,7 +1371,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1267816520",
+        "feeInPlanks": "1080882273",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1938,12 +1382,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "3018",
+        "feeInPlanks": "2566",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "12426507792309859"
+        "feeInPlanks": "10430663894638414"
       },
       {
         "symbol": "WETH",
@@ -1963,11 +1407,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "6056416524069122"
+        "feeInPlanks": "4544657938398998"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "4760678"
+        "feeInPlanks": "4114595"
       }
     ],
     "weight": "480000000"
