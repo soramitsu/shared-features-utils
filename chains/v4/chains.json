@@ -204,15 +204,6 @@
               "symbol": "KSM"
             }
           ]
-        },
-        {
-          "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-          "assets": [
-            {
-              "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
-              "symbol": "KSM"
-            }
-          ]
         }
       ]
     },
