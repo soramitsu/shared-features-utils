@@ -69,7 +69,7 @@
         "feeInPlanks": "70392000"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
@@ -171,7 +171,7 @@
         "feeInPlanks": "37070243291128"
       }
     ],
-    "weight": "686274000"
+    "weight": "500000000000"
   },
   {
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -318,7 +318,7 @@
         "feeInPlanks": "128592000"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
@@ -352,7 +352,7 @@
         "symbol": "xcUSDT"
       }
     ],
-    "weight": "314522000"
+    "weight": "500000000000"
   },
   {
     "chainId": "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
@@ -382,7 +382,7 @@
         "symbol": "LKSM"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -425,7 +425,7 @@
         "feeInPlanks": "0"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
@@ -441,7 +441,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "575347",
+        "feeInPlanks": "578071",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -475,7 +475,7 @@
         "feeInPlanks": "2591976231"
       }
     ],
-    "weight": "480000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
@@ -523,7 +523,7 @@
         "feeInPlanks": "3983270264"
       }
     ],
-    "weight": "600000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
@@ -560,7 +560,7 @@
         "precision": "18"
       }
     ],
-    "weight": "600000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
@@ -590,14 +590,14 @@
         "feeInPlanks": "3384094754653130"
       }
     ],
-    "weight": "4000000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -706,7 +706,7 @@
         "feeInPlanks": "173844663088"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -818,7 +818,7 @@
         "feeInPlanks": "0"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
@@ -869,7 +869,7 @@
         "feeInPlanks": "18012501"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
@@ -923,7 +923,7 @@
         "feeInPlanks": "18000"
       }
     ],
-    "weight": "720000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
@@ -1019,7 +1019,7 @@
         "feeInPlanks": "50"
       }
     ],
-    "weight": "4000000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
@@ -1048,7 +1048,7 @@
         "feeInPlanks": "700000"
       }
     ],
-    "weight": "4009912000"
+    "weight": "500000000000"
   },
   {
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
@@ -1127,7 +1127,7 @@
         "feeInPlanks": "0"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -1184,7 +1184,7 @@
         "feeInPlanks": "7039200000000"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -1196,7 +1196,7 @@
         "precision": "12"
       }
     ],
-    "weight": "359407200"
+    "weight": "500000000000"
   },
   {
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -1208,7 +1208,7 @@
         "precision": "10"
       }
     ],
-    "weight": "4800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "f1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
@@ -1273,7 +1273,7 @@
         "feeInPlanks": "2080000000"
       }
     ],
-    "weight": "4000000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "f22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
@@ -1290,7 +1290,7 @@
         "precision": "12"
       }
     ],
-    "weight": "480000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "d4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
@@ -1312,7 +1312,7 @@
         "precision": "18"
       }
     ],
-    "weight": "4800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "cd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
@@ -1324,7 +1324,7 @@
         "precision": "18"
       }
     ],
-    "weight": "4000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
@@ -1349,7 +1349,7 @@
         "feeInPlanks": "28793185355800"
       }
     ],
-    "weight": "1200000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -1361,17 +1361,17 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "40100914665263708",
+        "feeInPlanks": "38832107804351224",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "8",
+        "feeInPlanks": "7",
         "symbol": "IBTC",
         "precision": "8"
       },
       {
-        "feeInPlanks": "1080882273",
+        "feeInPlanks": "1068416545",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1382,12 +1382,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2566",
+        "feeInPlanks": "2642",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "10430663894638414"
+        "feeInPlanks": "10414700077214525"
       },
       {
         "symbol": "WETH",
@@ -1407,14 +1407,14 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "4544657938398998"
+        "feeInPlanks": "4512077790380235"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "4114595"
+        "feeInPlanks": "4213818"
       }
     ],
-    "weight": "480000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
@@ -1426,7 +1426,7 @@
         "precision": "18"
       }
     ],
-    "weight": "4000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
@@ -1508,7 +1508,7 @@
         "feeInPlanks": "21216701680672268"
       }
     ],
-    "weight": "1009565000"
+    "weight": "500000000000"
   },
   {
     "chainId": "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
@@ -1530,7 +1530,7 @@
         "precision": "18"
       }
     ],
-    "weight": "800000000"
+    "weight": "500000000000"
   },
   {
     "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
