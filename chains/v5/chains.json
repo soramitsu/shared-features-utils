@@ -4218,7 +4218,10 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/equilibrium.svg",
-    "addressPrefix": 68
+    "addressPrefix": 68,
+    "options": [
+        "utilityFeePayment"
+    ]
   },
   {
     "disabled": false,
@@ -4852,7 +4855,8 @@
     "addressPrefix": 69,
     "options": [
       "testnet",
-      "polkaswap"
+      "polkaswap",
+      "utilityFeePayment"
     ]
   },
   {
@@ -5135,7 +5139,8 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
     "addressPrefix": 69,
     "options": [
-      "polkaswap"
+        "polkaswap",
+        "utilityFeePayment"
     ]
   },
   {
@@ -5449,7 +5454,10 @@
       "name": "PendulumChain node"
     }],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Pendulum.svg",
-    "addressPrefix": 56
+    "addressPrefix": 56,
+    "options": [
+        "utilityFeePayment"
+    ]
   },
   {
     "disabled": false,
