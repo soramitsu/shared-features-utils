@@ -4708,7 +4708,7 @@
         "externalApi": {
             "history": {
                 "type": "sora",
-                "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
+                "url": "https://squid.subsquid.io/sora-stage/v/v4/graphql"
             },
             "staking": {
                 "type": "sora",
