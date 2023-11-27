@@ -204,6 +204,26 @@
               "symbol": "KSM"
             }
           ]
+        },
+        {
+          "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+          "assets": [
+              {
+                  "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                  "symbol": "KSM"
+              }
+          ]
+        },
+        {
+          "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+          "assets": [
+              {
+                  "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                  "symbol": "KSM"
+              }
+              
+          ],
+          "bridgeParachainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9"
         }
       ]
     },
@@ -5036,8 +5056,39 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BCSD.svg",
         "color": "FFFFFF",
         "type": "soraAsset"
+      },
+      {
+        "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
+        "name": "kusama",
+        "symbol": "ksm",
+        "currencyId": "0x00117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8",
+        "precision": 18,
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF",
+        "type": "soraAsset"
       }
     ],
+    "xcm": {
+      "xcmVersion": "v3",
+      "availableAssets": [
+          {
+              "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
+              "symbol": "KSM"
+          }
+      ],
+      "availableDestinations": [
+          {
+              "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+              "assets": [
+                  {
+                      "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
+                      "symbol": "KSM"
+                  }
+              ]
+          }
+      ]
+    },
     "nodes": [{
         "url": "wss://ws.mof.sora.org",
         "name": "SORA Parliament Ministry of Finance Node"
