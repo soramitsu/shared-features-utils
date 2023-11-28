@@ -5844,6 +5844,14 @@
   ],
   "nodes": [
     {
+      "url": "https://bsc.publicnode.com",
+      "name": "Public https"
+    },
+    {
+      "url": "wss://bsc.publicnode.com",
+      "name": "Public wss"
+    },
+    {
       "url": "https://bsc-mainnet.blastapi.io/",
       "name": "Blast https"
     },
