@@ -549,7 +549,7 @@
       ]
     },
     "nodes": [{
-        "url": "wss://statemint-rpc.polkadot.io",
+        "url": "wss://polkadot-asset-hub-rpc.polkadot.io",
         "name": "Parity node"
       },
       {
@@ -557,7 +557,7 @@
         "name": "Dwellir node"
       },
       {
-        "url": "wss://tatemint.public.curie.radiumblock.co/ws",
+        "url": "wss://statemint.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
       },
       {
