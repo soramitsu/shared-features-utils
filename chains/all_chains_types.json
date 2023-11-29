@@ -25,7 +25,6 @@
             "CallHashOf": "CallHash",
             "Fixed64": "u64",
             "Fixed128": "u128",
-            "AccountId": "GenericAccountId",
             "AccountIdOf": "AccountId",
             "AccountVoteSplit": {
               "type": "struct",
