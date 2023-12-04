@@ -1,10 +1,8 @@
 [{
     "chainId": "7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
-    "runtime_id": 10,
+    "runtime_id": 2040,
     "types": {
-        "<T::Lookup as StaticLookup>::Source": "AccountId",
-        "T::Moment": "Moment",
-        "T::BlockNumber" : "BlockNumber",
+        "<T::Lookup as StaticLookup>::Source": "LookupSource",
         "(T::AccountId, Data)": "(AccountId, Data)",
         "()": "Null",
         "Vec<UnappliedSlash<T::AccountId, BalanceOf<T>>>": "Vec<UnappliedSlash>",
@@ -7741,8 +7739,7 @@
             },
             "KeyValue": "(StorageKey, StorageData)",
             "KeyTypeId": "u32",
-            "LookupSource": "Address",
-
+            "LookupSource": "AccountId",
             "LookupTarget": "AccountId",
             "Perbill": "u32",
             "Permill": "u32",
