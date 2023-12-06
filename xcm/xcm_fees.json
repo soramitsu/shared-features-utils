@@ -295,7 +295,7 @@
       },
       {
         "symbol": "KMA",
-        "feeInPlanks": "8012800000"
+        "feeInPlanks": "6429600000"
       },
       {
         "symbol": "LKSM",
@@ -389,7 +389,7 @@
     "destChain": "Khala",
     "destXcmFee": [
       {
-        "feeInPlanks": "70392000000",
+        "feeInPlanks": "64296000000",
         "symbol": "PHA",
         "precision": "12"
       },
@@ -675,7 +675,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "173844663088"
+        "feeInPlanks": "54347826"
       },
       {
         "symbol": "vGLMR",
@@ -753,7 +753,7 @@
         "symbol": "IBTC"
       },
       {
-        "feeInPlanks": "64296000",
+        "feeInPlanks": "1999108009",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -932,7 +932,7 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "103"
+        "feeInPlanks": "65482"
       },
       {
         "symbol": "PARA",
@@ -1413,7 +1413,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "34593114083025531",
+        "feeInPlanks": "35073800533797381",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1423,7 +1423,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "750667415",
+        "feeInPlanks": "874378129",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1434,12 +1434,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "3126",
+        "feeInPlanks": "3201",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "8230865047310683"
+        "feeInPlanks": "8094043980358527"
       },
       {
         "symbol": "WETH",
@@ -1459,11 +1459,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "3467187817564738"
+        "feeInPlanks": "3603776049775338"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3766756"
+        "feeInPlanks": "3611193"
       }
     ],
     "weight": "500000000000"
@@ -1567,7 +1567,7 @@
     "destChain": "Phala",
     "destXcmFee": [
       {
-        "feeInPlanks": "70392000000",
+        "feeInPlanks": "64296000000",
         "symbol": "PHA",
         "precision": "12"
       },
