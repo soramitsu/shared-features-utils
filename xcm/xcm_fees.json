@@ -441,12 +441,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "947055",
+        "feeInPlanks": "1042479",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "3319",
+        "feeInPlanks": "3298",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -472,7 +472,7 @@
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "6538186999"
+        "feeInPlanks": "4913126593"
       }
     ],
     "weight": "500000000000"
@@ -601,7 +601,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -659,7 +659,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "134614207701"
+        "feeInPlanks": "173844663088"
       },
       {
         "symbol": "aSEED",
@@ -748,7 +748,7 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "761726",
+        "feeInPlanks": "733439",
         "symbol": "lcDOT",
         "precision": "10"
       },
@@ -1417,7 +1417,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "36083085826423576",
+        "feeInPlanks": "36354258520924285",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1427,7 +1427,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "771743091",
+        "feeInPlanks": "786094735",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1438,12 +1438,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "3321",
+        "feeInPlanks": "3294",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "7953204195799586"
+        "feeInPlanks": "7691123870316634"
       },
       {
         "symbol": "WETH",
@@ -1463,11 +1463,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "4183296175091712"
+        "feeInPlanks": "4134444125327758"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "2982187"
+        "feeInPlanks": "3132472"
       }
     ],
     "weight": "500000000000"
