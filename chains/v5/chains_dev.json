@@ -5190,7 +5190,7 @@
                 "name": "kusama",
                 "symbol": "ksm",
                 "currencyId": "0x00117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8",
-                "precision": 12,
+                "precision": 18,
                 "priceId": "kusama",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
