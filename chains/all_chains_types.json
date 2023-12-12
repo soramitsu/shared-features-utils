@@ -1950,6 +1950,25 @@
             }
         }
     ]
-}
+},
+{
+    "chainId": "9b8cefc0eb5c568b527998bdd76c184e2b76ae561be76e4667072230217ea243",
+    "runtime_id": 21,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "gens_node_runtime::RuntimeEvent",
+                "GenericCall": "gens_node_runtime::RuntimeCall"
+            }
+        }
+    ]
+  }
 
 ]
