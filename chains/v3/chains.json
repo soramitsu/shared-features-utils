@@ -3054,12 +3054,13 @@
       "id": "e207bcef-ab90-4df4-852f-566c309d778e",
       "name": "genshiro",
       "symbol": "gens",
+      "currencyId": "1734700659",
       "precision": 9,
       "priceId": "genshiro",
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/GENS.svg",
       "color": "FFFFFF",
       "isUtility": true,
-      "type": "normal"
+      "type": "equilibrium"
     }],
     "nodes": [{
       "url": "wss://node.ksm.genshiro.io",
