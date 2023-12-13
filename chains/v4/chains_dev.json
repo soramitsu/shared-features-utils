@@ -7043,6 +7043,41 @@
           
         },
         {
+            "disabled": false,
+            "chainId": "324",
+            "rank": 20,
+            "name": "zkSync Mainnet",
+            "assets": [
+              {
+                "isUtility": true,
+                "id": "a5698bf1-26fc-41d2-a353-e46f100233c0",
+                "name": "ETH",
+                "symbol": "ETH",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal",
+                "ethereumType": "normal"
+              }
+            ],
+            "nodes": [
+                {
+                    "url": "https://1rpc.io/zksync2-era/",
+                    "name": "1rpc https node"
+                },
+                {
+                  "url": "https://zksync.meowrpc.com/",
+                  "name": "Meowrpc https node"
+              }
+            ],
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/zksync.svg",
+            "addressPrefix": 0,
+            "options": [
+              "ethereum"
+            ]
+        },
+        {
           "disabled": false,
         "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
         "name": "Enjin Matrixchain",
