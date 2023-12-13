@@ -601,7 +601,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1417,7 +1417,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "34710487470297174",
+        "feeInPlanks": "36266152017988432",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1427,7 +1427,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "711573886",
+        "feeInPlanks": "663644287",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1443,7 +1443,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "7968930458253194"
+        "feeInPlanks": "8389454974574745"
       },
       {
         "symbol": "WETH",
@@ -1463,11 +1463,11 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "4330006081792571"
+        "feeInPlanks": "4319219861384381"
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3268096"
+        "feeInPlanks": "3260258"
       }
     ],
     "weight": "500000000000"
