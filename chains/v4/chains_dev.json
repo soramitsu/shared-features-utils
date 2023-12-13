@@ -7045,7 +7045,7 @@
         {
             "disabled": false,
             "chainId": "324",
-            "rank": 20,
+            "rank": 21,
             "name": "zkSync Mainnet",
             "assets": [
               {
@@ -7078,7 +7078,42 @@
             ]
         },
         {
-          "disabled": false,
+            "disabled": false,
+            "chainId": "248",
+            "rank": 22,
+            "name": "Oasys Mainnet",
+            "assets": [
+              {
+                "isUtility": true,
+                "id": "11d2ece1-ecae-4596-aae4-ee9db83a5e2a",
+                "name": "oasys",
+                "symbol": "oas",
+                "precision": 18,
+                "priceId": "oasys",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+                "color": "",
+                "type": "normal",
+                "ethereumType": "normal"
+              }
+            ],
+            "nodes": [
+                {
+                    "url": "https://oasys.blockpi.network/v1/rpc/public/",
+                    "name": "Blockpi https node"
+                },
+                {
+                  "url": "https://rpc.mainnet.oasys.games/",
+                  "name": "Oasys https node"
+              }
+            ],
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/oasys.svg",
+            "addressPrefix": 0,
+            "options": [
+              "ethereum"
+            ]
+          },
+        {
+        "disabled": false,
         "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
         "name": "Enjin Matrixchain",
         "externalApi": {
