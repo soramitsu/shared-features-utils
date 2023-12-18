@@ -2463,14 +2463,6 @@
                            ["beefy", "Beefy"]
                         ]
                       },
-                      "Keys": {
-                        "type": "struct",
-                        "type_mapping": [
-                           ["grandpa", "AccountId"],
-                           ["babe", "AccountId"],
-                           ["im_online", "AccountId"]
-                        ]
-                      },
                       "Header": {
                         "type": "struct",
                         "type_mapping": [
@@ -7728,8 +7720,6 @@
                       "StorageKey": "Bytes",
                       "PrefixedStorageKey": "StorageKey",
                       "AccountIndex": "GenericAccountIndex",
-                      "Address": "MultiAddress",
-                      "AssetId": "u32",
                       "Justification": "(ConsensusEngineId, EncodedJustification)",
                       "EncodedJustification": "Bytes",
                       "Justifications": "Vec<Justification>",
@@ -8532,7 +8522,6 @@
                           ]
                         ]
                       },
-                      "AccountInfo": "AccountInfoWithTripleRefCount",
                       "BlockWeights": {
                         "type": "struct",
                         "type_mapping": [
@@ -11321,7 +11310,6 @@
                 "AssetRecord": "Null",
                 "AssetSymbol": "Vec<u8>",
                 "AssetSymbolStr": "String",
-                "Balance": "u128",
                 "BalanceInfo": {
                   "type": "struct",
                   "type_mapping": [
@@ -11980,7 +11968,6 @@
                     ]
                   ]
                 },
-                "LookupSource": "AccountId",
                 "Vec<<Lookup as StaticLookup>::Source>": "Vec<LookupSource>",
                 "MarketMakerInfo": {
                   "type": "struct",
@@ -12691,7 +12678,6 @@
                     ]
                   ]
                 },
-                "RefCount": "u32",
                 "RequestStatus": {
                   "type": "enum",
                   "value_list": [
@@ -12846,7 +12832,6 @@
                     ]
                   ]
                 },
-                "TAssetBalance": "Balance",
                 "TP": "TradingPair",
                 "TechAccountId": {
                   "type": "enum",
@@ -20657,7 +20642,6 @@
                 "PrefixedStorageKey": "StorageKey",
                 "AccountIndex": "GenericAccountIndex",
                 "Address": "MultiAddress",
-                "AssetId": "u32",
                 "Justification": "(ConsensusEngineId, EncodedJustification)",
                 "EncodedJustification": "Bytes",
                 "Justifications": "Vec<Justification>",
