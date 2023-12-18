@@ -3335,7 +3335,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://centrifuge.subscan.io//{type}/{value}"
+        "url": "https://centrifuge.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -6054,7 +6054,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://matrix.subscan.io//{type}/{value}"
+        "url": "https://matrix.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -6088,7 +6088,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://canary-matrix.subscan.io////{type}/{value}"
+        "url": "https://canary-matrix.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
@@ -6122,7 +6122,7 @@
           "extrinsic",
           "account"
         ],
-        "url": "https://enjin.subscan.io//{type}/{value}"
+        "url": "https://enjin.subscan.io/{type}/{value}"
       }]
     },
     "assets": [{
