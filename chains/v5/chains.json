@@ -6109,7 +6109,10 @@
 
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Enjin.svg",
-    "addressPrefix": 9030
+    "addressPrefix": 9030,
+    "options": [
+      "testnet"
+    ]
   },
   {
     "disabled": false,
