@@ -432,7 +432,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "121239216",
+        "feeInPlanks": "117465441",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -446,7 +446,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "3028",
+        "feeInPlanks": "3021",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -601,7 +601,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -778,7 +778,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "100266133115",
+        "feeInPlanks": "6429600000000000",
         "precision": "18"
       },
       {
@@ -948,7 +948,7 @@
       },
       {
         "symbol": "USDT",
-        "feeInPlanks": "18000"
+        "feeInPlanks": "22500"
       },
       {
         "symbol": "iBTC",
@@ -1420,12 +1420,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "11259775",
+        "feeInPlanks": "10528560",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "79682978485462021",
+        "feeInPlanks": "61463345127597310",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1435,7 +1435,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1634583692",
+        "feeInPlanks": "1596221499",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1446,12 +1446,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "7500",
+        "feeInPlanks": "7285",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "19335921780644850"
+        "feeInPlanks": "17795614367059766"
       },
       {
         "symbol": "WETH",
@@ -1471,7 +1471,7 @@
       },
       {
         "symbol": "CFG",
-        "feeInPlanks": "10081589146905794"
+        "feeInPlanks": "9651313409976673"
       },
       {
         "symbol": "vDOT",
