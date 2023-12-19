@@ -52,7 +52,7 @@
         "type": "normal",
         "priceProvider": {
             "type": "chainlink",
-            "id": "0x1C07AFb8E2B827c5A4739C6d59Ae3A5035f28734",
+            "id": "0xa6bc5baf2000424e90434ba7104ee399dee80dec",
             "precision": 8
         }
     }],
@@ -5628,7 +5628,7 @@
                 "ethereumType": "normal",
                 "priceProvider": {
                     "type": "chainlink",
-                    "id": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+                    "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
                     "precision": 8
                 }
             },
@@ -5878,7 +5878,7 @@
             "ethereumType": "normal",
             "priceProvider": {
                 "type": "chainlink",
-                "id": "0x14e613AC84a31f709eadbdF89C6CC390fDc9540A",
+                "id": "0x6970460aabF80C5BE983C6b74e5D06dEDCA95D4A",
                 "precision": 8
             }
           },
@@ -6184,7 +6184,7 @@
                   "ethereumType": "normal",
                   "priceProvider": {
                       "type": "chainlink",
-                      "id": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676",
+                      "id": "0x52099d4523531f678dfc568a7b1e5038aadce1d6",
                       "precision": 8
                   }
               },
@@ -6703,7 +6703,8 @@
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Arbitrum.svg",
           "addressPrefix": 0,
           "options": [
-            "ethereum"
+            "ethereum",
+            "chainlinkProvider"
           ]
         },
         {
