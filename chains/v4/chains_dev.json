@@ -6730,8 +6730,20 @@
             },
           "assets": [
             {
-              "isUtility": true,
-              "id": "08bb34b8-8027-4fea-948d-5243f5cbd6ba",
+                "isUtility": true,
+                "id": "08bb34b8-8027-4fea-948d-5243f5cbd6ba",
+                "name": "ethereum",
+                "symbol": "eth",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "FF0066",
+                "type": "normal",
+                "ethereumType": "normal"
+            },
+            {
+              "isUtility": false,
+              "id": "0x4200000000000000000000000000000000000042",
               "name": "optimism",
               "symbol": "op",
               "precision": 18,
