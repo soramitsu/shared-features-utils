@@ -6806,6 +6806,22 @@
         "chainId": "195",
         "rank": 18,
         "name": "X1 testnet",
+        "externalApi": {
+            "history": {
+              "type": "oklink",
+              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=X1_TEST"
+            },
+            "explorers": [
+              {
+                "type": "oklink",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://www.oklink.com/x1-test/{type}/{value}"
+              }
+            ]
+          },
         "assets": [
           {
             "isUtility": true,
