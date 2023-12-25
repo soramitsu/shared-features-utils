@@ -6687,7 +6687,7 @@
         "externalApi": {
             "history": {
               "type": "etherscan",
-              "url": "https://api.optimistic.etherscan.io/api"
+              "url": "https://api-optimistic.etherscan.io/"
             },
             "explorers": [
               {
@@ -6925,5 +6925,44 @@
         "options": [
           "ethereum"
         ]
+      },
+      {
+        "disabled": false,
+        "chainId": "7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
+        "name": "Reef Mainnet",
+        "assets": [{
+            "id": "55697eb0-ca77-47e3-a436-b05460ab1ead",
+            "name": "reef",
+            "symbol": "reef",
+            "precision": 18,
+            "priceId": "reef",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/REEF.svg",
+            "color": "C547CB",
+            "isUtility": true,
+            "type": "normal",
+            "staking": "relaychain"
+        }],
+        "externalApi": {
+            "history": {
+                "type": "reef",
+                "url": "https://squid.subsquid.io/reef-explorer/graphql"
+            },
+            "explorers": [{
+                "type": "reef",
+                "types": [
+                    "extrinsic",
+                    "account"
+                ],
+                "url": "https://reefscan.com/{type}/{value}"
+            }]
+        },
+        "nodes": [{
+            "url": "wss://rpc.reefscan.com/ws",
+            "name": "Reef Community node"
+        }
+    
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/reefchain.svg",
+        "addressPrefix": 42
       }
 ]
