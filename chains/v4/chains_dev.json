@@ -5751,7 +5751,55 @@
                 "color": "8247E5",
                 "type": "normal",
                 "ethereumType": "erc20"
-            }
+            },
+            {
+                "isUtility": false,
+                "id": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+                "name": "sora",
+                "symbol": "xor",
+                "precision": 18,
+                "priceId": "sora",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+                "color": "EE2233",
+                "type": "normal",
+                "ethereumType": "erc20"
+              },
+              {
+                "isUtility": false,
+                "id": "0xe88f8313e61A97cEc1871EE37fBbe2a8bf3ed1E4",
+                "name": "sora validator",
+                "symbol": "val",
+                "precision": 18,
+                "priceId": "sora-validator-token",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VAL.svg",
+                "color": "F3B966",
+                "type": "normal",
+                "ethereumType": "erc20"
+              },
+              {
+                "isUtility": false,
+                "id": "0x519C1001D550C0a1DaE7d1fC220f7d14c2A521BB",
+                "name": "polkaswap",
+                "symbol": "pswap",
+                "precision": 18,
+                "priceId": "polkaswap",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PSWAP.svg",
+                "color": "FF0066",
+                "type": "normal",
+                "ethereumType": "erc20"
+              },
+              {
+                "isUtility": false,
+                "id": "0x2e7B0d4F9B2EaF782eD3D160e3a0a4b1a7930aDA",
+                "name": "ceres",
+                "symbol": "ceres",
+                "precision": 18,
+                "priceId": "ceres",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CERES.svg",
+                "color": "243579",
+                "type": "normal",
+                "ethereumType": "erc20"
+              }
         ],
         "nodes": [
             {
