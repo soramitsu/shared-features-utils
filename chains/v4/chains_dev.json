@@ -6987,7 +6987,7 @@
             "externalApi": {
                 "history": {
                   "type": "etherscan",
-                  "url": "https://api.zkevm.polygonscan.com/api"
+                  "url": "https://api-zkevm.polygonscan.com/api"
                 },
                 "explorers": [
                   {
