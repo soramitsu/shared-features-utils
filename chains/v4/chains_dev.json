@@ -6687,7 +6687,7 @@
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
               "color": "12AAFF",
               "type": "normal",
-              "ethereumType": "normal"
+              "ethereumType": "erc20"
             }
           ],
           "nodes": [
@@ -6751,7 +6751,7 @@
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OP.svg",
               "color": "FF0420",
               "type": "normal",
-              "ethereumType": "normal"
+              "ethereumType": "erc20"
             }
           ],
           "nodes": [
