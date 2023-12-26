@@ -6940,6 +6940,45 @@
       },
       {
         "disabled": false,
+        "chainId": "7001",
+        "rank": 17,
+        "name": "ZetaChain Testnet",
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "0f07791b-b091-49c1-81b7-9facba2b7db3",
+            "name": "zetachain",
+            "symbol": "zeta",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZETA.svg",
+            "color": "235643",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.ankr.com/zetachain_evm_athens_testnet",
+                "name": "Ankr https node"
+            },
+            {
+                "url": "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
+                "name": "Blockpi https node"
+            },
+            {
+                "url": "https://zetachain-testnet-evm.itrocket.net",
+                "name": "Itrocket https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Zetachain.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
         "chainId": "7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
         "name": "Reef Mainnet",
         "assets": [{
