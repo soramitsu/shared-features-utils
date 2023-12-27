@@ -27,7 +27,7 @@
   },
   {
     "chainId": "e358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
-    "runtime_id":1,
+    "runtime_id": 119,
     "types": { },
     "versioning": [
       {
@@ -42,8 +42,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "ajuna_runtime::Event": "GenericEvent",
-          "ajuna_runtime::Call": "GenericCall",
+          "ajuna_runtime::RuntimeEvent": "GenericEvent",
+          "ajuna_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
