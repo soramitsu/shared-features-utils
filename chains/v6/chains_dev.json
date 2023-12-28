@@ -6956,6 +6956,12 @@
             "ethereumType": "normal"
           }
         ],
+        "externalApi": {
+            "history": {
+                "type": "zeta",
+                "url": "https://zetachain-athens-3.blockscout.com/api/v2/addresses/"
+            }
+        },
         "nodes": [
             {
                 "url": "https://rpc.ankr.com/zetachain_evm_athens_testnet",
