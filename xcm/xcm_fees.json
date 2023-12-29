@@ -324,10 +324,6 @@
       {
         "symbol": "VSKSM",
         "feeInPlanks": "128592000"
-      },
-      {
-        "symbol": "USDCet",
-        "feeInPlanks": "0"
       }
     ],
     "weight": "500000000000"
@@ -444,7 +440,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "86312205",
+        "feeInPlanks": "83983568",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -453,12 +449,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "930473",
+        "feeInPlanks": "877015",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2931",
+        "feeInPlanks": "3000",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -745,7 +741,7 @@
     "destChain": "Acala",
     "destXcmFee": [
       {
-        "feeInPlanks": "927788",
+        "feeInPlanks": "1047038",
         "symbol": "DOT",
         "precision": "10"
       },
