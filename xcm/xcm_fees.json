@@ -324,6 +324,10 @@
       {
         "symbol": "VSKSM",
         "feeInPlanks": "128592000"
+      },
+      {
+        "symbol": "USDCet",
+        "feeInPlanks": "0"
       }
     ],
     "weight": "500000000000"
@@ -543,7 +547,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "8746017993",
+        "feeInPlanks": "753837136",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -741,7 +745,7 @@
     "destChain": "Acala",
     "destXcmFee": [
       {
-        "feeInPlanks": "1047038",
+        "feeInPlanks": "927788",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1447,7 +1451,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "2037345483",
+        "feeInPlanks": "1972878054",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1458,7 +1462,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "8021",
+        "feeInPlanks": "7355",
         "precision": "6"
       },
       {
