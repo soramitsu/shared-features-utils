@@ -5647,6 +5647,18 @@
         "color": "243579",
         "type": "normal",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x32a7C02e79c4ea1008dD6564b35F131428673c41",
+        "name": "crust network",
+        "symbol": "cru",
+        "precision": 18,
+        "priceId": "crust-network",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRU.svg",
+        "color": "FA8C16",
+        "type": "normal",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
