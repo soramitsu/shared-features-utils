@@ -448,7 +448,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "91305649",
+        "feeInPlanks": "92382097",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -457,12 +457,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "867252",
+        "feeInPlanks": "939737",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "3265",
+        "feeInPlanks": "3053",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -617,7 +617,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1262,6 +1262,10 @@
       {
         "symbol": "vASTR",
         "feeInPlanks": "7039200000000"
+      },
+      {
+        "symbol": "BNC Polkadot",
+        "feeInPlanks": "563136000"
       }
     ],
     "weight": "500000000000"
@@ -1440,12 +1444,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "12524754",
+        "feeInPlanks": "12416962",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "46897073466373065",
+        "feeInPlanks": "49626900685372999",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1455,7 +1459,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "2900444456",
+        "feeInPlanks": "2788823785",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1466,12 +1470,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "9644",
+        "feeInPlanks": "9084",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "17716186089813232"
+        "feeInPlanks": "17676248992975408"
       },
       {
         "symbol": "WETH",
@@ -1495,7 +1499,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "8117120"
+        "feeInPlanks": "8003898"
       },
       {
         "symbol": "BNC",
