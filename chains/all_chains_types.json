@@ -569,10 +569,10 @@
                     "sp_runtime::MultiSignature": "acala_primitives::signature::AcalaMultiSignature",
                     "Balance": "u128",
                     "Index": "u32",
-                    "Phase": "180",
-                    "Address": "222",
-                    "ExtrinsicSignature": "561",
-                    "ParaId": "68",
+                    "Phase": "214",
+                    "Address": "246",
+                    "ExtrinsicSignature": "669",
+                    "ParaId": "71",
                     "20": "GenericEvent",
                     "238": "GenericCall"
                 }
