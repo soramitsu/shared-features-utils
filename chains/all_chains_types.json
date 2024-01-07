@@ -573,8 +573,8 @@
                     "Address": "222",
                     "ExtrinsicSignature": "561",
                     "ParaId": "68",
-                    "17": "GenericEvent",
-                    "205": "GenericCall"
+                    "20": "GenericEvent",
+                    "238": "GenericCall"
                 }
             }
         ]
