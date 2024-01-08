@@ -448,7 +448,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "93535536",
+        "feeInPlanks": "95896292",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -457,12 +457,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "939737",
+        "feeInPlanks": "924501",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "2973",
+        "feeInPlanks": "2984",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -617,7 +617,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1444,12 +1444,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "12774108",
+        "feeInPlanks": "13094693",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "51465993433998759",
+        "feeInPlanks": "2693939809559880008667",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1459,7 +1459,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "2770364651",
+        "feeInPlanks": "2999980156368341085053",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1470,12 +1470,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "9099",
+        "feeInPlanks": "8754",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "18134587259660639"
+        "feeInPlanks": "19916660559126572"
       },
       {
         "symbol": "WETH",
@@ -1499,7 +1499,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "3948353787404"
+        "feeInPlanks": "8380941"
       },
       {
         "symbol": "BNC",
@@ -1507,7 +1507,7 @@
       },
       {
         "symbol": "PHA",
-        "feeInPlanks": "63965980250"
+        "feeInPlanks": "65587158094"
       }
     ],
     "weight": "500000000000"
