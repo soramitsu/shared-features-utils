@@ -6269,7 +6269,8 @@
     "addressPrefix": 0,
     "options": [
       "ethereum",
-      "chainlinkProvider"
+      "chainlinkProvider",
+      "utilityFeePayment"
     ]
   },
   {
@@ -6340,7 +6341,8 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Optimism.svg",
     "addressPrefix": 0,
     "options": [
-      "ethereum"
+      "ethereum",
+      "utilityFeePayment"
     ]
   },
   {
@@ -6391,7 +6393,8 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avalanche.svg",
     "addressPrefix": 0,
     "options": [
-      "ethereum"
+      "ethereum",
+      "utilityFeePayment"
     ]
   },
   {
@@ -6441,7 +6444,8 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Okxchain.svg",
     "addressPrefix": 0,
     "options": [
-      "ethereum"
+      "ethereum",
+      "utilityFeePayment"
     ]
   },
   {
@@ -6516,7 +6520,8 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
     "addressPrefix": 0,
     "options": [
-      "ethereum"
+      "ethereum",
+      "utilityFeePayment"
     ]
   },
   {
