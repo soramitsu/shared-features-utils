@@ -49,7 +49,12 @@
       "moonpay",
       "ramp"
     ],
-    "type": "normal"
+    "type": "normal",
+    "priceProvider": {
+      "type": "chainlink",
+      "id": "0xa6bc5baf2000424e90434ba7104ee399dee80dec",
+      "precision": 8
+  }
   }],
   "xcm": {
     "xcmVersion": "v3",
@@ -5553,7 +5558,12 @@
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
             "color": "FF0066",
             "type": "normal",
-            "ethereumType": "normal"
+            "ethereumType": "normal",
+            "priceProvider": {
+              "type": "chainlink",
+              "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
+              "precision": 8
+          }
         },
         {
             "isUtility": false,
@@ -5786,7 +5796,12 @@
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
       "color": "FF0066",
       "type": "normal",
-      "ethereumType": "normal"
+      "ethereumType": "normal",
+      "priceProvider": {
+        "type": "chainlink",
+        "id": "0x6970460aabF80C5BE983C6b74e5D06dEDCA95D4A",
+        "precision": 8
+    }
     },
     {
       "isUtility": false,
@@ -5973,7 +5988,12 @@
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
               "color": "FF0066",
               "type": "normal",
-              "ethereumType": "normal"
+              "ethereumType": "normal",
+              "priceProvider": {
+                "type": "chainlink",
+                "id": "0x52099d4523531f678dfc568a7b1e5038aadce1d6",
+                "precision": 8
+            }
           },
           {
             "isUtility": false,
