@@ -6281,7 +6281,7 @@
     "externalApi": {
         "history": {
           "type": "etherscan",
-          "url": "https://optimistic.etherscan.io/api"
+          "url": "https://api-optimistic.etherscan.io/api"
         },
         "explorers": [
           {
