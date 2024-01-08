@@ -327,7 +327,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-statemine/graphql"
+        "url": "https://squid-statemine-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -590,7 +590,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-acala/graphql"
+        "url": "https://squid-acala-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -842,7 +842,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-karura/graphql"
+        "url": "https://squid-karura-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -1316,7 +1316,7 @@
       },
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-moonriver/graphql"
+        "url": "https://squid-moonriver-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -1523,7 +1523,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-shiden/graphql"
+        "url": "https://squid-shiden-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -1845,7 +1845,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-khala/graphql"
+        "url": "https://squid-khala-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -1902,6 +1902,10 @@
     "paraId": "2086",
     "name": "KILT Spiritnet",
     "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-kilt-api.squid.tachi.soramitsu.co.jp/graphql"
+      },
       "explorers": [{
         "type": "subscan",
         "types": [
@@ -1947,7 +1951,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-calamari/graphql"
+        "url": "https://squid-calamari-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -2182,8 +2186,8 @@
     "name": "Picasso",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-picasso"
+        "type": "giantsquid",
+        "url": "https://squid-picasso-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -2224,8 +2228,8 @@
     "name": "Altair",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-altair"
+        "type": "giantsquid",
+        "url": "https://squid-altair-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -2342,7 +2346,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-astar/graphql"
+        "url": "https://squid-astar-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -2454,8 +2458,8 @@
     "name": "Parallel",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-parallel"
+        "type": "giantsquid",
+        "url": "https://squid-parallel-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -2702,8 +2706,8 @@
     "name": "Basilisk",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-basilisk"
+        "type": "giantsquid",
+        "url": "https://squid-basilisk-api.squid.tachi.soramitsu.co.jp/graphql"
       }
     },
     "assets": [{
@@ -2767,7 +2771,7 @@
       },
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-moonbeam/graphql"
+        "url": "https://squid-moonbeam-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -3132,8 +3136,8 @@
         "url": "https://robonomics.subscan.io/{type}/{value}"
       }],
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-robonomics"
+        "type": "giantsquid",
+        "url": "https://squid-robonomics-api.squid.tachi.soramitsu.co.jp/graphql"
       }
     },
     "assets": [{
@@ -3185,6 +3189,12 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2101",
     "name": "Subsocial",
+    "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-subsocial-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "07f9e907-d099-4893-a67b-96cb2fe63049",
       "name": "subsocial",
@@ -3208,6 +3218,12 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2092",
     "name": "Zeitgeist",
+    "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-zeitgeist-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "2246fe14-4ec4-460c-8d92-e15bd337f8af",
       "name": "zeitgeist",
@@ -3240,7 +3256,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-hydradx/graphql"
+        "url": "https://squid-hydradx-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -3331,8 +3347,8 @@
     "name": "Centrifuge",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-centrifuge"
+        "type": "giantsquid",
+        "url": "https://squid-centrifuge-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -3464,6 +3480,12 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2106",
     "name": "Litmus",
+    "externalApi":{
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-litmus-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "15076759-6a5b-4cd6-b84c-e64842f094e5",
       "name": "litentry",
@@ -3486,6 +3508,12 @@
     "disabled": false,
     "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
     "name": "Polkadex Main Network",
+    "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-polkadex-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "5502c9cb-14f7-4de8-a35d-71263dc3f78f",
       "name": "polkadex",
@@ -3546,6 +3574,12 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2043",
     "name": "OriginTrail Parachain",
+    "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-origintrail-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "af5bf9f0-0009-4cf8-98ed-b988268c94f1",
       "name": "origitrail parachain",
@@ -3620,6 +3654,10 @@
     "paraId": "2030",
     "name": "Bifrost Polkadot",
     "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-bifrostpolkadot-api.squid.tachi.soramitsu.co.jp/graphql"
+      },
       "explorers": [{
         "type": "subscan",
         "types": [
@@ -3694,8 +3732,8 @@
     "name": "Litentry",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/Litentry-x-Fearless-Wallet"
+        "type": "giantsquid",
+        "url": "https://squid-litentry-api.squid.tachi.soramitsu.co.jp/graphql"
       }
     },
     "assets": [{
@@ -3730,7 +3768,7 @@
     "externalApi": {
       "history": {
         "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-phala/graphql"
+        "url": "https://squid-phala-api.squid.tachi.soramitsu.co.jp/graphql"
       }
     },
     "assets": [{
@@ -3768,8 +3806,8 @@
     "name": "Composable Finance",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/Composable-Finance-X-Fearless-Wallet"
+        "type": "giantsquid",
+        "url": "https://squid-composable-api.squid.tachi.soramitsu.co.jp/graphql"
       },
       "explorers": [{
         "type": "subscan",
@@ -3809,6 +3847,12 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2119",
     "name": "Bajun Kusama",
+    "externalApi": {
+      "history": {
+        "type": "giantsquid",
+        "url": "https://squid-bajun-api.squid.tachi.soramitsu.co.jp/graphql"
+      }
+    },
     "assets": [{
       "id": "cbf84703-ba1d-4a39-ab5e-424756c91422",
       "name": "bajun network",
@@ -3843,8 +3887,8 @@
     "name": "Kabocha",
     "externalApi": {
       "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/Kabocha-x-Fearless-Wallet"
+        "type": "giantsquid",
+        "url": "https://squid-kabocha-api.squid.tachi.soramitsu.co.jp/graphql"
       }
     },
     "assets": [{
@@ -4485,7 +4529,7 @@
     "externalApi": {
       "history": {
           "type": "giantsquid",
-          "url": "https://squid.subsquid.io/gs-main-amplitude/graphql"
+          "url": "https://squid-amplitude-api.squid.tachi.soramitsu.co.jp/graphql"
       }
   },
     "assets": [{
@@ -4517,6 +4561,10 @@
     "paraId": "2046",
     "name": "Darwinia2",
     "externalApi": {
+      "history":{
+        "type": "giantsquid",
+        "url": "https://squid-darwinia-api.squid.tachi.soramitsu.co.jp/graphql"
+      },
       "explorers": [{
         "type": "subscan",
         "types": [
@@ -5434,7 +5482,7 @@
     "externalApi": {
       "history": {
           "type": "giantsquid",
-          "url": "https://squid.subsquid.io/gs-main-pendulum/graphql"
+          "url": "https://squid-pendulum-api.squid.tachi.soramitsu.co.jp/graphql"
       }
   },
     "assets": [{
