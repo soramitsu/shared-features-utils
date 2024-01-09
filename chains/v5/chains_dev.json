@@ -4101,6 +4101,7 @@
             "symbol": "eq",
             "currencyId": "25969",
             "precision": 9,
+            "priceId": "equilibrium",
             "existentialDeposit": "1000000000",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/EQ.svg",
             "color": "5176E6",
@@ -4124,6 +4125,7 @@
                 "symbol": "aca",
                 "currencyId": "6382433",
                 "precision": 9,
+                "priceId": "acala",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ACA.svg",
                 "color": "FFFFFF",
                 "type": "equilibrium"
@@ -4134,6 +4136,7 @@
                 "symbol": "bnb",
                 "currencyId": "6450786",
                 "precision": 9,
+                "priceId": "binancecoin",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
                 "color": "F3BA2F",
                 "type": "equilibrium"
@@ -4144,6 +4147,7 @@
                 "symbol": "dot",
                 "currencyId": "6582132",
                 "precision": 9,
+                "priceId": "polkadot",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
                 "color": "FF0066",
                 "type": "equilibrium"
@@ -4154,6 +4158,7 @@
                 "symbol": "astr",
                 "currencyId": "1634956402",
                 "precision": 9,
+                "priceId": "astar",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ASTR.svg",
                 "color": "0AE2FF",
                 "type": "equilibrium"
@@ -4164,6 +4169,7 @@
                 "symbol": "ausd",
                 "currencyId": "1635087204",
                 "precision": 9,
+                "priceId": "acala-dollar",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AUSD.svg",
                 "color": "E40C5B",
                 "type": "equilibrium"
@@ -4174,6 +4180,7 @@
                 "symbol": "busd",
                 "currencyId": "1651864420",
                 "precision": 9,
+                "priceId": "binance-usd",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
                 "color": "F3BA2F",
                 "type": "equilibrium"
@@ -4184,6 +4191,7 @@
                 "symbol": "glmr",
                 "currencyId": "1735159154",
                 "precision": 9,
+                "priceId": "moonbeam",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/GLMR.svg",
                 "color": "FFFFFF",
                 "type": "equilibrium"
@@ -4204,6 +4212,7 @@
                 "symbol": "intr",
                 "currencyId": "1768846450",
                 "precision": 9,
+                "priceId": "interlay",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INTR.svg",
                 "color": "FFFFFF",
                 "type": "equilibrium"
