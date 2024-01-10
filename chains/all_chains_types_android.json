@@ -2198,5 +2198,63 @@
         }
       }
     ]
-  }
+  },
+  {
+  "runtime_id": 10,
+  "types": {
+    "Address": "MultiAddress",
+    "LookupSource": "AccountId",
+    "AccountInfo": "AccountInfoWithTripleRefCount",
+    "BlockNumber": "U32",
+    "LeasePeriod": "BlockNumber",
+    "Weight": "u64",
+    "Keys": {
+      "type": "struct",
+      "type_mapping": [
+         ["grandpa", "AccountId"],
+         ["babe", "AccountId"],
+         ["im_online", "AccountId"]
+      ]
+    },
+    "ValidatorPrefs": "ValidatorPrefsWithBlocked",
+    "DispatchInfo": {
+      "type": "struct",
+      "type_mapping": [
+         ["weight", "Weight"],
+         ["class", "DispatchClass"],
+         ["paysFee", "Pays"]
+      ]
+    },
+    "ProxyType": {
+      "type": "enum",
+      "value_list": [
+        "Any",
+        "NonTransfer",
+        "Governance",
+        "Staking"
+      ]
+    },
+    "RefCount": "u32",
+    "CompactAssignments": "CompactAssignmentsWith24"
+  },
+  "versioning": [
+    {
+      "runtime_range": [1, null],
+      "types": {
+        "OpenTip": {
+          "type": "struct",
+          "type_mapping": [
+             ["reason", "Hash"],
+             ["who", "AccountId"],
+             ["finder", "AccountId"],
+             ["deposit", "Balance"],
+             ["closes", "Option<BlockNumber>"],
+             ["tips", "Vec<OpenTipTip>"],
+             ["findersFee", "bool"]
+          ]
+        }
+      }
+    }
+  ]
+}
 ]
