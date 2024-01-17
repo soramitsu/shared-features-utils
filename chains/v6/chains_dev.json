@@ -5199,6 +5199,17 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
                 "type": "soraAsset"
+            },
+            {
+                "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
+                "name": "polkadot",
+                "symbol": "dot",
+                "currencyId": "0x0003b1dbee890acfb1b3bc12d1bb3b4295f52755423f84d1751b2545cebf000b",
+                "precision": 18,
+                "priceId": "polkadot",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+                "color": "FF0066",
+                "type": "soraAsset"
             }
         ],
         "xcm": {
