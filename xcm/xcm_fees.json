@@ -136,7 +136,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "116414032617"
+        "feeInPlanks": "90143594216"
       },
       {
         "symbol": "HKO",
@@ -448,7 +448,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "89848353",
+        "feeInPlanks": "96562750",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -462,7 +462,7 @@
         "precision": "9"
       },
       {
-        "feeInPlanks": "3294",
+        "feeInPlanks": "3418",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -488,7 +488,7 @@
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "4352845285"
+        "feeInPlanks": "4348170398"
       }
     ],
     "weight": "500000000000"
@@ -1464,12 +1464,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "17828856",
+        "feeInPlanks": "16670522",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "63333907420504713",
+        "feeInPlanks": "56416122609762570",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1479,7 +1479,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "2698860119",
+        "feeInPlanks": "2272740013",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1490,12 +1490,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "49490145367282454385",
+        "feeInPlanks": "11547",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "25980224212957949"
+        "feeInPlanks": "24381968151228610"
       },
       {
         "symbol": "WETH",
@@ -1519,7 +1519,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "11393528"
+        "feeInPlanks": "10629277"
       },
       {
         "symbol": "BNC",
@@ -1527,7 +1527,7 @@
       },
       {
         "symbol": "PHA",
-        "feeInPlanks": "65587158094"
+        "feeInPlanks": "86220578678"
       },
       {
         "symbol": "NODL",
