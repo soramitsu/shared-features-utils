@@ -1596,6 +1596,11 @@
         "feeInPlanks": "0",
         "symbol": "KSM",
         "precision": "12"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "DOT",
+        "precision": "10"
       }
     ],
     "weight": "10000000000"
