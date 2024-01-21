@@ -6675,5 +6675,38 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/reefchain.svg",
     "addressPrefix": 42
+  },
+  {
+    "disabled": false,
+    "chainId": "f3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
+    "name": "Manta Parachain",
+    "assets": [{
+        "id": "0c41f3da-3c42-413a-aca3-bfb19b717df7",
+        "name": "manta",
+        "symbol": "manta",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MANTA.svg",
+        "color": "29CCB9",
+        "isUtility": true,
+        "type": "normal"
+    }],
+    "externalApi": {
+        "explorers": [{
+            "type": "subscan",
+            "types": [
+                "extrinsic",
+                "account"
+            ],
+            "url": "https://manta.subscan.io/{type}/{value}"
+        }]
+    },
+    "nodes": [{
+        "url": "wss://ws.manta.systems",
+        "name": "Manta Community node"
+    }
+
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mantachain.svg",
+    "addressPrefix": 77
   }
 ]
