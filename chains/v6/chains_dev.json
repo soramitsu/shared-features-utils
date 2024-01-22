@@ -7096,6 +7096,7 @@
             "name": "manta",
             "symbol": "manta",
             "precision": 18,
+            "priceId": "manta-network",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MANTA.svg",
             "color": "29CCB9",
             "isUtility": true,
@@ -7136,7 +7137,19 @@
             "color":"627EEA",
             "type": "normal",
             "ethereumType": "normal"
-          }
+          },
+          {
+            "isUtility": false,
+            "id": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+            "name": "manta",
+            "symbol": "manta",
+            "precision": 18,
+            "priceId": "matic-network",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MANTA.svg",
+            "color": "8247E5",
+            "type": "normal",
+            "ethereumType": "erc20"
+        }
         ],
         "externalApi": {
             "history": {
