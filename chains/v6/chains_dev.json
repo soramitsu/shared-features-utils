@@ -7144,7 +7144,7 @@
             "name": "manta",
             "symbol": "manta",
             "precision": 18,
-            "priceId": "matic-network",
+            "priceId": "manta-network",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MANTA.svg",
             "color": "8247E5",
             "type": "normal",
