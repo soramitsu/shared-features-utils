@@ -7119,5 +7119,46 @@
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mantachain.svg",
         "addressPrefix": 77
+      },
+      {
+        "disabled": false,
+        "chainId": "169",
+        "name": "Manta Pacific Mainnet",
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "af44954d-2be1-4021-ae0b-f05d8180400a",
+            "name": "ethereum",
+            "symbol": "eth",
+            "precision": 18,
+            "priceId": "ethereum",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+            "color":"627EEA",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "externalApi": {
+            "history": {
+                "type": "zeta",
+                "url": "https://pacific-explorer.manta.network/api/v2/addresses/"
+            }
+        },
+        "nodes": [
+            {
+                "url": "https://pacific-rpc.manta.network/http",
+                "name": "Manta https node"
+            },
+            {
+                "url": "https://1rpc.io/manta",
+                "name": "1RPC https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mantachain.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
       }
 ]
