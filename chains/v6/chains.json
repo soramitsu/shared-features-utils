@@ -100,7 +100,18 @@
             "symbol": "DOT"
           }
         ]
-      }
+      },
+      {
+        "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+        "assets": [
+            {
+                "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                "symbol": "DOT"
+            }
+            
+        ],
+        "bridgeParachainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738"
+    }
     ]
   },
   "nodes": [{
@@ -5156,7 +5167,18 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
         "color": "FFFFFF",
         "type": "soraAsset"
-      }
+      },
+      {
+        "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
+        "name": "polkadot",
+        "symbol": "dot",
+        "currencyId": "0x0003b1dbee890acfb1b3bc12d1bb3b4295f52755423f84d1751b2545cebf000b",
+        "precision": 18,
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066",
+        "type": "soraAsset"
+    }
     ],
     "xcm": {
       "xcmVersion": "v3",
@@ -5164,6 +5186,10 @@
           {
               "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
               "symbol": "KSM"
+          },
+          {
+            "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
+            "symbol": "DOT"
           }
       ],
       "availableDestinations": [
@@ -5175,7 +5201,16 @@
                       "symbol": "KSM"
                   }
               ]
-          }
+          },
+          {
+            "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+            "assets": [
+                {
+                    "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
+                    "symbol": "DOT"
+                }
+            ]
+        }
       ]
     },
     "nodes": [{
@@ -5574,6 +5609,30 @@
     }],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
     "addressPrefix": 420
+  },
+  {
+    "disabled": true,
+    "chainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "2025",
+    "name": "SORA Polkadot parachain",
+    "assets": [{
+        "id": "a7c696d7-42ce-4ed6-a036-4f0f76386c49",
+        "name": "sora",
+        "symbol": "xor",
+        "precision": 18,
+        "priceId": "sora",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+        "color": "EE2233",
+        "isUtility": true,
+        "type": "normal"
+    }],
+    "nodes": [{
+        "url": "wss://ws.parachain-collator-1.pc1.sora2.soramitsu.co.jp",
+        "name": "Soramitsu node"
+    }],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
+    "addressPrefix": 81
   },
   {
     "disabled": false,
