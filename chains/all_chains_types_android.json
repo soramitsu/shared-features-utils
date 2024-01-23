@@ -13873,7 +13873,7 @@
                "FixedU128":"u128",
                "U256":"u256",
                "SessionKeys2":"(AccountId, AccountId)",
-               "AccountInfo":"AccountInfoWithDualRefCount",
+               "AccountInfo":"AccountInfoWithTripleRefCount",
                "Address":"AccountId",
                "Amount":"i128",
                "AmountOf":"Amount",
