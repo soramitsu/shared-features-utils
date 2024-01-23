@@ -5,12 +5,12 @@
   "name": "Polkadot",
   "externalApi": {
     "staking": {
-      "type": "subquery",
-      "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-dot"
+      "type": "subsquid",
+      "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
     },
     "history": {
-      "type": "subquery",
-      "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-dot"
+      "type": "subsquid",
+      "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
     },
     "crowdloans": {
       "type": "github",
