@@ -13874,7 +13874,7 @@
                "U256":"u256",
                "SessionKeys2":"(AccountId, AccountId)",
                "AccountInfo":"AccountInfoWithTripleRefCount",
-               "Address":"AccountId",
+               "Address":"MultiAddress",
                "Amount":"i128",
                "AmountOf":"Amount",
                "AssetId":"AssetId32",
