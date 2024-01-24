@@ -1,7 +1,7 @@
 [{
     "disabled": false,
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "rank": 3,
+    "rank": 8,
     "name": "Polkadot",
     "externalApi": {
         "staking": {
@@ -137,7 +137,7 @@
     {
         "disabled": false,
         "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "rank": 4,
+        "rank": 9,
         "name": "Kusama",
         "externalApi": {
             "staking": {
@@ -258,6 +258,7 @@
     {
         "disabled": false,
         "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+        "rank": 108,
         "name": "Westend",
         "externalApi": {
             "staking": {
@@ -1313,6 +1314,7 @@
         "disabled": false,
         "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "rank": 11,
         "name": "Moonriver",
         "paraId": "2023",
         "externalApi": {
@@ -2771,6 +2773,7 @@
         "disabled": false,
         "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "rank": 12,
         "paraId": "2004",
         "name": "Moonbeam",
         "externalApi": {
@@ -2997,6 +3000,7 @@
     {
         "disabled": false,
         "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
+        "rank": 112,
         "name": "Moonbase Alpha",
         "externalApi": {
             "staking": {
@@ -4739,6 +4743,7 @@
     {
         "disabled": false,
         "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+        "rank": 100,
         "name": "SORA test",
         "externalApi": {
             "history": {
@@ -5554,6 +5559,7 @@
         "disabled": false,
         "chainId": "5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "rank": 10,
         "paraId": "2094",
         "name": "Pendulum",
         "externalApi": {
@@ -5905,6 +5911,7 @@
     {
         "disabled": false,
         "chainId": "5",
+        "rank": 101,
         "name": "Ethereum Goerli",
         "externalApi": {
             "explorers": [{
@@ -6165,6 +6172,7 @@
       {
         "disabled": false,
         "chainId": "97",
+        "rank": 102,
         "name": "BNB Smart Chain Testnet",
         "externalApi": {
           "history": {
@@ -6292,6 +6300,7 @@
       {
           "disabled": false,
           "chainId": "137",
+          "rank": 3,
           "name": "Polygon",
           "externalApi": {
               "explorers": [
@@ -6457,6 +6466,7 @@
       {
           "disabled": false,
           "chainId": "80001",
+          "rank": 103,
           "name": "Polygon mumbai testnet",
           "externalApi": {
               "explorers": [
@@ -6510,6 +6520,7 @@
       {
           "disabled": false,
           "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+          "rank": 109,
           "name": "Rococo",
           "externalApi": {
               "staking": {
@@ -6690,7 +6701,7 @@
       {
         "disabled": false,
         "chainId": "42161",
-        "rank": 13,
+        "rank": 4,
         "name": "Arbitrum One",
         "externalApi": {
             "history": {
@@ -6755,7 +6766,7 @@
       {
         "disabled": false,
         "chainId": "10",
-        "rank": 14,
+        "rank": 5,
         "name": "OP Mainnet",
         "externalApi": {
             "history": {
@@ -6827,7 +6838,7 @@
       {
         "disabled": false,
         "chainId": "43114",
-        "rank": 16,
+        "rank": 6,
         "name": "Avalanche C-Chain",
         "externalApi": {
             "history": {
@@ -6879,7 +6890,7 @@
       {
         "disabled": false,
         "chainId": "195",
-        "rank": 18,
+        "rank": 13,
         "name": "X1 testnet",
         "externalApi": {
             "history": {
@@ -6930,7 +6941,7 @@
       {
         "disabled": false,
         "chainId": "1101",
-        "rank": 20,
+        "rank": 7,
         "name": "Polygon zkEVM",
         "externalApi": {
             "history": {
@@ -7006,7 +7017,7 @@
       {
         "disabled": false,
         "chainId": "7001",
-        "rank": 17,
+        "rank": 14,
         "name": "ZetaChain Testnet",
         "assets": [
           {
