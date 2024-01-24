@@ -1532,6 +1532,10 @@
       {
         "symbol": "NODL",
         "feeInPlanks": "19371653987"
+      },
+      {
+        "symbol": "UNQ",
+        "feeInPlanks": "0"
       }
     ],
     "weight": "500000000000"
