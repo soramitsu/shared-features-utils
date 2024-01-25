@@ -7080,6 +7080,10 @@
                 "type": "reef",
                 "url": "https://squid.subsquid.io/reef-explorer/graphql"
             },
+            "staking": {
+                "type": "reef",
+                "url": "https://squid.subsquid.io/reef-explorer/graphql"
+            },
             "explorers": [{
                 "type": "reef",
                 "types": [
