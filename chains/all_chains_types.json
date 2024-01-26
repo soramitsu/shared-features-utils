@@ -753,8 +753,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "litentry_parachain_runtime::Event",
-                    "GenericCall": "litentry_parachain_runtime::Call"
+                    "GenericEvent": "litentry_parachain_runtime::RuntimeEvent",
+                    "GenericCall": "litentry_parachain_runtime::RuntimeCall"
                 }
             }
         ]
