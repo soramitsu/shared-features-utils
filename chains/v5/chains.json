@@ -5744,6 +5744,10 @@
         {
           "url": "wss://ethereum.publicnode.com",
           "name": "Public wss"
+        },
+        {
+          "url": "https://nodes.mewapi.io/rpc/eth",
+          "name": "MEW https"
         }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
