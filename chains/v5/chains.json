@@ -5689,6 +5689,10 @@
     ],
     "nodes": [
         {
+           "url": "wss://ethereum.publicnode.com",
+           "name": "Public wss"
+         },
+        {
           "url": "https://ethereum.publicnode.com",
           "name": "Public https"
         },
