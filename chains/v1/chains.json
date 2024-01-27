@@ -144,23 +144,6 @@
             "isUtility": true,
             "type": "normal"
         }],
-        "xcm": {
-            "xcmVersion": "v3",
-            "availableAssets": ["KSM"],
-            "availableDestinations": [{
-                    "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["KSM"]
-                }
-            ]
-        },
         "nodes": [{
                 "url": "wss://kusama-rpc.polkadot.io",
                 "name": "Parity node"
