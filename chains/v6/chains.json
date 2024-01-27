@@ -5844,10 +5844,6 @@
           "name": "Public https"
         },
         {
-          "url": "wss://ethereum.publicnode.com",
-          "name": "Public wss"
-        },
-        {
           "url": "https://nodes.mewapi.io/rpc/eth",
           "name": "MEW https"
         }
