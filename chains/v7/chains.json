@@ -5860,12 +5860,12 @@
     ],
     "nodes": [
         {
-          "url": "https://ethereum.publicnode.com",
-          "name": "Public https"
+            "url": "https://ethereum.publicnode.com",
+            "name": "Public https"
         },
         {
-          "url": "wss://ethereum.publicnode.com",
-          "name": "Public wss"
+            "url": "https://nodes.mewapi.io/rpc/eth",
+            "name": "MEW https"
         }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
@@ -6218,13 +6218,13 @@
         }
       ],
       "nodes": [
-        {
-          "url": "https://ethereum.publicnode.com",
-          "name": "Public https"
-        },
           {
-            "url": "https://nodes.mewapi.io/rpc/eth",
-            "name": "MEW https"
+              "url": "https://polygon-mainnet.blastapi.io/",
+              "name": "Blast https"
+          },
+          {
+              "url" : "wss://polygon-mainnet.blastapi.io/",
+              "name": "Blast wss"
           }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
