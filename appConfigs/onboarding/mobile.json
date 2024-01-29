@@ -4,54 +4,54 @@
         {
             "title": "Brand new network management",
             "description": "Navigate between All, Popular and your Favourite networks modes",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/1.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/1.png"
         },
         {
             "title": "Use only prefarable chains",
             "description": "You can customise your favourite networks and work only with the ones you prefer",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/2.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/2.png"
         },
         {
             "title": "Single or multiple network mode",
             "description": "You’re free to choose a single network or a set of networks to operate with your assets",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/3.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/3.png"
         },
         {
             "title": "Multi-network state for the Asset details screen",
             "description": "You can see any particular asset and its balances on multiple networks on one screen",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/4.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/4.png"
         },
         {
             "title": "Navigate assets across a vast range of networks fearlessly",
             "description": "You can easily choose your asset on a specific network and do whatever you want to do with it",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/5.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/5.png"
         }
     ],
     "regular": [
         {
             "title": "Brand new network management",
             "description": "Navigate between All, Popular and your Favourite networks modes",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/1.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/1.png"
         },
         {
             "title": "Use only prefarable chains",
             "description": "You can customise your favourite networks and work only with the ones you prefer",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/2.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/2.png"
         },
         {
             "title": "Single or multiple network mode",
             "description": "You’re free to choose a single network or a set of networks to operate with your assets",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/3.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/3.png"
         },
         {
             "title": "Multi-network state for the Asset details screen",
             "description": "You can see any particular asset and its balances on multiple networks on one screen",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/4.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/4.png"
         },
         {
             "title": "Navigate assets across a vast range of networks fearlessly",
             "description": "You can easily choose your asset on a specific network and do whatever you want to do with it",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/5.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/5.png"
         }
     ]
   },
@@ -60,54 +60,54 @@
         {
             "title": "Абсолютно новая навигация по сетям",
             "description": "Переключайтесь между Всеми, Популярными и вашими Избранными сетями",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/1.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/1.png"
         },
         {
             "title": "Используйте только Избранные сети",
             "description": "Вы можете настроить Избранные сети и работать только с ними",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/2.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/2.png"
         },
         {
             "title": "Режим одной или несольких сетей",
             "description": "Вы можешь выбрать одну сеть или набор сетей, чтобы управлять своми активами",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/3.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/3.png"
         },
         {
             "title": "Режим набора сетей для экрана деталей актива",
             "description": "Вы можете видеть любой актив и его балансы в разных сетях на одном экране",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/4.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/4.png"
         },
         {
             "title": "Управляйте активами в широком диапазоне сетей бесстрашно",
             "description": "Вы легко можете выбрать актив в любой из сетей и делать с ним что угодно",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/5.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/5.png"
         }
       ],
       "regular": [
         {
             "title": "Абсолютно новая навигация по сетям",
             "description": "Переключайтесь между Всеми, Популярными и вашими Избранными сетями",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/1.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/1.png"
         },
         {
             "title": "Используйте только Избранные сети",
             "description": "Вы можете настроить Избранные сети и работать только с ними",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/2.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/2.png"
         },
         {
             "title": "Режим одной или несольких сетей",
             "description": "Вы можешь выбрать одну сеть или набор сетей, чтобы управлять своми активами",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/3.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/3.png"
         },
         {
             "title": "Режим набора сетей для экрана деталей актива",
             "description": "Вы можете видеть любой актив и его балансы в разных сетях на одном экране",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/4.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/4.png"
         },
         {
             "title": "Управляйте активами в широком диапазоне сетей бесстрашно",
             "description": "Вы легко можете выбрать актив в любой из сетей и делать с ним что угодно",
-            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb/5.svg"
+            "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile/5.png"
         }
       ]
     }
