@@ -724,8 +724,8 @@
           "Address": "0",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "hydradx_runtime::Event": "GenericEvent",
-          "hydradx_runtime::Call": "GenericCall",
+          "hydradx_runtime::RuntimeEvent": "GenericEvent",
+          "hydradx_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
