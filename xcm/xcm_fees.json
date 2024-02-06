@@ -8,7 +8,7 @@
         "symbol": "KAR"
       },
       {
-        "feeInPlanks": "803700",
+        "feeInPlanks": "80370000",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -351,7 +351,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "71860",
+        "feeInPlanks": "718600",
         "symbol": "RMRK",
         "precision": "10"
       },
@@ -369,7 +369,7 @@
       },
       {
         "symbol": "USDT Kusama",
-        "feeInPlanks": "718"
+        "feeInPlanks": "7186"
       }
     ],
     "weight": "500000000000"
@@ -814,7 +814,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "1993570400000000000",
+        "feeInPlanks": "6429600000000000",
         "precision": "18"
       },
       {
@@ -1290,6 +1290,10 @@
       {
         "symbol": "MANTA",
         "feeInPlanks": "6429600000"
+      },
+      {
+        "symbol": "USDC",
+        "feeInPlanks": "0"
       }
     ],
     "weight": "500000000000"
@@ -1468,22 +1472,22 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "21862474",
+        "feeInPlanks": "23145159",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "67428566591227773",
+        "feeInPlanks": "69136413441895936",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "27",
+        "feeInPlanks": "28",
         "symbol": "IBTC",
         "precision": "8"
       },
       {
-        "feeInPlanks": "1698259919",
+        "feeInPlanks": "1972644666",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1494,12 +1498,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "14864",
+        "feeInPlanks": "15613",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "34123329101552352"
+        "feeInPlanks": "34552580657651136"
       },
       {
         "symbol": "WETH",
@@ -1523,7 +1527,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "14063661"
+        "feeInPlanks": "14727152"
       },
       {
         "symbol": "BNC",
