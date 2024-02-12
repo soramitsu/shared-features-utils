@@ -2180,6 +2180,29 @@
     ]
   },
   {
+    "chainId": "6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
+    "runtime_id": 16,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "kitchensink_runtime::RuntimeEvent": "GenericEvent",
+          "kitchensink_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
     "chainId":"7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
     "runtime_id":10,
     "types":{
