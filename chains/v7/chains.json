@@ -267,10 +267,6 @@
       {
         "url": "wss://westend-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://westend.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
@@ -535,10 +531,6 @@
       {
         "url": "wss://dot-rpc.stakeworld.io/assethub",
         "name": "Stakeworld node"
-      },
-      {
-        "url": "wss://statemint.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Assethub.svg",
@@ -779,10 +771,6 @@
             {
                 "url": "wss://rpc-acala.luckyfriday.io",
                 "name": "LuckyFriday node"
-            },
-            {
-                "url": "wss://acala-polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-                "name": "OnFinality node"
             },
             {
                 "url": "wss://acala-rpc-0.aca-api.network",
@@ -1257,10 +1245,6 @@
       {
         "url": "wss://karura.polkawallet.io",
         "name": "Polkawallet node"
-      },
-      {
-        "url": "wss://karura.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Karura.svg",
@@ -1466,10 +1450,6 @@
       {
         "url": "wss://wss.api.moonriver.moonbeam.network",
         "name": "Moonbeam Foundation node"
-      },
-      {
-        "url": "wss://moonriver.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Moonriver.svg",
@@ -1543,10 +1523,6 @@
       {
         "url": "wss://shiden-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://shiden.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Shiden.svg",
@@ -1787,10 +1763,6 @@
       {
         "url": "wss://bifrost-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://bifrost-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bifrost.svg",
@@ -1850,10 +1822,6 @@
       {
         "url": "wss://khala-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Khala.svg",
@@ -1897,10 +1865,6 @@
       {
         "url": "wss://kilt-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://spiritnet.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kilt.svg",
@@ -2402,10 +2366,6 @@
       {
         "url": "wss://astar.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://astar.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/astar.svg",
@@ -2936,10 +2896,6 @@
         "name": "UnitedBloc node"
       },
       {
-        "url": "wss://moonbeam.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
-      },
-      {
         "url": "wss://1rpc.io/glmr",
         "name": "Automata 1RPC node"
       }
@@ -2991,10 +2947,6 @@
       {
         "url": "wss://moonbase.unitedbloc.com",
         "name": "UnitedBloc node"
-      },
-      {
-        "url": "wss://moonbeam-alpha.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Moonbeam.svg",
@@ -3051,10 +3003,6 @@
     "nodes": [{
         "url": "wss://api-kusama.interlay.io/parachain",
         "name": "Kintsugi Labs node"
-      },
-      {
-        "url": "wss://kintsugi.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kintsugi.svg",
@@ -3140,10 +3088,6 @@
       {
         "url": "wss://robonomics.0xsamsara.com",
         "name": "Samsara node"
-      },
-      {
-        "url": "wss://robonomics.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/robonomics.svg",
@@ -3681,10 +3625,6 @@
     "nodes": [{
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
-      },
-      {
-        "url": "wss://bifrost-polkadot.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bifrost.svg",
@@ -3755,10 +3695,6 @@
       {
         "url": "wss://phala-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://phala.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/phala.svg",
@@ -3836,10 +3772,6 @@
       {
         "url": "wss://bajun.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://bajun.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bajun.svg",
@@ -4012,10 +3944,6 @@
       {
         "url": "wss://kusama-rpc.mangata.online",
         "name": "Mangata RPC node"
-      },
-      {
-        "url": "wss://mangata-x.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/MagnataX.svg",
@@ -5179,10 +5107,6 @@
       {
         "url": "wss://mof3.sora.org",
         "name": "SORA Parliament Ministry of Finance Node"
-      },
-      {
-        "url": "wss://sora.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
@@ -5302,10 +5226,6 @@
     "nodes": [{
         "url": "wss://kusama.api.integritee.network",
         "name": "Integritee node"
-      },
-      {
-        "url": "wss://integritee-kusama.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/integritee.svg",
