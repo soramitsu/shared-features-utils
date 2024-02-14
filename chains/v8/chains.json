@@ -6736,5 +6736,31 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mantachain.svg",
     "addressPrefix": 77
+  },
+  {
+    "disabled": false,
+    "chainId": "6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
+    "name": "Liberland",
+    "assets": [
+      {
+        "id": "a6b83d39-a488-4b34-8352-280705a792ea",
+        "name": "liberland lld",
+        "symbol": "lld",
+        "precision": 12,
+        "priceId": "liberland-lld",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLD.svg",
+        "color": "00437F",
+        "isUtility": true,
+        "type": "normal"
+    }
+  ],
+    "nodes": [
+      {
+        "url": "wss://mainnet.liberland.org",
+        "name": "Liberland node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/liberland.svg",
+    "addressPrefix": 42
   }
 ]
