@@ -6239,20 +6239,20 @@
           "chainId": "11155111",
           "name": "Sepolia",
           "externalApi": {
-              "history": {
-                  "type": "alchemy",
-                  "url": "https://eth-sepolia.g.alchemy.com/v2/16bz4S4bROJsWH-eDpiJ21cx_c-KAAaP"
-              },
-              "explorers": [{
-                  "type": "etherscan",
-                  "types": [
-                      "tx",
-                      "address"
-                  ],
-                  "url": "https://sepolia.etherscan.io/{type}/{value}"
-              }
-              ]
-          },
+            "history": {
+              "type": "etherscan",
+              "url": "https://sepolia.etherscan.io/api"
+            },
+            "explorers": [{
+                "type": "etherscan",
+                "types": [
+                    "tx",
+                    "address"
+                ],
+                "url": "https://sepolia.etherscan.io/{type}/{value}"
+            }
+            ]
+        },
           "assets": [
               {
                   "isUtility": true,
