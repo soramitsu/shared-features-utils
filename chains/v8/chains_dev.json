@@ -6241,7 +6241,7 @@
           "externalApi": {
               "history": {
                 "type": "etherscan",
-                "url": "https://sepolia.etherscan.io/api"
+                "url": "https://api-sepolia.etherscan.io/api"
               },
               "explorers": [{
                   "type": "etherscan",
