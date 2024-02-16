@@ -5124,30 +5124,6 @@
         "type": "soraAsset"
     }
     ],
-    "xcm": {
-      "xcmVersion": "v3",
-      "availableAssets": [
-          {
-              "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
-              "symbol": "KSM"
-          },
-          {
-            "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
-            "symbol": "DOT"
-          }
-      ],
-      "availableDestinations": [
-          {
-              "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-              "assets": [
-                  {
-                      "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
-                      "symbol": "KSM"
-                  }
-              ]
-          }
-      ]
-    },
     "nodes": [{
         "url": "wss://ws.mof.sora.org",
         "name": "SORA Parliament Ministry of Finance Node"
