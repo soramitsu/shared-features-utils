@@ -179,6 +179,55 @@
         }
       ]
     },
+    "xcm": {
+      "xcmVersion": "v3",
+      "availableAssets": [
+          {
+              "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+              "symbol": "KSM"
+          }
+      ],
+      "availableDestinations": [
+          {
+              "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+              "assets": [
+                  {
+                      "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                      "symbol": "KSM"
+                  }
+              ]
+          },
+          {
+              "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+              "assets": [
+                  {
+                      "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                      "symbol": "KSM"
+                  }
+              ]
+          },
+          {
+              "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+              "assets": [
+                  {
+                      "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                      "symbol": "KSM"
+                  }
+              ]
+          },
+          {
+              "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+              "assets": [
+                  {
+                      "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
+                      "symbol": "KSM"
+                  }
+                  
+              ],
+              "bridgeParachainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9"
+          }
+      ]
+  },
     "assets": [{
       "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
       "name": "kusama",
@@ -5148,7 +5197,16 @@
           }
       ],
       "availableDestinations": [
-          {
+        {
+          "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+          "assets": [
+              {
+                  "id": "5416b261-a759-4ba6-bc83-ea79a83c5101",
+                  "symbol": "KSM"
+              }
+          ]
+      }, 
+        {
             "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
             "assets": [
                 {
