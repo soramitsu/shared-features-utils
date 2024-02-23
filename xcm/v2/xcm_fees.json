@@ -404,7 +404,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "82912039",
+        "feeInPlanks": "87652862",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -413,12 +413,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "469593",
+        "feeInPlanks": "361954",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "3470",
+        "feeInPlanks": "3611",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -990,7 +990,7 @@
         "symbol": "xcUSDT"
       },
       {
-        "feeInPlanks": "5000000000",
+        "feeInPlanks": "35930000",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1296,12 +1296,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "14670597",
+        "feeInPlanks": "14289793",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "52139605238510667",
+        "feeInPlanks": "53109654989295847",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1311,7 +1311,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "1431450364",
+        "feeInPlanks": "1403449321",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1322,12 +1322,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "10330",
+        "feeInPlanks": "10109",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "20292711230969764"
+        "feeInPlanks": "19714772317560127"
       },
       {
         "symbol": "WETH",
@@ -1351,7 +1351,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "9253657"
+        "feeInPlanks": "9035568"
       },
       {
         "symbol": "BNC",
@@ -1359,7 +1359,7 @@
       },
       {
         "symbol": "PHA",
-        "feeInPlanks": "102777150221"
+        "feeInPlanks": "64458487847"
       },
       {
         "symbol": "NODL",
