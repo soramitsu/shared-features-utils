@@ -113,8 +113,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "bajun_runtime::Event",
-                    "GenericCall": "bajun_runtime::Call"
+                    "GenericEvent": "bajun_runtime::RuntimeEvent",
+                    "GenericCall": "bajun_runtime::RuntimeCall"
                 }
             }
         ]

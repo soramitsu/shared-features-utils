@@ -172,8 +172,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "bajun_runtime::Event": "GenericEvent",
-          "bajun_runtime::Call": "GenericCall",
+          "bajun_runtime::RuntimeEvent": "GenericEvent",
+          "bajun_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
