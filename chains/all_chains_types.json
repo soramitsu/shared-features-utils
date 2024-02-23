@@ -1926,8 +1926,8 @@
             "types": {
                 "Balance": "u128",
                 "Index": "u32",
-                "GenericEvent": "matrix_runtime::RuntimeEvent",
-                "GenericCall": "matrix_runtime::RuntimeCall"
+                "GenericEvent": "enjin_matrix_runtime::RuntimeEvent",
+                "GenericCall": "enjin_matrix_runtime::RuntimeCall"
             }
         }
     ]
