@@ -7248,5 +7248,40 @@
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/liberland.svg",
         "addressPrefix": 42
+      },
+      {
+        "disabled": false,
+        "chainId": "248",
+        "rank": 22,
+        "name": "Oasys Mainnet",
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "11d2ece1-ecae-4596-aae4-ee9db83a5e2a",
+            "name": "oasys",
+            "symbol": "oas",
+            "precision": 18,
+            "priceId": "oasys",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+            "color": "",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://oasys.blockpi.network/v1/rpc/public/",
+                "name": "Blockpi https node"
+            },
+            {
+              "url": "https://rpc.mainnet.oasys.games/",
+              "name": "Oasys https node"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/oasys.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum"
+        ]
       }
 ]
