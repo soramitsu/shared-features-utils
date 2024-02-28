@@ -6738,6 +6738,7 @@
         "explorers": [{
             "type": "reef",
             "types": [
+                "transfer",
                 "extrinsic",
                 "account"
             ],
