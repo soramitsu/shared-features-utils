@@ -7253,8 +7253,24 @@
       {
         "disabled": false,
         "chainId": "248",
-        "rank": 22,
+        "rank": 15,
         "name": "Oasys Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://explorer.oasys.games/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://explorer.oasys.games/"
+              }
+            ]
+          },
         "assets": [
           {
             "isUtility": true,
@@ -7264,7 +7280,7 @@
             "precision": 18,
             "priceId": "oasys",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
-            "color": "",
+            "color": "00A84F",
             "type": "normal",
             "ethereumType": "normal"
           }
@@ -7275,14 +7291,215 @@
                 "name": "Blockpi https node"
             },
             {
-              "url": "https://rpc.mainnet.oasys.games/",
-              "name": "Oasys https node"
+                "url": "https://rpc.mainnet.oasys.games/",
+                "name": "Oasys https node"
           }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/oasys.svg",
         "addressPrefix": 0,
         "options": [
-          "ethereum"
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "29548",
+        "rank": 150,
+        "name": "MCH Verse Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://explorer.oasys.mycryptoheroes.net/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://explorer.oasys.mycryptoheroes.net/"
+              }
+            ]
+          },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "dad38228-7e66-46cb-b8f8-bee5a738a18a",
+            "name": "oasys",
+            "symbol": "oas",
+            "precision": 18,
+            "priceId": "oasys",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+            "color": "00A84F",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.oasys.mycryptoheroes.net/",
+                "name": "MCH https node"
+            },
+            {
+                "url": "wss://ws.oasys.mycryptoheroes.net/",
+                "name": "MCH wss node"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mchverse.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "2400",
+        "rank": 151,
+        "name": "TCG Verse Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://explorer.tcgverse.xyz/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://explorer.tcgverse.xyz/"
+              }
+            ]
+          },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "e2661f7b-3916-464d-8ea2-5650b6c7de94",
+            "name": "oasys",
+            "symbol": "oas",
+            "precision": 18,
+            "priceId": "oasys",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+            "color": "00A84F",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.tcgverse.xyz/",
+                "name": "TCG https node"
+            },
+            {
+                "url": "wss://ws-rpc.tcgverse.xyz/",
+                "name": "TCG wss node"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/tcgverse.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "19011",
+        "rank": 152,
+        "name": "HOME Verse Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://explorer.oasys.homeverse.games/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://explorer.oasys.homeverse.games/"
+              }
+            ]
+          },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "943d4fe9-76e5-48bd-9220-4fcda4e3b8e4",
+            "name": "oasys",
+            "symbol": "oas",
+            "precision": 18,
+            "priceId": "oasys",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+            "color": "00A84F",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.mainnet.oasys.homeverse.games/",
+                "name": "HOME https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/homeverse.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "5555",
+        "rank": 153,
+        "name": "Chain Verse Mainnet",
+        "externalApi": {
+            "history": {
+              "type": "etherscan",
+              "url": "https://explorer.chainverse.info/api"
+            },
+            "explorers": [
+              {
+                "type": "etherscan",
+                "types": [
+                  "tx",
+                  "address"
+                ],
+                "url": "https://explorer.chainverse.info/"
+              }
+            ]
+          },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "f1eeb4f0-d87d-41ef-8e23-af5a535b793c",
+            "name": "oasys",
+            "symbol": "oas",
+            "precision": 18,
+            "priceId": "oasys",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+            "color": "00A84F",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+                "url": "https://rpc.chainverse.info/",
+                "name": "Chain https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/chianverse.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
         ]
       }
 ]
