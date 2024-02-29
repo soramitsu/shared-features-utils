@@ -4,7 +4,7 @@
     "destChain": "Bifrost Kusama",
     "destXcmFee": [
       {
-        "feeInPlanks": "1743355320000",
+        "feeInPlanks": "6429600000",
         "symbol": "KAR"
       },
       {
@@ -43,7 +43,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "8037000",
+        "feeInPlanks": "5143680000",
         "symbol": "RMRK",
         "precision": "10"
       },
@@ -132,7 +132,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "24184546747"
+        "feeInPlanks": "31232619892"
       },
       {
         "symbol": "HKO",
@@ -164,7 +164,7 @@
       },
       {
         "symbol": "CSM",
-        "feeInPlanks": "1954820097325"
+        "feeInPlanks": "1576016452002"
       },
       {
         "symbol": "PICA",
@@ -267,7 +267,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "9952659378"
+        "feeInPlanks": "638362060073636"
       },
       {
         "symbol": "KMA",
@@ -354,7 +354,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "113308",
+        "feeInPlanks": "108",
         "symbol": "KBTC"
       },
       {
@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "75580539",
+        "feeInPlanks": "78715233",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -417,12 +417,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "330513",
+        "feeInPlanks": "351308",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "3587",
+        "feeInPlanks": "3687",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -448,7 +448,7 @@
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "4174034503"
+        "feeInPlanks": "3913466611"
       }
     ],
     "weight": "500000000000"
@@ -577,7 +577,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -735,7 +735,7 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "752120734282006",
+        "feeInPlanks": "2750582647588253",
         "symbol": "ACA",
         "precision": "12"
       },
@@ -947,7 +947,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "5240962196000000000000",
+        "feeInPlanks": "5033970289285518453885",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1146,7 +1146,7 @@
       },
       {
         "symbol": "ASTR",
-        "feeInPlanks": "600000045400",
+        "feeInPlanks": "6429600000000",
         "precision": "18"
       },
       {
@@ -1349,22 +1349,22 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "11778637",
+        "feeInPlanks": "11148272",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "49090509371099886",
+        "feeInPlanks": "47444250543443877",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "17",
+        "feeInPlanks": "15",
         "symbol": "IBTC",
         "precision": "8"
       },
       {
-        "feeInPlanks": "1165109095",
+        "feeInPlanks": "1036981556",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1375,12 +1375,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "8800",
+        "feeInPlanks": "8217",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "17307875649803192"
+        "feeInPlanks": "16103323549644409"
       },
       {
         "symbol": "WETH",
@@ -1404,7 +1404,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "7503685"
+        "feeInPlanks": "7042587"
       },
       {
         "symbol": "BNC",
@@ -1522,7 +1522,7 @@
     "destChain": "Phala",
     "destXcmFee": [
       {
-        "feeInPlanks": "585223148356424",
+        "feeInPlanks": "64296000000",
         "symbol": "PHA",
         "precision": "12"
       },
