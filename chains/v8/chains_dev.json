@@ -7593,10 +7593,6 @@
             {
                 "url": "https://rpc.yooldo-verse.xyz/",
                 "name": "Yooldo https node"
-            },
-            {
-                "url": "wss://ws.saakuru.network/",
-                "name": "Saakuru wss node"
             }
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/yooldoverse.svg",
