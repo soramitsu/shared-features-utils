@@ -7601,5 +7601,46 @@
           "ethereum",
           "utilityFeePayment"
         ]
+      },
+      {
+        "disabled": false,
+        "chainId": "30",
+        "rank": 16,
+        "name": "Rootstock Mainnet",
+        "externalApi": {
+          "history": {
+              "type": "zeta",
+              "url": "https://rootstock.blockscout.com//api/v2/addresses/"
+          }
+        },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "defb1fb8-8cf1-49b1-8dd3-b8dac33394a4",
+            "name": "rootstock rsk rbtc",
+            "symbol": "rbtc",
+            "precision": 18,
+            "priceId": "rootstock",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/RBTC.svg",
+            "color": "",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+              "url": "https://public-node.rsk.co/",
+              "name": "Public https node"
+            },
+            {
+              "url": "https://mycrypto.rsk.co/",
+              "name": "Mycrypto https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/rootstock.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum"
+        ]
       }
 ]
