@@ -7267,7 +7267,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.oasys.games/"
+                "url": "https://explorer.oasys.games/{type}/{value}"
               }
             ]
           },
@@ -7319,7 +7319,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.oasys.mycryptoheroes.net/"
+                "url": "https://explorer.oasys.mycryptoheroes.net/{type}/{value}"
               }
             ]
           },
@@ -7371,7 +7371,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.tcgverse.xyz/"
+                "url": "https://explorer.tcgverse.xyz/{type}/{value}"
               }
             ]
           },
@@ -7423,7 +7423,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.oasys.homeverse.games/"
+                "url": "https://explorer.oasys.homeverse.games/{type}/{value}"
               }
             ]
           },
@@ -7471,7 +7471,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.chainverse.info/"
+                "url": "https://explorer.chainverse.info/{type}/{value}"
               }
             ]
           },
@@ -7519,7 +7519,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.saakuru.network"
+                "url": "https://explorer.saakuru.network/{type}/{value}"
               }
             ]
           },
@@ -7571,7 +7571,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://explorer.yooldo-verse.xyz/"
+                "url": "https://explorer.yooldo-verse.xyz/{type}/{value}"
               }
             ]
           },
