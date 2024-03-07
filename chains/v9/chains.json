@@ -56,6 +56,64 @@
       "precision": 8
   }
   }],
+  "xcm": {
+    "xcmVersion": "v3",
+    "availableAssets": [
+      {
+        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+        "symbol": "DOT"
+      }
+    ],
+    "availableDestinations": [
+      {
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+        "assets": [
+            {
+                "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                "symbol": "DOT"
+            }
+            
+        ],
+        "bridgeParachainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738"
+    }
+    ]
+  },
   "nodes": [{
       "url": "wss://rpc.polkadot.io",
       "name": "Parity node"
@@ -480,6 +538,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
           "assets": [
             {
@@ -713,6 +780,15 @@
         }
       ],
       "availableDestinations": [
+        {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
         {
           "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
           "assets": [
@@ -2578,6 +2654,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
           "assets": [
             {
@@ -2847,6 +2932,15 @@
         }
       ],
       "availableDestinations": [
+        {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
         {
           "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
           "assets": [
@@ -5105,6 +5199,15 @@
           }
       ],
       "availableDestinations": [
+        {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
         {
           "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
           "assets": [
