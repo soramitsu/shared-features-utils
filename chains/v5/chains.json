@@ -6,11 +6,11 @@
   "externalApi": {
     "staking": {
       "type": "subsquid",
-      "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
+      "url": "https://squid.subsquid.io/fearless-polkadot/v/v1/graphql"
     },
     "history": {
       "type": "subsquid",
-      "url": "https://squid.subsquid.io/fearless-x-polkadot/v/v1/graphql"
+      "url": "https://squid.subsquid.io/fearless-polkadot/v/v1/graphql"
     },
     "crowdloans": {
       "type": "github",
@@ -134,11 +134,11 @@
     "externalApi": {
       "staking": {
         "type": "subsquid",
-        "url": "https://squid.subsquid.io/fearless-x-kusama/v/v1/graphql"
+        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v1/graphql"
       },
       "history": {
         "type": "subsquid",
-        "url": "https://squid.subsquid.io/fearless-x-kusama/v/v1/graphql"
+        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v1/graphql"
       },
       "crowdloans": {
         "type": "github",
