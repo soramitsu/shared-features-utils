@@ -6931,7 +6931,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "29548",
     "rank": 150,
     "name": "MCH Verse Mainnet",
@@ -6983,7 +6983,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "2400",
     "rank": 151,
     "name": "TCG Verse Mainnet",
@@ -7035,7 +7035,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "19011",
     "rank": 152,
     "name": "HOME Verse Mainnet",
@@ -7083,7 +7083,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "5555",
     "rank": 153,
     "name": "Chain Verse Mainnet",
@@ -7131,7 +7131,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "7225878",
     "rank": 154,
     "name": "Saakuru Verse Mainnet",
@@ -7183,7 +7183,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "50005",
     "rank": 155,
     "name": "Yooldo Verse Mainnet",
