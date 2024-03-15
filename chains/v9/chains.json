@@ -6,11 +6,11 @@
   "externalApi": {
     "staking": {
       "type": "subsquid",
-      "url": "https://squid.subsquid.io/fearless-polkadot/v/v1/graphql"
+      "url": "https://squid.subsquid.io/fearless-polkadot/v/v3/graphql"
     },
     "history": {
       "type": "subsquid",
-      "url": "https://squid.subsquid.io/fearless-polkadot/v/v1/graphql"
+      "url": "https://squid.subsquid.io/fearless-polkadot/v/v3/graphql"
     },
     "crowdloans": {
       "type": "github",
@@ -56,13 +56,72 @@
       "precision": 8
   }
   }],
-  "nodes": [{
-      "url": "wss://rpc.polkadot.io",
-      "name": "Parity node"
+  "xcm": {
+    "xcmVersion": "v3",
+    "availableAssets": [
+      {
+        "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+        "symbol": "DOT"
+      }
+    ],
+    "availableDestinations": [
+      {
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+        "assets": [
+          {
+            "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+            "symbol": "DOT"
+          }
+        ]
+      },
+      {
+        "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+        "assets": [
+            {
+                "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                "symbol": "DOT"
+            }
+            
+        ],
+        "bridgeParachainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738"
+    }
+    ]
+  },
+  "nodes": [
+    {
+      "url": "wss://api-polkadot.dwellir.com",
+      "name": "Dwellir node"
     },
     {
-      "url": "wss://polkadot-rpc.dwellir.com",
-      "name": "Dwellir node"
+      "url": "wss://rpc.polkadot.io",
+      "name": "Parity node"
     },
     {
       "url": "wss://1rpc.io/dot",
@@ -92,11 +151,11 @@
     "externalApi": {
       "staking": {
         "type": "subsquid",
-        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v1/graphql"
+        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v3/graphql"
       },
       "history": {
         "type": "subsquid",
-        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v1/graphql"
+        "url": "https://squid.subsquid.io/fearless-kusama-2/v/v3/graphql"
       },
       "crowdloans": {
         "type": "github",
@@ -121,6 +180,21 @@
         }
       ]
     },
+    "assets": [{
+      "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
+      "name": "kusama",
+      "symbol": "ksm",
+      "precision": 12,
+      "priceId": "kusama",
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
+      "color": "FFFFFF",
+      "staking": "relaychain",
+      "purchaseProviders": [
+        "ramp"
+      ],
+      "isUtility": true,
+      "type": "normal"
+    }],
     "xcm": {
       "xcmVersion": "v3",
       "availableAssets": [
@@ -170,28 +244,14 @@
           }
       ]
   },
-    "assets": [{
-      "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
-      "name": "kusama",
-      "symbol": "ksm",
-      "precision": 12,
-      "priceId": "kusama",
-      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
-      "color": "FFFFFF",
-      "staking": "relaychain",
-      "purchaseProviders": [
-        "ramp"
-      ],
-      "isUtility": true,
-      "type": "normal"
-    }],
-    "nodes": [{
-      "url": "wss://kusama-rpc.polkadot.io",
-      "name": "Parity node"
+    "nodes": [
+    {
+      "url": "wss://api-kusama.dwellir.com",
+      "name": "Dwellir node"
     },
     {
-      "url": "wss://kusama-rpc.dwellir.com",
-      "name": "Dwellir node"
+      "url": "wss://kusama-rpc.polkadot.io",
+      "name": "Parity node"
     },
     {
       "url": "wss://1rpc.io/ksm",
@@ -219,14 +279,6 @@
     "rank": 108,
     "name": "Westend",
     "externalApi": {
-      "staking": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-westend"
-      },
-      "history": {
-        "type": "subquery",
-        "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-westend"
-      },
       "crowdloans": {
         "type": "github",
         "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/westend.json"
@@ -258,6 +310,10 @@
       {
         "url": "wss://westend-rpc.dwellir.com",
         "name": "Dwellir node"
+      },
+      {
+        "url": "wss://westend.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
@@ -391,13 +447,14 @@
         }
       ]
     },
-    "nodes": [{
-        "url": "wss://kusama-asset-hub-rpc.polkadot.io",
-        "name": "Parity node"
+    "nodes": [
+      {
+        "url": "wss://api-assethub-kusama.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://statemine-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://kusama-asset-hub-rpc.polkadot.io",
+        "name": "Parity node"
       },
       {
         "url": "wss://statemine.public.curie.radiumblock.co/ws",
@@ -413,7 +470,8 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Assethub.svg",
-    "addressPrefix": 2
+    "addressPrefix": 2,
+    "options": ["utilityFeePayment"]
   },
   {
     "disabled": false,
@@ -476,6 +534,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
           "assets": [
             {
@@ -495,13 +562,14 @@
         }
       ]
     },
-    "nodes": [{
-        "url": "wss://polkadot-asset-hub-rpc.polkadot.io",
-        "name": "Parity node"
+    "nodes": [
+      {
+        "url": "wss://api-assethub-polkadot.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://statemint-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://polkadot-asset-hub-rpc.polkadot.io",
+        "name": "Parity node"
       },
       {
         "url": "wss://statemint.public.curie.radiumblock.co/ws",
@@ -514,10 +582,15 @@
       {
         "url": "wss://dot-rpc.stakeworld.io/assethub",
         "name": "Stakeworld node"
+      },
+      {
+        "url": "wss://statemint.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Assethub.svg",
-    "addressPrefix": 0
+    "addressPrefix": 0,
+    "options": ["utilityFeePayment"]
   },
   {
     "disabled": false,
@@ -706,6 +779,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
           "assets": [
             {
@@ -739,12 +821,16 @@
     },
     "nodes": [
             {
-                "url": "wss://acala-rpc.dwellir.com",
+                "url": "wss://api-acala.dwellir.com",
                 "name": "Dwellir node"
             },
             {
                 "url": "wss://rpc-acala.luckyfriday.io",
                 "name": "LuckyFriday node"
+            },
+            {
+                "url": "wss://acala-polkadot.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
             },
             {
                 "url": "wss://acala-rpc-0.aca-api.network",
@@ -756,7 +842,8 @@
             }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/acala.svg",
-    "addressPrefix": 10
+    "addressPrefix": 10,
+    "options": ["utilityFeePayment"]
   },
   {
     "disabled": false,
@@ -1213,16 +1300,21 @@
     },
     "nodes": [
       {
-        "url": "wss://karura-rpc.dwellir.com",
+        "url": "wss://api-karura.dwellir.com",
         "name": "Dwellir node"
       },
       {
         "url": "wss://karura.polkawallet.io",
         "name": "Polkawallet node"
+      },
+      {
+        "url": "wss://karura.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Karura.svg",
-    "addressPrefix": 8
+    "addressPrefix": 8,
+    "options": ["utilityFeePayment"]
   },
   {
     "disabled": false,
@@ -1413,7 +1505,12 @@
         }
       ]
     },
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-moonriver.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://wss.moonriver.moonbeam.network",
         "name": "PureStake node"
       },
@@ -1424,6 +1521,10 @@
       {
         "url": "wss://wss.api.moonriver.moonbeam.network",
         "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonriver.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Moonriver.svg",
@@ -1486,7 +1587,12 @@
         "color": "DAFE6F"
       }
     ],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-shiden.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://rpc.shiden.astar.network",
         "name": "StakeTechnologies node"
       },
@@ -1495,8 +1601,8 @@
         "name": "Blast node"
       },
       {
-        "url": "wss://shiden-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://shiden.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Shiden.svg",
@@ -1730,13 +1836,18 @@
         }
       ]
     },
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-bifrost-kusama.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
       },
       {
-        "url": "wss://bifrost-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://bifrost-parachain.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bifrost.svg",
@@ -1789,13 +1900,18 @@
         "color": "FFFFFF"
       }
     ],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-khala.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://khala-api.phala.network/ws",
         "name": "Phala node"
       },
       {
-        "url": "wss://khala-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://khala.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Khala.svg",
@@ -1839,6 +1955,10 @@
       {
         "url": "wss://kilt-rpc.dwellir.com",
         "name": "Dwellir node"
+      },
+      {
+        "url": "wss://spiritnet.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kilt.svg",
@@ -1941,7 +2061,7 @@
     }],
     "nodes": [
       {
-        "url": "wss://quartz-rpc.dwellir.com",
+        "url": "wss://api-quartz.dwellir.com",
         "name": "Dwellir node"
       },
       {
@@ -2110,7 +2230,12 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-picasso.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://picasso-rpc.composable.finance",
         "name": "Composable Finance node"
       },
@@ -2325,7 +2450,12 @@
         "color": "FFFFFF"
       }
     ],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "http://api-astar.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://rpc.astar.network",
         "name": "Astar node"
       },
@@ -2334,12 +2464,12 @@
         "name": "Blast node"
       },
       {
-        "url": "wss://astar-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
         "url": "wss://astar.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://astar.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/astar.svg",
@@ -2538,6 +2668,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
           "assets": [
             {
@@ -2575,13 +2714,14 @@
 
       ]
     },
-    "nodes": [{
-        "url": "wss://rpc.parallel.fi",
-        "name": "Parallel node"
+    "nodes": [
+      {
+        "url": "wss://api-parallel.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://parallel-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.parallel.fi",
+        "name": "Parallel node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/parallelfinance.svg",
@@ -2635,13 +2775,14 @@
         "existentialDeposit": "10000"
       }
     ],
-    "nodes": [{
-        "url": "wss://rpc.basilisk.cloud",
-        "name": "Basilisk node"
+    "nodes": [
+      {
+        "url": "wss://api-basilisk.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://basilisk-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.basilisk.cloud",
+        "name": "Basilisk node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Basilisk.svg",
@@ -2808,6 +2949,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
           "assets": [
             {
@@ -2844,13 +2994,22 @@
         }
       ]
     },
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "http://api-moonbeam.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://wss.api.moonbeam.network",
         "name": "Moonbeam Foundation node"
       },
       {
         "url": "wss://moonbeam.unitedbloc.com",
         "name": "UnitedBloc node"
+      },
+      {
+        "url": "wss://moonbeam.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       },
       {
         "url": "wss://1rpc.io/glmr",
@@ -2904,6 +3063,10 @@
       {
         "url": "wss://moonbase.unitedbloc.com",
         "name": "UnitedBloc node"
+      },
+      {
+        "url": "wss://moonbeam-alpha.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Moonbeam.svg",
@@ -2957,9 +3120,18 @@
         "color": "FFFFFF"
       }
     ],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-kintsugi.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://api-kusama.interlay.io/parachain",
         "name": "Kintsugi Labs node"
+      },
+      {
+        "url": "wss://kintsugi.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kintsugi.svg",
@@ -3045,6 +3217,10 @@
       {
         "url": "wss://robonomics.0xsamsara.com",
         "name": "Samsara node"
+      },
+      {
+        "url": "wss://robonomics.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/robonomics.svg",
@@ -3103,7 +3279,7 @@
       "type": "normal"
     }],
     "nodes": [{
-        "url": "wss://zeitgeist-rpc.dwellir.com",
+        "url": "wss://api-zeitgeist.dwellir.com",
         "name": "Dwellir node"
       },
       {
@@ -3194,13 +3370,14 @@
         "existentialDeposit": "10000"
       }
     ],
-    "nodes": [{
-        "url": "wss://rpc.hydradx.cloud",
-        "name": "Galactic Council node"
+    "nodes": [
+      {
+        "url": "wss://api-hydradx.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://hydradx-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.hydradx.cloud",
+        "name": "Galactic Council node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/hydradx.svg",
@@ -3237,13 +3414,14 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
-        "url": "wss://fullnode.parachain.centrifuge.io",
-        "name": "Centrufge node"
+    "nodes": [
+      {
+        "url": "wss://api-centrifuge.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://centrifuge-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://fullnode.parachain.centrifuge.io",
+        "name": "Centrufge node"
       },
       {
         "url": "wss://rpc-centrifuge.luckyfriday.io",
@@ -3325,13 +3503,14 @@
         "color": "F2AE7F"
       }
     ],
-    "nodes": [{
-        "url": "wss://api.interlay.io/parachain",
-        "name": "Kintsugi Labs node"
+    "nodes": [
+      {
+        "url": "wss://api-interlay.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://interlay-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://api.interlay.io/parachain",
+        "name": "Kintsugi Labs node"
       },
       {
         "url": "wss://rpc-interlay.luckyfriday.io",
@@ -3491,7 +3670,7 @@
     }],
     "nodes": [
       {
-        "url": "wss://unique-rpc.dwellir.com",
+        "url": "wss://api-unique.dwellir.com",
         "name": "Dwellir node"
       },
       {
@@ -3579,9 +3758,18 @@
         "color": "26A17B"
       }
     ],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-bifrost-polkadot.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
+      },
+      {
+        "url": "wss://bifrost-polkadot.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bifrost.svg",
@@ -3610,13 +3798,14 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
-        "url": "wss://rpc.litentry-parachain.litentry.io",
-        "name": "Litentry node"
+    "nodes": [
+      {
+        "url": "wss://api-litentry.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://litentry-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.litentry-parachain.litentry.io",
+        "name": "Litentry node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Litentry.svg",
@@ -3645,13 +3834,18 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-phala.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://api.phala.network/ws",
         "name": "Phala node"
       },
       {
-        "url": "wss://phala-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://phala.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/phala.svg",
@@ -3688,13 +3882,14 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
-        "url": "wss://rpc.composable.finance",
-        "name": "Composable node"
+    "nodes": [
+      {
+        "url": "wss://api-composable.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://composable-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.composable.finance",
+        "name": "Composable node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/composable.svg",
@@ -3729,6 +3924,10 @@
       {
         "url": "wss://bajun.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://bajun.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bajun.svg",
@@ -3901,6 +4100,10 @@
       {
         "url": "wss://kusama-rpc.mangata.online",
         "name": "Mangata RPC node"
+      },
+      {
+        "url": "wss://mangata-x.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/MagnataX.svg",
@@ -4119,7 +4322,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://equilibrium-rpc.dwellir.com",
+        "url": "wss://api-equilibrium.dwellir.com",
         "name": "Dwellir node"
       }
     ],
@@ -4154,7 +4357,7 @@
     }],
     "nodes": [
       {
-        "url": "wss://integritee-rpc.dwellir.com",
+        "url": "wss://api-integritee.dwellir.com",
         "name": "Dwellir node"
       }
     ],
@@ -4196,13 +4399,14 @@
         "existentialDeposit": "100000000"
       }
     ],
-    "nodes": [{
-        "url": "wss://rpc.turing.oak.tech",
-        "name": "OAK node"
+    "nodes": [
+      {
+        "url": "wss://api-turing.dwellir.com",
+        "name": "Dwellir node"
       },
       {
-        "url": "wss://turing-rpc.dwellir.com",
-        "name": "Dwellir node"
+        "url": "wss://rpc.turing.oak.tech",
+        "name": "OAK node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/OAK.svg",
@@ -4300,7 +4504,7 @@
       "type": "normal"
     }],
     "nodes": [{
-      "url": "wss://tinkernet-rpc.dwellir.com",
+      "url": "wss://api-invarch.dwellir.com",
       "name": "Dwellir node"
     }],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Tinkernet.svg",
@@ -4394,7 +4598,7 @@
       "type": "normal"
     }],
     "nodes": [{
-        "url": "wss://amplitude-rpc.dwellir.com",
+        "url": "wss://api-amplitude.dwellir.com",
         "name": "Dwellir node"
       },
       {
@@ -5034,6 +5238,15 @@
       ],
       "availableDestinations": [
         {
+          "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+          "assets": [
+              {
+                  "id": "99e66d4f-00cd-4d73-bd1b-3adadcacffb2",
+                  "symbol": "DOT"
+              }
+          ]
+        },
+        {
           "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
           "assets": [
               {
@@ -5055,6 +5268,10 @@
       {
         "url": "wss://mof3.sora.org",
         "name": "SORA Parliament Ministry of Finance Node"
+      },
+      {
+        "url": "wss://sora.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
@@ -5079,7 +5296,12 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
+    "nodes": [
+    {
+      "url": "wss://api-aleph-zero-mainnet.dwellir.com",
+      "name": "Dwellir node"
+    },
+    {
       "url": "wss://ws.azero.dev",
       "name": "Aleph Zero Foundation node"
     }
@@ -5105,7 +5327,12 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-kusama-bridge-hub.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://kusama-bridge-hub-rpc.polkadot.io",
         "name": "Parity node"
       },
@@ -5174,6 +5401,10 @@
     "nodes": [{
         "url": "wss://kusama.api.integritee.network",
         "name": "Integritee node"
+      },
+      {
+        "url": "wss://integritee-kusama.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/integritee.svg",
@@ -5294,7 +5525,12 @@
       "isUtility": true,
       "type": "normal"
     }],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-frequency.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://0.rpc.frequency.xyz",
         "name": "Frequency 0 node"
       },
@@ -5307,7 +5543,7 @@
     "addressPrefix": 90
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2007",
@@ -5367,10 +5603,16 @@
       "color": "26A17B",
       "existentialDeposit": "10000"
     }],
-    "nodes": [{
+    "nodes": [
+      {
+        "url": "wss://api-pendulum.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
       "url": "wss://rpc-pendulum.prd.pendulumchain.tech",
       "name": "PendulumChain node"
-    }],
+      }
+    ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Pendulum.svg",
     "addressPrefix": 56,
     "options": [
@@ -6542,7 +6784,8 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/REEF.svg",
         "color": "C547CB",
         "isUtility": true,
-        "type": "normal"
+        "type": "normal",
+        "staking": "relaychain"
     }],
     "externalApi": {
         "history": {
@@ -6630,5 +6873,357 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/liberland.svg",
     "addressPrefix": 42
+  },
+  {
+    "disabled": false,
+    "chainId": "248",
+    "rank": 15,
+    "name": "Oasys Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.oasys.games/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.oasys.games/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "11d2ece1-ecae-4596-aae4-ee9db83a5e2a",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://oasys.blockpi.network/v1/rpc/public/",
+            "name": "Blockpi https node"
+        },
+        {
+            "url": "https://rpc.mainnet.oasys.games/",
+            "name": "Oasys https node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/oasys.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "29548",
+    "rank": 150,
+    "name": "MCH Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.oasys.mycryptoheroes.net/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.oasys.mycryptoheroes.net/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "dad38228-7e66-46cb-b8f8-bee5a738a18a",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.oasys.mycryptoheroes.net/",
+            "name": "MCH https node"
+        },
+        {
+            "url": "wss://ws.oasys.mycryptoheroes.net/",
+            "name": "MCH wss node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/mchverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "2400",
+    "rank": 151,
+    "name": "TCG Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.tcgverse.xyz/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.tcgverse.xyz/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "e2661f7b-3916-464d-8ea2-5650b6c7de94",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.tcgverse.xyz/",
+            "name": "TCG https node"
+        },
+        {
+            "url": "wss://ws-rpc.tcgverse.xyz/",
+            "name": "TCG wss node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/tcgverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "19011",
+    "rank": 152,
+    "name": "HOME Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.oasys.homeverse.games/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.oasys.homeverse.games/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "943d4fe9-76e5-48bd-9220-4fcda4e3b8e4",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.mainnet.oasys.homeverse.games/",
+            "name": "HOME https node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/homeverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "5555",
+    "rank": 153,
+    "name": "Chain Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.chainverse.info/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.chainverse.info/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "f1eeb4f0-d87d-41ef-8e23-af5a535b793c",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.chainverse.info/",
+            "name": "Chain https node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/chianverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "7225878",
+    "rank": 154,
+    "name": "Saakuru Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.saakuru.network/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.saakuru.network/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "5e15fa7a-b398-49a6-8459-da4b4f660f32",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.saakuru.network/",
+            "name": "Saakuru https node"
+        },
+        {
+            "url": "wss://ws.saakuru.network/",
+            "name": "Saakuru wss node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/saakuruverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": true,
+    "chainId": "50005",
+    "rank": 155,
+    "name": "Yooldo Verse Mainnet",
+    "externalApi": {
+        "history": {
+          "type": "etherscan",
+          "url": "https://explorer.yooldo-verse.xyz/api"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://explorer.yooldo-verse.xyz/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "648d069c-c32f-4fbc-af23-14f77a9158aa",
+        "name": "oasys",
+        "symbol": "oas",
+        "precision": 18,
+        "priceId": "oasys",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
+        "color": "00A84F",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://rpc.yooldo-verse.xyz/",
+            "name": "Yooldo https node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/yooldoverse.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
   }
 ]
