@@ -1374,7 +1374,7 @@
   },
   {
     "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
-    "destChain": "Sora mainnet test",
+    "destChain": "SORA test",
     "destXcmFee": [
       {
         "feeInPlanks": "70392000000",
