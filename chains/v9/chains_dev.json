@@ -4756,7 +4756,7 @@
             },
             "staking": {
                 "type": "sora",
-                "url": "https://squid.subsquid.io/sora-stage/v/v4/graphql"
+                "url": "https://squid.subsquid.io/sora-stage/v/v5/graphql"
             }
         },
         "xcm": {
