@@ -4989,11 +4989,11 @@
         "externalApi": {
             "history": {
                 "type": "sora",
-                "url": "https://squid.subsquid.io/sora/v/v4/graphql"
+                "url": "https://squid.subsquid.io/sora/v/v5/graphql"
             },
             "staking": {
                 "type" : "sora",
-                "url": "https://squid.subsquid.io/sora/v/v4/graphql"
+                "url": "https://squid.subsquid.io/sora/v/v5/graphql"
             },
             "explorers": [{
                 "type": "subscan",
