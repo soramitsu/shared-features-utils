@@ -1385,6 +1385,18 @@
     "weight": "10000000000"
   },
   {
+    "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+    "destChain": "SORA test",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "70392000000",
+        "symbol": "ROC",
+        "precision": "12"
+      }
+    ],
+    "weight": "10000000000"
+  },
+  {
     "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
     "destChain": "SORA Mainnet",
     "destXcmFee": [
