@@ -5059,6 +5059,7 @@
         "currencyId": "0x002d4e9e03f192cc33b128319a049f353db98fbf4d98f717fd0b7f66a0462142",
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/HMX.svg",
+        "priceId": "hermes-dao",
         "color":"FFFFFF",
         "type": "soraAsset",
         "isNative": true
