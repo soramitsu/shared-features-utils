@@ -505,12 +505,12 @@
             {
                 "id": "8f79aa5a-9f31-442c-ac96-01ff80b105e0",
                 "type": "assets",
-                "name": "dot is dead",
+                "name": "dot is $ded",
                 "symbol": "ded",
                 "precision": 10,
                 "currencyId": "30",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DED.svg",
-                "color": ""
+                "color": "FE0186"
             }
         ],
         "xcm": {
