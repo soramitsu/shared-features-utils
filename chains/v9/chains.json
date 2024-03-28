@@ -1306,10 +1306,6 @@
     },
     "nodes": [
       {
-        "url": "wss://api-karura.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
         "url": "wss://karura.polkawallet.io",
         "name": "Polkawallet node"
       },
@@ -2767,10 +2763,6 @@
     ],
     "nodes": [
       {
-        "url": "wss://api-basilisk.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
         "url": "wss://rpc.basilisk.cloud",
         "name": "Basilisk node"
       }
@@ -3111,10 +3103,6 @@
       }
     ],
     "nodes": [
-      {
-        "url": "wss://api-kintsugi.dwellir.com",
-        "name": "Dwellir node"
-      },
       {
         "url": "wss://api-kusama.interlay.io/parachain",
         "name": "Kintsugi Labs node"
