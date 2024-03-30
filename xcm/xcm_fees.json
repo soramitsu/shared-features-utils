@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "107618849",
+        "feeInPlanks": "101246471",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -417,7 +417,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "658132",
+        "feeInPlanks": "674991",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -691,7 +691,7 @@
       },
       {
         "symbol": "ZTG",
-        "feeInPlanks": "6666666666"
+        "feeInPlanks": "1113231787"
       },
       {
         "symbol": "iBTC",
@@ -1053,7 +1053,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "100604"
+        "feeInPlanks": "70000"
       },
       {
         "symbol": "PHA",
@@ -1361,12 +1361,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2145630",
+        "feeInPlanks": "2018982",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "11550826369478698",
+        "feeInPlanks": "11038477897487975",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1387,12 +1387,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "2005",
+        "feeInPlanks": "1929",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3218699784024680"
+        "feeInPlanks": "3096336565457779"
       },
       {
         "symbol": "WETH",
@@ -1408,7 +1408,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "2018"
+        "feeInPlanks": "1932"
       },
       {
         "symbol": "CFG",
@@ -1416,7 +1416,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1329839"
+        "feeInPlanks": "1250512"
       },
       {
         "symbol": "BNC",
@@ -1428,7 +1428,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "16062800800"
+        "feeInPlanks": "15767601814"
       },
       {
         "symbol": "UNQ",
@@ -1440,7 +1440,11 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "2015"
+        "feeInPlanks": "1930"
+      },
+      {
+        "symbol": "PINK",
+        "feeInPlanks": "1931"
       }
     ],
     "weight": "500000000000"
