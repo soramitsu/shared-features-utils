@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "101246471",
+        "feeInPlanks": "101649612",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -577,7 +577,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "501995331469387755103",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -635,7 +635,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "18492941938"
+        "feeInPlanks": "23882317593"
       },
       {
         "symbol": "aSEED",
@@ -846,7 +846,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "18012501"
+        "feeInPlanks": "23246535055051"
       },
       {
         "symbol": "USDC",
@@ -1053,7 +1053,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "70000"
+        "feeInPlanks": "100604"
       },
       {
         "symbol": "PHA",
@@ -1159,7 +1159,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "85083099147",
+        "feeInPlanks": "642",
         "precision": "10"
       },
       {
@@ -1361,7 +1361,7 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2018982",
+        "feeInPlanks": "2029694",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1376,7 +1376,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "296981665",
+        "feeInPlanks": "310184087",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1387,7 +1387,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1929",
+        "feeInPlanks": "1915",
         "precision": "6"
       },
       {
@@ -1408,7 +1408,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1932"
+        "feeInPlanks": "1912"
       },
       {
         "symbol": "CFG",
@@ -1416,7 +1416,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1250512"
+        "feeInPlanks": "19997970434"
       },
       {
         "symbol": "BNC",
@@ -1436,15 +1436,15 @@
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "887177472"
+        "feeInPlanks": "809838569"
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1930"
+        "feeInPlanks": "1915"
       },
       {
         "symbol": "PINK",
-        "feeInPlanks": "1931"
+        "feeInPlanks": "1914"
       }
     ],
     "weight": "500000000000"
