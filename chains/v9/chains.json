@@ -5886,7 +5886,7 @@
           "precision": 18,
           "priceId": "sand",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SAND.svg",
-          "color": "243579",
+          "color": "4AA4EB",
           "type": "normal",
           "ethereumType": "erc20"
       }
