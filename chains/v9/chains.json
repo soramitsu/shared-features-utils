@@ -5877,6 +5877,18 @@
         "color": "FA8C16",
         "type": "normal",
         "ethereumType": "erc20"
+      },
+      {
+          "isUtility": false,
+          "id": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+          "name": "The Sandbox",
+          "symbol": "sand",
+          "precision": 18,
+          "priceId": "sand",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SAND.svg",
+          "color": "4AA4EB",
+          "type": "normal",
+          "ethereumType": "erc20"
       }
     ],
     "nodes": [
