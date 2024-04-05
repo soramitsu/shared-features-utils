@@ -831,6 +831,10 @@
     },
     "nodes": [
             {
+                "url": "wss://api-acala.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
                 "url": "wss://rpc-acala.luckyfriday.io",
                 "name": "LuckyFriday node"
             },
@@ -1501,6 +1505,10 @@
     },
     "nodes": [
       {
+        "url": "wss://api-moonriver.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://wss.moonriver.moonbeam.network",
         "name": "PureStake node"
       },
@@ -1578,6 +1586,10 @@
       }
     ],
     "nodes": [
+      {
+        "url": "wss://api-shiden.dwellir.com",
+        "name": "Dwellir node"
+      },
       {
         "url": "wss://rpc.shiden.astar.network",
         "name": "StakeTechnologies node"
@@ -1824,6 +1836,10 @@
     },
     "nodes": [
       {
+        "url": "wss://api-bifrost-kusama.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
       },
@@ -1883,6 +1899,10 @@
       }
     ],
     "nodes": [
+      {
+        "url": "wss://api-khala.dwellir.com",
+        "name": "Dwellir node"
+      },
       {
         "url": "wss://khala-api.phala.network/ws",
         "name": "Phala node"
@@ -3342,6 +3362,10 @@
     ],
     "nodes": [
       {
+        "url": "wss://api-hydradx.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://rpc.hydradx.cloud",
         "name": "Galactic Council node"
       }
@@ -3470,6 +3494,10 @@
       }
     ],
     "nodes": [
+      {
+        "url": "wss://api-interlay.dwellir.com",
+        "name": "Dwellir node"
+      },
       {
         "url": "wss://api.interlay.io/parachain",
         "name": "Kintsugi Labs node"
@@ -3721,7 +3749,10 @@
       }
     ],
     "nodes": [
-    
+      {
+        "url": "wss://api-bifrost-polkadot.dwellir.com",
+        "name": "Dwellir node"
+      },
       {
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
