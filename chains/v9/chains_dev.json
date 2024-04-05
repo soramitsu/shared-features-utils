@@ -4951,25 +4951,15 @@
                 "type": "soraAsset"
             }
         ],
-        "nodes": [{
-                "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage Node #1"
+        "nodes": [
+
+            {
+                "url": "wss://ws.framenode-7.s4.stg1.sora2.soramitsu.co.jp",
+                "name": "Sora Stage #7"
             },
             {
-                "url": "wss://ws.framenode-2.s1.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage Node #2"
-            },
-            {
-                "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage Node #3"
-            },
-            {
-                "url": "wss://ws.framenode-4.s2.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage Node #4"
-            },
-            {
-                "url": "wss://ws.framenode-5.s3.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage Node #5"
+                "url": "wss://ws.framenode-8.s5.stg1.sora2.soramitsu.co.jp",
+                "name": "Sora Stage #8"
             },
             {
                 "url": "wss://ws.framenode-1.r0.dev.sora2.soramitsu.co.jp",
