@@ -7752,5 +7752,47 @@
             "ethereum",
             "utilityFeePayment"
         ]
+      },
+      {
+        "disabled": false,
+        "chainId": "72778",
+        "name": "CAGA Ankara Testnet",
+        "externalApi": {
+          "history": {
+              "type": "etherscan",
+              "url": "https://explorer.ankara-cagacrypto.com/api"
+          }
+        },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "a9270ef5-379a-4228-8d72-e6efb2b5f7b4",
+            "name": "caga",
+            "symbol": "caga",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAGA.svg",
+            "color": "FFFFFF",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+      
+        ],
+        "nodes": [
+            {
+                "url": "wss://wss.ankara-cagacrypto.com",
+                "name": "Caga wss node"
+            },
+            {
+                "url": "https://www.ankara-cagacrypto.com",
+                "name": "Caga https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/cagachain.svg",
+        "addressPrefix": 0,
+        "options": [
+            "testnet",
+            "ethereum",
+            "utilityFeePayment"
+        ]
       }
 ]
