@@ -7632,7 +7632,50 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/rootstock.svg",
         "addressPrefix": 0,
         "options": [
-          "ethereum"
+          "ethereum",
+          "utilityFeePayment"
         ]
+      },
+      {
+        "disabled": false,
+        "chainId": "50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
+        "name": "XX network",
+        "externalApi": {
+          "history": {
+            "type": "subquery",
+            "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-xx-network"
+          }
+        },
+        "assets": [{
+          "id": "526dca29-63ff-4683-88d6-852d1455b17b",
+          "name": "xx network",
+          "symbol": "xx",
+          "precision": 9,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XX.svg",
+          "priceId": "xxcoin",
+          "color": "0AC1C7",
+          "isUtility": true,
+          "type": "normal"
+        }],
+        "nodes": [
+            {
+                "url": "wss://xxnetwork-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
+                "url": "wss://rpc.xx.network",
+                "name": "xx Foundation node #1"
+            },
+            {
+                "url": "wss://rpc-hetzner.xx.network",
+                "name": "xx Foundation node #2"
+            },
+            {
+                "url": "wss://rpc-do.xx.network",
+                "name": "xx Foundation node #3"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/xxnetwork.svg",
+        "addressPrefix": 55
       }
 ]
