@@ -7677,5 +7677,80 @@
         ],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/xxnetwork.svg",
         "addressPrefix": 55
+      },
+      {
+        "disabled": false,
+        "chainId": "6660",
+        "name": "Latest Testnet",
+        "externalApi": {
+          "history": {
+              "type": "zeta",
+              "url": "https://testscan.latestchain.io/api/v2/addresses/"
+          }
+        },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "1a31227d-c6fe-4c78-a3d6-353be70e56a6",
+            "name": "latest",
+            "symbol": "latest",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LATEST.svg",
+            "color": "FC81EA",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+      
+        ],
+        "nodes": [
+            {
+              "url": "https://testnet-rpc.latestchain.io",
+              "name": "Latest https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/latest.svg",
+        "addressPrefix": 0,
+        "options": [
+            "testnet",
+            "ethereum",
+            "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "9630",
+        "name": "Latest Mainnet",
+        "externalApi": {
+          "history": {
+              "type": "zeta",
+              "url": "https://scan.latestchain.io/api/v2/addresses/"
+          }
+        },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "e7094e62-d86d-4c08-8497-9ebc4c9011ea",
+            "name": "latest",
+            "symbol": "latest",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LATEST.svg",
+            "color": "FC81EA",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+      
+        ],
+        "nodes": [
+            {
+              "url": "https://mainnet-rpc.latestchain.io",
+              "name": "Latest https node"
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/latest.svg",
+        "addressPrefix": 0,
+        "options": [
+            "ethereum",
+            "utilityFeePayment"
+        ]
       }
 ]
