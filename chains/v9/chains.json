@@ -6942,7 +6942,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "29548",
     "rank": 150,
     "name": "MCH Verse Mainnet",
@@ -6994,7 +6994,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "2400",
     "rank": 151,
     "name": "TCG Verse Mainnet",
@@ -7046,7 +7046,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "19011",
     "rank": 152,
     "name": "HOME Verse Mainnet",
