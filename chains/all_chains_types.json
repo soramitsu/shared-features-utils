@@ -14967,5 +14967,24 @@
               }
           }
       ]
+    },
+    {
+      "chainId": "50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
+      "runtime_id": 205,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "GenericEvent": "xxnetwork_runtime::Event",
+                  "GenericCall": "xxnetwork_runtime::Call"
+              }
+          }
+      ]
     }
 ]

@@ -7094,7 +7094,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "5555",
     "rank": 153,
     "name": "Chain Verse Mainnet",
@@ -7142,7 +7142,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "7225878",
     "rank": 154,
     "name": "Saakuru Verse Mainnet",
@@ -7194,7 +7194,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "50005",
     "rank": 155,
     "name": "Yooldo Verse Mainnet",
