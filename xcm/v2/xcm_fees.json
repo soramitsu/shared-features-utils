@@ -128,7 +128,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "31232619892"
+        "feeInPlanks": "24184546747"
       },
       {
         "symbol": "HKO",
@@ -404,7 +404,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "103777372",
+        "feeInPlanks": "105960412",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -413,7 +413,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "470117",
+        "feeInPlanks": "469556",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -507,7 +507,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -573,7 +573,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1021,7 +1021,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "100604"
+        "feeInPlanks": "70000"
       },
       {
         "symbol": "PINK",
@@ -1107,7 +1107,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "598330072906648",
+        "feeInPlanks": "642960000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1320,12 +1320,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2310125",
+        "feeInPlanks": "2325628",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "11557465304726812",
+        "feeInPlanks": "11500874374090933",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1335,7 +1335,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "358809065",
+        "feeInPlanks": "353837019",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1346,12 +1346,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1974",
+        "feeInPlanks": "1945",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3604120280748777"
+        "feeInPlanks": "3541838947153329"
       },
       {
         "symbol": "WETH",
@@ -1375,7 +1375,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1443687"
+        "feeInPlanks": "1431064"
       },
       {
         "symbol": "BNC",
@@ -1395,15 +1395,15 @@
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "971993768"
+        "feeInPlanks": "1170746153"
       },
       {
         "symbol": "PINK",
-        "feeInPlanks": "119997689265"
+        "feeInPlanks": "1945"
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1973"
+        "feeInPlanks": "1943"
       }
     ],
     "weight": "500000000000"
