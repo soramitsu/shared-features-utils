@@ -7708,7 +7708,7 @@
               "name": "Latest https node"
             }
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/latest.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/latestchain.svg",
         "addressPrefix": 0,
         "options": [
             "testnet",
