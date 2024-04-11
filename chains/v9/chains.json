@@ -493,7 +493,8 @@
         "url": "https://assethub-polkadot.subscan.io/{type}/{value}"
       }]
     },
-    "assets": [{
+    "assets": [
+      {
       "isUtility": true,
       "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
       "name": "polkadot",
@@ -507,7 +508,7 @@
         "ramp"
       ],
       "type": "normal"
-    },
+      },
       {
         "id": "ea33432f-9bd9-4d42-93bc-cd45a0e8a44c",
         "type": "assets",
@@ -518,6 +519,17 @@
         "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B"
+      },
+      {
+        "id": "951ca8aa-c390-4512-a35c-d3851440b580",
+        "type": "assets",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "currencyId": "1337",
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4"
       },
       {
         "id": "8f79aa5a-9f31-442c-ac96-01ff80b105e0",
