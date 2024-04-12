@@ -7799,6 +7799,16 @@
         "disabled": false,
         "chainId": "6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
         "name": "Avail Goldberg Testnet",
+        "externalApi": {
+            "explorers": {
+                "type": "subscan",
+                "types": [
+                    "extrinsic",
+                    "account"
+                ],
+                "url": "https://avail-testnet.subscan.io/{type}/{value}"
+            }
+        },
         "assets": [
             {
             "id": "72778e65-53b6-4cb4-bb4c-c029121eb494",
