@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "104956375",
+        "feeInPlanks": "108537175",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -417,12 +417,12 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "466518",
+        "feeInPlanks": "470987",
         "symbol": "XRT",
         "precision": "9"
       },
       {
-        "feeInPlanks": "4218",
+        "feeInPlanks": "4117",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -955,7 +955,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "1012498052000000",
+        "feeInPlanks": "6399488469492919681410",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1369,12 +1369,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2288324",
+        "feeInPlanks": "2421738",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "11500874374090933",
+        "feeInPlanks": "12780963379315911",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1384,7 +1384,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "367800816",
+        "feeInPlanks": "341764564",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1395,12 +1395,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1924",
+        "feeInPlanks": "1727",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3529396891958475"
+        "feeInPlanks": "4067946964885793"
       },
       {
         "symbol": "WETH",
@@ -1424,7 +1424,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1431064"
+        "feeInPlanks": "1492869"
       },
       {
         "symbol": "BNC",
@@ -1440,7 +1440,7 @@
       },
       {
         "symbol": "UNQ",
-        "feeInPlanks": "196167799988517502"
+        "feeInPlanks": "182994413754736722"
       },
       {
         "symbol": "CRU",
@@ -1448,15 +1448,19 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1920"
+        "feeInPlanks": "1730"
       },
       {
         "symbol": "PINK",
-        "feeInPlanks": "1945"
+        "feeInPlanks": "1724"
       },
       {
         "symbol": "HDX",
         "feeInPlanks": "493244"
+      },
+      {
+        "symbol": "DOTA",
+        "feeInPlanks": "1728"
       }
     ],
     "weight": "500000000000"
