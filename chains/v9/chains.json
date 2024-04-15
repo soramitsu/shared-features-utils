@@ -540,7 +540,17 @@
         "currencyId": "30",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DED.svg",
         "color": "FE0186"
-      }
+      },
+      {
+        "id": "44587704-7da8-45c3-9541-be7b81de76ee",
+        "type": "assets",
+        "name": "pink",
+        "symbol": "pink",
+        "precision": 10,
+        "currencyId": "23",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PINK.svg",
+        "color": "FF0066"
+    }
     ],
     "xcm": {
       "xcmVersion": "v3",
