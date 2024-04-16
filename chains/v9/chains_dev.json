@@ -2721,10 +2721,7 @@
 
             ]
         },
-        "nodes": [{
-                "url": "wss://rpc.parallel.fi",
-                "name": "Parallel node"
-            },
+        "nodes": [
             {
                 "url": "wss://parallel-rpc.dwellir.com",
                 "name": "Dwellir node"
