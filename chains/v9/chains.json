@@ -2945,6 +2945,16 @@
         "priceId": "pha",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PHA.svg",
         "color": "DAFE6F"
+      },
+      {
+        "id": "6fed1ff5-3aa5-4d94-b07a-22dfc0770fc0",
+        "type": "assets",
+        "name": "pink",
+        "symbol": "xcpink",
+        "precision": 10,
+        "currencyId": "64174511183114006009298114091987195453",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PINK.svg",
+        "color": "FF0066"
       }
     ],
     "xcm": {
