@@ -4966,7 +4966,52 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
                 "color": "FFFFFF",
                 "type": "soraAsset"
+            },
+            {
+                "id": "ada3b18e-1912-4f96-ad3b-4d0e1b1d1d0a",
+                "symbol": "tbcd",
+                "name": "sora tbc dollar",
+                "currencyId": "0x02000a0000000000000000000000000000000000000000000000000000000000",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TBCD.svg",
+                "color":"6D8954",
+                "type": "soraAsset",
+                "isNative": true
+            },
+            {
+                "id": "eface91d-b2a8-49d2-88e8-640586bda477",
+                "name": "polkadot",
+                "symbol": "dot",
+                "currencyId": "0x0003b1dbee890acfb1b3bc12d1bb3b4295f52755423f84d1751b2545cebf000b",
+                "precision": 18,
+                "priceId": "polkadot",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+                "color": "FF0066",
+                "type": "soraAsset"
+            },
+            {
+                "id": "191c31de-62b1-41e4-aad3-15a5be1b4cd4",
+                "name": "dai",
+                "symbol": "dai",
+                "currencyId": "0x0200060000000000000000000000000000000000000000000000000000000000",
+                "precision": 18,
+                "priceId": "dai",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+                "color": "F9AF1A",
+                "type": "soraAsset"
+            },
+            {
+                "id": "3ab2c884-6c6e-4f92-b87a-a013c80210af",
+                "name": "ethereum",
+                "symbol": "eth",
+                "currencyId": "0x0200070000000000000000000000000000000000000000000000000000000000",
+                "precision": 18,
+                "priceId": "ethereum",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+                "color": "627EEA",
+                "type": "soraAsset"
             }
+
         ],
         "nodes": [
 
