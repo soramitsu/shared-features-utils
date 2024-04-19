@@ -3487,7 +3487,7 @@
       "type": "normal"
     }],
     "nodes": [{
-        "url": "wss://eden-rpc.dwellir.com",
+        "url": "wss://api-nodle.dwellir.com",
         "name": "Dwellir node"
       },
       {
