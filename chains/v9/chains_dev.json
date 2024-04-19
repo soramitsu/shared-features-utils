@@ -6944,48 +6944,116 @@
       {
         "disabled": false,
         "chainId": "195",
-        "rank": 13,
-        "name": "X1 testnet",
+        "rank": "130",
+        "name": "X Layer Testnet",
         "externalApi": {
-            "history": {
-              "type": "oklink",
-              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=X1_TEST"
-            },
-            "explorers": [
-              {
-                "type": "oklink",
-                "types": [
-                  "tx",
-                  "address"
-                ],
-                "url": "https://www.oklink.com/x1-test/{type}/{value}"
-              }
-            ]
+          "history": {
+            "type": "oklink",
+            "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=XLAYER_TESTNET"
           },
+          "explorers": [
+            {
+              "type": "oklink",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://www.okx.com/explorer/xlayer-test/{type}/{value}"
+            }
+          ]
+        },
         "assets": [
           {
             "isUtility": true,
-            "id": "0db45dec-9e88-4044-a358-3888f85e9a9e",
+            "id": "a61b1842-30c0-431d-9bbc-fc3370562455",
             "name": "okb",
             "symbol": "okb",
             "precision": 18,
-            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OKTC.svg",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
             "color": "FFFFFF",
             "type": "normal",
             "ethereumType": "normal"
           }
         ],
         "nodes": [
+          {
+            "url": "https://testrpc.xlayer.tech/",
+            "name": "X Layer Test Tech https node"
+          },
+          {
+            "url": "wss://testws.xlayer.tech",
+            "name": "X Layer Test Tech wss node"
+          },
+          {
+            "url": "https://xlayertestrpc.okx.com/",
+            "name": "X Layer Test OKX https node"
+          },
+          {
+            "url": "wss://xlayertestws.okx.com",
+            "name": "X Layer Test OKX wss node"
+          } 
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/xlayerchain.svg",
+        "addressPrefix": 0,
+        "options": [
+          "ethereum",
+          "utilityFeePayment"
+        ]
+      },
+      {
+        "disabled": false,
+        "chainId": "196",
+        "rank": "13",
+        "name": "X Layer Mainnet",
+        "externalApi": {
+          "history": {
+            "type": "oklink",
+            "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=XLAYER"
+          },
+          "explorers": [
             {
-                "url": "https://testrpc.x1.tech/",
-                "name": "X1 https node"
+              "type": "oklink",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://www.okx.com/explorer/xlayer-test/{type}/{value}"
+            }
+          ]
+        },
+        "assets": [
+          {
+            "isUtility": true,
+            "id": "dcf40e8d-f041-45b8-8cc8-e5b95bedb86e",
+            "name": "okb",
+            "symbol": "okb",
+            "precision": 18,
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
+            "color": "FFFFFF",
+            "priceId": "okb",
+            "type": "normal",
+            "ethereumType": "normal"
+          }
+        ],
+        "nodes": [
+            {
+              "url": "https://rpc.xlayer.tech/",
+              "name": "X Layer Tech https node"
             },
             {
-                "url": "https://x1testrpc.okx.com/",
-                "name": "X1 https node"
-            }
+              "url": "wss://ws.xlayer.tech/",
+              "name": "X Layer Tech wss node"
+            },
+            {
+              "url": "https://xlayerrpc.okx.com/",
+              "name": "X Layer OKX https node"
+            },
+            {
+              "url": "https://xlayerrpc.okx.com/",
+              "name": "X Layer OKX wss node"
+            } 
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Okxchain.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/xlayerchain.svg",
         "addressPrefix": 0,
         "options": [
           "ethereum",
