@@ -7349,5 +7349,43 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/xxnetwork.svg",
     "addressPrefix": 55
-  }
+  },
+  {
+          "disabled": false,
+          "chainId": "6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
+          "name": "Avail Goldberg Testnet",
+          "externalApi": {
+              "explorers": [{
+                  "type": "subscan",
+                  "types": [
+                      "extrinsic",
+                      "account"
+                  ],
+                  "url": "https://avail-testnet.subscan.io/{type}/{value}"
+              }]
+          },
+          "assets": [
+              {
+              "id": "72778e65-53b6-4cb4-bb4c-c029121eb494",
+              "name": "avail token",
+              "symbol": "avl",
+              "precision": 18,
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVL.svg",
+              "color": "56E5FF",
+              "isUtility": true,
+              "type": "normal"
+          }
+      ],
+          "nodes": [{
+                  "url": "wss://goldberg-testnet-rpc.avail.tools/ws",
+                  "name": "Avail Goldberg Testnet node"
+              }
+      
+          ],
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+          "addressPrefix": 42,
+          "options": [
+              "checkAppId"
+          ]
+      }
 ]
