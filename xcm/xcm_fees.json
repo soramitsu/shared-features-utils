@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "107809310",
+        "feeInPlanks": "109036701",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -417,7 +417,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "393129",
+        "feeInPlanks": "401952",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -511,7 +511,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "8746017993",
+        "feeInPlanks": "653550000",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -577,7 +577,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "686274000000000",
+        "feeInPlanks": "5636274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -1373,12 +1373,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2085434",
+        "feeInPlanks": "2084160",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "11190905005858492",
+        "feeInPlanks": "10926937506461954",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1388,7 +1388,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "334356031",
+        "feeInPlanks": "332668475",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1399,12 +1399,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1379",
+        "feeInPlanks": "1420",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3627936309634755"
+        "feeInPlanks": "3599835008941393"
       },
       {
         "symbol": "WETH",
@@ -1440,7 +1440,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "16049068253"
+        "feeInPlanks": "16469008381"
       },
       {
         "symbol": "UNQ",
@@ -1452,11 +1452,11 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1418"
+        "feeInPlanks": "1410"
       },
       {
         "symbol": "PINK",
-        "feeInPlanks": "1418"
+        "feeInPlanks": "1413"
       },
       {
         "symbol": "HDX",
