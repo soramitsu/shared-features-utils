@@ -7370,7 +7370,7 @@
               "name": "avail token",
               "symbol": "avl",
               "precision": 18,
-              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVL.svg",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
               "color": "56E5FF",
               "isUtility": true,
               "type": "normal"
