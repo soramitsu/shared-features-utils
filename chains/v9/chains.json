@@ -6648,57 +6648,6 @@
   },
   {
     "disabled": false,
-    "chainId": "195",
-    "rank": 13,
-    "name": "X1 testnet",
-    "externalApi": {
-      "history": {
-        "type": "oklink",
-        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=X1_TEST"
-      },
-      "explorers": [
-        {
-          "type": "oklink",
-          "types": [
-            "tx",
-            "address"
-          ],
-          "url": "https://www.oklink.com/x1-test/{type}/{value}"
-        }
-      ]
-    },
-    "assets": [
-      {
-        "isUtility": true,
-        "id": "0db45dec-9e88-4044-a358-3888f85e9a9e",
-        "name": "okb",
-        "symbol": "okb",
-        "precision": 18,
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OKTC.svg",
-        "color": "FFFFFF",
-        "type": "normal",
-        "ethereumType": "normal"
-      }
-    ],
-    "nodes": [
-        {
-            "url": "https://testrpc.x1.tech/",
-            "name": "X1 https node"
-        },
-        {
-            "url": "https://x1testrpc.okx.com/",
-            "name": "X1 https node"
-        }
-    ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Okxchain.svg",
-    "addressPrefix": 0,
-    "options": [
-      "ethereum",
-      "utilityFeePayment"
-    ]
-  },
-  {
-    "disabled": false,
     "chainId": "1101",
     "rank": 7,
     "name": "Polygon zkEVM",
