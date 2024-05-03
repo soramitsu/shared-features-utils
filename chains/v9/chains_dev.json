@@ -5292,6 +5292,28 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
                 "color": "FF0066",
                 "type": "soraAsset"
+            },
+            {
+                "id": "fb88fa55-b8c8-4ff1-afa8-f72a86a238a4",
+                "name": "acala",
+                "symbol": "aca",
+                "currencyId": "0x001ddbe1a880031da72f7ea421260bec635fa7d1aa72593d5412795408b6b2ba",
+                "precision": 18,
+                "priceId": "acala",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ACA.svg",
+                "color": "FFFFFF",
+                "type": "soraAsset"
+            },
+            {
+                "id": "acc32ee0-8fdc-4743-91e1-f70cc4f3069b",
+                "name": "astar",
+                "symbol": "astr",
+                "currencyId": "0x009dd037fcb32f4fe17c513abd4641a2ece844d106e30788124f0c0acc6e748e",
+                "precision": 18,
+                "priceId": "astar",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ASTR.svg",
+                "color": "0AE2FF",
+                "type": "soraAsset"
             }
         ],
         "xcm": {
