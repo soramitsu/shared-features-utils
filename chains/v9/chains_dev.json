@@ -819,6 +819,17 @@
                             "symbol": "ACA"
                         }
                     ]
+                },
+                {
+                    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+                    "assets": [
+                        {
+                            "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+                            "symbol": "ACA"
+                        }
+                        
+                    ],
+                    "bridgeParachainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738"
                 }
             ]
         },
@@ -5326,6 +5337,10 @@
                 {
                     "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
                     "symbol": "DOT"
+                },
+                {
+                    "id": "fb88fa55-b8c8-4ff1-afa8-f72a86a238a4",
+                    "symbol": "ACA"
                 }
             ],
             "availableDestinations": [
@@ -5344,6 +5359,15 @@
                         {
                             "id": "cd092a5a-4eb6-4318-9f11-4bf8454d67a2",
                             "symbol": "DOT"
+                        }
+                    ]
+                },
+                {
+                    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+                    "assets": [
+                        {
+                            "id": "fb88fa55-b8c8-4ff1-afa8-f72a86a238a4",
+                            "symbol": "ACA"
                         }
                     ]
                 }
