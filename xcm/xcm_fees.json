@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "102365923",
+        "feeInPlanks": "100769519",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -417,7 +417,7 @@
         "symbol": "xcXRT"
       },
       {
-        "feeInPlanks": "364067",
+        "feeInPlanks": "353478",
         "symbol": "XRT",
         "precision": "9"
       },
@@ -618,7 +618,7 @@
       },
       {
         "symbol": "IBTC",
-        "feeInPlanks": "21",
+        "feeInPlanks": "2509624805",
         "precision": "8"
       },
       {
@@ -1201,7 +1201,7 @@
       },
       {
         "symbol": "vASTR",
-        "feeInPlanks": "170203733"
+        "feeInPlanks": "6429600000000"
       },
       {
         "symbol": "BNC Polkadot",
@@ -1381,12 +1381,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2268388",
+        "feeInPlanks": "2258751",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "12425714052534702",
+        "feeInPlanks": "13530232283009360",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1396,7 +1396,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "378246798",
+        "feeInPlanks": "376808698",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,7 +1407,7 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1596",
+        "feeInPlanks": "1673",
         "precision": "6"
       },
       {
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "20199743334"
+        "feeInPlanks": "20607163087"
       },
       {
         "symbol": "UNQ",
@@ -1456,11 +1456,11 @@
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "1035731923"
+        "feeInPlanks": "1166070420"
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1610"
+        "feeInPlanks": "1659"
       },
       {
         "symbol": "PINK",
@@ -1476,7 +1476,7 @@
       },
       {
         "symbol": "KILT",
-        "feeInPlanks": "4186763042499"
+        "feeInPlanks": "4435961833326"
       }
     ],
     "weight": "500000000000"
