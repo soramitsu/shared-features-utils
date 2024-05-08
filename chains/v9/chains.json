@@ -7301,8 +7301,8 @@
   },
   {
           "disabled": false,
-          "chainId": "6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
-          "name": "Avail Goldberg Testnet",
+          "chainId": "d3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
+          "name": "Avail Turing Testnet",
           "externalApi": {
               "explorers": [{
                   "type": "subscan",
@@ -7310,14 +7310,14 @@
                       "extrinsic",
                       "account"
                   ],
-                  "url": "https://avail-testnet.subscan.io/{type}/{value}"
+                  "url": "https://avail-turing.subscan.io/{type}/{value}"
               }]
           },
           "assets": [
               {
               "id": "72778e65-53b6-4cb4-bb4c-c029121eb494",
               "name": "avail token",
-              "symbol": "avl",
+              "symbol": "avail",
               "precision": 18,
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
               "color": "56E5FF",
@@ -7326,8 +7326,8 @@
           }
       ],
           "nodes": [{
-                  "url": "wss://goldberg-testnet-rpc.avail.tools/ws",
-                  "name": "Avail Goldberg Testnet node"
+                  "url": "wss://turing-rpc.avail.so/ws",
+                  "name": "Avail Turing Testnet node"
               }
       
           ],
