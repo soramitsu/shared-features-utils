@@ -8034,7 +8034,7 @@
         "options": [
             "testnet"
         ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Analog.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Analog.svg",
         "addressPrefix": 12850
     }
 ]
