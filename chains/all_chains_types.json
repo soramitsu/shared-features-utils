@@ -15019,8 +15019,8 @@
               "types": {
                   "Balance": "u128",
                   "Index": "u32",
-                  "GenericEvent": "timechain_runtime::Event",
-                  "GenericCall": "timechain_runtime::Call"
+                  "GenericEvent": "timechain_runtime::RuntimeEvent",
+                  "GenericCall": "timechain_runtime::RuntimeCall"
               }
           }
       ]
