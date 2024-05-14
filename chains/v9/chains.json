@@ -4173,10 +4173,9 @@
     "addressPrefix": 33
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "paraId": "2011",
     "name": "Equilibrium",
     "externalApi": {
       "explorers": [{
