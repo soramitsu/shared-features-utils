@@ -6805,17 +6805,17 @@
         "name": "Arbitrum One",
         "externalApi": {
             "history": {
-              "type": "etherscan",
-              "url": "https://api.arbiscan.io/api"
+              "type": "oklink",
+              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=ARBITRUM"
             },
             "explorers": [
               {
-                "type": "etherscan",
+                "type": "oklink",
                 "types": [
                   "tx",
                   "address"
                 ],
-                "url": "https://arbiscan.io/{type}/{value}"
+                "url": "https://www.okx.com/explorer/arbitrum/{type}/{value}"
               }
             ]
           },
@@ -6870,17 +6870,17 @@
         "name": "OP Mainnet",
         "externalApi": {
             "history": {
-              "type": "etherscan",
-              "url": "https://api-optimistic.etherscan.io/api"
+              "type": "oklink",
+              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=OP"
             },
             "explorers": [
               {
-                "type": "etherscan",
+                "type": "oklink",
                 "types": [
                   "tx",
                   "address"
                 ],
-                "url": "https://optimistic.etherscan.io/{type}/{value}"
+                "url": "https://www.okx.com/explorer/optimism/{type}/{value}"
               }
             ]
           },
@@ -6942,17 +6942,17 @@
         "name": "Avalanche C-Chain",
         "externalApi": {
             "history": {
-              "type": "etherscan",
-              "url": "https://api.snowtrace.io/api"
+              "type": "oklink",
+              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=AVAXC"
             },
             "explorers": [
               {
-                "type": "etherscan",
+                "type": "oklink",
                 "types": [
                   "tx",
                   "address"
                 ],
-                "url": "https://snowtrace.io/{type}/{value}"
+                "url": "https://www.okx.com/explorer/avax/{type}/{value}"
               }
             ]
           },
@@ -7113,20 +7113,20 @@
         "name": "Polygon zkEVM",
         "externalApi": {
             "history": {
-              "type": "etherscan",
-              "url": "https://api-zkevm.polygonscan.com/api"
+              "type": "oklink",
+              "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=POLYGON_ZKEVM"
+              },
+              "explorers": [
+                {
+                  "type": "oklink",
+                  "types": [
+                    "tx",
+                    "address"
+                    ],
+                  "url": "https://www.okx.com/explorer/polygon-zkevm/{type}/{value}"
+                }
+              ]
             },
-            "explorers": [
-              {
-                "type": "etherscan",
-                "types": [
-                  "tx",
-                  "address"
-                ],
-                "url": "https://zkevm.polygonscan.com/{type}/{value}"
-              }
-            ]
-          },
         "assets": [
           {
             "isUtility": true,
