@@ -2,89 +2,85 @@
     "iOS": [
         {
             "minVersion": "3.6.1",
+            "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/background.png",
             "en-EN": {
                 "new":[
                     {
-                        "title": "Take Control with a Tap",
+                        "title": {"text": "Take Control with a Tap", "color": "#FFFFFF"},
                         "description": "Discover and manage your assets effortlessly from the main dashboard",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/1.png"
                     },
                     {
-                        "title": "Customize Your View",
+                        "title": {"text": "Customize Your View", "color": "#FFFFFF"},
                         "description": "Easily hide or showcase your assets, tailoring the wallet interface to your preferences",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/2.png"
                     },
                     {
-                        "title": "#StayFearless",
+                        "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/3.png"
                     }
-
                 ],
                 "regular":[
                     {
-                        "title": "Take Control with a Tap",
+                        "title": {"text": "Take Control with a Tap", "color": "#FFFFFF"},
                         "description": "Discover and manage your assets effortlessly from the main dashboard",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/1.png"
                     },
                     {
-                        "title": "Customize Your View",
+                        "title": {"text": "Customize Your View", "color": "#FFFFFF"},
                         "description": "Easily hide or showcase your assets, tailoring the wallet interface to your preferences",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/2.png"
                     },
                     {
-                        "title": "#StayFearless",
+                        "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/3.png"
                     }
                 ]
-
             }
-
         }
     ],
     "Android": [
         {
             "minVersion": "3.5.1",
+            "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/background.png",
             "en-EN": {
                 "new":[
                     {
-                        "title": "Take Control with a Tap",
+                        "title": {"text": "Take Control with a Tap", "color": "#FFFFFF"},
                         "description": "Discover and manage your assets effortlessly from the main dashboard",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/1.png"
                     },
                     {
-                        "title": "Customize Your View",
+                        "title": {"text": "Customize Your View", "color": "#FFFFFF"},
                         "description": "Easily hide or showcase your assets, tailoring the wallet interface to your preferences",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/2.png"
                     },
                     {
-                        "title": "#StayFearless",
+                        "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/3.png"
                     }
-
                 ],
                 "regular":[
                     {
-                        "title": "Take Control with a Tap",
+                        "title": {"text": "Take Control with a Tap", "color": "#FFFFFF"},
                         "description": "Discover and manage your assets effortlessly from the main dashboard",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/1.png"
                     },
                     {
-                        "title": "Customize Your View",
+                        "title": {"text": "Customize Your View", "color": "#FFFFFF"},
                         "description": "Easily hide or showcase your assets, tailoring the wallet interface to your preferences",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/2.png"
                     },
                     {
-                        "title": "#StayFearless",
+                        "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
                         "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/3.png"
                     }
                 ]
-
             }
-
         }
     ]
 }
