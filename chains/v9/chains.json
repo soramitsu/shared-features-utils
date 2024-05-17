@@ -157,10 +157,6 @@
         "type": "subsquid",
         "url": "https://squid.subsquid.io/fearless-kusama-2/v/v3/graphql"
       },
-      "crowdloans": {
-        "type": "github",
-        "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/kusama.json"
-      },
       "explorers": [{
         "type": "subscan",
         "types": [
@@ -269,7 +265,6 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Kusama.svg",
     "addressPrefix": 2,
     "options": [
-      "crowdloans",
       "poolStaking"
     ]
   },
