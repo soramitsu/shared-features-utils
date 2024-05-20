@@ -408,7 +408,7 @@
     "destChain": "Basilisk",
     "destXcmFee": [
       {
-        "feeInPlanks": "98887738",
+        "feeInPlanks": "96525961",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -577,7 +577,7 @@
     "destChain": "Moonbeam",
     "destXcmFee": [
       {
-        "feeInPlanks": "5636274000000000",
+        "feeInPlanks": "686274000000000",
         "symbol": "GLMR",
         "precision": "18"
       },
@@ -818,7 +818,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "63",
+        "feeInPlanks": "210634",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -1381,12 +1381,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2154982",
+        "feeInPlanks": "2109442",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "13372039047529550",
+        "feeInPlanks": "13537483263274471",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1396,7 +1396,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "447684864",
+        "feeInPlanks": "433662826",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,12 +1407,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1535",
+        "feeInPlanks": "1473",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "4487225535723297"
+        "feeInPlanks": "4514411093924562"
       },
       {
         "symbol": "WETH",
@@ -1436,7 +1436,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1349741"
+        "feeInPlanks": "1317821"
       },
       {
         "symbol": "BNC",
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "21742836474"
+        "feeInPlanks": "23938517188"
       },
       {
         "symbol": "UNQ",
@@ -1460,7 +1460,7 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1487"
+        "feeInPlanks": "96652239858"
       },
       {
         "symbol": "PINK",
@@ -1472,7 +1472,7 @@
       },
       {
         "symbol": "DOTA",
-        "feeInPlanks": "1499"
+        "feeInPlanks": "1473"
       },
       {
         "symbol": "KILT",
@@ -1480,7 +1480,7 @@
       },
       {
         "symbol": "COCOA",
-        "feeInPlanks": "1476"
+        "feeInPlanks": "1470"
       }
     ],
     "weight": "500000000000"
