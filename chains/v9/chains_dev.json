@@ -6815,7 +6815,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://www.okx.com/explorer/arbitrum/{type}/{value}"
+                "url": "https://www.okx.com/web3/explorer/arbitrum/{type}/{value}?channelID=flessw"
               }
             ]
           },
@@ -6880,7 +6880,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://www.okx.com/explorer/optimism/{type}/{value}"
+                "url": "https://www.okx.com/web3/explorer/optimism/{type}/{value}?channelID=flessw"
               }
             ]
           },
@@ -6952,7 +6952,7 @@
                   "tx",
                   "address"
                 ],
-                "url": "https://www.okx.com/explorer/avax/{type}/{value}"
+                "url": "https://www.okx.com/web3/explorer/avax/{type}/{value}?channelID=flessw"
               }
             ]
           },
@@ -7063,7 +7063,7 @@
                 "tx",
                 "address"
               ],
-              "url": "https://www.okx.com/explorer/xlayer-test/{type}/{value}"
+              "url": "https://www.okx.com/web3/explorer/xlayer-test/{type}/{value}"
             }
           ]
         },
@@ -7123,7 +7123,7 @@
                     "tx",
                     "address"
                     ],
-                  "url": "https://www.okx.com/explorer/polygon-zkevm/{type}/{value}"
+                  "url": "https://www.okx.com/web3/explorer/polygon-zkevm/{type}/{value}?channelID=flessw"
                 }
               ]
             },
