@@ -1381,7 +1381,7 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2109442",
+        "feeInPlanks": "2071767",
         "symbol": "DOT",
         "precision": "10"
       },
@@ -1396,7 +1396,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "433662826",
+        "feeInPlanks": "441501610",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,12 +1407,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1473",
+        "feeInPlanks": "1553",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "4514411093924562"
+        "feeInPlanks": "4353845924597923"
       },
       {
         "symbol": "WETH",
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "23938517188"
+        "feeInPlanks": "21454702916"
       },
       {
         "symbol": "UNQ",
@@ -1460,11 +1460,11 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "96652239858"
+        "feeInPlanks": "1571"
       },
       {
         "symbol": "PINK",
-        "feeInPlanks": "1535"
+        "feeInPlanks": "1555"
       },
       {
         "symbol": "HDX",
