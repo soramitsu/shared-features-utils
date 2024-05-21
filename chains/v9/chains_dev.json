@@ -5333,7 +5333,7 @@
                 "currencyId": "0x0200000000000000000000000000010000000000000000000000000000000000",
                 "precision": 18,
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLM.svg",
-                "color": "",
+                "color": "EFB900",
                 "type": "soraAsset"
             },
             {
