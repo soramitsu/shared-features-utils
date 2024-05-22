@@ -5350,7 +5350,7 @@
             {
                 "id": "a543b9a2-f85a-4974-92fc-435d6bc418e5",
                 "name": "toncoin",
-                "symbol": "ton",
+                "symbol": "toncoin",
                 "currencyId": "0x00e8c8923623335128807857dfa38f9212e9803394a2c976e97245d7063bbe10",
                 "precision": 18,
                 "priceId": "the-open-network",
