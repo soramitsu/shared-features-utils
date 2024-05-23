@@ -5331,7 +5331,7 @@
         "name": "SORA Parliament Ministry of Finance Node"
       },
       {
-        "url": "wss://sora.api.onfinality.io/public-ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+        "url": "wss://sora.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
     ],
@@ -7361,7 +7361,7 @@
           "addressPrefix": 42,
           "options": [
               "checkAppId",
-              "testnet"
+              "utilityFeePayment"
           ]
       },
       {
@@ -7446,9 +7446,7 @@
             }
     
         ],
-        "options": [
-            "testnet"
-        ],
+        "options": ["utilityFeePayment"],
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Analog.svg",
         "addressPrefix": 12850
     }
