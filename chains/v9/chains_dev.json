@@ -6032,7 +6032,19 @@
                 "color": "243579",
                 "type": "normal",
                 "ethereumType": "erc20"
-              }
+              },
+              {
+                "isUtility": false,
+                "id": "0x236501327e701692a281934230AF0b6BE8Df3353",
+                "name": "fluence",
+                "symbol": "flt",
+                "precision": 18,
+                "priceId": "fluence-2",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/FLT.svg",
+                "color": "FFFFFF",
+                "type": "normal",
+                "ethereumType": "erc20"
+            }
         ],
         "nodes": [
             {
