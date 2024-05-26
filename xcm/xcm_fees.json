@@ -1381,12 +1381,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "1874655",
+        "feeInPlanks": "2023879",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "12013429821822847",
+        "feeInPlanks": "13141589365144462",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1396,7 +1396,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "467602185",
+        "feeInPlanks": "517499167",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,12 +1407,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1364",
+        "feeInPlanks": "1504",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3679333073537300"
+        "feeInPlanks": "3759248375252231"
       },
       {
         "symbol": "WETH",
@@ -1428,7 +1428,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1380"
+        "feeInPlanks": "1423"
       },
       {
         "symbol": "CFG",
@@ -1436,7 +1436,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1172717"
+        "feeInPlanks": "1182945"
       },
       {
         "symbol": "BNC",
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "21887541981"
+        "feeInPlanks": "21665170558"
       },
       {
         "symbol": "UNQ",
@@ -1456,7 +1456,7 @@
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "1269110679"
+        "feeInPlanks": "1272130767"
       },
       {
         "symbol": "DED",
@@ -1476,7 +1476,7 @@
       },
       {
         "symbol": "KILT",
-        "feeInPlanks": "3697324329399"
+        "feeInPlanks": "3742945955633"
       },
       {
         "symbol": "COCOA",
@@ -1582,7 +1582,7 @@
     "destChain": "Phala",
     "destXcmFee": [
       {
-        "feeInPlanks": "64296000000",
+        "feeInPlanks": "374619932983549",
         "symbol": "PHA",
         "precision": "12"
       },
