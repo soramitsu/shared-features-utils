@@ -2472,7 +2472,7 @@
     ],
     "nodes": [
       {
-        "url": "http://api-astar.dwellir.com",
+        "url": "wss://api-astar.dwellir.com",
         "name": "Dwellir node"
       },
       {
@@ -3026,7 +3026,7 @@
     },
     "nodes": [
       {
-        "url": "http://api-moonbeam.dwellir.com",
+        "url": "wss://api-moonbeam.dwellir.com",
         "name": "Dwellir node"
       },
       {
