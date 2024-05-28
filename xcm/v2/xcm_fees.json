@@ -350,7 +350,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "108",
+        "feeInPlanks": "87232",
         "symbol": "KBTC"
       },
       {
@@ -507,7 +507,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "8746017993",
+        "feeInPlanks": "653550000",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -1332,12 +1332,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2004557",
+        "feeInPlanks": "2056846",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "13324885740738392",
+        "feeInPlanks": "13918881097566622",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1347,7 +1347,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "542411951",
+        "feeInPlanks": "567263539",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1363,7 +1363,7 @@
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3902218214793773"
+        "feeInPlanks": "4027492095585974"
       },
       {
         "symbol": "WETH",
@@ -1379,7 +1379,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1480"
+        "feeInPlanks": "1550"
       },
       {
         "symbol": "CFG",
@@ -1415,7 +1415,7 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1504"
+        "feeInPlanks": "1550"
       },
       {
         "symbol": "DOTA",
@@ -1533,7 +1533,7 @@
     "destChain": "Phala",
     "destXcmFee": [
       {
-        "feeInPlanks": "388069924684244",
+        "feeInPlanks": "64296000000",
         "symbol": "PHA",
         "precision": "12"
       },
