@@ -7389,7 +7389,7 @@
           },
           "explorers": [
             {
-              "type": "oklink",
+              "type": "okx explorer",
               "types": [
                 "tx",
                 "address"
