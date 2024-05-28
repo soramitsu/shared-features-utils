@@ -6508,7 +6508,7 @@
       },
       "explorers": [
         {
-          "type": "oklink",
+          "type": "okx explorer",
           "types": [
             "tx",
             "address"
@@ -6573,7 +6573,7 @@
       },
       "explorers": [
         {
-          "type": "oklink",
+          "type": "okx explorer",
           "types": [
             "tx",
             "address"
@@ -6645,7 +6645,7 @@
       },
       "explorers": [
         {
-          "type": "oklink",
+          "type": "okx explorer",
           "types": [
             "tx",
             "address"
@@ -6697,7 +6697,7 @@
         },
         "explorers": [
           {
-            "type": "oklink",
+            "type": "okx explorer",
             "types": [
               "tx",
               "address"
