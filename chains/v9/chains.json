@@ -6508,7 +6508,7 @@
       },
       "explorers": [
         {
-          "type": "okx explorer",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
@@ -6573,7 +6573,7 @@
       },
       "explorers": [
         {
-          "type": "okx explorer",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
@@ -6645,7 +6645,7 @@
       },
       "explorers": [
         {
-          "type": "okx explorer",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
@@ -6697,7 +6697,7 @@
         },
         "explorers": [
           {
-            "type": "okx explorer",
+            "type": "oklink",
             "types": [
               "tx",
               "address"
@@ -7389,7 +7389,7 @@
           },
           "explorers": [
             {
-              "type": "okx explorer",
+              "type": "oklink",
               "types": [
                 "tx",
                 "address"
