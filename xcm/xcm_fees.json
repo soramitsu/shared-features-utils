@@ -850,7 +850,7 @@
       },
       {
         "symbol": "iBTC",
-        "feeInPlanks": "63"
+        "feeInPlanks": "211952"
       },
       {
         "symbol": "vDOT",
@@ -1381,22 +1381,22 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "2056846",
+        "feeInPlanks": "2040349",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "13918881097566622",
+        "feeInPlanks": "13373333956140013",
         "symbol": "ASTR",
         "precision": "18"
       },
       {
-        "feeInPlanks": "1",
+        "feeInPlanks": "999703587312",
         "symbol": "IBTC",
         "precision": "8"
       },
       {
-        "feeInPlanks": "567263539",
+        "feeInPlanks": "550360770",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,12 +1407,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1505",
+        "feeInPlanks": "1506",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "4027492095585974"
+        "feeInPlanks": "3920408672936033"
       },
       {
         "symbol": "WETH",
@@ -1428,7 +1428,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1550"
+        "feeInPlanks": "1498"
       },
       {
         "symbol": "CFG",
@@ -1436,7 +1436,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1243752"
+        "feeInPlanks": "1259057"
       },
       {
         "symbol": "BNC",
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "23505099116"
+        "feeInPlanks": "23287051779"
       },
       {
         "symbol": "UNQ",
@@ -1460,7 +1460,7 @@
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1550"
+        "feeInPlanks": "1505"
       },
       {
         "symbol": "PINK",
@@ -1472,11 +1472,11 @@
       },
       {
         "symbol": "DOTA",
-        "feeInPlanks": "1428"
+        "feeInPlanks": "1502"
       },
       {
         "symbol": "KILT",
-        "feeInPlanks": "4223085212378"
+        "feeInPlanks": "4476595924529"
       },
       {
         "symbol": "COCOA",
