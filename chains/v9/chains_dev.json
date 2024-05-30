@@ -7444,7 +7444,7 @@
         "assets": [
           {
             "id": "a6b83d39-a488-4b34-8352-280705a792ea",
-            "name": "liberland lld",
+            "name": "liberland dollar",
             "symbol": "lld",
             "precision": 12,
             "priceId": "liberland-lld",
@@ -7452,6 +7452,26 @@
             "color": "00437F",
             "isUtility": true,
             "type": "normal"
+        },
+        {
+            "id": "30b43eb9-36b4-4b40-bf72-330d2e20ee86",
+            "name": "liberland merit",
+            "symbol": "llm",
+            "precision": 12,
+            "currencyId": "1",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLM.svg",
+            "color": "EFB900",
+            "type": "foreignAsset"
+        },
+        {
+            "id": "2e7179c9-4308-420e-a654-43c92d119717",
+            "name": "sora xor",
+            "symbol": "xor",
+            "precision": 12,
+            "currencyId": "774441749",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
+            "color": "EE2233",
+            "type": "foreignAsset"
         }
       ],
         "nodes": [
