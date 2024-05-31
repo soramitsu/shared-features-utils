@@ -5374,6 +5374,18 @@
                 {
                     "id": "fb88fa55-b8c8-4ff1-afa8-f72a86a238a4",
                     "symbol": "ACA"
+                },
+                {
+                    "id": "a6b83d39-a488-4b34-8352-280705a792ea",
+                    "symbol": "LLD"
+                },
+                {
+                    "id": "b774c386-5cce-454a-a845-1ec0381538ec",
+                    "symbol": "XOR"
+                },
+                {
+                    "id": "0ef3afdc-cdd3-47cc-bd52-817c54ae65b5",
+                    "symbol": "LLM"
                 }
             ],
             "availableDestinations": [
@@ -5401,6 +5413,23 @@
                         {
                             "id": "fb88fa55-b8c8-4ff1-afa8-f72a86a238a4",
                             "symbol": "ACA"
+                        }
+                    ]
+                },
+                {
+                    "chainId": "6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
+                    "assets": [
+                        {
+                            "id": "a6b83d39-a488-4b34-8352-280705a792ea",
+                            "symbol": "LLD"
+                        },
+                        {
+                            "id": "b774c386-5cce-454a-a845-1ec0381538ec",
+                            "symbol": "XOR"
+                        },
+                        {
+                            "id": "0ef3afdc-cdd3-47cc-bd52-817c54ae65b5",
+                            "symbol": "LLM"
                         }
                     ]
                 }
@@ -7461,7 +7490,7 @@
             "currencyId": "1",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLM.svg",
             "color": "EFB900",
-            "type": "foreignAsset"
+            "type": "assets"
         },
         {
             "id": "2e7179c9-4308-420e-a654-43c92d119717",
@@ -7471,9 +7500,46 @@
             "currencyId": "774441749",
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
             "color": "EE2233",
-            "type": "foreignAsset"
+            "type": "assets"
         }
       ],
+        "xcm": {
+            "xcmVersion": "v3",
+            "availableAssets": [
+                {
+                    "id": "a6b83d39-a488-4b34-8352-280705a792e",
+                    "symbol": "LLD"
+                },
+                {
+                    "id": "30b43eb9-36b4-4b40-bf72-330d2e20ee86",
+                    "symbol": "LLM"
+                },
+                {
+                    "id": "2e7179c9-4308-420e-a654-43c92d119717",
+                    "symbol": "XOR"
+                }
+            ],
+            "availableDestinations": [
+                {
+                    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+                    "assets": [
+                        {
+                            "id": "a6b83d39-a488-4b34-8352-280705a792e",
+                            "symbol": "LLD"
+                        },
+                        {
+                            "id": "30b43eb9-36b4-4b40-bf72-330d2e20ee86",
+                            "symbol": "LLM"
+                        },
+                        {
+                            "id": "2e7179c9-4308-420e-a654-43c92d119717",
+                            "symbol": "XOR"
+                        }
+                        
+                    ]
+                }
+            ]
+        },
         "nodes": [
           {
             "url": "wss://mainnet.liberland.org",
