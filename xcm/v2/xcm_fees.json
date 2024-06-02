@@ -507,7 +507,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -935,7 +935,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "10026482153068274440",
+        "feeInPlanks": "1950015082153068274440",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1332,12 +1332,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "1927340",
+        "feeInPlanks": "1921271",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "12758589174783538",
+        "feeInPlanks": "12677468626495235",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1347,7 +1347,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "537484171",
+        "feeInPlanks": "506950102",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1358,12 +1358,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1394",
+        "feeInPlanks": "1354",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3783092546398965"
+        "feeInPlanks": "3585225846679665"
       },
       {
         "symbol": "WETH",
@@ -1379,7 +1379,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1498"
+        "feeInPlanks": "1352"
       },
       {
         "symbol": "CFG",
@@ -1387,7 +1387,7 @@
       },
       {
         "symbol": "vDOT",
-        "feeInPlanks": "1195441"
+        "feeInPlanks": "1189682"
       },
       {
         "symbol": "BNC",
@@ -1399,15 +1399,15 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "23027073823"
+        "feeInPlanks": "24236448932"
       },
       {
         "symbol": "UNQ",
-        "feeInPlanks": "152746799930651322"
+        "feeInPlanks": "185500928447993356"
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "1269110679"
+        "feeInPlanks": "1227082853"
       },
       {
         "symbol": "PINK",
