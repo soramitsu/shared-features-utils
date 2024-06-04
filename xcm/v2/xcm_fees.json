@@ -1571,6 +1571,43 @@
         "feeInPlanks": "0",
         "symbol": "DOT",
         "precision": "10"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "LLD",
+        "precision": "18"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "LLM",
+        "precision": "18"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "XOR",
+        "precision": "18"
+      }
+    ],
+    "weight": "10000000000"
+  },
+  {
+    "chainId": "6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
+    "destChain": "Liberland",
+    "destXcmFee": [
+      {
+        "feeInPlanks": "0",
+        "symbol": "LLD",
+        "precision": "12"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "LLM",
+        "precision": "12"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "XOR",
+        "precision": "12"
       }
     ],
     "weight": "10000000000"
