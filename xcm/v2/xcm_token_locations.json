@@ -290,5 +290,27 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Sora Mainnet",
+    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+    "assets": [
+        {
+          "id": "7528bb5b-2aa9-4a70-a4ed-3476aec0f87d",
+          "symbol": "ACA",
+          "versions": ["v3"],
+          "interiors": [
+            {
+              "parachain": 2000
+            },
+            {
+              "generalKeyV3": {
+                "length": 2,
+                "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+    ]
   }
 ]
