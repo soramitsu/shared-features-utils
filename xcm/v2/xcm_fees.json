@@ -1586,6 +1586,11 @@
         "feeInPlanks": "0",
         "symbol": "XOR",
         "precision": "18"
+      },
+      {
+          "feeInPlanks": "6429600000",
+          "symbol": "ACA",
+          "precision": "12"
       }
     ],
     "weight": "10000000000"
@@ -1607,11 +1612,6 @@
       {
         "feeInPlanks": "0",
         "symbol": "XOR",
-        "precision": "12"
-      },
-      {
-        "feeInPlanks": "6429600000",
-        "symbol": "ACA",
         "precision": "12"
       }
     ],
