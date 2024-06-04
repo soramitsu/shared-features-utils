@@ -1571,6 +1571,11 @@
         "feeInPlanks": "0",
         "symbol": "DOT",
         "precision": "10"
+      },
+      {
+        "feeInPlanks": "6429600000",
+        "symbol": "ACA",
+        "precision": "12"
       }
     ],
     "weight": "10000000000"
