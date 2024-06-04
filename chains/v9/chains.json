@@ -5272,6 +5272,26 @@
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
       "color": "0098EA",
       "type": "soraAsset"
+  },
+  {
+    "id": "59a87850-0194-4040-b92e-b869ee3dd3fa",
+    "name": "kensetsu token",
+    "symbol": "ken",
+    "currencyId": "0x02000b0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KEN.svg",
+    "color": "00004E",
+    "type": "soraAsset"
+  },
+  {
+    "id": "ffc85c62-c970-4cb4-900c-f7d4831c3695",
+    "name": "kensetsu stable dollar",
+    "symbol": "kusd",
+    "currencyId": "0x02000c0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KUSD.svg",
+    "color": "BF0A30",
+    "type": "soraAsset"
   }
     ],
     "xcm": {
