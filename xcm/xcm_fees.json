@@ -828,7 +828,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "19213457",
+        "feeInPlanks": "70976450851145",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -963,7 +963,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "150470629647788834",
+        "feeInPlanks": "9343676023",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1000,7 +1000,7 @@
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "252800000"
+        "feeInPlanks": "62200871"
       },
       {
         "symbol": "vASTR",
@@ -1381,12 +1381,12 @@
     "destChain": "HydraDX",
     "destXcmFee": [
       {
-        "feeInPlanks": "1822069",
+        "feeInPlanks": "2028044",
         "symbol": "DOT",
         "precision": "10"
       },
       {
-        "feeInPlanks": "11829340413251102",
+        "feeInPlanks": "11722188116798710",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -1396,7 +1396,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "494256822",
+        "feeInPlanks": "576236594",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1407,12 +1407,12 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1279",
+        "feeInPlanks": "1452",
         "precision": "6"
       },
       {
         "symbol": "GLMR",
-        "feeInPlanks": "3353759966134431"
+        "feeInPlanks": "3560901684102468"
       },
       {
         "symbol": "WETH",
@@ -1428,7 +1428,7 @@
       },
       {
         "symbol": "USDC",
-        "feeInPlanks": "1278"
+        "feeInPlanks": "1458"
       },
       {
         "symbol": "CFG",
@@ -1448,7 +1448,7 @@
       },
       {
         "symbol": "NODL",
-        "feeInPlanks": "19342293131"
+        "feeInPlanks": "25356181697"
       },
       {
         "symbol": "UNQ",
@@ -1456,11 +1456,11 @@
       },
       {
         "symbol": "CRU",
-        "feeInPlanks": "187541364913"
+        "feeInPlanks": "1608621782"
       },
       {
         "symbol": "DED",
-        "feeInPlanks": "1346"
+        "feeInPlanks": "1460"
       },
       {
         "symbol": "PINK",
