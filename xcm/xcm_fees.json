@@ -818,12 +818,12 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "63",
+        "feeInPlanks": "237",
         "symbol": "IBTC",
         "precision": "8"
       },
       {
-        "feeInPlanks": "11888",
+        "feeInPlanks": "18012616",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -1590,7 +1590,7 @@
     "destChain": "Phala",
     "destXcmFee": [
       {
-        "feeInPlanks": "235704000000",
+        "feeInPlanks": "64296000000",
         "symbol": "PHA",
         "precision": "12"
       },
