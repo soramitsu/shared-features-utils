@@ -823,7 +823,7 @@
         "precision": "8"
       },
       {
-        "feeInPlanks": "18012616",
+        "feeInPlanks": "11888",
         "symbol": "USDt",
         "precision": "6"
       },
@@ -963,7 +963,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "6141911300551259510990",
+        "feeInPlanks": "150470629647788834",
         "symbol": "ASTR",
         "precision": "18"
       },
