@@ -5029,11 +5029,6 @@
 
         ],
         "nodes": [
-
-            {
-                "url": "wss://ws.framenode-7.s4.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage #7"
-            },
             {
                 "url": "wss://ws.framenode-8.s5.stg1.sora2.soramitsu.co.jp",
                 "name": "Sora Stage #8"
