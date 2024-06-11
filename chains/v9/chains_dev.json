@@ -6481,7 +6481,8 @@
           "options": [
             "testnet",  
             "ethereum",
-            "utilityFeePayment"
+            "utilityFeePayment",
+            "nft"
           ]
       },
       {
