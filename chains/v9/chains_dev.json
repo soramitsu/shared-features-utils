@@ -5920,6 +5920,9 @@
                 "color": "FF0066",
                 "type": "normal",
                 "ethereumType": "normal",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "priceProvider": {
                     "type": "chainlink",
                     "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
@@ -5945,6 +5948,9 @@
                 "symbol": "usdt",
                 "precision": 6,
                 "priceId": "tether",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
                 "type": "normal",
@@ -5957,6 +5963,9 @@
                 "symbol": "usdc",
                 "precision": 6,
                 "priceId": "usd-coin",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
                 "type": "normal",
@@ -6230,6 +6239,9 @@
             "symbol": "BNB",
             "precision": 18,
             "priceId": "binancecoin",
+            "purchaseProviders": [
+                "moonpay"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
             "color": "FF0066",
             "type": "normal",
@@ -6271,6 +6283,9 @@
             "symbol": "usdc",
             "precision": 18,
             "priceId": "usd-coin",
+            "purchaseProviders": [
+                "moonpay"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
             "color": "3E73C4",
             "type": "normal",
@@ -6573,6 +6588,9 @@
                 "symbol": "usdc",
                 "precision": 6,
                 "priceId": "usd-coin",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
                 "type": "normal",
@@ -7070,6 +7088,9 @@
             "symbol": "avax",
             "precision": 18,
             "priceId": "avalanche-2",
+            "purchaseProviders": [
+                "moonpay"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
             "color": "E84142",
             "type": "normal",
