@@ -5292,6 +5292,16 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KUSD.svg",
     "color": "BF0A30",
     "type": "soraAsset"
+  },
+  {
+    "id": "46e8a947-ade7-4c87-83b5-d724a35da919",
+    "name": "apollo",
+    "symbol": "apollo",
+    "currencyId": "0x00efe45135018136733be626b380a87ae663ccf6784a25fe9d9d2be64acecb9d",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/APOLLO.svg",
+    "color": "EB0EAD",
+    "type": "soraAsset"
   }
     ],
     "xcm": {
