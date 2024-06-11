@@ -6951,6 +6951,9 @@
               "symbol": "eth",
               "precision": 18,
               "priceId": "ethereum",
+              "purchaseProviders": [
+                "ramp"
+              ],
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
               "color": "FF0066",
               "type": "normal",
@@ -6963,6 +6966,9 @@
             "symbol": "arb",
             "precision": 18,
             "priceId": "arbitrum",
+            "purchaseProviders": [
+                "ramp"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
             "color": "12AAFF",
             "type": "normal",
