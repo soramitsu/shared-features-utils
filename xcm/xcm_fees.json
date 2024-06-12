@@ -850,7 +850,7 @@
       },
       {
         "symbol": "iBTC",
-        "feeInPlanks": "941093"
+        "feeInPlanks": "63"
       },
       {
         "symbol": "vDOT",
@@ -963,7 +963,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "3660015082153068274440",
+        "feeInPlanks": "150470629647788834",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -996,7 +996,7 @@
       },
       {
         "symbol": "PHA",
-        "feeInPlanks": "912000000"
+        "feeInPlanks": "224395548"
       },
       {
         "symbol": "aSEED",
