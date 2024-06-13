@@ -5715,16 +5715,6 @@
       "type": "normal",
       "staking": "relaychain"
     }],
-    "externalApi": {
-      "history": {
-        "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-ternoa/graphql"
-      },
-      "staking": {
-        "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-ternoa/graphql"
-      }
-    },
     "nodes": [{
       "url": "wss://mainnet.ternoa.network",
       "name": "CapsuleCorp node"
