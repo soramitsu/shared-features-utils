@@ -310,6 +310,16 @@
               }
             }
           ]
+        },
+        {
+          "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
+          "symbol": "ASTR",
+          "versions": ["v3"],
+          "interiors": [
+            {
+              "parachain": 2006
+            }
+          ]
         }
     ]
   }
