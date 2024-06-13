@@ -2473,6 +2473,29 @@
                 "color": "FFFFFF"
             }
         ],
+        "xcm": {
+            "xcmVersion": "v3",
+            "availableAssets": [
+                {
+                    "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
+                    "symbol": "ASTR"
+                }
+            ],
+            "availableDestinations": [
+                {
+                    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+                    "assets": [
+                        {
+                            "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
+                            "symbol": "ASTR",
+                            "minAmount": "73000000000000000000"
+                        }
+                        
+                    ],
+                    "bridgeParachainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738"
+                }
+            ]
+        },
         "nodes": [{
                 "url": "wss://rpc.astar.network",
                 "name": "Astar node"
@@ -5414,6 +5437,10 @@
                 {
                     "id": "0ef3afdc-cdd3-47cc-bd52-817c54ae65b5",
                     "symbol": "LLM"
+                },
+                {
+                    "id": "acc32ee0-8fdc-4743-91e1-f70cc4f3069b",
+                    "symbol": "ASTR"
                 }
             ],
             "availableDestinations": [
@@ -5461,6 +5488,15 @@
                         {
                             "id": "0ef3afdc-cdd3-47cc-bd52-817c54ae65b5",
                             "symbol": "LLM"
+                        }
+                    ]
+                },
+                {
+                    "chainId": "9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+                    "assets": [
+                        {
+                            "id": "acc32ee0-8fdc-4743-91e1-f70cc4f3069b",
+                            "symbol": "ASTR"
                         }
                     ]
                 }
