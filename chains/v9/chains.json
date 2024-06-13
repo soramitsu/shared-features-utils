@@ -5272,6 +5272,36 @@
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
       "color": "0098EA",
       "type": "soraAsset"
+  },
+  {
+    "id": "59a87850-0194-4040-b92e-b869ee3dd3fa",
+    "name": "kensetsu token",
+    "symbol": "ken",
+    "currencyId": "0x02000b0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KEN.svg",
+    "color": "00004E",
+    "type": "soraAsset"
+  },
+  {
+    "id": "ffc85c62-c970-4cb4-900c-f7d4831c3695",
+    "name": "kensetsu stable dollar",
+    "symbol": "kusd",
+    "currencyId": "0x02000c0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KUSD.svg",
+    "color": "BF0A30",
+    "type": "soraAsset"
+  },
+  {
+    "id": "46e8a947-ade7-4c87-83b5-d724a35da919",
+    "name": "apollo",
+    "symbol": "apollo",
+    "currencyId": "0x00efe45135018136733be626b380a87ae663ccf6784a25fe9d9d2be64acecb9d",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/APOLLO.svg",
+    "color": "EB0EAD",
+    "type": "soraAsset"
   }
     ],
     "xcm": {
@@ -5685,16 +5715,6 @@
       "type": "normal",
       "staking": "relaychain"
     }],
-    "externalApi": {
-      "history": {
-        "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-ternoa/graphql"
-      },
-      "staking": {
-        "type": "giantsquid",
-        "url": "https://squid.subsquid.io/gs-main-ternoa/graphql"
-      }
-    },
     "nodes": [{
       "url": "wss://mainnet.ternoa.network",
       "name": "CapsuleCorp node"
