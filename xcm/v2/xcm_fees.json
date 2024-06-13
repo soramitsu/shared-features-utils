@@ -1588,9 +1588,14 @@
         "precision": "18"
       },
       {
-        "feeInPlanks": "6429600000",
+        "feeInPlanks": "0",
         "symbol": "ACA",
-        "precision": "12"
+        "precision": "18"
+      },
+      {
+        "feeInPlanks": "0",
+        "symbol": "ASTR",
+        "precision": "18"
       }
     ],
     "weight": "10000000000"
