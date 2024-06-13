@@ -5921,7 +5921,8 @@
                 "type": "normal",
                 "ethereumType": "normal",
                 "purchaseProviders": [
-                    "moonpay"
+                    "moonpay",
+                    "ramp"
                 ],
                 "priceProvider": {
                     "type": "chainlink",
@@ -5936,6 +5937,9 @@
                 "symbol": "dai",
                 "precision": 18,
                 "priceId": "dai",
+                "purchaseProviders": [
+                    "ramp"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
                 "color": "FF0066",
                 "type": "normal",
@@ -5949,7 +5953,8 @@
                 "precision": 6,
                 "priceId": "tether",
                 "purchaseProviders": [
-                    "moonpay"
+                    "moonpay",
+                    "ramp"
                 ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
@@ -5964,7 +5969,8 @@
                 "precision": 6,
                 "priceId": "usd-coin",
                 "purchaseProviders": [
-                    "moonpay"
+                    "moonpay",
+                    "ramp"
                 ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
@@ -5978,6 +5984,9 @@
                 "symbol": "aave",
                 "precision": 18,
                 "priceId": "aave",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
                 "color": "B6509E",
                 "type": "normal",
@@ -6002,6 +6011,9 @@
                 "symbol": "uni",
                 "precision": 18,
                 "priceId": "uniswap",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
                 "color": "FF007A",
                 "type": "normal",
@@ -6014,6 +6026,10 @@
                 "symbol": "link",
                 "precision": 18,
                 "priceId": "chainlink",
+                "purchaseProviders": [
+                    "moonpay",
+                    "ramp"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
                 "color": "FFFFFF",
                 "type": "normal",
@@ -6050,6 +6066,9 @@
                 "symbol": "matic",
                 "precision": 18,
                 "priceId": "matic-network",
+                "purchaseProviders": [
+                    "moonpay"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
                 "color": "8247E5",
                 "type": "normal",
@@ -6240,7 +6259,8 @@
             "precision": 18,
             "priceId": "binancecoin",
             "purchaseProviders": [
-                "moonpay"
+                "moonpay",
+                "ramp"
             ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
             "color": "FF0066",
@@ -6310,6 +6330,9 @@
             "symbol": "tusd",
             "precision": 18,
             "priceId": "true-usd",
+            "purchaseProviders": [
+                    "moonpay"
+                ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TUSD.svg",
             "color": "005ADD",
             "type": "normal",
