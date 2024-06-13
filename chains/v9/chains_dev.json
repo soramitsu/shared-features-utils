@@ -6618,6 +6618,10 @@
                   "symbol": "matic",
                   "precision": 18,
                   "priceId": "matic-network",
+                  "purchaseProviders": [
+                    "moonpay",
+                    "ramp"
+                  ],
                   "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
                   "color": "8247E5",
                   "type": "normal",
@@ -6648,7 +6652,8 @@
                 "precision": 6,
                 "priceId": "usd-coin",
                 "purchaseProviders": [
-                    "moonpay"
+                    "moonpay",
+                    "ramp"
                 ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
                 "color": "3E73C4",
@@ -6662,6 +6667,10 @@
                 "symbol": "usdt",
                 "precision": 6,
                 "priceId": "tether",
+                "purchaseProviders": [
+                    "moonpay",
+                    "ramp"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
                 "color": "26A17B",
                 "type": "normal",
@@ -6698,6 +6707,9 @@
                 "symbol": "dai",
                 "precision": 18,
                 "priceId": "dai",
+                "purchaseProviders": [
+                    "ramp"
+                ],
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
                 "color": "F9AF1A",
                 "type": "normal",
@@ -7011,6 +7023,7 @@
               "precision": 18,
               "priceId": "ethereum",
               "purchaseProviders": [
+                "moonpay",
                 "ramp"
               ],
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
@@ -7025,9 +7038,6 @@
             "symbol": "arb",
             "precision": 18,
             "priceId": "arbitrum",
-            "purchaseProviders": [
-                "ramp"
-            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
             "color": "12AAFF",
             "type": "normal",
@@ -7081,6 +7091,10 @@
               "symbol": "eth",
               "precision": 18,
               "priceId": "ethereum",
+              "purchaseProviders": [
+                "moonpay",
+                "ramp"
+              ],
               "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
               "color": "FF0066",
               "type": "normal",
@@ -7154,7 +7168,8 @@
             "precision": 18,
             "priceId": "avalanche-2",
             "purchaseProviders": [
-                "moonpay"
+                "moonpay",
+                "ramp"
             ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
             "color": "E84142",
@@ -7327,6 +7342,9 @@
             "symbol": "eth",
             "precision": 18,
             "priceId": "ethereum",
+            "purchaseProviders": [
+                "ramp"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
             "color": "FF0066",
             "type": "normal",
@@ -7339,6 +7357,9 @@
             "symbol": "usdc",
             "precision": 6,
             "priceId": "usd-coin",
+            "purchaseProviders": [
+                "ramp"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
             "color": "3E73C4",
             "type": "normal",
@@ -7351,6 +7372,9 @@
             "symbol": "matic",
             "precision": 18,
             "priceId": "matic-network",
+            "purchaseProviders": [
+                "ramp"
+            ],
             "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
             "color": "8247E5",
             "type": "normal",
