@@ -168,11 +168,8 @@
         "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
         "symbol": "ASTR",
         "versions": ["v3"],
-        "interiors": [
-          {
-            "parachain": 2006
-          }
-        ]
+        "parents": 0,
+        "interiors": []
       }
     ]
   },
@@ -318,16 +315,6 @@
                 "length": 2,
                 "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
               }
-            }
-          ]
-        },
-        {
-          "id": "5ab1e8d-81ed-4130-9d29-55b549cc6bab",
-          "symbol": "ASTR",
-          "versions": ["v3"],
-          "interiors": [
-            {
-              "parachain": 2006
             }
           ]
         }
