@@ -5073,7 +5073,8 @@
         "addressPrefix": 69,
         "options": [
             "testnet",
-            "polkaswap"
+            "polkaswap",
+            "utilityFeePayment"
         ]
     },
     {
