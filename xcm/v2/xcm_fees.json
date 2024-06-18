@@ -790,7 +790,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "100061",
+        "feeInPlanks": "63",
         "symbol": "IBTC",
         "precision": "8"
       },
@@ -935,7 +935,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "150470629647788834",
+        "feeInPlanks": "16649999013012",
         "symbol": "ASTR",
         "precision": "18"
       },
