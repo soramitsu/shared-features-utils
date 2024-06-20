@@ -1251,7 +1251,7 @@
     "destChain": "Shiden",
     "destXcmFee": [
       {
-        "feeInPlanks": "140400000000000",
+        "feeInPlanks": "34538786100000",
         "symbol": "MOVR",
         "precision": "18"
       },
