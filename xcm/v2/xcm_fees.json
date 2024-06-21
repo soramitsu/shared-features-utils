@@ -727,6 +727,10 @@
       {
         "symbol": "USDC",
         "feeInPlanks": "11888"
+      },
+      {
+        "symbol": "HDX",
+        "feeInPlanks": "405777777777"
       }
     ],
     "weight": "500000000000"
