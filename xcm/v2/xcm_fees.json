@@ -849,6 +849,10 @@
       {
         "symbol": "PHA",
         "feeInPlanks": "2999999088000000"
+      },
+      {
+        "symbol": "PEN",
+        "feeInPlanks": "1775578983"
       }
     ],
     "weight": "500000000000"
