@@ -5940,7 +5940,7 @@
             "name": "MEW https"
         }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/ETH.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Ethereum.svg",
     "addressPrefix": 0,
     "options": [
         "ethereum",
