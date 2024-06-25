@@ -795,7 +795,7 @@
         "symbol": "xcASTR"
       },
       {
-        "feeInPlanks": "1108000000",
+        "feeInPlanks": "272620907",
         "symbol": "ACA",
         "precision": "12"
       },
@@ -840,7 +840,7 @@
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "1948000000"
+        "feeInPlanks": "479301017"
       },
       {
         "symbol": "USDT",
