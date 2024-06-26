@@ -564,6 +564,10 @@
       {
         "symbol": "KAR",
         "feeInPlanks": "32000000000"
+      },
+      {
+        "symbol": "MGX",
+        "feeInPlanks": "1331200000"
       }
     ],
     "weight": "500000000000"
