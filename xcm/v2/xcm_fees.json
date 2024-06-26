@@ -532,6 +532,10 @@
       {
         "symbol": "MOVR",
         "feeInPlanks": "3384094754653130"
+      },
+      {
+        "symbol": "MGX",
+        "feeInPlanks": "1331200000"
       }
     ],
     "weight": "500000000000"
@@ -853,6 +857,10 @@
       {
         "symbol": "PEN",
         "feeInPlanks": "1775578983"
+      },
+      {
+        "symbol": "vASTR",
+        "feeInPlanks": "1140480530800000"
       }
     ],
     "weight": "500000000000"
