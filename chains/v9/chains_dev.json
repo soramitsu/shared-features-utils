@@ -5339,13 +5339,24 @@
             },
             {
                 "id": "1c3b4fcb-5a5f-4319-9dce-d178006eb9bf",
-                "name": "liberland dollar -22312dfgdfgdfgdfgdfgdfgsdfkgjnhtugitwjorfmjbhtenoiurgnkjbdkfsgnksdfg",
+                "name": "liberland dollar",
                 "symbol": "lld",
                 "currencyId": "0x00073edd278e1bd6a7f9d0b27d4f3e93b73c8f0832b58a4df13c69611a99f156",
                 "precision": 18,
                 "priceId": "liberland-lld",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLD.svg",
                 "color": "00437F",
+                "type": "soraAsset"
+            },
+            {
+                "id": "a543b9a2-f85a-4974-92fc-435d6bc418e5",
+                "name": "toncoin",
+                "symbol": "toncoin",
+                "currencyId": "0x00e8c8923623335128807857dfa38f9212e9803394a2c976e97245d7063bbe10",
+                "precision": 18,
+                "priceId": "the-open-network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+                "color": "0098EA",
                 "type": "soraAsset"
             }
         ],
