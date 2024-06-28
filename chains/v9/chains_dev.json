@@ -5328,6 +5328,16 @@
                 "type": "soraAsset"
             },
             {
+                "id": "0ef3afdc-cdd3-47cc-bd52-817c54ae65b5",
+                "name": "liberland merit",
+                "symbol": "llm",
+                "currencyId": "0x0200000000000000000000000000010000000000000000000000000000000000",
+                "precision": 18,
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLM.svg",
+                "color": "EFB900",
+                "type": "soraAsset"
+            },
+            {
                 "id": "1c3b4fcb-5a5f-4319-9dce-d178006eb9bf",
                 "name": "liberland dollar",
                 "symbol": "lld",
