@@ -5348,6 +5348,17 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
                 "color": "0098EA",
                 "type": "soraAsset"
+            },
+            {
+                "id": "1c3b4fcb-f85a-4874-92ac-435d6bc416a5",
+                "name": "meow",
+                "symbol": "meow",
+                "currencyId": "0x00378f1c907c65cfacf46574ec5285e91fc3ef80276f730cffc8d6f66bf5229f",
+                "precision": 18,
+                "priceId": "meow",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+                "color": "0098EA",
+                "type": "soraAsset"
             }
         ],
         "xcm": {
