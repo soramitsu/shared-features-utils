@@ -479,7 +479,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -502,6 +502,10 @@
         "symbol": "MOVR",
         "feeInPlanks": "1612800000000000",
         "precision": "18"
+      },
+      {
+        "symbol": "BNC",
+        "feeInPlanks": "25804800000"
       }
     ],
     "weight": "500000000000"
@@ -735,6 +739,10 @@
       {
         "symbol": "HDX",
         "feeInPlanks": "405777777777"
+      },
+      {
+        "symbol": "BNC",
+        "feeInPlanks": "48800000000"
       }
     ],
     "weight": "500000000000"
@@ -861,6 +869,10 @@
       {
         "symbol": "vASTR",
         "feeInPlanks": "1140480530800000"
+      },
+      {
+        "symbol": "XLM.s",
+        "feeInPlanks": "956633652"
       }
     ],
     "weight": "500000000000"
