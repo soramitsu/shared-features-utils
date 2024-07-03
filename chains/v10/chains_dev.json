@@ -8714,7 +8714,7 @@
     {
       "disabled": false,
       "chainId": "1001",
-      "name": "Klaytn Baobab Testnet",
+      "name": "Kaia Kairos Testnet",
       "assets": [
         {
           "isUtility": true,
@@ -8731,8 +8731,12 @@
       ],
       "nodes": [
         {
-          "url": "https://public-en.kaikas.io/v1/baobab",
-          "name": "Kaikas https node"
+          "url": "https://public-en.kairos.node.kaia.io",
+          "name": "Kairos https node"
+        },
+        {
+          "url": "https://public-en-baobab.klaytn.net",
+          "name": "Klaytn Foundation https node"
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
