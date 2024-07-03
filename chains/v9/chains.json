@@ -4910,11 +4910,11 @@
     "externalApi": {
         "staking": {
             "type": "sora",
-            "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+            "url": "https://sora.squids.live/sora/graphql"
         },
       "history": {
         "type": "sora",
-        "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+        "url": "https://sora.squids.live/sora/graphql"
       },
       "explorers": [{
         "type": "subscan",
