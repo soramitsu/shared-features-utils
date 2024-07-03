@@ -7946,5 +7946,96 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/People.svg",
     "addressPrefix": 2
+  },
+  {
+    "disabled": false,
+    "chainId": "8217",
+    "name": "Klaytn Mainnet Cypress",
+    "externalApi": {
+      "history": {
+        "type": "oklink",
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=KLAYTN"
+      },
+      "explorers": [
+        {
+          "type": "oklink",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://www.okx.com/web3/explorer/klaytn/{type}/{value}?channelID=flessw"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "dd80081e-7fc3-4a69-8218-57018d6e31c2",
+        "name": "klaytn",
+        "symbol": "klay",
+        "precision": 18,
+        "priceId": "klay-token",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
+        "color": "DE1E41",
+        "type": "normal",
+        "ethereumType": "normal"
+      },
+      {
+        "isUtility": false,
+        "id": "0x6270b58be569a7c0b8f47594f191631ae5b2c86c",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "type": "normal",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+        "name": "orbit bridge klaytn usd tether",
+        "symbol": "ousdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "type": "normal",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x078db7827a5531359f6cb63f62cfa20183c4f10c",
+        "name": "dai stablecoin",
+        "symbol": "dai",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "type": "normal",
+        "ethereumType": "erc20"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://public-en-cypress.klaytn.net/",
+        "name": "Klaytn Foundation https node"
+      },
+      {
+        "url": "wss://public-en-cypress.klaytn.net/ws",
+        "name": "Klaytn Foundation wss node"
+      },
+      {
+        "url": "https://klaytn-pokt.nodies.app/",
+        "name": "POKT free https node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
   }
 ]
