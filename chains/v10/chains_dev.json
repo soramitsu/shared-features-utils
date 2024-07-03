@@ -8710,5 +8710,37 @@
         "ethereum",
         "utilityFeePayment"
       ]
+    },
+    {
+      "disabled": false,
+      "chainId": "1001",
+      "name": "Klaytn Baobab Testnet",
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "2ba4723a-74b4-4a6f-a888-e51937773807",
+          "name": "klaytn",
+          "symbol": "klay",
+          "precision": 18,
+          "priceId": "klay-token",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
+          "color": "DE1E41",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+        {
+          "url": "https://public-en.kaikas.io/v1/baobab",
+          "name": "Kaikas https node"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment",
+        "testnet"
+      ]
     }
   ]
