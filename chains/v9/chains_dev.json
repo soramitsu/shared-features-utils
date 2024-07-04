@@ -5454,17 +5454,22 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Aleph%20Zero.svg",
         "addressPrefix": 42,
         "externalApi": {
-            "history": [
-                {
-                    "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
-                }
-            ],
-            "staking": [
-                {
-                    "type": "subquery",
-                    "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
-                }
+            "staking": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
+            },
+            "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
+            },
+            "explorers": [{
+                "type": "subquery",
+                "types": [
+                    "extrinsic",
+                    "account"
+                ],
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
+            }
             ]
         }
     },
