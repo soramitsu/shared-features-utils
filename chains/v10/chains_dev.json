@@ -5706,6 +5706,12 @@
           "name": "Aleph Zero Foundation node"
         }
       ],
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
+        }
+      },
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/white/Aleph%20Zero.svg",
       "addressPrefix": 42
     },
@@ -5747,7 +5753,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bridgehub.svg",
-      "addressPrefix": 2
+      "addressPrefix": 2,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---kusama-bridgehub"
+        }
+      }
     },
     {
       "disabled": false,
@@ -5773,6 +5785,12 @@
           "name": "Airalab node"
         }
       ],
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-dao-ipci"
+        }
+      },
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/DAOIPCI.svg",
       "addressPrefix": 32
     },
@@ -5783,6 +5801,10 @@
       "paraId": "2015",
       "name": "Integritee Network (Kusama)",
       "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-integritee"
+        },
         "explorers": [
           {
             "type": "subscan",
@@ -5872,6 +5894,12 @@
           "name": "RadiumBlock node"
         }
       ],
+      "externalApi": {
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---ajuna"
+      }
+    },
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bajun.svg",
       "addressPrefix": 1328
     },
@@ -5928,7 +5956,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Crust.svg",
-      "addressPrefix": 88
+      "addressPrefix": 88,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-crust"
+        }
+      }
     },
     {
       "disabled": false,
@@ -5963,7 +5997,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Frequency.svg",
-      "addressPrefix": 90
+      "addressPrefix": 90,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/frequency"
+        }
+      }
     },
     {
       "disabled": true,
@@ -6071,7 +6111,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Ternoa.svg",
-      "addressPrefix": 42
+      "addressPrefix": 42,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-ternoa"
+        }
+      }
     },
     {
       "disabled": true,
@@ -7181,6 +7227,10 @@
       "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
       "name": "Enjin Matrixchain",
       "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/enjin-matrixchain"
+        },
         "explorers": [
           {
             "type": "subscan",
@@ -7781,7 +7831,11 @@
             ],
             "url": "https://manta.subscan.io/{type}/{value}"
           }
-        ]
+        ],
+          "history": {
+            "type": "subquery",
+            "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---manta"
+          }
       },
       "nodes": [
         {
