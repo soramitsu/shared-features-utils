@@ -1359,8 +1359,8 @@
                 "url": "https://squid.subsquid.io/fearless-moonriver-1/v/v2/graphql"
             },
             "history": {
-                "type": "giantsquid",
-                "url": "https://squid.subsquid.io/gs-main-moonriver/graphql"
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
             },
             "explorers": [{
                 "type": "subscan",
@@ -1640,8 +1640,8 @@
         "name": "Bifrost",
         "externalApi": {
             "history": {
-                "type": "giantsquid",
-                "url": "https://squid.subsquid.io/gs-main-Bifrost/graphql"
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-bifrost"
             },
             "explorers": [{
                 "type": "subscan",
@@ -2506,7 +2506,7 @@
         "externalApi": {
             "history": {
                 "type": "subquery",
-                "url": "https://api.subquery.network/sq/soramitsu/fearless-wallet-parallel"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-parallel"
             },
             "explorers": [{
                 "type": "subscan",
