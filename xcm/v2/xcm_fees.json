@@ -507,7 +507,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -695,7 +695,7 @@
       },
       {
         "symbol": "MANTA",
-        "feeInPlanks": "4668530612244897"
+        "feeInPlanks": "89045"
       },
       {
         "symbol": "PINK",
@@ -808,7 +808,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "19213457",
+        "feeInPlanks": "37999594222222223",
         "symbol": "INTR",
         "precision": "10"
       },
