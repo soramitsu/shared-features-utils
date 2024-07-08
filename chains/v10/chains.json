@@ -5644,7 +5644,7 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KEN.svg",
         "color": "00004E",
-        "type": "soraAsset"
+        "type": "soraAsset",
         "priceProvider": {
             "type": "sorasubquery",
             "id": "0x02000b0000000000000000000000000000000000000000000000000000000000"
@@ -5658,7 +5658,7 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KUSD.svg",
         "color": "BF0A30",
-        "type": "soraAsset"
+        "type": "soraAsset",
         "priceProvider": {
             "type": "sorasubquery",
             "id": "0x02000c0000000000000000000000000000000000000000000000000000000000"
@@ -5672,7 +5672,7 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/APOLLO.svg",
         "color": "EB0EAD",
-        "type": "soraAsset"
+        "type": "soraAsset",
         "priceProvider": {
             "type": "sorasubquery",
             "id": "0x00efe45135018136733be626b380a87ae663ccf6784a25fe9d9d2be64acecb9d"
