@@ -3557,7 +3557,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/nodle.svg",
-      "addressPrefix": 37
+      "addressPrefix": 37,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-nodle"
+        }
+      }
     },
     {
       "disabled": false,
@@ -3614,7 +3620,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/interlay.svg",
-      "addressPrefix": 2032
+      "addressPrefix": 2032,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-interlay"
+        }
+      }
     },
     {
       "disabled": false,
@@ -4261,6 +4273,10 @@
       "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
       "name": "Equilibrium",
       "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-equilibrium"
+        },
         "explorers": [
           {
             "type": "subscan",
@@ -6030,7 +6046,13 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Kapex%20(Totem).svg",
-      "addressPrefix": 2007
+      "addressPrefix": 2007,
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-kapex"
+        }
+      }
     },
     {
       "disabled": false,
