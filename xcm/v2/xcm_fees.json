@@ -831,7 +831,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "4041465435366400",
+        "feeInPlanks": "199921707605950000",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -851,7 +851,7 @@
       },
       {
         "symbol": "UNQ",
-        "feeInPlanks": "37804000000000000",
+        "feeInPlanks": "9301589141000000",
         "precision": "18"
       },
       {
@@ -881,6 +881,10 @@
       {
         "symbol": "vDOT",
         "feeInPlanks": "83656"
+      },
+      {
+        "symbol": "HDX",
+        "feeInPlanks": "12"
       }
     ],
     "weight": "500000000000"
@@ -1082,7 +1086,7 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "1380000000",
+        "feeInPlanks": "339483795",
         "symbol": "KINT",
         "precision": "12"
       },
@@ -1093,12 +1097,16 @@
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1050",
+        "feeInPlanks": "207",
         "precision": "6"
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "1948000000"
+        "feeInPlanks": "479213357"
+      },
+      {
+        "symbol": "aSEED",
+        "feeInPlanks": "511685720"
       }
     ],
     "weight": "500000000000"
