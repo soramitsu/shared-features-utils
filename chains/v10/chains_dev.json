@@ -8952,5 +8952,98 @@
         "utilityFeePayment",
         "testnet"
       ]
+    },
+    {
+      "disabled": false,
+      "chainId": "88",
+      "name": "Viction",
+      "externalApi": {
+          "explorers": [
+            {
+              "type": "etherscan",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://www.vicscan.xyz/{type}/{value}"
+            }
+          ]
+        },
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "d7635547-bc3a-4410-944f-f8b851745c32",
+          "name": "viction",
+          "symbol": "vic",
+          "precision": 18,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VIC.svg",
+          "color": "FFFFFF",
+          "priceId": "tomochain",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+        {
+          "url": "https://viction.blockpi.network/v1/rpc/public",
+          "name": "Blockpi https node"
+        },
+        {
+          "url": "https://rpc.viction.xyz",
+          "name": "Viction https node"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/viction.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment"
+      ]
+    },
+    {
+      "disabled": false,
+      "chainId": "995",
+      "name": "5ire",
+      "externalApi": {
+          "explorers": [
+            {
+              "type": "etherscan",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://preview.5ire.network/{type}/{value}"
+            }
+          ]
+        },
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "f9e1d5bb-2402-45c3-9147-e8166e3a7c75",
+          "name": "5ire",
+          "symbol": "5fire",
+          "precision": 18,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
+          "color": "071941",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+        {
+          "url": "https://rpc.5ire.network",
+          "name": "5ire https node"
+        },
+        {
+          "url": "wss://rpc.5ire.network",
+          "name": "5ire wss node"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/5irechain.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment"
+      ]
     }
   ]
