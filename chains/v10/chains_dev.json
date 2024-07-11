@@ -8925,12 +8925,12 @@
         {
           "isUtility": true,
           "id": "2ba4723a-74b4-4a6f-a888-e51937773807",
-          "name": "klaytn",
-          "symbol": "klay",
+          "name": "kaia",
+          "symbol": "kaia",
           "precision": 18,
           "priceId": "klay-token",
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
-          "color": "DE1E41",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
+          "color": "FFFFFF",
           "type": "normal",
           "ethereumType": "normal"
         }
@@ -8945,7 +8945,7 @@
           "name": "Klaytn Foundation https node"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kaiachain.svg",
       "addressPrefix": 0,
       "options": [
         "ethereum",
