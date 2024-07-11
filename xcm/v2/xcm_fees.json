@@ -808,7 +808,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "37999594222222223",
+        "feeInPlanks": "19213457",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -1253,22 +1253,22 @@
         "precision": "12"
       },
       {
-        "feeInPlanks": "1380000000",
+        "feeInPlanks": "339483795",
         "symbol": "KINT",
         "precision": "12"
       },
       {
         "symbol": "USDt",
-        "feeInPlanks": "1050",
+        "feeInPlanks": "207",
         "precision": "6"
       },
       {
         "symbol": "BNC",
-        "feeInPlanks": "1948000000"
+        "feeInPlanks": "479213357"
       },
       {
         "symbol": "aSEED",
-        "feeInPlanks": "2080000000"
+        "feeInPlanks": "511685720"
       }
     ],
     "weight": "500000000000"
