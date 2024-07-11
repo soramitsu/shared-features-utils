@@ -5214,6 +5214,36 @@
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/APOLLO.svg",
     "color": "EB0EAD",
     "type": "soraAsset"
+  },
+  {
+    "id": "1028531a-5e46-4759-9452-1c3c903b7cec",
+    "name": "kensetsu ounce of gold",
+    "symbol": "kgold",
+    "currencyId": "0x02000d0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KGOLD.svg",
+    "color": "FAF49C",
+    "type": "soraAsset"
+  },
+  {
+    "id": "b221dd6b-c34e-4ed0-b46c-70f7ed0758d9",
+    "name": "chameleon",
+    "symbol": "karma",
+    "currencyId": "0x02000f0000000000000000000000000000000000000000000000000000000000",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KARMA.svg",
+    "color": "EE1122",
+    "type": "soraAsset"
+  },
+  {
+    "id": "8ad4fe9d-1d1c-4708-88c4-1b96dc2615d0",
+    "name": "sora pussy",
+    "symbol": "pussy",
+    "currencyId": "0x00f40bff02811ad7bd4f84bfa8dc3c79a61e2a17cd55c8418d553e7ffaf596ac",
+    "precision": 18,
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PUSSY.svg",
+    "color": "F54E48",
+    "type": "soraAsset"
   }
     ],
     "xcm": {
