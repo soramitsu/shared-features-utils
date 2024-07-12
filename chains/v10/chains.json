@@ -7084,10 +7084,6 @@
       {
         "url": "https://arbitrum-one.publicnode.com/",
         "name": "Public http node"
-      },
-      {
-        "url": "wss://arbitrum-one.publicnode.com/",
-        "name": "Public wss node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Arbitrum.svg",
