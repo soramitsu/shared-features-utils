@@ -831,7 +831,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "351305308948",
+        "feeInPlanks": "150481591364315913",
         "symbol": "ASTR",
         "precision": "18"
       },
@@ -864,7 +864,7 @@
       },
       {
         "symbol": "PHA",
-        "feeInPlanks": "999999775604452"
+        "feeInPlanks": "224395548"
       },
       {
         "symbol": "PEN",
