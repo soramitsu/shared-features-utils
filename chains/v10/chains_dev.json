@@ -5280,7 +5280,7 @@
       "externalApi": {
         "staking": {
           "type": "sora",
-          "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+          "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
         },
         "pricing": {
             "type": "sora",
@@ -5288,7 +5288,7 @@
         },
         "history": {
           "type": "sora",
-          "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+          "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
         },
         "explorers": [
           {
