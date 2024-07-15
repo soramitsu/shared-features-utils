@@ -5278,10 +5278,6 @@
           "type": "sora",
           "url": "https://squid.subsquid.io/sora/v/v5/graphql"
         },
-        "pricing": {
-            "type": "sora",
-            "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
-        },
         "history": {
           "type": "sora",
           "url": "https://squid.subsquid.io/sora/v/v5/graphql"
