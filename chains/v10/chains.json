@@ -5227,11 +5227,11 @@
     "externalApi": {
       "staking": {
         "type": "sora",
-        "url": "https://sora.squids.live/sora/graphql"
+        "url": "https://squid.subsquid.io/sora/v/v5/graphql"
       },
       "history": {
         "type": "sora",
-        "url": "https://sora.squids.live/sora/graphql"
+        "url": "https://squid.subsquid.io/sora/v/v5/graphql"
       },
       "pricing": {
           "type": "sora",
