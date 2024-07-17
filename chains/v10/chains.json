@@ -3547,7 +3547,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://api-nodle.dwellir.com",
+        "url": "wss://nodle-rpc.dwellir.com",
         "name": "Dwellir node"
       }
     ],
