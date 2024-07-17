@@ -32,7 +32,6 @@
                     "id": "0x0200040000000000000000000000000000000000000000000000000000000000",
                     "name": "sora validator",
                     "symbol": "val",
-                    "isUtility": true,
                     "precision": 18,
                     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VAL.svg",
                     "tokenProperties": {
