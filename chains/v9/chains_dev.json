@@ -8775,6 +8775,12 @@
       "disabled": false,
       "chainId": "0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943",
       "name": "Analog Testnet",
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/soramitsu/analog-testnet__c29yY"
+        }
+      },
       "assets": [
         {
           "id": "9a8799db-a479-4a73-ae81-3b637c8624d8",
