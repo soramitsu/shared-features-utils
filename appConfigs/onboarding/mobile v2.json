@@ -58,12 +58,12 @@
                     {
                         "title": {"text": "Monitor and Adjust Your Liquidity", "color": ""},
                         "description": "Stay informed about your pool allocations and benefits. Seamlessly supply more or withdraw to maintain peak performance.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/2.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/3.png"
                     },
                     {
                         "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/4.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/4.png"
                     }
                 ],
                 "regular":[
@@ -80,12 +80,12 @@
                     {
                         "title": {"text": "Monitor and Adjust Your Liquidity", "color": ""},
                         "description": "Stay informed about your pool allocations and benefits. Seamlessly supply more or withdraw to maintain peak performance.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/2.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/3.png"
                     },
                     {
                         "title": {"text": "#StayFearless", "color": "#EE0077"},
                         "description": "With our DeFi Wallet anywhere you go",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensMobile_v2/4.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/4.png"
                     }
                 ]
             }
