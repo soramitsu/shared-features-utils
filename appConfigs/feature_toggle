@@ -1,3 +1,4 @@
 {
-    "pendulum_case_enabled" : false
+    "pendulum_case_enabled" : false,
+    "nft_enabled": true
 }
