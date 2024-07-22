@@ -5227,11 +5227,11 @@
     "externalApi": {
       "staking": {
         "type": "sora",
-        "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+        "url": "https://fearless-wallet.squids.live/sora-fw/v/v11/graphql"
       },
       "history": {
         "type": "sora",
-        "url": "https://squid.subsquid.io/sora/v/v5/graphql"
+        "url": "https://fearless-wallet.squids.live/sora-fw/v/v11/graphql"
       },
       "pricing": {
           "type": "sora",
@@ -8181,6 +8181,41 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "1001",
+    "name": "Kaia Kairos Testnet",
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "2ba4723a-74b4-4a6f-a888-e51937773807",
+        "name": "kaia",
+        "symbol": "kaia",
+        "precision": 18,
+        "priceId": "klay-token",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
+        "color": "FFFFFF",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://public-en.kairos.node.kaia.io",
+        "name": "Kairos https node"
+      },
+      {
+        "url": "https://public-en-baobab.klaytn.net",
+        "name": "Klaytn Foundation https node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kaiachain.svg",
     "addressPrefix": 0,
     "options": [
       "ethereum",
