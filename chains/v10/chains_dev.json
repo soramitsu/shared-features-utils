@@ -4735,6 +4735,39 @@
           "color": "7CE2A0",
           "isUtility": true,
           "type": "normal"
+        },
+        {
+          "id": "b2f80126-9b7f-4026-adc8-dd7fb39baf2c",
+          "type": "xcm",
+          "name": "kusama",
+          "symbol": "ksm",
+          "precision": 12,
+          "currencyId": "0",
+          "priceId": "kusama",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
+          "color": "FFFFFF"
+        },
+        {
+          "id": "dc34cadc-d448-4bd8-a484-af6e602fe08d",
+          "type": "xcm",
+          "name": "tether usd",
+          "symbol": "usdt",
+          "precision": 6,
+          "currencyId": "1",
+          "priceId": "tether",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+          "color": "26A17B",
+          "existentialDeposit": "10000"
+        },
+        {
+          "id": "465b44c5-ab78-4283-960e-d3b834adb646",
+          "type": "xcm",
+          "name": "picasso",
+          "symbol": "pica",
+          "precision": 12,
+          "currencyId": "2",
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PICA.svg",
+          "color": "FFFFFF"
         }
       ],
       "nodes": [
