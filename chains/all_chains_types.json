@@ -2009,6 +2009,25 @@
     ]
   },
   {
+    "chainId": "b91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a",
+    "runtime_id": 36,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "da_runtime::RuntimeEvent",
+                "GenericCall": "da_runtime::RuntimeCall"
+            }
+        }
+    ]
+  },
+  {
     "chainId": "7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
     "runtime_id": 10,
     "types": {
