@@ -3716,7 +3716,7 @@
     "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2043",
-    "name": "OriginTrail Parachain",
+    "name": "NeuroWeb Parachain",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3726,22 +3726,26 @@
     "assets": [
       {
         "id": "af5bf9f0-0009-4cf8-98ed-b988268c94f1",
-        "name": "origitrail parachain",
-        "symbol": "otp",
+        "name": "neuro",
+        "symbol": "neuro",
         "precision": 12,
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OTP.svg",
-        "color": "6344DF",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Neuroweb.svg",
+        "color": "FFFFFF",
         "isUtility": true,
         "type": "normal"
       }
     ],
     "nodes": [
       {
+        "url": "wss://api-neuroweb.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://parachain-rpc.origin-trail.network",
         "name": "TraceLabs node"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/OriginTrail.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Neuroweb.svg",
     "addressPrefix": 101
   },
   {
