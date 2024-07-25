@@ -3716,7 +3716,7 @@
     "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2043",
-    "name": "OriginTrail Parachain",
+    "name": "NeuroWeb Parachain",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3726,22 +3726,26 @@
     "assets": [
       {
         "id": "af5bf9f0-0009-4cf8-98ed-b988268c94f1",
-        "name": "origitrail parachain",
-        "symbol": "otp",
+        "name": "neuro",
+        "symbol": "neuro",
         "precision": 12,
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OTP.svg",
-        "color": "6344DF",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Neuroweb.svg",
+        "color": "FFFFFF",
         "isUtility": true,
         "type": "normal"
       }
     ],
     "nodes": [
       {
+        "url": "wss://api-neuroweb.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
         "url": "wss://parachain-rpc.origin-trail.network",
         "name": "TraceLabs node"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/OriginTrail.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Neuroweb.svg",
     "addressPrefix": 101
   },
   {
@@ -4730,6 +4734,39 @@
         "color": "7CE2A0",
         "isUtility": true,
         "type": "normal"
+      },
+      {
+        "id": "b2f80126-9b7f-4026-adc8-dd7fb39baf2c",
+        "type": "xcm",
+        "name": "kusama",
+        "symbol": "ksm",
+        "precision": 12,
+        "currencyId": "0",
+        "priceId": "kusama",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "dc34cadc-d448-4bd8-a484-af6e602fe08d",
+        "type": "xcm",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "currencyId": "1",
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "existentialDeposit": "10000"
+      },
+      {
+        "id": "465b44c5-ab78-4283-960e-d3b834adb646",
+        "type": "xcm",
+        "name": "picasso",
+        "symbol": "pica",
+        "precision": 12,
+        "currencyId": "2",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PICA.svg",
+        "color": "FFFFFF"
       }
     ],
     "nodes": [
@@ -6180,6 +6217,115 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
         "existentialDeposit": "10000"
+      },
+      {
+        "id": "a54675c6-83de-4f11-84ee-b8cd1754e512",
+        "type": "xcm",
+        "name": "moonbeam",
+        "symbol": "glmr",
+        "precision": 18,
+        "currencyId": "6",
+        "priceId": "moonbeam",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/GLMR.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "6578b36f-eed9-4e60-bbd9-def276266957",
+        "type": "xcm",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "currencyId": "2",
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4"
+      },
+      {
+        "id": "1463120c-42c8-499d-a16f-8fcb9f1ee58c",
+        "type": "xcm",
+        "name": "polkadot",
+        "symbol": "dot",
+        "precision": 10,
+        "currencyId": "0",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+      },
+      {
+        "id": "1070de6d-0bb9-4159-8852-ced84ff7ad10",
+        "type": "xcm",
+        "name": "brazilian digital",
+        "symbol": "brz",
+        "precision": 18,
+        "currencyId": "4",
+        "priceId": "brz",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BRZ.svg",
+        "color": "14B23D"
+      },
+      {
+        "id": "cdfd0d0e-f19a-4636-8823-3d3b4efcff03",
+        "type": "xcm",
+        "name": "pink",
+        "symbol": "pink",
+        "precision": 10,
+        "currencyId": "7",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PINK.svg",
+        "color": "FF0066"
+      },
+      {
+        "id": "a1a2523b-e151-49ed-a42e-73c67e964067",
+        "type": "xcm",
+        "name": "hydradx",
+        "symbol": "hdx",
+        "precision": 12,
+        "currencyId": "8",
+        "priceId": "hydradx",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HDX.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "b890fc17-a609-4d79-a45e-2bb6e59f82c0",
+        "type": "xcm",
+        "name": "voucher dot",
+        "symbol": "vdot",
+        "precision": 10,
+        "currencyId": "10",
+        "priceId": "voucher-dot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/vDOT.svg",
+        "color": "E6007A"
+      },
+      {
+        "id": "3af48a15-5358-4616-bca5-14cca9c5b0dc",
+        "type": "xcm",
+        "name": "astar",
+        "symbol": "astr",
+        "precision": 18,
+        "currencyId": "9",
+        "priceId": "astar",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ASTR.svg",
+        "color": "0AE2FF"
+      },
+      {
+        "id": "579b7f7f-330f-43a4-b2f0-c890bd97c92d",
+        "type": "xcm",
+        "name": "bifrost native coin",
+        "symbol": "bnc",
+        "precision": 12,
+        "currencyId": "11",
+        "priceId": "bifrost-native-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNC.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "ce9aebd0-c1f6-4ddf-b3a0-65fce4c556e5",
+        "type": "xcm",
+        "name": "axelar bridged usdc",
+        "symbol": "usdc.axl",
+        "precision": 6,
+        "currencyId": "12",
+        "priceId": "axelar-bridged-usdc-cosmos",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC_AXL.svg",
+        "color": "3E73C4"
       }
     ],
     "nodes": [
@@ -8198,7 +8344,6 @@
         "name": "kaia",
         "symbol": "kaia",
         "precision": 18,
-        "priceId": "klay-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
         "color": "FFFFFF",
         "type": "normal",
@@ -8219,7 +8364,108 @@
     "addressPrefix": 0,
     "options": [
       "ethereum",
+      "utilityFeePayment",
+      "testnet"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "88",
+    "name": "Viction",
+    "externalApi": {
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://www.vicscan.xyz/{type}/{value}"
+          }
+        ]
+      },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "d7635547-bc3a-4410-944f-f8b851745c32",
+        "name": "viction",
+        "symbol": "vic",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VIC.svg",
+        "color": "FFFFFF",
+        "priceId": "tomochain",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://viction.blockpi.network/v1/rpc/public",
+        "name": "Blockpi https node"
+      },
+      {
+        "url": "https://rpc.viction.xyz",
+        "name": "Viction https node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/viction.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
       "utilityFeePayment"
     ]
+  },
+  {
+    "disabled": false,
+    "chainId": "b91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a",
+    "name": "Avail DA Mainnet",
+    "externalApi": {
+        "explorers": [
+          {
+            "type": "subscan",
+            "types": [
+              "extrinsic",
+              "account"
+            ],
+            "url": "https://avail.subscan.io/{type}/{value}"
+          }
+        ],
+        "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
+            }
+    },
+    "assets": [
+        {
+            "id": "c1f11fa8-7369-4456-a0f2-be66030715c2",
+            "name": "avail token",
+            "symbol": "avail",
+            "precision": 18,
+            "priceId": "avail",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+            "color": "56E5FF",
+            "isUtility": true,
+            "type": "normal"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "wss://zeref-api.slowops.xyz/ws",
+            "name": "Turing node"
+        },
+        {
+            "url": "wss://avail-mainnet.public.blastapi.io/",
+            "name": "Blastapi node"
+        },
+        {
+            "url": "wss://avail.rpc.bountyblok.io",
+            "name": "Bountyblok node"
+        }
+    ],
+    "options": [
+        "checkAppId"
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+    "addressPrefix": 42
   }
 ]
