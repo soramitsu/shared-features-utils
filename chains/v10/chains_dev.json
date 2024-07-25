@@ -9209,18 +9209,14 @@
               "url": "https://avail.subscan.io/{type}/{value}"
             }
           ],
-          "staking": [
-              {
+          "staking": {
+                  "type": "subquery",
+                  "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
+              },
+          "history": {
                   "type": "subquery",
                   "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
               }
-          ],
-          "history": [
-              {
-                  "type": "subquery",
-                  "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
-              }
-          ]
       },
       "assets": [
           {
