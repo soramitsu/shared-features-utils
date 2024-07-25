@@ -6184,6 +6184,115 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
         "existentialDeposit": "10000"
+      },
+      {
+        "id": "a54675c6-83de-4f11-84ee-b8cd1754e512",
+        "type": "xcm",
+        "name": "moonbeam",
+        "symbol": "glmr",
+        "precision": 18,
+        "currencyId": "6",
+        "priceId": "moonbeam",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/GLMR.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "6578b36f-eed9-4e60-bbd9-def276266957",
+        "type": "xcm",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "currencyId": "2",
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4"
+      },
+      {
+        "id": "1463120c-42c8-499d-a16f-8fcb9f1ee58c",
+        "type": "xcm",
+        "name": "polkadot",
+        "symbol": "dot",
+        "precision": 10,
+        "currencyId": "0",
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066"
+      },
+      {
+        "id": "1070de6d-0bb9-4159-8852-ced84ff7ad10",
+        "type": "xcm",
+        "name": "brazilian digital",
+        "symbol": "brz",
+        "precision": 18,
+        "currencyId": "4",
+        "priceId": "brz",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BRZ.svg",
+        "color": "14B23D"
+      },
+      {
+        "id": "cdfd0d0e-f19a-4636-8823-3d3b4efcff03",
+        "type": "xcm",
+        "name": "pink",
+        "symbol": "pink",
+        "precision": 10,
+        "currencyId": "7",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PINK.svg",
+        "color": "FF0066"
+      },
+      {
+        "id": "a1a2523b-e151-49ed-a42e-73c67e964067",
+        "type": "xcm",
+        "name": "hydradx",
+        "symbol": "hdx",
+        "precision": 12,
+        "currencyId": "8",
+        "priceId": "hydradx",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HDX.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "b890fc17-a609-4d79-a45e-2bb6e59f82c0",
+        "type": "xcm",
+        "name": "voucher dot",
+        "symbol": "vdot",
+        "precision": 10,
+        "currencyId": "10",
+        "priceId": "voucher-dot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/vDOT.svg",
+        "color": "E6007A"
+      },
+      {
+        "id": "3af48a15-5358-4616-bca5-14cca9c5b0dc",
+        "type": "xcm",
+        "name": "astar",
+        "symbol": "astr",
+        "precision": 18,
+        "currencyId": "9",
+        "priceId": "astar",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ASTR.svg",
+        "color": "0AE2FF"
+      },
+      {
+        "id": "579b7f7f-330f-43a4-b2f0-c890bd97c92d",
+        "type": "xcm",
+        "name": "bifrost native coin",
+        "symbol": "bnc",
+        "precision": 12,
+        "currencyId": "11",
+        "priceId": "bifrost-native-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNC.svg",
+        "color": "FFFFFF"
+      },
+      {
+        "id": "ce9aebd0-c1f6-4ddf-b3a0-65fce4c556e5",
+        "type": "xcm",
+        "name": "axelar bridged usdc",
+        "symbol": "usdc.axl",
+        "precision": 6,
+        "currencyId": "12",
+        "priceId": "axelar-bridged-usdc-cosmos",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC_AXL.svg",
+        "color": "3E73C4"
       }
     ],
     "nodes": [
