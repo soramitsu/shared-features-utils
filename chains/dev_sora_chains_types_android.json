@@ -1,0 +1,126 @@
+[
+  {
+    "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
+    "runtime_id": 42,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "GenericAccountId",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "framenode_runtime::RuntimeEvent": "GenericEvent",
+          "framenode_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
+    "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+    "runtime_id": 42,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "GenericAccountId",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "framenode_runtime::RuntimeEvent": "GenericEvent",
+          "framenode_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
+    "chainId": "1b267be9b2742a5d8a4e1d4b7f487358a459215f697f623c29c7d80ffb8c0c97",
+    "runtime_id": 42,
+    "types": {},
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "GenericAccountId",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "framenode_runtime::RuntimeEvent": "GenericEvent",
+          "framenode_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
+    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "runtime_id": 1300,
+    "types": {
+    },
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "H160": "[u8; 20]",
+          "0": "H160",
+          "Address": "0",
+          "EthereumSignature": {
+            "type": "struct",
+            "type_mapping": [
+              [
+                "r",
+                "H256"
+              ],
+              [
+                "s",
+                "H256"
+              ],
+              [
+                "v",
+                "u8"
+              ]
+            ]
+          },
+          "ExtrinsicSignature": "EthereumSignature",
+          "ParaId": "polkadot_parachain::primitives::Id",
+          "moonriver_runtime::Event": "GenericEvent",
+          "moonriver_runtime::Call": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ],
+    "overrides": [
+      {
+        "module": "Babe",
+        "constants": [
+          {
+            "name": "ExpectedBlockTime",
+            "value": "12000"
+          }
+        ]
+      }
+    ]
+  }
+]
