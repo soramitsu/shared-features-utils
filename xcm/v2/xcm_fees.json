@@ -395,6 +395,10 @@
         "symbol": "KSM",
         "feeInPlanks": "106666666",
         "precision": "12"
+      },
+      {
+        "symbol": "BNC",
+        "feeInPlanks": "16000000000"
       }
     ],
     "weight": "500000000000"
@@ -507,7 +511,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "8746017993",
+        "feeInPlanks": "653550000",
         "symbol": "KSM",
         "precision": "12"
       },
