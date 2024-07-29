@@ -9257,6 +9257,12 @@
     "disabled": false,
     "chainId": "2340",
     "name": "Atleta Olympia",
+    "externalApi": {
+        "history": {
+          "type": "zeta",
+          "url": "https://blockscout.atleta.network/api/v2/addresses/"
+        }
+      },
     "assets": [
       {
         "isUtility": true,
