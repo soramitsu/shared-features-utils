@@ -8860,7 +8860,7 @@
                 "tx",
                 "address"
               ],
-              "url": "https://preview.5ire.network/{type}/{value}"
+              "url": "https://testnet.5irescan.io/{type}/{value}"
             }
           ]
         },
@@ -8892,6 +8892,53 @@
       "options": [
         "ethereum",
         "utilityFeePayment"
+      ]
+    },
+    {
+      "disabled": false,
+      "chainId": "997",
+      "name": "5ire Testnet",
+      "externalApi": {
+          "explorers": [
+            {
+              "type": "etherscan",
+              "types": [
+                "tx",
+                "address"
+              ],
+              "url": "https://testnet.5irescan.io/{type}/{value}"
+            }
+          ]
+        },
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "fe431ea5-8def-4b75-a013-2b01fe596a52",
+          "name": "5ire",
+          "symbol": "5fire",
+          "precision": 18,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
+          "color": "071941",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+        {
+          "url": "https://rpc-testnet.5ire.network",
+          "name": "5ire https node"
+        },
+        {
+          "url": "wss://rpc-testnet.5ire.network",
+          "name": "5ire wss node"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/5irechain.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment",
+        "testnet"
       ]
     },
     {
