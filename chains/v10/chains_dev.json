@@ -5313,7 +5313,7 @@
       "externalApi": {
         "staking": {
           "type": "sora",
-          "url": "https://fearless-wallet.squids.live/sora-fw/v/v11/graphql"
+          "url": "https://fearless-wallet.squids.live/sora-fw/v/v12/graphql"
         },
         "pricing": {
             "type": "sora",
@@ -5321,7 +5321,7 @@
         },
         "history": {
           "type": "sora",
-          "url": "https://fearless-wallet.squids.live/sora-fw/v/v11/graphql"
+          "url": "https://fearless-wallet.squids.live/sora-fw/v/v12/graphql"
         },
         "explorers": [
           {
