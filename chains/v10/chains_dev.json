@@ -8765,6 +8765,22 @@
       "disabled": false,
       "chainId": "1001",
       "name": "Kaia Kairos Testnet",
+      "externalApi": {
+        "history": {
+          "type": "klaytn",
+          "url": "https://api-baobab.klaytnscope.com/v2/accounts/{address}/txs"
+        },
+        "explorers": [
+          {
+            "type": "klaytn",
+            "types": [
+              "tx",
+              "account"
+            ],
+            "url": "https://baobab.klaytnscope.com/{type}/{value}"
+          }
+        ]
+      },
       "assets": [
         {
           "isUtility": true,
@@ -8802,6 +8818,10 @@
       "chainId": "88",
       "name": "Viction",
       "externalApi": {
+          "history": {
+            "type": "vicscan",
+            "url": "https://www.vicscan.xyz/api/transaction/list"
+          },
           "explorers": [
             {
               "type": "etherscan",
@@ -8849,14 +8869,18 @@
       "chainId": "995",
       "name": "5ire",
       "externalApi": {
-          "explorers": [
+        "history": {
+          "type": "5ire",
+          "url": "https://api.evm.scan.5ire.network/5ire/transactions/address/{address}"
+        },
+        "explorers": [
             {
               "type": "etherscan",
               "types": [
                 "tx",
                 "address"
               ],
-              "url": "https://testnet.5irescan.io/{type}/{value}"
+              "url": "https://5irescan.io/{type}/{value}"
             }
           ]
         },
@@ -8895,6 +8919,10 @@
       "chainId": "997",
       "name": "5ire Testnet",
       "externalApi": {
+          "history": {
+            "type": "5ire",
+            "url": "https://api.evm.scan.5ire.network/5ire/transactions/address/{address}"
+          },
           "explorers": [
             {
               "type": "etherscan",
@@ -9002,9 +9030,19 @@
     "name": "Atleta Olympia",
     "externalApi": {
         "history": {
-          "type": "zeta",
-          "url": "https://blockscout.atleta.network/api/v2/addresses/"
-        }
+          "type": "atleta",
+          "url": "https://blockscout.atleta.network/api/v2/addresses/{address}/transactions"
+        },
+        "explorers": [
+          {
+            "type": "etherscan",
+            "types": [
+              "tx",
+              "address"
+            ],
+            "url": "https://blockscout.atleta.network/{type}/{value}"
+          }
+        ]
       },
     "assets": [
       {
@@ -9042,6 +9080,10 @@
     "chainId": "168168",
     "name": "ZChain",
     "externalApi": {
+          "history": {
+            "type": "zchain",
+            "url": "https://mainnet-scan-api.zchains.com/api/v1/transaction"
+          },
           "explorers": [
             {
               "type": "etherscan",
