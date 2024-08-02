@@ -287,7 +287,15 @@
             ],
             "url": "https://westend.subscan.io/{type}/{value}"
           }
-        ]
+        ],
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-westend"
+        },
+        "staking": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-westend"
+        }
       },
       "assets": [
         {
