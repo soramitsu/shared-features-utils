@@ -5981,7 +5981,11 @@
           ],
           "url": "https://integritee.subscan.io/{type}/{value}"
         }
-      ]
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-integritee"
+      }
     },
     "assets": [
       {
