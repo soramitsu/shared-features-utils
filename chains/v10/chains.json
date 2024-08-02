@@ -5872,6 +5872,12 @@
     "disabled": false,
     "chainId": "70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
     "name": "Aleph Zero",
+    "externalApi": {
+      "history":{
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aleph-zero"
+      }
+    },
     "assets": [
       {
         "id": "4ea52d6e-a433-4f11-a811-4634068c79a2",
@@ -5904,6 +5910,12 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1002",
     "name": "Kusama BridgeHub",
+    "externalApi":{
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---kusama-bridgehub"
+      }
+    },
     "assets": [
       {
         "id": "f0f8e709-20f3-44e6-a6c3-89e9e82f78ed",
@@ -5981,7 +5993,11 @@
           ],
           "url": "https://integritee.subscan.io/{type}/{value}"
         }
-      ]
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-integritee"
+      }
     },
     "assets": [
       {
@@ -6038,6 +6054,22 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2051",
     "name": "Ajuna Polkadot",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://ajuna.subscan.io/{type}/{value}"
+        }
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---ajuna"
+      }
+    },
     "assets": [
       {
         "id": "b0afcb19-5d4c-442c-ac0f-53c64b1ea0ae",
@@ -6097,6 +6129,22 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2008",
     "name": "Crust",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://crust-parachain.subscan.io/{type}/{value}"
+        }
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-crust"
+      }
+    },
     "assets": [
       {
         "id": "07ad91ea-1cb6-47dd-bc57-0e884727c5bf",
@@ -6125,6 +6173,12 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2091",
     "name": "Frequency",
+    "externalApi": {
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/frequency"
+      }
+    },
     "assets": [
       {
         "id": "598af8e7-c0ad-4785-80cf-669705c93dd9",
@@ -6348,6 +6402,16 @@
     "disabled": false,
     "chainId": "6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
     "name": "Ternoa Mainnet",
+    "externalApi": {
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-ternoa"
+      },
+      "staking": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-ternoa"
+      }
+    },
     "assets": [
       {
         "id": "2e447cea-6fe1-4b08-8a97-94cc2ee622a6",
@@ -7056,7 +7120,11 @@
           ],
           "url": "https://matrix.subscan.io/{type}/{value}"
         }
-      ]
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/enjin-matrixchain"
+      }
     },
     "assets": [
       {
@@ -7516,6 +7584,22 @@
     "disabled": false,
     "chainId": "f3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
     "name": "Manta Parachain",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://manta.subscan.io/{type}/{value}"
+        }
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---manta"
+      }
+    },
     "assets": [
       {
         "id": "0c41f3da-3c42-413a-aca3-bfb19b717df7",
@@ -7529,18 +7613,6 @@
         "type": "normal"
       }
     ],
-    "externalApi": {
-      "explorers": [
-        {
-          "type": "subscan",
-          "types": [
-            "extrinsic",
-            "account"
-          ],
-          "url": "https://manta.subscan.io/{type}/{value}"
-        }
-      ]
-    },
     "nodes": [
       {
         "url": "wss://ws.manta.systems",
