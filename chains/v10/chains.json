@@ -7423,7 +7423,6 @@
   {
     "disabled": false,
     "chainId": "7001",
-    "rank": 14,
     "name": "ZetaChain Testnet",
     "assets": [
       {
@@ -7646,7 +7645,6 @@
   {
     "disabled": false,
     "chainId": "248",
-    "rank": 15,
     "name": "Oasys Mainnet",
     "externalApi": {
       "history": {
@@ -7877,6 +7875,7 @@
   {
     "disabled": false,
     "chainId": "0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943",
+    "rank": 14,
     "name": "Analog Testnet",
     "externalApi": {
         "history": {
