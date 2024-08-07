@@ -7191,5 +7191,77 @@
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
       "addressPrefix": 42
+    },
+    {
+      "disabled": false,
+      "chainId": "2340",
+      "name": "Atleta Olympia",
+      "externalApi": {
+          "history": {
+            "type": "zeta",
+            "url": "https://blockscout.atleta.network/api/v2/addresses/"
+          }
+        },
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "e25d94ba-805d-4d82-9238-2c4d3e7d2ff5",
+          "name": "ATLA",
+          "symbol": "ATLA",
+          "precision": 18,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ATLA.svg",
+          "color": "FFFFFF",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+          {
+            "url": "https://testnet-rpc.atleta.network:9944",
+            "name": "Atla https node"
+          },
+          {
+            "url": "wss://testnet-rpc.atleta.network:9944",
+            "name": "Atla wss node"
+          }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Atleta.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment",
+        "testnet"
+      ]
+    },
+    {
+      "disabled": false,
+      "chainId": "168168",
+      "name": "ZChain",
+      "assets": [
+        {
+          "isUtility": true,
+          "id": "a8b3e303-ded2-4d79-8bb4-1592e0b1230a",
+          "name": "ZCD",
+          "symbol": "ZCD",
+          "precision": 18,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZCD.svg",
+          "priceId": "zchains",
+          "color": "E10600",
+          "type": "normal",
+          "ethereumType": "normal"
+        }
+      ],
+      "nodes": [
+          {
+            "url": "https://rpc.zchains.com",
+            "name": "ZChains https node"
+          }
+      ],
+      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/zchain.svg",
+      "addressPrefix": 0,
+      "options": [
+        "ethereum",
+        "utilityFeePayment"
+      ]
     }
 ]
