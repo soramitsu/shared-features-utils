@@ -2797,14 +2797,10 @@
         ]
       },
       "nodes": [
-        {
-          "url": "wss://api-parallel.dwellir.com",
-          "name": "Dwellir node"
-        },
-        {
-          "url": "wss://rpc.parallel.fi",
-          "name": "Parallel node"
-        }
+            {
+                "url": "wss://parallel-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/parallelfinance.svg",
       "addressPrefix": 172
