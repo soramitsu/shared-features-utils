@@ -8921,7 +8921,7 @@
       "externalApi": {
           "history": {
             "type": "5ire",
-            "url": "https://api.evm.scan.5ire.network/5ire/transactions/address/{address}"
+            "url": "https://api.evm.testnet.5ire.network/5ire/transactions/address/{address}"
           },
           "explorers": [
             {
