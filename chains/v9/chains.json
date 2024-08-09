@@ -7236,7 +7236,7 @@
     {
       "disabled": false,
       "chainId": "168168",
-      "name": "ZChain",
+      "name": "ZChains",
       "assets": [
         {
           "isUtility": true,
