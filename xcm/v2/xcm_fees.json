@@ -510,6 +510,10 @@
       {
         "symbol": "BNC",
         "feeInPlanks": "25804800000"
+      },
+      {
+        "symbol": "vKSM",
+        "feeInPlanks": "322560000"
       }
     ],
     "weight": "500000000000"
