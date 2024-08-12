@@ -8100,6 +8100,22 @@
     "disabled": false,
     "chainId": "1001",
     "name": "Kaia Kairos Testnet",
+    "externalApi": {
+      "history": {
+        "type": "klaytn",
+        "url": "https://api-baobab.klaytnscope.com/v2/"
+      },
+      "explorers": [
+        {
+          "type": "klaytn",
+          "types": [
+            "tx",
+            "account"
+          ],
+          "url": "https://baobab.klaytnscope.com/{type}/{value}"
+        }
+      ]
+    },
     "assets": [
       {
         "isUtility": true,
@@ -8136,17 +8152,21 @@
     "chainId": "88",
     "name": "Viction",
     "externalApi": {
-        "explorers": [
-          {
-            "type": "etherscan",
-            "types": [
-              "tx",
-              "address"
-            ],
-            "url": "https://www.vicscan.xyz/{type}/{value}"
-          }
-        ]
+      "history": {
+        "type": "vicscan",
+        "url": "https://www.vicscan.xyz/api/"
       },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://www.vicscan.xyz/{type}/{value}"
+        }
+      ]
+    },
     "assets": [
       {
         "isUtility": true,
@@ -8172,6 +8192,56 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/viction.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "995",
+    "name": "5ire",
+    "externalApi": {
+      "history": {
+        "type": "fire",
+        "url": "https://api.evm.scan.5ire.network/5ire/"
+      },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://5irescan.io/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "f9e1d5bb-2402-45c3-9147-e8166e3a7c75",
+        "name": "5ire",
+        "symbol": "5fire",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
+        "color": "071941",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://rpc.5ire.network",
+        "name": "5ire https node"
+      },
+      {
+        "url": "wss://rpc.5ire.network",
+        "name": "5ire wss node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/5irechain.svg",
     "addressPrefix": 0,
     "options": [
       "ethereum",
@@ -8236,11 +8306,21 @@
     "chainId": "2340",
     "name": "Atleta Olympia",
     "externalApi": {
-        "history": {
-          "type": "zeta",
-          "url": "https://blockscout.atleta.network/api/v2/addresses/"
-        }
+      "history": {
+        "type": "atleta",
+        "url": "https://blockscout.atleta.network/api/v2/"
       },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://blockscout.atleta.network/{type}/{value}"
+        }
+      ]
+    },
     "assets": [
       {
         "isUtility": true,
@@ -8276,6 +8356,22 @@
     "disabled": false,
     "chainId": "168168",
     "name": "ZChains",
+    "externalApi": {
+      "history": {
+        "type": "zchain",
+        "url": "https://mainnet-scan-api.zchains.com/api/v1/"
+      },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://scan.zchains.com/{type}/{value}"
+        }
+      ]
+    },
     "assets": [
       {
         "isUtility": true,
