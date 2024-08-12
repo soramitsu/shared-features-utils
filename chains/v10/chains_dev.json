@@ -9030,7 +9030,7 @@
     "name": "Atleta Olympia",
     "externalApi": {
         "history": {
-          "type": "atleta",
+          "type": "zeta",
           "url": "https://blockscout.atleta.network/api/v2/"
         },
         "explorers": [
