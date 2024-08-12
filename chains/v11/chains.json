@@ -7499,7 +7499,7 @@
     ],
     "externalApi": {
       "history": {
-        "type": "zeta",
+        "type": "blockscout",
         "url": "https://zetachain-athens-3.blockscout.com/api/v2/addresses/"
       }
     },
@@ -8307,7 +8307,7 @@
     "name": "Atleta Olympia",
     "externalApi": {
       "history": {
-        "type": "atleta",
+        "type": "blockscout",
         "url": "https://blockscout.atleta.network/api/v2/"
       },
       "explorers": [
