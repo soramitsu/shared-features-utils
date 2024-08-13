@@ -8026,7 +8026,7 @@
       "externalApi": {
         "history": {
           "type": "blockscout",
-          "url": "https://zetachain-athens-3.blockscout.com/api/v2/addresses/"
+          "url": "https://zetachain-athens-3.blockscout.com/api/v2/"
         }
       },
       "nodes": [
@@ -8169,7 +8169,7 @@
       "externalApi": {
         "history": {
           "type": "blockscout",
-          "url": "https://pacific-explorer.manta.network/api/v2/addresses/"
+          "url": "https://pacific-explorer.manta.network/api/v2/"
         }
       },
       "nodes": [
@@ -8369,8 +8369,8 @@
       "name": "Rootstock Mainnet",
       "externalApi": {
         "history": {
-          "type": "zeta",
-          "url": "https://rootstock.blockscout.com//api/v2/addresses/"
+          "type": "blockscout",
+          "url": "https://rootstock.blockscout.com/api/v2/"
         }
       },
       "assets": [
@@ -8454,8 +8454,8 @@
       "name": "Latest Testnet",
       "externalApi": {
         "history": {
-          "type": "zeta",
-          "url": "https://testscan.latestchain.io/api/v2/addresses/"
+          "type": "blockscout",
+          "url": "https://testscan.latestchain.io/api/v2/"
         }
       },
       "assets": [
@@ -8491,8 +8491,8 @@
       "name": "Latest Mainnet",
       "externalApi": {
         "history": {
-          "type": "zeta",
-          "url": "https://scan.latestchain.io/api/v2/addresses/"
+          "type": "blockscout",
+          "url": "https://scan.latestchain.io/api/v2/"
         }
       },
       "assets": [
@@ -9030,7 +9030,7 @@
     "name": "Atleta Olympia",
     "externalApi": {
         "history": {
-          "type": "zeta",
+          "type": "blockscout",
           "url": "https://blockscout.atleta.network/api/v2/"
         },
         "explorers": [
