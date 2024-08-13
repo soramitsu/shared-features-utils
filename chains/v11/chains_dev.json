@@ -8949,11 +8949,11 @@
       ],
       "nodes": [
         {
-          "url": "https://rpc-testnet.5ire.network",
+          "url": "https://rpc.testnet.5ire.network",
           "name": "5ire https node"
         },
         {
-          "url": "wss://rpc-testnet.5ire.network",
+          "url": "wss://rpc.testnet.5ire.network",
           "name": "5ire wss node"
         }
       ],
