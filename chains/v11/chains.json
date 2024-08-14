@@ -7500,7 +7500,7 @@
     "externalApi": {
       "history": {
         "type": "blockscout",
-        "url": "https://zetachain-athens-3.blockscout.com/api/v2/addresses/"
+        "url": "https://zetachain-athens-3.blockscout.com/api/v2/"
       }
     },
     "nodes": [
