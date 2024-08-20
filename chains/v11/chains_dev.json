@@ -9078,7 +9078,7 @@
   {
     "disabled": false,
     "chainId": "168168",
-    "name": "ZChain",
+    "name": "ZChains",
     "externalApi": {
           "history": {
             "type": "zchain",
@@ -9120,6 +9120,100 @@
     "options": [
       "ethereum",
       "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "2525",
+    "name": "inEVM",
+    "externalApi": {
+      "history": {
+        "type": "blockscout",
+        "url": "https://explorer.inevm.com/api/v2/"
+      },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://explorer.inevm.com/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "d23263f5-1167-4eef-9a8d-a42df86c2647",
+        "name": "Injective",
+        "symbol": "INJ",
+        "precision": 18,
+        "priceId": "injective-protocol",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INJ.svg",
+        "color": "00F2FE",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+          "url": "https://mainnet.rpc.inevm.com/http",
+          "name": "inEVM https node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/inevm.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "2424",
+    "name": "inEVM Testnet",
+    "externalApi": {
+      "history": {
+        "type": "blockscout",
+        "url": "https://testnet.explorer.inevm.com/api/v2/"
+      },
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://testnet.explorer.inevm.com/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "cc6ddc82-e74f-4cc1-8630-67aa1141e896",
+        "name": "Injective",
+        "symbol": "INJ",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INJ.svg",
+        "color": "00F2FE",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+          "url": "https://testnet.rpc.inevm.com/http",
+          "name": "inEVM https node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/inevm.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment",
+      "testnet"
     ]
   }
 ]
