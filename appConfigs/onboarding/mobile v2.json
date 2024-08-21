@@ -131,56 +131,6 @@
                     }
                 ]
             }
-        },
-        {
-            "minVersion": "3.7.1",
-            "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/background.png",
-            "en-EN": {
-                "new":[
-                    {
-                        "title": {"text": "Unlock Rewards with Liquidity Pools", "color": ""},
-                        "description": "Dive into liquidity pools and unleash the potential of your assets. Earn rewards effortlessly and grow your portfolio.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/1.png"
-                    },
-                    {
-                        "title": {"text": "Effortless Liquidity Provision", "color": ""},
-                        "description": "Select your assets and input amounts with a few taps. Instantly access APY details and contribute to the pool with confidence.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/2.png"
-                    },
-                    {
-                        "title": {"text": "Monitor and Adjust Your Liquidity", "color": ""},
-                        "description": "Stay informed about your pool allocations and benefits. Seamlessly supply more or withdraw to maintain peak performance.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/3.png"
-                    },
-                    {
-                        "title": {"text": "#StayFearless", "color": "#EE0077"},
-                        "description": "With our DeFi Wallet anywhere you go",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/4.png"
-                    }
-                ],
-                "regular":[
-                    {
-                        "title": {"text": "Unlock Rewards with Liquidity Pools", "color": ""},
-                        "description": "Dive into liquidity pools and unleash the potential of your assets. Earn rewards effortlessly and grow your portfolio.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/1.png"
-                    },
-                    {
-                        "title": {"text": "Effortless Liquidity Provision", "color": ""},
-                        "description": "Select your assets and input amounts with a few taps. Instantly access APY details and contribute to the pool with confidence.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/2.png"
-                    },
-                    {
-                        "title": {"text": "Monitor and Adjust Your Liquidity", "color": ""},
-                        "description": "Stay informed about your pool allocations and benefits. Seamlessly supply more or withdraw to maintain peak performance.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/3.png"
-                    },
-                    {
-                        "title": {"text": "#StayFearless", "color": "#EE0077"},
-                        "description": "With our DeFi Wallet anywhere you go",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/4.png"
-                    }
-                ]
-            }
         }
     ]
 }
