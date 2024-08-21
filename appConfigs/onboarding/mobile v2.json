@@ -133,7 +133,7 @@
             }
         },
         {
-            "minVersion": "3.7.1",
+            "minVersion": "3.6.2",
             "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v371/background.png",
             "en-EN": {
                 "new":[
