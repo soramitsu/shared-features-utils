@@ -4,6 +4,7 @@
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "rank": 8,
     "name": "Polkadot",
+    "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
     "externalApi": {
       "staking": {
         "type": "subsquid",
@@ -52,7 +53,12 @@
           "moonpay",
           "ramp"
         ],
-        "type": "normal"
+        "type": "normal",
+        "priceProvider": {
+            "type": "chainlink",
+            "id": "0xa6bc5baf2000424e90434ba7104ee399dee80dec",
+            "precision": 8
+        }
       }
     ],
     "xcm": {
@@ -6523,7 +6529,12 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
         "type": "normal",
-        "ethereumType": "normal"
+        "ethereumType": "normal",
+        "priceProvider": {
+            "type": "chainlink",
+            "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
+            "precision": 8
+        }
       },
       {
         "isUtility": false,
@@ -6780,7 +6791,12 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
         "color": "FF0066",
         "type": "normal",
-        "ethereumType": "normal"
+        "ethereumType": "normal",
+        "priceProvider": {
+            "type": "chainlink",
+            "id": "0x6970460aabF80C5BE983C6b74e5D06dEDCA95D4A",
+            "precision": 8
+        }
       },
       {
         "isUtility": false,
@@ -6968,7 +6984,12 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
         "color": "FF0066",
         "type": "normal",
-        "ethereumType": "normal"
+        "ethereumType": "normal",
+        "priceProvider": {
+            "type": "chainlink",
+            "id": "0x52099d4523531f678dfc568a7b1e5038aadce1d6",
+            "precision": 8
+        }
       },
       {
         "isUtility": false,
