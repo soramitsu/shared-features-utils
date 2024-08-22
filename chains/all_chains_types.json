@@ -15065,14 +15065,29 @@
                     "309": "GenericCall"
                 }
             }
-        ],
-        "overrides": [
-            {
-                "module": "Staking",
-                "constants": [
-                    { "name": "MaxNominations", "value": "24" }
-                ]
-            }
         ]
-    }
+    },
+    {
+      "chainId": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+      "runtime_id": 1002007,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "Phase": "131",
+                  "Address": "213",
+                  "ExtrinsicSignature": "360",
+                  "ParaId": "118",
+                  "20": "GenericEvent",
+                  "319": "GenericCall"
+              }
+          }
+      ]
+  }
 ]

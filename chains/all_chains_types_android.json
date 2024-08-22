@@ -15457,13 +15457,29 @@
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
-    ],
-    "overrides": [
+    ]
+  },
+  {
+    "chainId": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+    "runtime_id": 1002007,
+    "types": { },
+    "versioning": [
       {
-        "module": "Staking",
-        "constants": [
-          { "name": "MaxNominations", "value": "24" }
-        ]
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "ParaId": "polkadot_parachain_primitives::primitives::Id",
+          "people_polkadot_runtime::RuntimeEvent": "GenericEvent",
+          "people_polkadot_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
       }
     ]
   }
