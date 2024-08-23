@@ -511,7 +511,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "8746017993",
+        "feeInPlanks": "653550000",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -521,7 +521,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "64512000",
+        "feeInPlanks": "191791980187270",
         "symbol": "RMRK",
         "precision": "10"
       },
