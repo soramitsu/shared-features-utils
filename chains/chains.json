@@ -5894,23 +5894,18 @@
         },
         "nodes": [
             {
+                "url": "wss://ws.framenode-7.s4.stg1.sora2.soramitsu.co.jp",
+                "name": "Sora Test Node #1",
+                "enabled": true
+            },
+            {
                 "url": "wss://ws.framenode-8.s5.stg1.sora2.soramitsu.co.jp",
-                "name": "Sora Stage #8",
+                "name": "Sora Test Node #2",
                 "enabled": true
             },
             {
-                "url": "wss://ws.framenode-1.r0.dev.sora2.soramitsu.co.jp",
-                "name": "Sora Card Test Node #1",
-                "enabled": true
-            },
-            {
-                "url": "wss://ws.framenode-2.r0.dev.sora2.soramitsu.co.jp",
-                "name": "Sora Card Test Node #2",
-                "enabled": true
-            },
-            {
-                "url": "wss://ws.framenode-3.r0.dev.sora2.soramitsu.co.jp",
-                "name": "Sora Card Test Node #3",
+                "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jpp",
+                "name": "Sora Test Node #3",
                 "enabled": true
             }
         ],
