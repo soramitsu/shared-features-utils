@@ -6902,6 +6902,18 @@
         "color": "048EC8",
         "type": "normal",
         "ethereumType": "bep20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e",
+        "name": "reef",
+        "symbol": "reef",
+        "precision": 18,
+        "priceId": "reef",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/REEF.svg",
+        "color": "C547CB",
+        "type": "normal",
+        "ethereumType": "bep20"
       }
     ],
     "nodes": [
