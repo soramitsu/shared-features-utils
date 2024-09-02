@@ -6442,7 +6442,7 @@
     "addressPrefix": 42
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2011",
@@ -6470,7 +6470,7 @@
     "addressPrefix": 420
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2025",
