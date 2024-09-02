@@ -6446,7 +6446,7 @@
       "addressPrefix": 420
     },
     {
-      "disabled": true,
+      "disabled": false,
       "chainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738",
       "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
       "paraId": "2025",
