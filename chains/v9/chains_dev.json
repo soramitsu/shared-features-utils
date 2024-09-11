@@ -6612,14 +6612,6 @@
       ],
       "nodes": [
         {
-          "url": "https://eth-mainnet.blastapi.io/",
-          "name": "Blast https"
-        },
-        {
-          "url": "wss://eth-mainnet.blastapi.io/",
-          "name": "Blast wss"
-        },
-        {
           "url": "https://ethereum.publicnode.com",
           "name": "Public https"
         },
@@ -6891,14 +6883,6 @@
         {
           "url": "wss://bsc.publicnode.com",
           "name": "Public wss"
-        },
-        {
-          "url": "https://bsc-mainnet.blastapi.io/",
-          "name": "Blast https"
-        },
-        {
-          "url": "wss://bsc-mainnet.blastapi.io/",
-          "name": "Blast wss"
         },
         {
           "url": "https://bsc-dataseed1.ninicoin.io/",
@@ -7211,12 +7195,20 @@
       ],
       "nodes": [
         {
-          "url": "https://polygon-mainnet.blastapi.io/",
-          "name": "Blast https"
+          "url": "https://polygon-bor-rpc.publicnode.com/",
+          "name": "BOR RPC https"
         },
         {
-          "url": "wss://polygon-mainnet.blastapi.io/",
-          "name": "Blast wss"
+          "url": "wss://polygon-bor-rpc.publicnode.com/",
+          "name": "BOR RPC wss"
+        },
+        {
+          "url": "https://polygon-heimdall-rpc.publicnode.com:443",
+          "name": "Heimdall RPC https"
+        },
+        {
+          "url": "wss://polygon-heimdall-rpc.publicnode.com:443/websocket",
+          "name": "Heimdall RPC wss"
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
