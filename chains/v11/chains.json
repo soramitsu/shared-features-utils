@@ -6646,13 +6646,13 @@
       },
       {
         "isUtility": false,
-        "id": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
-        "name": "polygon",
-        "symbol": "matic",
+        "id": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "name": "polygon ecosystem token",
+        "symbol": "pol",
         "precision": 18,
-        "priceId": "matic-network",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
-        "color": "8247E5",
+        "priceId": "polygon-ecosystem-token",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
+        "color": "A229C5",
         "type": "normal",
         "ethereumType": "erc20"
       },
@@ -6989,12 +6989,12 @@
       {
         "isUtility": true,
         "id": "0x0000000000000000000000000000000000001010",
-        "name": "polygon",
-        "symbol": "matic",
+        "name": "polygon ecosystem token",
+        "symbol": "pol",
         "precision": 18,
-        "priceId": "matic-network",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
-        "color": "FF0066",
+        "priceId": "polygon-ecosystem-token",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
+        "color": "A229C5",
         "type": "normal",
         "ethereumType": "normal",
         "priceProvider": {
@@ -7492,6 +7492,18 @@
         "priceId": "matic-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
         "color": "8247E5",
+        "type": "normal",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x22b21beddef74fe62f031d2c5c8f7a9f8a4b304d",
+        "name": "polygon ecosystem token",
+        "symbol": "pol",
+        "precision": 18,
+        "priceId": "polygon-ecosystem-token",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
+        "color": "A229C5",
         "type": "normal",
         "ethereumType": "erc20"
       }
