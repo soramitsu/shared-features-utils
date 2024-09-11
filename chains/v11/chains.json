@@ -5757,6 +5757,20 @@
             "type": "sorasubquery",
             "id": "0x00f40bff02811ad7bd4f84bfa8dc3c79a61e2a17cd55c8418d553e7ffaf596ac"
         }
+      },
+      {
+        "id": "6ea1fc55-5154-4ebc-85d2-5ccc9a26d81c",
+        "name": "kensetsu xor",
+        "symbol": "kxor",
+        "currencyId": "0x02000e0000000000000000000000000000000000000000000000000000000000",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KXOR.svg",
+        "color": "EE1122",
+        "type": "soraAsset",
+        "priceProvider": {
+            "type": "sorasubquery",
+            "id": "0x02000e0000000000000000000000000000000000000000000000000000000000"
+        }
       }
     ],
     "xcm": {
