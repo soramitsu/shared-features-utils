@@ -15019,8 +15019,8 @@
               "types": {
                   "Balance": "u128",
                   "Index": "u32",
-                  "GenericEvent": "xxnetwork_runtime::Event",
-                  "GenericCall": "xxnetwork_runtime::Call"
+                  "GenericEvent": "xxnetwork_runtime::RuntimeEvent",
+                  "GenericCall": "xxnetwork_runtime::RuntimeCall"
               }
           }
       ]
