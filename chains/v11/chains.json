@@ -5771,6 +5771,20 @@
             "type": "sorasubquery",
             "id": "0x02000e0000000000000000000000000000000000000000000000000000000000"
         }
+      },
+      {
+        "id": "def9e74d-3e0f-43d3-9d30-798202b3bd18",
+        "name": "vested xor",
+        "symbol": "vxor",
+        "currencyId": "0x006a271832f44c93bd8692584d85415f0f3dccef9748fecd129442c8edcb4361",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VXOR.svg",
+        "color": "E3232C",
+        "type": "soraAsset",
+        "priceProvider": {
+            "type": "sorasubquery",
+            "id": "0x006a271832f44c93bd8692584d85415f0f3dccef9748fecd129442c8edcb4361"
+        }
       }
     ],
     "xcm": {
