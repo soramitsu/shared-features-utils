@@ -81,7 +81,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 8
     },
     {
         "disabled": false,
@@ -165,7 +166,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 9
     },
     {
         "disabled": false,
@@ -222,7 +224,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 108
     },
     {
         "disabled": false,
@@ -1366,7 +1369,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 11
     },
     {
         "disabled": false,
@@ -3055,7 +3059,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 12
     },
     {
         "disabled": true,
@@ -3120,7 +3125,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 111
     },
     {
         "disabled": false,
@@ -5904,7 +5910,7 @@
                 "enabled": true
             },
             {
-                "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jpp",
+                "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jp",
                 "name": "Sora Test Node #3",
                 "enabled": true
             }
@@ -5914,7 +5920,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 100
     },
     {
         "disabled": false,
@@ -6439,7 +6446,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 0
     },
     {
         "disabled": false,
@@ -7111,7 +7119,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 10
     },
     {
         "disabled": false,
@@ -7550,7 +7559,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 1
     },
     {
         "disabled": false,
@@ -7781,7 +7791,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 2
     },
     {
         "disabled": false,
@@ -7977,7 +7988,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 3
     },
     {
         "disabled": false,
@@ -8204,7 +8216,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 4
     },
     {
         "disabled": false,
@@ -8290,7 +8303,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 5
     },
     {
         "disabled": false,
@@ -8351,7 +8365,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 6
     },
     {
         "disabled": false,
@@ -8442,7 +8457,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 7
     },
     {
         "disabled": false,
@@ -8498,7 +8514,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 14
     },
     {
         "disabled": false,
@@ -8743,7 +8760,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 15
     },
     {
         "disabled": false,
@@ -8804,7 +8822,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 150
     },
     {
         "disabled": false,
@@ -8865,7 +8884,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 151
     },
     {
         "disabled": false,
@@ -8921,7 +8941,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 152
     },
     {
         "disabled": false,
@@ -8977,7 +8998,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 153
     },
     {
         "disabled": false,
@@ -9038,7 +9060,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 154
     },
     {
         "disabled": false,
@@ -9094,7 +9117,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 155
     },
     {
         "disabled": false,
@@ -9324,7 +9348,8 @@
             "addressPrefix": "69",
             "testnet": false,
             "polkaswap": false
-        }
+        },
+        "rank": 13
     },
     {
         "disabled": false,
