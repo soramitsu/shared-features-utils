@@ -15460,6 +15460,30 @@
     ]
   },
   {
+    "chainId": "f6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+    "runtime_id": 1010,
+    "types": { },
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "0",
+          "ExtrinsicSignature": "243",
+          "ParaId": "polkadot_parachain_primitives::primitives::Id",
+          "mainnet_runtime::RuntimeEvent": "GenericEvent",
+          "mainnet_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::KeyTypeId": "GenericAccountId"
+        }
+      }
+    ]
+  },
+  {
     "chainId": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
     "runtime_id": 1002007,
     "types": { },
