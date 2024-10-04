@@ -554,6 +554,16 @@
         "currencyId": "23",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PINK.svg",
         "color": "FF0066"
+      },
+      {
+        "id": "b69bfc14-df7e-45d3-909e-388533645e64",
+        "type": "assets",
+        "name": "mythos",
+        "symbol": "myth",
+        "precision": 18,
+        "currencyId": "0x010100a534",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MYTH.svg",
+        "color": "E62238"
       }
     ],
     "xcm": {
