@@ -556,7 +556,7 @@
         },
         {
           "id": "b69bfc14-df7e-45d3-909e-388533645e64",
-          "type": "assets",
+          "type": "foreignAsset",
           "name": "mythos",
           "symbol": "myth",
           "precision": 18,
