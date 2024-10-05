@@ -724,7 +724,7 @@
         "precision": "6"
       },
       {
-        "feeInPlanks": "19213457",
+        "feeInPlanks": "128313",
         "symbol": "INTR",
         "precision": "10"
       },
@@ -738,7 +738,7 @@
       },
       {
         "symbol": "iBTC",
-        "feeInPlanks": "159709"
+        "feeInPlanks": "63"
       },
       {
         "symbol": "vDOT",
