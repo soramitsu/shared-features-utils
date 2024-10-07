@@ -511,7 +511,7 @@
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
@@ -838,7 +838,7 @@
       },
       {
         "symbol": "iBTC",
-        "feeInPlanks": "159709"
+        "feeInPlanks": "63"
       },
       {
         "symbol": "vDOT",
