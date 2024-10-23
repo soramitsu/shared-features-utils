@@ -9027,10 +9027,6 @@
               "url": "https://avail.subscan.io/{type}/{value}"
             }
           ],
-          "staking": {
-                  "type": "subquery",
-                  "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
-              },
           "history": {
                   "type": "subquery",
                   "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
@@ -9043,8 +9039,7 @@
               "symbol": "avail",
               "precision": 18,
               "priceId": "avail",
-              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVL.svg",
-              "staking": "relaychain",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
               "color": "56E5FF",
               "isUtility": true,
               "type": "normal"
@@ -9052,25 +9047,48 @@
       ],
       "nodes": [
           {
-              "url": "wss://zeref-api.slowops.xyz/ws",
-              "name": "Turing node"
-          },
-          {
               "url": "wss://avail-mainnet.public.blastapi.io/",
               "name": "Blastapi node"
           },
           {
+            "url": "wss://mainnet.avail-rpc.com/",
+            "name": " Ankr node"
+          },
+          {
+            "url": "wss://avail-rpc.rubynodes.io/",
+            "name": " Ruby node"
+          },
+          {
+            "url": "wss://avail-us.brightlystake.com",
+            "name": " BrightlyStake node"
+          },
+          {
+            "url": "wss://rpc-avail.globalstake.io",
+            "name": " GlobalStake node"
+          },
+          {
               "url": "wss://avail.rpc.bountyblok.io",
               "name": "Bountyblok node"
+          },
+          {
+            "url": "wss://avail.public.curie.radiumblock.co/ws",
+            "name": "RadiumBlock node"
+          },
+          {
+            "url": "wss://avail-rpc.lgns.net/",
+            "name": "LugaNodes node"
+          },
+          {
+            "url": "wss://rpc.avail.stakepool.dev.br/ws",
+            "name": "StakePool node"
           }
       ],
       "options": [
-          "poolStaking",
           "checkAppId"
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
       "addressPrefix": 42
-  },
+    },
   {
     "disabled": false,
     "chainId": "d3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
