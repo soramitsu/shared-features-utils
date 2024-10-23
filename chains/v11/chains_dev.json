@@ -8574,43 +8574,80 @@
     },
     {
       "disabled": false,
-      "chainId": "6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
-      "name": "Avail Goldberg Testnet",
+      "chainId": "b91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a",
+      "name": "Avail DA Mainnet",
       "externalApi": {
-        "explorers": [
-          {
-            "type": "subscan",
-            "types": [
-              "extrinsic",
-              "account"
-            ],
-            "url": "https://avail-testnet.subscan.io/{type}/{value}"
-          }
-        ]
+          "explorers": [
+            {
+              "type": "subscan",
+              "types": [
+                "extrinsic",
+                "account"
+              ],
+              "url": "https://avail.subscan.io/{type}/{value}"
+            }
+          ],
+          "history": {
+                  "type": "subquery",
+                  "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-avail"
+              }
       },
       "assets": [
-        {
-          "id": "72778e65-53b6-4cb4-bb4c-c029121eb494",
-          "name": "avail token",
-          "symbol": "avl",
-          "precision": 18,
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVL.svg",
-          "color": "56E5FF",
-          "isUtility": true,
-          "type": "normal"
-        }
+          {
+              "id": "c1f11fa8-7369-4456-a0f2-be66030715c2",
+              "name": "avail token",
+              "symbol": "avail",
+              "precision": 18,
+              "priceId": "avail",
+              "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+              "color": "56E5FF",
+              "isUtility": true,
+              "type": "normal"
+          }
       ],
       "nodes": [
-        {
-          "url": "wss://goldberg-testnet-rpc.avail.tools/ws",
-          "name": "Avail Goldberg Testnet node"
-        }
+          {
+              "url": "wss://avail-mainnet.public.blastapi.io/",
+              "name": "Blastapi node"
+          },
+          {
+            "url": "wss://mainnet.avail-rpc.com/",
+            "name": " Ankr node"
+          },
+          {
+            "url": "wss://avail-rpc.rubynodes.io/",
+            "name": " Ruby node"
+          },
+          {
+            "url": "wss://avail-us.brightlystake.com",
+            "name": " BrightlyStake node"
+          },
+          {
+            "url": "wss://rpc-avail.globalstake.io",
+            "name": " GlobalStake node"
+          },
+          {
+              "url": "wss://avail.rpc.bountyblok.io",
+              "name": "Bountyblok node"
+          },
+          {
+            "url": "wss://avail.public.curie.radiumblock.co/ws",
+            "name": "RadiumBlock node"
+          },
+          {
+            "url": "wss://avail-rpc.lgns.net/",
+            "name": "LugaNodes node"
+          },
+          {
+            "url": "wss://rpc.avail.stakepool.dev.br/ws",
+            "name": "StakePool node"
+          }
+      ],
+      "options": [
+          "checkAppId"
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
-      "addressPrefix": 42,
-      "options": [
-        "checkAppId"
-      ]
+      "addressPrefix": 42
     },
     {
       "disabled": false,
