@@ -9073,6 +9073,63 @@
   },
   {
     "disabled": false,
+    "chainId": "d3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
+    "name": "Avail Turing Testnet",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://avail-turing.subscan.io/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "72778e65-53b6-4cb4-bb4c-c029121eb494",
+        "name": "avail token",
+        "symbol": "avail",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+        "color": "56E5FF",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://turing-testnet.avail-rpc.com",
+        "name": "Ankr node"
+      },
+      {
+        "url": "wss://avail-turing.public.blastapi.io",
+        "name": "Blast node"
+      },
+      {
+        "url": "wss://avail-turing-rpc.publicnode.com",
+        "name": "AllNode node"
+      },
+      {
+        "url": "wss://turing.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://avail-turing.bountyblok.io",
+        "name": "Bountyblok node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
+    "addressPrefix": 42,
+    "options": [
+      "checkAppId",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
     "chainId": "2340",
     "name": "Atleta Olympia",
     "externalApi": {
