@@ -5889,10 +5889,6 @@
       {
         "url": "wss://mof3.sora.org",
         "name": "SORA Parliament Ministry of Finance Node"
-      },
-      {
-        "url": "wss://sora.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
@@ -7938,8 +7934,24 @@
     ],
     "nodes": [
       {
-        "url": "wss://turing-rpc.avail.so/ws",
-        "name": "Avail Turing Testnet node"
+        "url": "wss://turing-testnet.avail-rpc.com",
+        "name": "Ankr node"
+      },
+      {
+        "url": "wss://avail-turing.public.blastapi.io",
+        "name": "Blast node"
+      },
+      {
+        "url": "wss://avail-turing-rpc.publicnode.com",
+        "name": "AllNode node"
+      },
+      {
+        "url": "wss://turing.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://avail-turing.bountyblok.io",
+        "name": "Bountyblok node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
@@ -8404,16 +8416,40 @@
     ],
     "nodes": [
         {
-            "url": "wss://zeref-api.slowops.xyz/ws",
-            "name": "Turing node"
-        },
-        {
             "url": "wss://avail-mainnet.public.blastapi.io/",
             "name": "Blastapi node"
         },
         {
+          "url": "wss://mainnet.avail-rpc.com/",
+          "name": " Ankr node"
+        },
+        {
+          "url": "wss://avail-rpc.rubynodes.io/",
+          "name": " Ruby node"
+        },
+        {
+          "url": "wss://avail-us.brightlystake.com",
+          "name": " BrightlyStake node"
+        },
+        {
+          "url": "wss://rpc-avail.globalstake.io",
+          "name": " GlobalStake node"
+        },
+        {
             "url": "wss://avail.rpc.bountyblok.io",
             "name": "Bountyblok node"
+        },
+        {
+          "url": "wss://avail.public.curie.radiumblock.co/ws",
+          "name": "RadiumBlock node"
+        },
+        {
+          "url": "wss://avail-rpc.lgns.net/",
+          "name": "LugaNodes node"
+        },
+        {
+          "url": "wss://rpc.avail.stakepool.dev.br/ws",
+          "name": "StakePool node"
         }
     ],
     "options": [
