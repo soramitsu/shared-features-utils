@@ -7934,8 +7934,24 @@
     ],
     "nodes": [
       {
-        "url": "wss://turing-rpc.avail.so/ws",
-        "name": "Avail Turing Testnet node"
+        "url": "wss://turing-testnet.avail-rpc.com",
+        "name": "Ankr node"
+      },
+      {
+        "url": "wss://avail-turing.public.blastapi.io",
+        "name": "Blast node"
+      },
+      {
+        "url": "wss://avail-turing-rpc.publicnode.com",
+        "name": "AllNode node"
+      },
+      {
+        "url": "wss://turing.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://avail-turing.bountyblok.io",
+        "name": "Bountyblok node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Avail.svg",
