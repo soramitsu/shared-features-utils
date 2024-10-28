@@ -96,7 +96,7 @@
         },
         {
             "title": "Всё готово!",
-            "description": "Пользуйтесь больее удобным интерфейсом, при необходимости восстановите пропущенные кошельки с помощью мнемонических фраз",
+            "description": "Пользуйтесь более удобным интерфейсом, при необходимости восстановите пропущенные кошельки с помощью мнемонических фраз",
             "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/screensWeb_v2/4.svg"
         }
       ]
