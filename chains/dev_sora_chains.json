@@ -79,7 +79,7 @@
     }
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "1b267be9b2742a5d8a4e1d4b7f487358a459215f697f623c29c7d80ffb8c0c97",
     "kind": "substrate",
     "name": "SORA Dev",
@@ -113,7 +113,7 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
     "properties": {
-      "addressPrefix": "42",
+      "addressPrefix": "69",
       "rank": "0",
       "polkaswap": true
     }
