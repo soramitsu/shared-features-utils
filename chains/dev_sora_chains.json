@@ -117,5 +117,52 @@
       "rank": "0",
       "polkaswap": true
     }
+  },
+  {
+    "disabled": false,
+    "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "kind": "substrate",
+    "name": "westend",
+    "staking": "relaychain",
+    "externalApi": {
+      
+    },
+    "tokens": {
+      "type": "config",
+      "tokens": [
+        {
+          "id": "westend_utility_token_id",
+          "name": "westend",
+          "symbol": "wnd",
+          "isUtility": true,
+          "precision": 12,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+          "tokenProperties": {
+            "priceId": "",
+            "currencyId": "",
+            "color": "EE2233",
+            "type": "normal"
+          }
+        }
+      ]
+    },
+    "nodes": [
+      {
+        "url": "wss://westend-rpc.polkadot.io",
+        "name": "Parity node",
+        "enabled": true
+    },
+    {
+        "url": "wss://westend-rpc.dwellir.com",
+        "name": "Dwellir node",
+        "enabled": true
+    }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
+    "properties": {
+      "addressPrefix": "42",
+      "testnet": true,
+      "polkaswap": false
+    }
   }
 ]
