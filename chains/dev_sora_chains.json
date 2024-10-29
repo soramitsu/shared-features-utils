@@ -79,7 +79,7 @@
     }
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "1b267be9b2742a5d8a4e1d4b7f487358a459215f697f623c29c7d80ffb8c0c97",
     "kind": "substrate",
     "name": "SORA Dev",
