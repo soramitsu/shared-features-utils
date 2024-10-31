@@ -4,6 +4,7 @@
     "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "rank": 8,
     "name": "Polkadot",
+    "ecosystem": "substrate",    
     "identityChain": "67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
     "externalApi": {
       "staking": {
@@ -149,6 +150,7 @@
     "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "rank": 9,
     "name": "Kusama",
+    "ecosystem": "substrate",
     "identityChain": "c1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
     "externalApi": {
       "staking": {
@@ -274,6 +276,7 @@
     "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
     "rank": 108,
     "name": "Westend",
+    "ecosystem": "substrate",
     "externalApi": {
       "crowdloans": {
         "type": "github",
@@ -327,6 +330,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1000",
     "name": "Kusama AssetHub",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -481,6 +485,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "1000",
     "name": "Polkadot AssetHub",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -631,6 +636,7 @@
     "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "name": "Acala",
+    "ecosystem": "substrate",
     "paraId": "2000",
     "externalApi": {
       "history": {
@@ -888,6 +894,7 @@
     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "name": "Karura",
+    "ecosystem": "substrate",
     "paraId": "2000",
     "externalApi": {
       "history": {
@@ -1361,6 +1368,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "rank": 11,
     "name": "Moonriver",
+    "ecosystem": "ethereumBased",
     "paraId": "2023",
     "externalApi": {
       "staking": {
@@ -1577,6 +1585,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2007",
     "name": "Shiden",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -1651,6 +1660,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2001",
     "name": "Bifrost",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -1899,6 +1909,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2004",
     "name": "Khala",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -1958,6 +1969,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2086",
     "name": "KILT Spiritnet",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2006,6 +2018,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2084",
     "name": "Calamari",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2083,6 +2096,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2095",
     "name": "Quartz",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -2133,6 +2147,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2085",
     "name": "Parallel Heiko",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -2253,6 +2268,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2087",
     "name": "Picasso",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2304,6 +2320,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2088",
     "name": "Altair",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2348,6 +2365,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2096",
     "name": "Pioneer Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -2382,6 +2400,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2002",
     "name": "Clover",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -2430,6 +2449,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2006",
     "name": "Astar",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2565,6 +2585,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2012",
     "name": "Parallel",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2816,6 +2837,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2090",
     "name": "Basilisk",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -2879,6 +2901,7 @@
     "rank": 12,
     "paraId": "2004",
     "name": "Moonbeam",
+    "ecosystem": "ethereumBased",
     "externalApi": {
       "staking": {
         "type": "subsquid",
@@ -3116,6 +3139,7 @@
     "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
     "rank": 111,
     "name": "Moonbase Alpha",
+    "ecosystem": "ethereumBased",
     "externalApi": {
       "staking": {
         "type": "subsquid",
@@ -3172,6 +3196,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2092",
     "name": "Kintsugi",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -3226,11 +3251,12 @@
     "iosMinAppVersion": "2.0.7"
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "9de765698374eb576968c8a764168893fb277e65ad3ddafcfe2c49593fc6d663",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2024",
     "name": "Genshiro",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "e207bcef-ab90-4df4-852f-566c309d778e",
@@ -3260,6 +3286,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2048",
     "name": "Robonomics",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -3323,6 +3350,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2101",
     "name": "Subsocial",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3356,6 +3384,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2092",
     "name": "Zeitgeist",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3390,6 +3419,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2034",
     "name": "HydraDX",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3486,6 +3516,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2031",
     "name": "Centrifuge",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3538,6 +3569,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2026",
     "name": "Nodle Parachain",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "e0e1107-e323-43aa-bb93-d7618d2c8cf5",
@@ -3553,7 +3585,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://nodle-rpc.dwellir.com",
+        "url": "wss://api-nodle.dwellir.com",
         "name": "Dwellir node"
       }
     ],
@@ -3566,6 +3598,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2032",
     "name": "Interlay",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "7a77b6b0-f015-4ccc-a5bb-3456e17775dd",
@@ -3623,6 +3656,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2106",
     "name": "Litmus",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3655,6 +3689,7 @@
     "disabled": false,
     "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
     "name": "Polkadex Main Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3689,6 +3724,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2115",
     "name": "Dorafactory Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -3723,6 +3759,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2043",
     "name": "NeuroWeb Parachain",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3760,6 +3797,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2037",
     "name": "UNIQUE",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -3810,6 +3848,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2030",
     "name": "Bifrost Polkadot",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3891,6 +3930,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2013",
     "name": "Litentry",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3929,6 +3969,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2035",
     "name": "Phala",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -3967,6 +4008,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2019",
     "name": "Composable Finance",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4015,6 +4057,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2119",
     "name": "Bajun Kusama",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4052,6 +4095,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2113",
     "name": "Kabocha",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4085,6 +4129,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2107",
     "name": "KICO",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4122,6 +4167,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2110",
     "name": "Mangata Kusama Mainnet",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "27ccf12f-3ae0-4c5e-b337-ee43b7c23928",
@@ -4233,6 +4279,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2116",
     "name": "DataHighway Tanganika",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4265,6 +4312,7 @@
     "chainId": "89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "name": "Equilibrium",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -4462,6 +4510,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2039",
     "name": "Integritee Shell",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4496,6 +4545,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2114",
     "name": "Turing Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4545,6 +4595,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1001",
     "name": "Encointer on Kusama",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "1e0c2ec6-935f-49bd-a854-5e12ee6c9f1b",
@@ -4588,6 +4639,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2102",
     "name": "Pichiu Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4621,6 +4673,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2125",
     "name": "InvArch Tinker Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4654,6 +4707,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2123",
     "name": "GM Parachain",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4691,6 +4745,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2121",
     "name": "Imbue Kusama",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -4724,6 +4779,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2124",
     "name": "Amplitude",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4794,6 +4850,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2046",
     "name": "Darwinia2",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -4845,6 +4902,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2052",
     "name": "Kylin Network",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "7512aeb7-7bdc-42dc-abe3-80ed764c80bd",
@@ -4871,6 +4929,7 @@
     "chainId": "d4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "name": "Crust Shadow Parachain",
+    "ecosystem": "substrate",
     "paraId": "2012",
     "externalApi": {
       "history": {
@@ -4914,6 +4973,7 @@
     "disabled": true,
     "chainId": "6e938c4a786f8df6f38d0c06f00a8573f1f7aabeebf48aee5157a93cc5fe3271",
     "name": "Kusama (test)",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "03561957-3383-4f9f-8033-1b2c36d88db6",
@@ -4943,6 +5003,7 @@
     "disabled": true,
     "chainId": "fd4d46e9a51e16babf791b94d6dbf771ed1d7de8a11b310aa98c847890fa9ff3",
     "name": "Polkadot (test)",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "405e7e40-a2f1-45a3-a32f-7f271b2819d2",
@@ -4973,6 +5034,7 @@
     "chainId": "b34f6cd03a41f0fab38ba9fd5b11cce5f303633c46f39f0c6fdc7c3c602bafa9",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "name": "Snow Kusama",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "e739d665-7af5-4e65-ab5f-93f54a5b70b3",
@@ -4999,6 +5061,7 @@
     "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
     "rank": 100,
     "name": "SORA test",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "sora",
@@ -5267,6 +5330,7 @@
     "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
     "rank": 0,
     "name": "SORA Mainnet",
+    "ecosystem": "substrate",
     "externalApi": {
       "staking": {
         "type": "sora",
@@ -5902,6 +5966,7 @@
     "disabled": false,
     "chainId": "70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
     "name": "Aleph Zero",
+    "ecosystem": "substrate",
     "externalApi": {
       "history":{
         "type": "subquery",
@@ -5940,6 +6005,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1002",
     "name": "Kusama BridgeHub",
+    "ecosystem": "substrate",
     "externalApi":{
       "history": {
         "type": "subquery",
@@ -5986,6 +6052,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2222",
     "name": "Ipci",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "b20185e9-2f5c-4c3d-bd5a-c751cd76d439",
@@ -6013,6 +6080,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2015",
     "name": "Integritee Network (Kusama)",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -6057,6 +6125,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2236",
     "name": "Subzero",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "3a1cc15e-903b-4102-9384-364c00e67283",
@@ -6084,6 +6153,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2051",
     "name": "Ajuna Polkadot",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -6132,6 +6202,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2048",
     "name": "Bitgreen",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "26c62511-6300-41ef-b760-c94dd6b0f8a5",
@@ -6159,6 +6230,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2008",
     "name": "Crust",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -6203,6 +6275,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2091",
     "name": "Frequency",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -6244,6 +6317,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2007",
     "name": "Kapex",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "a99dd750-0c15-49df-a86f-6caa577614bc",
@@ -6272,6 +6346,7 @@
     "rank": 10,
     "paraId": "2094",
     "name": "Pendulum",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "giantsquid",
@@ -6432,6 +6507,7 @@
     "disabled": false,
     "chainId": "6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
     "name": "Ternoa Mainnet",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -6471,6 +6547,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2011",
     "name": "SORA Kusama parachain",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "2df458e8-c4a9-4026-986f-8962a36fe604",
@@ -6499,6 +6576,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2025",
     "name": "SORA Polkadot parachain",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "a7c696d7-42ce-4ed6-a036-4f0f76386c49",
@@ -6526,6 +6604,7 @@
     "chainId": "1",
     "rank": 1,
     "name": "Ethereum",
+    "ecosystem": "ethereum",
     "externalApi": {
       "explorers": [
         {
@@ -6552,7 +6631,6 @@
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "normal",
         "priceProvider": {
             "type": "chainlink",
@@ -6569,7 +6647,6 @@
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6581,7 +6658,6 @@
         "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6593,7 +6669,6 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6605,7 +6680,6 @@
         "priceId": "aave",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
         "color": "B6509E",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6617,7 +6691,6 @@
         "priceId": "curve-dao-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
         "color": "B6509E",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6629,7 +6702,6 @@
         "priceId": "uniswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
         "color": "FF007A",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6641,7 +6713,6 @@
         "priceId": "chainlink",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6653,7 +6724,6 @@
         "priceId": "1inch",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/1INCH.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6665,7 +6735,6 @@
         "priceId": "binancecoin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
         "color": "F3BA2F",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6677,7 +6746,6 @@
         "priceId": "polygon-ecosystem-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
         "color": "A229C5",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6689,7 +6757,6 @@
         "priceId": "sora",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
         "color": "EE2233",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6701,7 +6768,6 @@
         "priceId": "sora-validator-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VAL.svg",
         "color": "F3B966",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6713,7 +6779,6 @@
         "priceId": "polkaswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PSWAP.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6725,7 +6790,6 @@
         "priceId": "ceres",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CERES.svg",
         "color": "243579",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6737,7 +6801,6 @@
         "priceId": "crust-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRU.svg",
         "color": "FA8C16",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6749,7 +6812,6 @@
         "priceId": "sand",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SAND.svg",
         "color": "4AA4EB",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6761,11 +6823,14 @@
         "priceId": "fluence-2",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/FLT.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
     "nodes": [
+      {
+        "url": "https://eth-mainnet.blastapi.io/",
+        "name": "Blast https"
+      },
       {
         "url": "https://ethereum.publicnode.com",
         "name": "Public https"
@@ -6788,6 +6853,7 @@
     "chainId": "56",
     "rank": 2,
     "name": "BNB Smart Chain",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "etherscan",
@@ -6814,7 +6880,6 @@
         "priceId": "binancecoin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "normal",
         "priceProvider": {
             "type": "chainlink",
@@ -6831,7 +6896,6 @@
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -6843,7 +6907,6 @@
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6855,7 +6918,6 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6867,7 +6929,6 @@
         "priceId": "binance-usd",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
         "color": "F3BA2F",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6879,7 +6940,6 @@
         "priceId": "true-usd",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TUSD.svg",
         "color": "005ADD",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6891,7 +6951,6 @@
         "priceId": "matic-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
         "color": "8247E5",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6903,7 +6962,6 @@
         "priceId": "pancakeswap-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAKE.svg",
         "color": "D1884F",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6915,7 +6973,6 @@
         "priceId": "biswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BSW.svg",
         "color": "E42648",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6927,7 +6984,6 @@
         "priceId": "hooked-protocol",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HOOK.svg",
         "color": "048EC8",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -6939,7 +6995,6 @@
         "priceId": "venus",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XVS.svg",
         "color": "048EC8",
-        "type": "normal",
         "ethereumType": "bep20"
       },
       {
@@ -7019,7 +7074,6 @@
         "priceId": "polygon-ecosystem-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
         "color": "A229C5",
-        "type": "normal",
         "ethereumType": "normal",
         "priceProvider": {
             "type": "chainlink",
@@ -7036,7 +7090,6 @@
         "priceId": "weth",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7048,7 +7101,6 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7060,7 +7112,6 @@
         "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7072,7 +7123,6 @@
         "priceId": "binancecoin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
         "color": "F3BA2F",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7084,7 +7134,6 @@
         "priceId": "binance-usd",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
         "color": "F3BA2F",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7096,7 +7145,6 @@
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "F9AF1A",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7108,7 +7156,6 @@
         "priceId": "aave",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
         "color": "B6509E",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7120,7 +7167,6 @@
         "priceId": "curve-dao-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
         "color": "B6509E",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7132,7 +7178,6 @@
         "priceId": "uniswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
         "color": "FF007A",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
@@ -7159,6 +7204,7 @@
     "chainId": "3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
     "parentId": "d8761d3c88f26dc12875c00d3165f7d67243d56fc85b4cf19937601a7916e5a9",
     "name": "Enjin Matrixchain",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -7201,6 +7247,7 @@
     "disabled": false,
     "chainId": "a37725fd8943d2a524cb7ecc65da438f9fa644db78ba24dcd0003e2f95645e8f",
     "name": "Canary Matrixchain",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -7242,6 +7289,7 @@
     "disabled": true,
     "chainId": "d8761d3c88f26dc12875c00d3165f7d67243d56fc85b4cf19937601a7916e5a9",
     "name": "Enjin Relaychain",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -7281,6 +7329,7 @@
     "chainId": "42161",
     "rank": 4,
     "name": "Arbitrum One",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -7307,7 +7356,6 @@
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "normal"
       },
       {
@@ -7319,7 +7367,6 @@
         "priceId": "arbitrum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
         "color": "12AAFF",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
@@ -7342,6 +7389,7 @@
     "chainId": "10",
     "rank": 5,
     "name": "OP Mainnet",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -7368,7 +7416,6 @@
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "normal"
       },
       {
@@ -7380,7 +7427,6 @@
         "priceId": "optimism",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OP.svg",
         "color": "FF0420",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
@@ -7414,6 +7460,7 @@
     "chainId": "43114",
     "rank": 6,
     "name": "Avalanche C-Chain",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -7440,7 +7487,6 @@
         "priceId": "avalanche-2",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
         "color": "E84142",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -7466,6 +7512,7 @@
     "chainId": "1101",
     "rank": 7,
     "name": "Polygon zkEVM",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -7492,7 +7539,6 @@
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "normal"
       },
       {
@@ -7504,7 +7550,6 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7516,7 +7561,6 @@
         "priceId": "matic-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
         "color": "8247E5",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -7528,7 +7572,6 @@
         "priceId": "polygon-ecosystem-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
         "color": "A229C5",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
@@ -7553,6 +7596,7 @@
     "disabled": false,
     "chainId": "7001",
     "name": "ZetaChain Testnet",
+    "ecosystem": "ethereum",
     "assets": [
       {
         "isUtility": true,
@@ -7562,7 +7606,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZETA.svg",
         "color": "235643",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -7597,6 +7640,7 @@
     "disabled": false,
     "chainId": "7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
     "name": "Reef Mainnet",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "55697eb0-ca77-47e3-a436-b05460ab1ead",
@@ -7645,6 +7689,7 @@
     "disabled": false,
     "chainId": "f3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
     "name": "Manta Parachain",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -7687,6 +7732,7 @@
     "disabled": false,
     "chainId": "6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
     "name": "Liberland",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "a6b83d39-a488-4b34-8352-280705a792ea",
@@ -7779,6 +7825,7 @@
     "disabled": false,
     "chainId": "248",
     "name": "Oasys Mainnet",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "etherscan",
@@ -7805,7 +7852,6 @@
         "priceId": "oasys",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
         "color": "00A84F",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -7830,6 +7876,7 @@
     "disabled": false,
     "chainId": "72778",
     "name": "CAGA Ankara Testnet",
+    "ecosystem": "ethereum",
     "assets": [
       {
         "isUtility": true,
@@ -7839,7 +7886,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAGA.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -7864,6 +7910,7 @@
     "disabled": false,
     "chainId": "50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
     "name": "XX network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
         "type": "subquery",
@@ -7908,6 +7955,7 @@
     "disabled": false,
     "chainId": "d3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
     "name": "Avail Turing Testnet",
+    "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
         {
@@ -7966,6 +8014,7 @@
     "chainId": "196",
     "rank": 13,
     "name": "X Layer Mainnet",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -7992,7 +8041,6 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
         "color": "FFFFFF",
         "priceId": "okb",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8026,6 +8074,7 @@
     "chainId": "0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943",
     "rank": 14,
     "name": "Analog Testnet",
+    "ecosystem": "substrate",
     "externalApi": {
         "history": {
           "type": "subquery",
@@ -8097,6 +8146,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "1004",
     "name": "Polkadot People",
+    "ecosystem": "substrate",
     "assets": [
       {
         "isUtility": true,
@@ -8142,6 +8192,7 @@
     "disabled": false,
     "chainId": "8217",
     "name": "Klaytn Mainnet Cypress",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
@@ -8168,7 +8219,6 @@
         "priceId": "klay-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
         "color": "DE1E41",
-        "type": "normal",
         "ethereumType": "normal"
       },
       {
@@ -8180,7 +8230,6 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -8192,7 +8241,6 @@
         "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
-        "type": "normal",
         "ethereumType": "erc20"
       },
       {
@@ -8204,7 +8252,6 @@
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "FF0066",
-        "type": "normal",
         "ethereumType": "erc20"
       }
     ],
@@ -8233,6 +8280,7 @@
     "disabled": false,
     "chainId": "1001",
     "name": "Kaia Kairos Testnet",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "klaytn",
@@ -8258,7 +8306,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8284,6 +8331,7 @@
     "disabled": false,
     "chainId": "88",
     "name": "Viction",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "vicscan",
@@ -8310,7 +8358,6 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VIC.svg",
         "color": "FFFFFF",
         "priceId": "tomochain",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8335,6 +8382,7 @@
     "disabled": false,
     "chainId": "995",
     "name": "5ire",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "fire",
@@ -8360,7 +8408,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
         "color": "071941",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8385,6 +8432,7 @@
     "disabled": false,
     "chainId": "b91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a",
     "name": "Avail DA Mainnet",
+    "ecosystem": "substrate",
     "externalApi": {
         "explorers": [
           {
@@ -8462,6 +8510,8 @@
     "disabled": false,
     "chainId": "2340",
     "name": "Atleta Olympia",
+    "ecosystem": "ethereum",
+    
     "externalApi": {
       "history": {
         "type": "blockscout",
@@ -8487,7 +8537,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ATLA.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8513,6 +8562,7 @@
     "disabled": false,
     "chainId": "168168",
     "name": "ZChains",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "zchain",
@@ -8539,7 +8589,6 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZCD.svg",
         "priceId": "zchains",
         "color": "E10600",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8560,6 +8609,7 @@
     "disabled": false,
     "chainId": "2525",
     "name": "inEVM",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "blockscout",
@@ -8586,7 +8636,6 @@
         "priceId": "injective-protocol",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INJ.svg",
         "color": "00F2FE",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -8601,6 +8650,99 @@
     "options": [
       "ethereum",
       "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "-239",
+    "name": "Ton Mainnet",
+    "ecosystem": "ton",
+    "iosMinAppVersion": "3.8.1",
+    "externalApi": {
+      "history": {
+        "type": "ton",
+        "url": "https://keeper.tonapi.io"
+      },
+      "explorers": [
+        {
+          "type": "tonviewer",
+          "types": [
+            "tonAccount",
+            "tonTransaction"
+          ],
+          "url": "https://tonviewer.com/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "2ba4723a-74b4-4a6f-a888-e51937773807-239",
+        "name": "toncoin",
+        "symbol": "ton",
+        "precision": 9,
+        "priceId": "the-open-network",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+        "color": "0098EA",
+        "tonType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://keeper.tonapi.io",
+        "name": "Keeper api"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+    "addressPrefix": 0,
+    "options": ["remoteAssets"]
+  },
+  {
+    "disabled": false,
+    "chainId": "-3",
+    "name": "Ton Testnet",
+    "ecosystem": "ton",
+    "iosMinAppVersion": "3.8.1",
+    "externalApi": {
+      "history": {
+        "type": "ton",
+        "url": "https://keeper.tonapi.io"
+      },
+      "explorers": [
+        {
+          "type": "tonviewer",
+          "types": [
+            "tonAccount",
+            "tonTransaction"
+          ],
+          "url": "https://tonviewer.com/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "2ba4723a-74b4-4a6f-a888-e51937773807-239",
+        "name": "toncoin",
+        "symbol": "ton",
+        "precision": 9,
+        "priceId": "the-open-network",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+        "color": "0098EA",
+        "tonType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "https://testnet.tonapi.io",
+        "name": "Keeper api testnet"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
+    "addressPrefix": 0,
+    "options": [
+        "remoteAssets",
+        "testnet"
     ]
   }
 ]
