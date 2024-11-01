@@ -506,12 +506,12 @@
     "destChain": "Mangata",
     "destXcmFee": [
       {
-        "feeInPlanks": "2561821802",
+        "feeInPlanks": "322560000",
         "symbol": "TUR",
         "precision": "10"
       },
       {
-        "feeInPlanks": "653550000",
+        "feeInPlanks": "8746017993",
         "symbol": "KSM",
         "precision": "12"
       },
