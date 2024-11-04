@@ -9,6 +9,14 @@
                 "url": "https://ton-connect.example.fearless.soramitsu.co.jp",
                 "description": "FW dapp example",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/FW_icon_288.png"
+            },
+            {
+                "identifier": "a4f64521-24bc-4c50-aa57-a2009f721336",
+                "chains": ["-239"],
+                "name": "LetsExchange",
+                "url": "https://letsexchange.io/swap",
+                "description": "Swap, buy, and sell crypto secure and hassle-free",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/letsexchange.png"
             }
         ]
     },
