@@ -71,23 +71,23 @@
         ]
     },
     {
-        "type": "utilities",
+        "type": "explorers",
         "apps": [
             {
                 "identifier": "aa592b75-9134-4708-8122-0b7d5519f593",
                 "chains": ["-239"],
-                "name": "Aqua Protocol",
-                "url": "https://app.aquaprotocol.xyz/mint",
-                "description": "Over-collaterized Stablecoin.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/aquaprotocol.png"
+                "name": "Tonviewer",
+                "url": "https://tonviewer.com/",
+                "description": "The only explorer you need for TON",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tonviewer.jpg"
             },
             {
                 "identifier": "c2301105-b592-45da-8039-a99552f05ccb",
                 "chains": ["-239"],
-                "name": "TON Fonates",
-                "url": "https://fonates.com/",
-                "description": "Send and accept donations on streams in TON.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tonfonates.png"
+                "name": "DYOR.io",
+                "url": "https://dyor.io/",
+                "description": "Explore The Open Network with DYOR: Earn and Learn",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/dyorio.png"
             },
             {
                 "identifier": "cd3357b7-7a79-4193-93b2-fe277eb18d8c",
