@@ -32,12 +32,41 @@
         "type": "featured",
         "apps": [
             {
-                "identifier": "f745ab46-84fd-4669-940c-6cb4048a6372",
+                "identifier": "bd485b34-7e10-45da-8e20-a58f5acccdc3",
                 "chains": ["-239"],
-                "name": "Spinarium",
-                "url": "https://spintg.com/ru/games?category=popular",
-                "description": "Players' Choice 2024 - TON, Profitable and Safe casino!",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/spinarium.png"
+                "name": "Storm Trade",
+                "url": "https://storm.tg/",
+                "description": "Perps DEX with ×100 leverage.",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
+            }
+        ]
+    },
+    {
+        "type": "defi",
+        "apps": [
+            {
+                "identifier": "ed88b393-2ac3-4749-b864-dbc141c4188d-v2",
+                "chains": ["-239"],
+                "name": "STON.fi",
+                "url": "https://app.ston.fi/",
+                "description": "Cross-chain DEX built on TON.",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stonfi.png"
+            },
+            {
+                "identifier": "d32532fa-7306-4927-9cfa-04e164a17419",
+                "chains": ["-239"],
+                "name": "DeDust.io",
+                "url": "https://dedust.io/swap",
+                "description": "AMM DEX for the TON blockchain.",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/dedust.jpg"
+            },
+            {
+                "identifier": "3e4b07d5-8272-4381-9f69-37f008b2f386",
+                "chains": ["-239"],
+                "name": "TON Diamonds DEX",
+                "url": "https://ton.diamonds/dex/swap",
+                "description": "Find top jetton rates and get $GLINT cashback.",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tondiamonds.png"
             }
         ]
     },
@@ -96,51 +125,6 @@
                 "url": "https://app.daolama.co",
                 "description": "Use your NFTs as collateral to instantly get TON Coin.",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/daolama.png"
-            }
-        ]
-    },
-    {
-        "type": "defi",
-        "apps": [
-            {
-                "identifier": "ed88b393-2ac3-4749-b864-dbc141c4188d-v2",
-                "chains": ["-239"],
-                "name": "STON.fi",
-                "url": "https://app.ston.fi/",
-                "description": "Cross-chain DEX built on TON.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stonfi.png"
-            },
-            {
-                "identifier": "d32532fa-7306-4927-9cfa-04e164a17419",
-                "chains": ["-239"],
-                "name": "DeDust.io",
-                "url": "https://dedust.io/swap",
-                "description": "AMM DEX for the TON blockchain.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/dedust.jpg"
-            },
-            {
-                "identifier": "3e4b07d5-8272-4381-9f69-37f008b2f386",
-                "chains": ["-239"],
-                "name": "TON Diamonds DEX",
-                "url": "https://ton.diamonds/dex/swap",
-                "description": "Find top jetton rates and get $GLINT cashback.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tondiamonds.png"
-            },
-            {
-                "identifier": "bd485b34-7e10-45da-8e20-a58f5acccdc3",
-                "chains": ["-239"],
-                "name": "Storm Trade",
-                "url": "https://storm.tg/",
-                "description": "Perps DEX with ×100 leverage.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
-            },
-            {
-                "identifier": "e6563c0f-abf3-4506-86f1-d61e03c9b2b6",
-                "chains": ["-239"],
-                "name": "swap.coffee",
-                "url": "https://swap.coffee/dex",
-                "description": "The most effective DEX Aggregator on TON. Smart routing and transaction splitting.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/swapcoffee.png"
             }
         ]
     }
