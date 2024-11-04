@@ -7047,6 +7047,7 @@
     "chainId": "137",
     "rank": 3,
     "name": "Polygon",
+    "ecosystem": "ethereum",
     "externalApi": {
       "explorers": [
         {
@@ -8110,6 +8111,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1004",
     "name": "Kusama People",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "b54f9075-6364-4ad9-8ac2-ed8a604491fd",
@@ -8510,7 +8512,6 @@
     "chainId": "2340",
     "name": "Atleta Olympia",
     "ecosystem": "ethereum",
-    
     "externalApi": {
       "history": {
         "type": "blockscout",
@@ -8656,7 +8657,7 @@
     "chainId": "-239",
     "name": "Ton Mainnet",
     "ecosystem": "ton",
-    "iosMinAppVersion": "3.8.1",
+    "iosMinAppVersion": "4.0.1",
     "externalApi": {
       "history": {
         "type": "ton",
