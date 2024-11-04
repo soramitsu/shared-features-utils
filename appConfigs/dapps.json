@@ -17,6 +17,14 @@
                 "url": "https://letsexchange.io/swap",
                 "description": "Swap, buy, and sell crypto secure and hassle-free",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/letsexchange.png"
+            },
+            {
+                "identifier": "da345123-6d6a-4440-b75f-875669cdb132",
+                "chains": ["-239"],
+                "name": "Tokr.fun",
+                "url": "https://tokr.fun/",
+                "description": "The ultimate meme coin launchpad on steroids!",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tokrfun.jpg"
             }
         ]
     },
