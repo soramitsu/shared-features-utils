@@ -8145,7 +8145,7 @@
     "externalApi": {
       "history": {
         "type": "oklink",
-        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=KLAYTN"
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=KAIA"
       },
       "explorers": [
         {
@@ -8154,7 +8154,7 @@
             "tx",
             "address"
           ],
-          "url": "https://www.okx.com/web3/explorer/klaytn/{type}/{value}?channelID=flessw"
+          "url": "https://www.okx.com/web3/explorer/kaia/{type}/{value}?channelID=flessw"
         }
       ]
     },
