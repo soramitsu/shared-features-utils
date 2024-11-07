@@ -8193,6 +8193,7 @@
     "disabled": false,
     "chainId": "8217",
     "name": "Kaia Mainnet",
+    "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
