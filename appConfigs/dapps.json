@@ -38,9 +38,25 @@
                 "url": "https://storm.tg/",
                 "description": "Perps DEX with ×100 leverage.",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
+            },
+            {
+                "identifier": "da345123-6d6a-4440-b75f-875669cdb132",
+                "chains": ["-239"],
+                "name": "Nomis Score",
+                "url": "https://nomis.cc/ton",
+                "description": "TON Reputation Score is Live",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomis.png"
+            },
+            {
+                "identifier": "7da02443-e7ed-4f82-aae3-baadba4e5f5a",
+                "chains": ["-239"],
+                "name": "Fanzee Battles",
+                "url": "https://battles-tg-app.fanz.ee/",
+                "description": "The biggest prediction market TMA in telegram",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/fanzee.jpg"
             }
         ]
-    },
+    },      
     {
         "type": "defi",
         "apps": [
@@ -92,10 +108,10 @@
             {
                 "identifier": "cd3357b7-7a79-4193-93b2-fe277eb18d8c",
                 "chains": ["-239"],
-                "name": "Tonnel Network",
-                "url": "https://www.tonnel.network/",
-                "description": "#1 Zero-Knowledge protocol on TON, Privacy for TON, JETTON, NFTs.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tonnelnetwork.png"
+                "name": "Tonscan",
+                "url": "https://tonscan.org/",
+                "description": "Explore The Open Network",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tonscan.jpg"
             }
         ]
     },
