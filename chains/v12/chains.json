@@ -7047,6 +7047,7 @@
     "chainId": "137",
     "rank": 3,
     "name": "Polygon",
+    "ecosystem": "ethereum",
     "externalApi": {
       "explorers": [
         {
@@ -8110,6 +8111,7 @@
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "1004",
     "name": "Kusama People",
+    "ecosystem": "substrate",
     "assets": [
       {
         "id": "b54f9075-6364-4ad9-8ac2-ed8a604491fd",
@@ -8190,12 +8192,12 @@
   {
     "disabled": false,
     "chainId": "8217",
-    "name": "Klaytn Mainnet Cypress",
+    "name": "Kaia Mainnet",
     "ecosystem": "ethereum",
     "externalApi": {
       "history": {
         "type": "oklink",
-        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=KLAYTN"
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=KAIA"
       },
       "explorers": [
         {
@@ -8204,7 +8206,7 @@
             "tx",
             "address"
           ],
-          "url": "https://www.okx.com/web3/explorer/klaytn/{type}/{value}?channelID=flessw"
+          "url": "https://www.okx.com/web3/explorer/kaia/{type}/{value}?channelID=flessw"
         }
       ]
     },
@@ -8212,11 +8214,11 @@
       {
         "isUtility": true,
         "id": "dd80081e-7fc3-4a69-8218-57018d6e31c2",
-        "name": "klaytn",
-        "symbol": "klay",
+        "name": "kaia",
+        "symbol": "kaia",
         "precision": 18,
-        "priceId": "klay-token",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
+        "priceId": "kaia",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
         "color": "DE1E41",
         "ethereumType": "normal"
       },
@@ -8256,19 +8258,27 @@
     ],
     "nodes": [
       {
-        "url": "https://public-en-cypress.klaytn.net/",
-        "name": "Klaytn Foundation https node"
+        "url": "https://public-en.node.kaia.io/",
+        "name": "Kaia Foundation https node"
       },
       {
-        "url": "wss://public-en-cypress.klaytn.net/ws",
-        "name": "Klaytn Foundation wss node"
+        "url": "wss://public-en.node.kaia.io/ws",
+        "name": "Kaia Foundation wss node"
       },
       {
-        "url": "https://klaytn-pokt.nodies.app/",
-        "name": "POKT free https node"
+        "url": "https://alpha-hardworking-orb.kaia-mainnet.quiknode.pro/",
+        "name": "QuickNode https node"
+      },
+      {
+        "url": "wss://alpha-hardworking-orb.kaia-mainnet.quiknode.pro/",
+        "name": "QuickNode wss node"
+      },
+      {
+        "url": "https://kaia.blockpi.network/v1/rpc/public",
+        "name": "Blockpi https node"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Klaytn.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/kaiachain.svg",
     "addressPrefix": 0,
     "options": [
       "ethereum",
@@ -8510,7 +8520,6 @@
     "chainId": "2340",
     "name": "Atleta Olympia",
     "ecosystem": "ethereum",
-    
     "externalApi": {
       "history": {
         "type": "blockscout",
@@ -8656,7 +8665,7 @@
     "chainId": "-239",
     "name": "Ton Mainnet",
     "ecosystem": "ton",
-    "iosMinAppVersion": "3.8.1",
+    "iosMinAppVersion": "4.0.1",
     "externalApi": {
       "history": {
         "type": "ton",
