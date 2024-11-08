@@ -35,7 +35,7 @@
                 "identifier": "bd485b34-7e10-45da-8e20-a58f5acccdc3",
                 "chains": ["-239"],
                 "name": "Storm Trade",
-                "url": "https://storm.tg/",
+                "url": "https://app.storm.tg/",
                 "description": "Perps DEX with ×100 leverage.",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
             },
