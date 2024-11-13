@@ -11,6 +11,14 @@
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/FW_icon_288.png"
             },
             {
+                "identifier": "da345123-6d6a-4440-b75f-875669cdb132",
+                "chains": ["-239"],
+                "name": "Nomis Score",
+                "url": "https://nomis.cc/ton",
+                "description": "TON Reputation Score is Live",
+                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomis.png"
+            },
+            {
                 "identifier": "a4f64521-24bc-4c50-aa57-a2009f721336",
                 "chains": ["-239"],
                 "name": "LetsExchange",
@@ -38,14 +46,6 @@
                 "url": "https://app.storm.tg/",
                 "description": "Perps DEX with ×100 leverage.",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
-            },
-            {
-                "identifier": "da345123-6d6a-4440-b75f-875669cdb132",
-                "chains": ["-239"],
-                "name": "Nomis Score",
-                "url": "https://nomis.cc/ton",
-                "description": "TON Reputation Score is Live",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomis.png"
             },
             {
                 "identifier": "7da02443-e7ed-4f82-aae3-baadba4e5f5a",
