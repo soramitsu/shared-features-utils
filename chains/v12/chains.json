@@ -52,7 +52,7 @@
         "staking": "relaychain",
         "purchaseProviders": [
           "moonpay",
-          "ramp"
+          "ramp network"
         ],
         "type": "normal",
         "priceProvider": {
@@ -192,7 +192,7 @@
         "color": "FFFFFF",
         "staking": "relaychain",
         "purchaseProviders": [
-          "ramp"
+          "ramp network"
         ],
         "isUtility": true,
         "type": "normal"
@@ -357,7 +357,7 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
         "color": "FFFFFF",
         "purchaseProviders": [
-          "ramp"
+          "ramp network"
         ],
         "isUtility": true,
         "type": "normal"
@@ -514,7 +514,7 @@
         "color": "FF0066",
         "purchaseProviders": [
           "moonpay",
-          "ramp"
+          "ramp network"
         ],
         "type": "normal"
       },
@@ -4606,7 +4606,7 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KSM.svg",
         "color": "FFFFFF",
         "purchaseProviders": [
-          "ramp"
+          "ramp network"
         ],
         "isUtility": true,
         "type": "normal"
@@ -6897,6 +6897,18 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "FF0066",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x55d398326f99059fF775485246999027B3197955",
+        "name": "tether usd",
+        "symbol": "USDT",
+        "precision": 18,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "type": "normal",
+        "ethereumType": "bep20"
       },
       {
         "isUtility": false,
