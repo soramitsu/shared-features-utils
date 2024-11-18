@@ -8,6 +8,7 @@
                 "name": "FW dapp example",
                 "url": "https://ton-connect.example.fearless.soramitsu.co.jp",
                 "description": "FW dapp example",
+                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/defaultbg.png",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/FW_icon_288.png"
             },
             {
@@ -16,6 +17,7 @@
                 "name": "Nomis Score",
                 "url": "https://nomis.cc/ton",
                 "description": "TON Reputation Score is Live",
+                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/nomisbg.png",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomis.png"
             },
             {
@@ -24,6 +26,7 @@
                 "name": "LetsExchange",
                 "url": "https://letsexchange.io/swap",
                 "description": "Swap, buy, and sell crypto secure and hassle-free",
+                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/letsexchangebg.png",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/letsexchange.png"
             },
             {
@@ -32,6 +35,7 @@
                 "name": "Tokr.fun",
                 "url": "https://tokr.fun/",
                 "description": "The ultimate meme coin launchpad on steroids!",
+                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokrfunbg.png",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tokrfun.jpg"
             }
         ]
