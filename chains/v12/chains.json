@@ -8689,7 +8689,6 @@
         "name": "toncoin",
         "symbol": "ton",
         "precision": 9,
-        "priceId": "the-open-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
         "color": "0098EA",
         "tonType": "normal"
@@ -8734,7 +8733,6 @@
         "name": "toncoin",
         "symbol": "ton",
         "precision": 9,
-        "priceId": "the-open-network",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TON.svg",
         "color": "0098EA",
         "tonType": "normal"
