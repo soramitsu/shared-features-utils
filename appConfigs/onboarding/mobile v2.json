@@ -118,7 +118,7 @@
                     {
                         "title": {"text": "Power Up Your DeFi Journey", "color": ""},
                         "description": "The new Fearless Wallet update is packed with essential tools and security, helping you explore DeFi securely and confidently.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v401/4.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v401/5.png"
                     }
                 ],
                 "regular":[
@@ -145,7 +145,7 @@
                     {
                         "title": {"text": "Power Up Your DeFi Journey", "color": ""},
                         "description": "The new Fearless Wallet update is packed with essential tools and security, helping you explore DeFi securely and confidently.",
-                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v401/4.png"
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/appConfigs/onboarding/mob_v401/5.png"
                     }
                 ]
             }
