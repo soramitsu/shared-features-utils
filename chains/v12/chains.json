@@ -3711,8 +3711,16 @@
     ],
     "nodes": [
       {
-        "url": "wss://mainnet.polkadex.trade",
-        "name": "Polkadex Team node"
+        "url": "wss://polkadex-mainnet-rpc.dwellir.com",
+        "name": "Dwellir"
+      },
+      {
+        "url": "wss://polkadex.api.onfinality.io/public-ws",
+        "name": "OnFinality"
+      },
+      {
+        "url": "wss://polkadex.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/polkadex.svg",
