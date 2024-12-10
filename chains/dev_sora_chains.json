@@ -3,7 +3,7 @@
     "disabled": false,
     "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
     "kind": "substrate",
-    "name": "SORA test",
+    "name": "SORA stage",
     "staking": "relaychain",
     "externalApi": {
       "history": {
@@ -80,13 +80,13 @@
   },
   {
     "disabled": false,
-    "chainId": "1b267be9b2742a5d8a4e1d4b7f487358a459215f697f623c29c7d80ffb8c0c97",
+    "chainId": "15b8706309a2407e6ae6615b44f08c2bee8eba3fe54a6a765e4068373feaf269",
     "kind": "substrate",
-    "name": "SORA Dev",
+    "name": "SORA tst",
     "externalApi": {
       "history": {
         "type": "sora",
-        "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
+        "url": "https://api.subquery.network/sq/sora-xor/sora-test"
       }
     },
     "tokens": {
@@ -96,17 +96,7 @@
     },
     "nodes": [
       {
-        "url": "wss://ws.framenode-1.r0.dev.sora2.soramitsu.co.jp",
-        "name": "SORA Parliament Ministry of Finance Node",
-        "enabled": true
-      },
-      {
-        "url": "wss://ws.framenode-2.r0.dev.sora2.soramitsu.co.jp",
-        "name": "SORA Parliament Ministry of Finance Node",
-        "enabled": true
-      },
-      {
-        "url": "wss://ws.framenode-3.r0.dev.sora2.soramitsu.co.jp",
+        "url": "wss://ws.framenode-1.r0.tst.sora2.soramitsu.co.jp",
         "name": "SORA Parliament Ministry of Finance Node",
         "enabled": true
       }
