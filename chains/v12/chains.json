@@ -5857,6 +5857,20 @@
             "type": "sorasubquery",
             "id": "0x006a271832f44c93bd8692584d85415f0f3dccef9748fecd129442c8edcb4361"
         }
+      },
+      {
+        "id": "ce6c82b6-8992-49f8-99fb-0539e9ab565b",
+        "name": "rapido loyalty store",
+        "symbol": "rlst",
+        "currencyId": "0x00ab83f36ff0cbbdd12fd88a094818820eaf155c08c4159969f1fb21534c1eb0",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/RLST.svg",
+        "color": "FBE472",
+        "type": "soraAsset",
+        "priceProvider": {
+            "type": "sorasubquery",
+            "id": "0x00ab83f36ff0cbbdd12fd88a094818820eaf155c08c4159969f1fb21534c1eb0"
+        }
       }
     ],
     "xcm": {
