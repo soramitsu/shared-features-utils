@@ -7206,14 +7206,6 @@
     ],
     "nodes": [
       {
-        "url": "https://polygon-mainnet.blastapi.io/",
-        "name": "Blast https"
-      },
-      {
-        "url": "wss://polygon-mainnet.blastapi.io/",
-        "name": "Blast wss"
-      },
-      {
         "url": "https://polygon-bor-rpc.publicnode.com",
         "name": "Bor public https"
       },
