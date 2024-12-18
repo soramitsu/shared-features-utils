@@ -7206,12 +7206,12 @@
     ],
     "nodes": [
       {
-        "url": "https://polygon-mainnet.blastapi.io/",
-        "name": "Blast https"
+        "url": "https://polygon-bor-rpc.publicnode.com",
+        "name": "Bor public https"
       },
       {
-        "url": "wss://polygon-mainnet.blastapi.io/",
-        "name": "Blast wss"
+        "url": "wss://polygon-bor-rpc.publicnode.com",
+        "name": "Bor public wss"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polygon.svg",
