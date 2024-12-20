@@ -118,6 +118,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-polkadot.dwellir.com",
@@ -244,6 +245,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-kusama.dwellir.com",
@@ -302,6 +304,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://westend-rpc.polkadot.io",
@@ -446,6 +449,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-assethub-kusama.dwellir.com",
@@ -607,6 +611,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-assethub-polkadot.dwellir.com",
@@ -876,6 +881,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-acala.dwellir.com",
@@ -1348,6 +1354,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-karura.dwellir.com",
@@ -1556,6 +1563,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-moonriver.dwellir.com",
@@ -1637,6 +1645,7 @@
           "color": "DAFE6F"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-shiden.dwellir.com",
@@ -1885,6 +1894,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-bifrost-kusama.dwellir.com",
@@ -1948,6 +1958,7 @@
           "color": "FFFFFF"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-khala.dwellir.com",
@@ -1996,6 +2007,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://spiritnet.kilt.io/",
@@ -2077,6 +2089,7 @@
           "color": "FFFFFF"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://calamari.systems",
@@ -2111,6 +2124,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-quartz.dwellir.com",
@@ -2247,6 +2261,7 @@
           "color": "DAFE6F"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://heiko-rpc.parallel.fi",
@@ -2290,6 +2305,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-picasso.dwellir.com",
@@ -2342,6 +2358,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://fullnode.altair.centrifuge.io",
@@ -2376,6 +2393,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://pioneer-rpc-3.bit.country/wss",
@@ -2420,6 +2438,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc-para.clover.finance",
@@ -2544,6 +2563,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-astar.dwellir.com",
@@ -2806,6 +2826,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
             {
                 "url": "wss://parallel-rpc.dwellir.com",
@@ -2864,6 +2885,7 @@
           "existentialDeposit": "10000"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-basilisk.dwellir.com",
@@ -3096,6 +3118,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-moonbeam.dwellir.com",
@@ -3154,6 +3177,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://wss.api.moonbase.moonbeam.network",
@@ -3216,6 +3240,7 @@
           "color": "FFFFFF"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-kintsugi.dwellir.com",
@@ -3250,6 +3275,7 @@
           "type": "equilibrium"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://node.ksm.genshiro.io",
@@ -3305,6 +3331,7 @@
           "color": "FFFFFF"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.rpc.robonomics.network",
@@ -3346,6 +3373,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://para.subsocial.network",
@@ -3380,6 +3408,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-zeitgeist.dwellir.com",
@@ -3472,6 +3501,7 @@
           "existentialDeposit": "10000"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-hydradx.dwellir.com",
@@ -3520,6 +3550,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-centrifuge.dwellir.com",
@@ -3556,6 +3587,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-nodle.dwellir.com",
@@ -3605,6 +3637,7 @@
           "color": "F2AE7F"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-interlay.dwellir.com",
@@ -3647,6 +3680,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.litmus-parachain.litentry.io",
@@ -3679,6 +3713,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://polkadex-mainnet-rpc.dwellir.com",
@@ -3721,6 +3756,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.dorafactory.org",
@@ -3754,6 +3790,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://parachain-rpc.origin-trail.network",
@@ -3788,6 +3825,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-unique.dwellir.com",
@@ -3881,6 +3919,7 @@
           "color": "26A17B"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-bifrost-polkadot.dwellir.com",
@@ -3919,6 +3958,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-litentry.dwellir.com",
@@ -3957,6 +3997,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-phala.dwellir.com",
@@ -4005,6 +4046,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-composable.dwellir.com",
@@ -4042,6 +4084,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc-parachain.bajun.network",
@@ -4079,6 +4122,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kabocha.jelliedowl.com",
@@ -4112,6 +4156,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.kico.dico.io",
@@ -4219,6 +4264,7 @@
           "color": "5DCBD0"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://prod-kusama-collator-01.mangatafinance.cloud",
@@ -4260,6 +4306,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://tanganika.datahighway.com",
@@ -4453,6 +4500,7 @@
           "type": "equilibrium"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-equilibrium.dwellir.com",
@@ -4490,6 +4538,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-integritee.dwellir.com",
@@ -4535,6 +4584,7 @@
           "existentialDeposit": "100000000"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-turing.dwellir.com",
@@ -4570,6 +4620,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.api.encointer.org",
@@ -4615,6 +4666,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.kylin-node.co.uk",
@@ -4648,6 +4700,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-invarch.dwellir.com",
@@ -4681,6 +4734,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://leemo.gmordie.com",
@@ -4718,6 +4772,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://imbue-kusama.imbue.network",
@@ -4784,6 +4839,7 @@
           "color": "FFFFFF"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-amplitude.dwellir.com",
@@ -4831,6 +4887,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.darwinia.network",
@@ -4866,6 +4923,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://polkadot.kylin-node.co.uk",
@@ -4910,6 +4968,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc-shadow.crust.network",
@@ -4936,6 +4995,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.relaychain-node-1.k1.tst.fearless.soramitsu.co.jp",
@@ -4965,6 +5025,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.relaychain-node-2.p1.tst.fearless.soramitsu.co.jp/",
@@ -4994,6 +5055,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://snow-rpc.icenetwork.io",
@@ -5293,6 +5355,7 @@
           "type": "soraAsset"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.framenode-8.s5.stg1.sora2.soramitsu.co.jp",
@@ -5575,6 +5638,7 @@
           "type": "soraAsset"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.framenode-1.r0.tst.sora2.soramitsu.co.jp",
@@ -6177,6 +6241,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.mof.sora.org",
@@ -6219,6 +6284,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-aleph-zero-mainnet.dwellir.com",
@@ -6251,6 +6317,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-kusama-bridge-hub.dwellir.com",
@@ -6290,6 +6357,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.rpc.ipci.io",
@@ -6330,6 +6398,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama.api.integritee.network",
@@ -6357,6 +6426,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc-1.kusama.node.zero.io",
@@ -6385,6 +6455,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc-parachain.ajuna.network",
@@ -6416,6 +6487,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://mainnet.bitgreen.org",
@@ -6444,6 +6516,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://crust-parachain.crustapps.net",
@@ -6471,6 +6544,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-frequency.dwellir.com",
@@ -6506,6 +6580,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kapex-rpc.dwellir.com",
@@ -6662,6 +6737,7 @@
           "color": "3E73C4"
       }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://api-pendulum.dwellir.com",
@@ -6696,6 +6772,7 @@
           "staking": "relaychain"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://mainnet.ternoa.network",
@@ -6724,6 +6801,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.parachain-collator-1.c1.sora2.soramitsu.co.jp",
@@ -6752,6 +6830,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.parachain-collator-1.pc1.sora2.soramitsu.co.jp",
@@ -7033,6 +7112,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://eth-mainnet.blastapi.io/",
@@ -7118,6 +7198,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://eth-goerli.blastapi.io/",
@@ -7306,6 +7387,7 @@
           "ethereumType": "bep20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://bsc.publicnode.com",
@@ -7386,6 +7468,7 @@
           "ethereumType": "bep20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://bsc-testnet.blastapi.io/",
@@ -7450,6 +7533,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://eth-sepolia.blastapi.io/",
@@ -7632,6 +7716,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://polygon-mainnet.blastapi.io/",
@@ -7685,6 +7770,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://polygon-testnet.blastapi.io/",
@@ -7754,6 +7840,7 @@
           "isUtility": true
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rococo-rpc.polkadot.io",
@@ -7796,6 +7883,7 @@
           "type": "soraAsset"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp",
@@ -7837,6 +7925,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.matrix.blockchain.enjin.io",
@@ -7876,6 +7965,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.matrix.canary.enjin.io",
@@ -7939,6 +8029,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://arbitrum-one.publicnode.com/",
@@ -8008,6 +8099,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://optimism-mainnet.blastapi.io/",
@@ -8072,6 +8164,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://avalanche-c-chain.publicnode.com/",
@@ -8123,6 +8216,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://testrpc.xlayer.tech/",
@@ -8183,6 +8277,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://rpc.xlayer.tech/",
@@ -8276,6 +8371,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://zkevm-rpc.com",
@@ -8317,6 +8413,7 @@
           "url": "https://zetachain-athens-3.blockscout.com/api/v2/"
         }
       },
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://rpc.ankr.com/zetachain_evm_athens_testnet",
@@ -8377,6 +8474,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.reefscan.com/ws",
@@ -8415,6 +8513,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://ws.manta.systems",
@@ -8460,6 +8559,7 @@
           "url": "https://pacific-explorer.manta.network/api/v2/"
         }
       },
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://pacific-rpc.manta.network/http",
@@ -8506,6 +8606,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.relay.blockchain.enjin.io",
@@ -8589,6 +8690,7 @@
           }
         ]
       },
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://mainnet.liberland.org",
@@ -8633,6 +8735,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://oasys.blockpi.network/v1/rpc/public/",
@@ -8675,6 +8778,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://public-node.rsk.co/",
@@ -8715,6 +8819,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://xxnetwork-rpc.dwellir.com",
@@ -8759,6 +8864,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://testnet-rpc.latestchain.io",
@@ -8796,6 +8902,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://mainnet-rpc.latestchain.io",
@@ -8832,6 +8939,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "wss://wss.ankara-cagacrypto.com",
@@ -8883,6 +8991,7 @@
               "type": "normal"
           }
       ],
+      "ecosystem": "substrate",
       "nodes": [
           {
               "url": "wss://avail-mainnet.public.blastapi.io/",
@@ -8949,6 +9058,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://rpc.testnet.analog.one",
@@ -8979,6 +9089,7 @@
           "type": "normal"
         }
       ],
+      "ecosystem": "substrate",
       "nodes": [
         {
           "url": "wss://kusama-people-rpc.polkadot.io",
@@ -9065,6 +9176,7 @@
           "ethereumType": "erc20"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://public-en-cypress.klaytn.net/",
@@ -9120,6 +9232,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://public-en.kairos.node.kaia.io",
@@ -9172,6 +9285,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://viction.blockpi.network/v1/rpc/public",
@@ -9222,6 +9336,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://rpc.5ire.network",
@@ -9272,6 +9387,7 @@
           "ethereumType": "normal"
         }
       ],
+      "ecosystem": "ethereum",
       "nodes": [
         {
           "url": "https://rpc.testnet.5ire.network",
@@ -9323,6 +9439,7 @@
               "type": "normal"
           }
       ],
+      "ecosystem": "substrate",
       "nodes": [
           {
               "url": "wss://avail-mainnet.public.blastapi.io/",
@@ -9395,6 +9512,7 @@
         "type": "normal"
       }
     ],
+    "ecosystem": "substrate",
     "nodes": [
       {
         "url": "wss://turing-testnet.avail-rpc.com",
@@ -9457,6 +9575,7 @@
         "ethereumType": "normal"
       }
     ],
+    "ecosystem": "ethereum",
     "nodes": [
         {
           "url": "https://testnet-rpc.atleta.network:9944",
@@ -9509,6 +9628,7 @@
         "ethereumType": "normal"
       }
     ],
+    "ecosystem": "ethereum",
     "nodes": [
         {
           "url": "https://rpc.zchains.com",
@@ -9556,6 +9676,7 @@
         "ethereumType": "normal"
       }
     ],
+    "ecosystem": "ethereum",
     "nodes": [
         {
           "url": "https://mainnet.rpc.inevm.com/http",
@@ -9602,6 +9723,7 @@
         "ethereumType": "normal"
       }
     ],
+    "ecosystem": "ethereum",
     "nodes": [
         {
           "url": "https://testnet.rpc.inevm.com/http",
