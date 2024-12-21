@@ -8692,7 +8692,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://tonapi.io/v2"
+        "url": "https://tonapi.io/"
       },
       "explorers": [
         {
@@ -8719,7 +8719,7 @@
     ],
     "nodes": [
       {
-        "url": "https://tonapi.io/v2",
+        "url": "https://tonapi.io/",
         "name": "TON api v2 https node"
       }
     ],
@@ -8737,7 +8737,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://testnet.tonapi.io/v2"
+        "url": "https://testnet.tonapi.io/"
       },
       "explorers": [
         {
@@ -8764,7 +8764,7 @@
     ],
     "nodes": [
       {
-        "url": "https://testnet.tonapi.io/v2",
+        "url": "https://testnet.tonapi.io/",
         "name": "TON api v2 https node"
       }
     ],
