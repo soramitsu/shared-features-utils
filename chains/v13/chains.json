@@ -8764,7 +8764,7 @@
     ],
     "nodes": [
       {
-        "url": "https://tonapi.io/",
+        "url": "https://testnet.tonapi.io/",
         "name": "TON api v2 https node"
       }
     ],
