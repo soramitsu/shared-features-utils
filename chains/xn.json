@@ -10,11 +10,16 @@
   },
   {
     "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+    "staking": "relaychain",
     "externalApi": {
       "history": {
         "type": "sora",
         "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
-      }
+      },
+      "staking": {
+          "type": "sora",
+          "url": "https://api.subquery.network/sq/sora-xor/sora-staging"
+        }
     }
   }
 ]
