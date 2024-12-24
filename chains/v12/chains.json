@@ -8692,7 +8692,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://tonapi.io/"
+        "url": "https://keeper.tonapi.io"
       },
       "explorers": [
         {
@@ -8737,7 +8737,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://testnet.tonapi.io/"
+        "url": "https://keeper.tonapi.io"
       },
       "explorers": [
         {
