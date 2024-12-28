@@ -1,6 +1,91 @@
 [
     {
         "disabled": false,
+        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "kind": "substrate",
+        "name": "Polkadot",
+        "staking": "relaychain",
+        "externalApi": {
+            "staking": {
+                "type": "subsquid",
+                "url": "https://squid.subsquid.io/fearless-polkadot/v/v3/graphql"
+            },
+            "history": {
+                "type": "subsquid",
+                "url": "https://squid.subsquid.io/fearless-polkadot/v/v3/graphql"
+            },
+            "explorers": [
+                {
+                    "type": "subscan",
+                    "types": [
+                        "extrinsic",
+                        "account"
+                    ],
+                    "url": "https://polkadot.subscan.io/{type}/{value}"
+                },
+                {
+                    "type": "polkascan",
+                    "types": [
+                        "extrinsic",
+                        "account",
+                        "event"
+                    ],
+                    "url": "https://polkascan.io/polkadot/{type}/{value}"
+                }
+            ]
+        },
+        "tokens": {
+            "type": "config",
+            "tokens": [
+                {
+                    "id": "887a17c7-1370-4de0-97dd-5422e294fa75",
+                    "name": "polkadot",
+                    "symbol": "dot",
+                    "isUtility": true,
+                    "precision": 10,
+                    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+                    "tokenProperties": {
+                        "priceId": "polkadot",
+                        "currencyId": "",
+                        "color": "FF0066",
+                        "type": "normal",
+                        "isNative": false
+                    }
+                }
+            ]
+        },
+        "nodes": [
+            {
+                "url": "wss://api-polkadot.dwellir.com",
+                "name": "Dwellir node",
+                "enabled": true
+            },
+            {
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node",
+                "enabled": true
+            },
+            {
+                "url": "wss://rpc-polkadot.luckyfriday.io",
+                "name": "LuckyFriday node",
+                "enabled": true
+            },
+            {
+                "url": "wss://polkadot.public.curie.radiumblock.co/ws",
+                "name": "RadiumBlock node",
+                "enabled": true
+            }
+        ],
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Polkadot.svg",
+        "properties": {
+            "addressPrefix": "69",
+            "testnet": false,
+            "polkaswap": false
+        },
+        "rank": 8
+    },
+    {
+        "disabled": false,
         "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "kind": "substrate",
         "name": "Kusama",
