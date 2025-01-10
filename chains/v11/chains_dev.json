@@ -3394,7 +3394,7 @@
       "chainId": "afdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
       "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
       "paraId": "2034",
-      "name": "HydraDX",
+      "name": "Hydration",
       "externalApi": {
         "history": {
           "type": "giantsquid",
@@ -3419,7 +3419,7 @@
           "precision": 12,
           "priceId": "hydradx",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HDX.svg",
-          "color": "FFFFFF",
+          "color": "E53E76",
           "isUtility": true,
           "type": "normal"
         },
@@ -3480,6 +3480,18 @@
         {
           "url": "wss://rpc.hydradx.cloud",
           "name": "Galactic Council node"
+        },
+        {
+          "url": "wss://rpc.helikon.io/hydradx",
+          "name": "Helikon node"
+        },
+        {
+          "url": "wss://hydration.ibp.network",
+          "name": "IBP1 node"
+        },
+        {
+          "url": "wss://hydration.dotters.network",
+          "name": "IBP2 node"
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/hydradx.svg",
