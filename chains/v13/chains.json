@@ -3505,6 +3505,18 @@
       {
         "url": "wss://rpc.hydradx.cloud",
         "name": "Galactic Council node"
+      },
+      {
+        "url": "wss://rpc.helikon.io/hydradx",
+        "name": "Helikon node"
+      },
+      {
+        "url": "wss://hydration.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://hydration.dotters.network",
+        "name": "IBP2 node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/hydradx.svg",
