@@ -878,12 +878,28 @@
       },
       "nodes": [
         {
-          "url": "wss://api-acala.dwellir.com",
+          "url": "wss://acala-rpc.dwellir.com",
           "name": "Dwellir node"
         },
         {
-          "url": "wss://rpc-acala.luckyfriday.io",
-          "name": "LuckyFriday node"
+          "url": "wss://acala-rpc-0.aca-api.network",
+          "name": "Acala Foundation 0 node"
+        },
+        {
+          "url": "wss://acala-rpc-1.aca-api.network",
+          "name": "Acala Foundation 1 node"
+        },
+        {
+          "url": "wss://acala-rpc-3.aca-api.network/ws",
+          "name": "Acala Foundation 3 node"
+        },
+        {
+          "url": "wss://acala.ibp.network",
+          "name": "IBP1 node"
+        },
+        {
+          "url": "wss://acala.dotters.network",
+          "name": "IBP2 node"
         }
       ],
       "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/acala.svg",
