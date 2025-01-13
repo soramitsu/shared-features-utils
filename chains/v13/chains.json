@@ -3499,7 +3499,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://api-hydradx.dwellir.com",
+        "url": "wss://hydration-rpc.n.dwellir.com",
         "name": "Dwellir node"
       },
       {
