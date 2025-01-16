@@ -15064,6 +15064,44 @@
       ]
     },
     {
+      "chainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738",
+      "runtime_id": 14,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "GenericEvent": "sora2_parachain_runtime::RuntimeEvent",
+                  "GenericCall": "sora2_parachain_runtime::RuntimeCall"
+              }
+          }
+      ]
+    },
+    {
+      "chainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9",
+      "runtime_id": 14,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "GenericEvent": "sora2_parachain_runtime::RuntimeEvent",
+                  "GenericCall": "sora2_parachain_runtime::RuntimeCall"
+              }
+          }
+      ]
+    },
+    {
         "chainId": "c1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
         "runtime_id": 9180,
         "types": { },
