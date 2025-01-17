@@ -27,15 +27,6 @@
             "account"
           ],
           "url": "https://polkadot.subscan.io/{type}/{value}"
-        },
-        {
-          "type": "polkascan",
-          "types": [
-            "extrinsic",
-            "account",
-            "event"
-          ],
-          "url": "https://polkascan.io/polkadot/{type}/{value}"
         }
       ]
     },
@@ -169,15 +160,6 @@
             "account"
           ],
           "url": "https://kusama.subscan.io/{type}/{value}"
-        },
-        {
-          "type": "polkascan",
-          "types": [
-            "extrinsic",
-            "account",
-            "event"
-          ],
-          "url": "https://polkascan.io/kusama/{type}/{value}"
         }
       ]
     },
