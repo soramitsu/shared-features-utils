@@ -157,7 +157,7 @@
   },
   {
     "chainId": "35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
-    "runtime_id": 1,
+    "runtime_id": 706,
     "types": { },
     "versioning": [
       {
@@ -171,7 +171,7 @@
           "Phase": "frame_system::Phase",
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
-          "ParaId": "polkadot_parachain::primitives::Id",
+          "ParaId": "polkadot_parachain_primitives::primitives::Id",
           "bajun_runtime::RuntimeEvent": "GenericEvent",
           "bajun_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
