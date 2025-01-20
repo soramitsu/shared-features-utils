@@ -7969,9 +7969,8 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943",
-    "rank": 14,
     "name": "Analog Testnet",
     "ecosystem": "substrate",
     "externalApi": {
@@ -7996,6 +7995,36 @@
       {
         "url": "wss://rpc.testnet.analog.one",
         "name": "Analog Testnet node"
+      }
+    ],
+    "options": [
+      "utilityFeePayment"
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Analog.svg",
+    "addressPrefix": 12850
+  },
+  {
+    "disabled": false,
+    "chainId": "1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
+    "rank": 14,
+    "name": "Analog Timechain",
+    "ecosystem": "substrate",
+    "assets": [
+      {
+        "id": "fea07922-2a3c-4a61-947e-a10c1a371c88",
+        "name": "anlog",
+        "symbol": "anlog",
+        "precision": 12,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
+        "color": "9A74F7",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.timechain.analog.one",
+        "name": "Analog Timechain node"
       }
     ],
     "options": [
