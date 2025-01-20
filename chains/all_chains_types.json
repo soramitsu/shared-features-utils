@@ -102,7 +102,7 @@
     },
     {
         "chainId": "35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
-        "runtime_id": 1,
+        "runtime_id": 706,
         "types": { },
         "versioning": [
             {
@@ -15059,6 +15059,44 @@
                   "Index": "u32",
                   "GenericEvent": "mainnet_runtime::RuntimeEvent",
                   "GenericCall": "mainnet_runtime::RuntimeCall"
+              }
+          }
+      ]
+    },
+    {
+      "chainId": "e92d165ad41e41e215d09713788173aecfdbe34d3bed29409d33a2ef03980738",
+      "runtime_id": 14,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "GenericEvent": "sora2_parachain_runtime::RuntimeEvent",
+                  "GenericCall": "sora2_parachain_runtime::RuntimeCall"
+              }
+          }
+      ]
+    },
+    {
+      "chainId": "6d8d9f145c2177fa83512492cdd80a71e29f22473f4a8943a6292149ac319fb9",
+      "runtime_id": 14,
+      "types": { },
+      "versioning": [
+          {
+              "runtime_range": [
+                  0,
+                  null
+              ],
+              "types": {
+                  "Balance": "u128",
+                  "Index": "u32",
+                  "GenericEvent": "sora2_parachain_runtime::RuntimeEvent",
+                  "GenericCall": "sora2_parachain_runtime::RuntimeCall"
               }
           }
       ]
