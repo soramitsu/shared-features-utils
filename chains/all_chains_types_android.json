@@ -15554,5 +15554,28 @@
         }
       }
     ]
+  },
+  {
+    "chainId": "1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
+    "runtime_id": 4,
+    "types": { },
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "timechain_runtime::RuntimeEvent": "GenericEvent",
+          "timechain_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
   }
 ]
