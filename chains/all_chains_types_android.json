@@ -205,7 +205,7 @@
   },
   {
     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-    "runtime_id": 927,
+    "runtime_id": 16001,
     "types": { },
     "versioning": [
       {
@@ -1328,7 +1328,7 @@
   },
   {
     "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "runtime_id": 102,
+    "runtime_id": 137,
     "types": { },
     "versioning": [
       {
@@ -1343,8 +1343,8 @@
           "Address": "sp_runtime::multiaddress::MultiAddress",
           "ExtrinsicSignature": "sp_runtime::MultiSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "origintrail_parachain_runtime::Event": "GenericEvent",
-          "origintrail_parachain_runtime::Call": "GenericCall",
+          "neuroweb_runtime::Event": "GenericEvent",
+          "neuroweb_runtime::Call": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }

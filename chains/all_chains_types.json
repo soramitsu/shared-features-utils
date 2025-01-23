@@ -144,7 +144,7 @@
     },
     {
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-        "runtime_id": 930,
+        "runtime_id": 16001,
         "types": { },
         "versioning": [
             {
@@ -155,12 +155,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "Phase": "145",
-                    "Address": "205",
-                    "ExtrinsicSignature": "556",
-                    "ParaId": "54",
-                    "17": "GenericEvent",
-                    "282": "GenericCall"
+                    "GenericEvent": "bifrost_kusama_runtime::RuntimeEvent",
+                    "GenericCall": "bifrost_kusama_runtime::RuntimeCall"
                 }
             }
         ]
@@ -926,7 +922,7 @@
     },
     {
         "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-        "runtime_id": 102,
+        "runtime_id": 137,
         "types": { },
         "versioning": [
             {
@@ -937,8 +933,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "origintrail_parachain_runtime::Event",
-                    "GenericCall": "origintrail_parachain_runtime::Call"
+                    "GenericEvent": "neuroweb_runtime::Event",
+                    "GenericCall": "neuroweb_runtime::Call"
                 }
             }
         ]
