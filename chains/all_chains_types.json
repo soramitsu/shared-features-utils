@@ -922,7 +922,7 @@
     },
     {
         "chainId": "e7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-        "runtime_id": 102,
+        "runtime_id": 137,
         "types": { },
         "versioning": [
             {
@@ -933,8 +933,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "GenericEvent": "origintrail_parachain_runtime::Event",
-                    "GenericCall": "origintrail_parachain_runtime::Call"
+                    "GenericEvent": "neuroweb_runtime::Event",
+                    "GenericCall": "neuroweb_runtime::Call"
                 }
             }
         ]
