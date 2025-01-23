@@ -144,7 +144,7 @@
     },
     {
         "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-        "runtime_id": 930,
+        "runtime_id": 16001,
         "types": { },
         "versioning": [
             {
@@ -155,12 +155,8 @@
                 "types": {
                     "Balance": "u128",
                     "Index": "u32",
-                    "Phase": "145",
-                    "Address": "205",
-                    "ExtrinsicSignature": "556",
-                    "ParaId": "54",
-                    "17": "GenericEvent",
-                    "282": "GenericCall"
+                    "GenericEvent": "bifrost_kusama_runtime::RuntimeEvent",
+                    "GenericCall": "bifrost_kusama_runtime::RuntimeCall"
                 }
             }
         ]
