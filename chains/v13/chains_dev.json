@@ -2999,7 +2999,7 @@
     ]
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
     "rank": 111,
     "name": "Moonbase Alpha",
@@ -4854,7 +4854,7 @@
     "addressPrefix": 66
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "6e938c4a786f8df6f38d0c06f00a8573f1f7aabeebf48aee5157a93cc5fe3271",
     "name": "Kusama (test)",
     "ecosystem": "substrate",
@@ -4941,7 +4941,7 @@
     "addressPrefix": 2207
   },
   {
-    "disabled": true,
+    "disabled": false,
     "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
     "rank": 100,
     "name": "SORA test",
