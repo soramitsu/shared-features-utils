@@ -7493,13 +7493,13 @@
   },
   {
     "disabled": false,
-    "chainId": "7001",
-    "name": "ZetaChain Testnet",
+    "chainId": "7000",
+    "name": "ZetaChain Mainnet",
     "ecosystem": "ethereum",
     "assets": [
       {
         "isUtility": true,
-        "id": "0f07791b-b091-49c1-81b7-9facba2b7db3",
+        "id": "821b58fb-2a40-45a5-af97-81f5890b281b",
         "name": "zetachain",
         "symbol": "zeta",
         "precision": 18,
@@ -7509,23 +7509,33 @@
       }
     ],
     "externalApi": {
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://zetachain.blockscout.com/{type}/{value}"
+        }
+      ],
       "history": {
         "type": "blockscout",
-        "url": "https://zetachain-athens-3.blockscout.com/api/v2/"
+        "url": "https://zetachain.blockscout.com/api/v2/"
       }
     },
     "nodes": [
       {
-        "url": "https://rpc.ankr.com/zetachain_evm_athens_testnet",
-        "name": "Ankr https node"
+        "url": "https://zeta-chain.drpc.org",
+        "name": "Drpc https node"
       },
       {
-        "url": "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
-        "name": "Blockpi https node"
+        "url": "wss://zeta-chain.drpc.org",
+        "name": "Drpc wss node"
       },
       {
-        "url": "https://zetachain-testnet-evm.itrocket.net",
-        "name": "Itrocket https node"
+        "url": "https://zetachain-mainnet.public.blastapi.io",
+        "name": "Blast https node"
       }
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Zetachain.svg",
