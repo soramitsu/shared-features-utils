@@ -1645,7 +1645,7 @@
     "externalApi": {
       "history": {
         "type": "blockscout",
-        "url": "https://zetachain.blockscout.com//api/v2/"
+        "url": "https://zetachain.blockscout.com/api/v2/"
       },
       "explorers": [
         {
