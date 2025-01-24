@@ -7509,6 +7509,16 @@
       }
     ],
     "externalApi": {
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://zetachain.blockscout.com/{type}/{value}"
+        }
+      ],
       "history": {
         "type": "blockscout",
         "url": "https://zetachain.blockscout.com/api/v2/"
