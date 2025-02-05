@@ -15161,5 +15161,24 @@
             }
         }
     ]
+  },
+  {
+    "chainId": "d9dcf11f17bfb5ff509247fd7986c06545565740ae1d5ed65f120f72c0fc3182",
+    "runtime_id": 12,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "timechain_runtime::RuntimeEvent",
+                "GenericCall": "timechain_runtime::RuntimeCall"
+            }
+        }
+    ]
   }
 ]
