@@ -8009,6 +8009,36 @@
   },
   {
     "disabled": false,
+    "chainId": "7a0f5cf23f4cdf391e6adadb4f5193fed975b1b621afbc96a522234c56688adb",
+    "name": "Analog SORA Testnet",
+    "assets": [
+      {
+        "id": "f307b6aa-61a8-4bef-97e8-64c79ecc640d",
+        "name": "danlog",
+        "symbol": "danlog",
+        "precision": 12,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
+        "color": "9A74F7",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "ecosystem": "substrate",
+    "nodes": [
+      {
+        "url": "wss://rpc-sora.development.analog.one",
+        "name": "Analog SORA Testnet node"
+      }
+    ],
+    "options": [
+      "testnet",
+      "utilityFeePayment"
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Analog.svg",
+    "addressPrefix": 42
+  },
+  {
+    "disabled": false,
     "chainId": "1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
     "rank": 14,
     "name": "Analog Timechain",
