@@ -7541,6 +7541,17 @@
           "color": "FF0066",
           "type": "normal",
           "ethereumType": "erc20"
+        },
+        {
+          "isUtility": false,
+          "id": "0x9F5AB33dA3C3a7E209510a82d54aa81A94eA64A6",
+          "name": "wanlog",
+          "symbol": "wanlog",
+          "precision": 12,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
+          "color": "9A74F7",
+          "type": "normal",
+          "ethereumType": "erc20"
         }
       ],
       "ecosystem": "ethereum",
@@ -9085,11 +9096,18 @@
       "disabled": false,
       "chainId": "7a0f5cf23f4cdf391e6adadb4f5193fed975b1b621afbc96a522234c56688adb",
       "name": "Analog SORA Testnet",
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/soramitsu/analog-bridge"
+        }
+      },
       "assets": [
         {
           "id": "f307b6aa-61a8-4bef-97e8-64c79ecc640d",
           "name": "danlog",
           "symbol": "danlog",
+          "currencyId": "Balances",
           "precision": 12,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
           "color": "9A74F7",
