@@ -9787,7 +9787,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://tonapi.io/v2"
+        "url": "https://tonapi.io"
       },
       "explorers": [
         {
@@ -9832,7 +9832,7 @@
     "externalApi": {
       "history": {
         "type": "ton",
-        "url": "https://testnet.tonapi.io/v2"
+        "url": "https://testnet.tonapi.io"
       },
       "explorers": [
         {
