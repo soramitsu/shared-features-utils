@@ -7541,6 +7541,17 @@
           "color": "FF0066",
           "type": "normal",
           "ethereumType": "erc20"
+        },
+        {
+          "isUtility": false,
+          "id": "0x9F5AB33dA3C3a7E209510a82d54aa81A94eA64A6",
+          "name": "wanlog",
+          "symbol": "wanlog",
+          "precision": 12,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
+          "color": "9A74F7",
+          "type": "normal",
+          "ethereumType": "erc20"
         }
       ],
       "ecosystem": "ethereum",
