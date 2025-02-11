@@ -9101,6 +9101,7 @@
           "id": "f307b6aa-61a8-4bef-97e8-64c79ecc640d",
           "name": "danlog",
           "symbol": "danlog",
+          "currencyId": "Balances",
           "precision": 12,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
           "color": "9A74F7",
