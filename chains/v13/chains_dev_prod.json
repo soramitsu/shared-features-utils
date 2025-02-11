@@ -43,8 +43,10 @@
         "staking": "relaychain",
         "purchaseProviders": [
           "moonpay",
-          "ramp"
+          "ramp",
+          "coinbase"
         ],
+        "coinbase_url": "addresses={\"{address}\":[\"polkadot\"]}&assets=[\"DOT\"]",
         "type": "normal",
         "priceProvider": {
             "type": "chainlink",
@@ -174,8 +176,10 @@
         "color": "FFFFFF",
         "staking": "relaychain",
         "purchaseProviders": [
-          "ramp"
+          "ramp",
+          "coinbase"
         ],
+        "coinbase_url": "addresses={\"{address}\":[\"kusama\"]}&assets=[\"KSM\"]",
         "isUtility": true,
         "type": "normal"
       }
@@ -6531,6 +6535,10 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
         "color": "FF0066",
         "ethereumType": "normal",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"ETH\"]",
         "priceProvider": {
             "type": "chainlink",
             "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
@@ -6546,7 +6554,11 @@
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
         "color": "FF0066",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"DAI\"]"
       },
       {
         "isUtility": false,
@@ -6557,7 +6569,11 @@
         "priceId": "tether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
         "color": "26A17B",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDT\"]"
       },
       {
         "isUtility": false,
@@ -6568,7 +6584,11 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDC\"]"
       },
       {
         "isUtility": false,
@@ -6579,7 +6599,11 @@
         "priceId": "aave",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
         "color": "B6509E",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"AAVE\"]"
       },
       {
         "isUtility": false,
@@ -6590,7 +6614,11 @@
         "priceId": "curve-dao-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
         "color": "B6509E",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"CRV\"]"
       },
       {
         "isUtility": false,
@@ -6601,7 +6629,11 @@
         "priceId": "uniswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
         "color": "FF007A",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"UNI\"]"
       },
       {
         "isUtility": false,
@@ -6612,7 +6644,11 @@
         "priceId": "chainlink",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
         "color": "FFFFFF",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"LINK\"]"
       },
       {
         "isUtility": false,
@@ -6623,7 +6659,11 @@
         "priceId": "1inch",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/1INCH.svg",
         "color": "FFFFFF",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"1INCH\"]"
       },
       {
         "isUtility": false,
@@ -6645,7 +6685,11 @@
         "priceId": "polygon-ecosystem-token",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
         "color": "A229C5",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"POL\"]"
       },
       {
         "isUtility": false,
@@ -6711,7 +6755,11 @@
         "priceId": "sand",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SAND.svg",
         "color": "4AA4EB",
-        "ethereumType": "erc20"
+        "ethereumType": "erc20",
+        "purchaseProviders": [
+          "coinbase"
+        ],
+        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"SAND\"]"
       },
       {
         "isUtility": false,
