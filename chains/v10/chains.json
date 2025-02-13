@@ -6600,12 +6600,12 @@
       },
       {
         "isUtility": false,
-        "id": "0x236501327e701692a281934230AF0b6BE8Df3353",
-        "name": "fluence",
-        "symbol": "flt",
+        "id": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "wrapped ether",
+        "symbol": "weth",
         "precision": 18,
-        "priceId": "fluence-2",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/FLT.svg",
+        "priceId": "weth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
         "color": "FFFFFF",
         "type": "normal",
         "ethereumType": "erc20"
@@ -6866,7 +6866,7 @@
       {
         "isUtility": false,
         "id": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "name": "weth",
+        "name": "wrapped ether",
         "symbol": "weth",
         "precision": 18,
         "priceId": "weth",
