@@ -7686,6 +7686,40 @@
   },
   {
     "disabled": false,
+    "chainId": "72888",
+    "name": "CAGA Mainnet",
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "fe31b0aa-d8df-413e-9c06-bf6d44de4093",
+        "name": "caga",
+        "symbol": "caga",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAGA.svg",
+        "color": "FFFFFF",
+        "type": "normal",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://cagamainnet.com/ws",
+        "name": "Caga wss node"
+      },
+      {
+        "url": "https://cagamainnet.com",
+        "name": "Caga https node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/cagachain.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
     "chainId": "50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
     "name": "XX network",
     "externalApi": {
