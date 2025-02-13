@@ -7819,6 +7819,7 @@
     "disabled": false,
     "chainId": "72888",
     "name": "CAGA Mainnet",
+    "ecosystem": "ethereum",
     "assets": [
       {
         "isUtility": true,
@@ -7828,7 +7829,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAGA.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
