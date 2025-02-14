@@ -9096,6 +9096,12 @@
       "disabled": false,
       "chainId": "7a0f5cf23f4cdf391e6adadb4f5193fed975b1b621afbc96a522234c56688adb",
       "name": "Analog SORA Testnet",
+      "externalApi": {
+        "history": {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/soramitsu/analog-bridge"
+        }
+      },
       "assets": [
         {
           "id": "f307b6aa-61a8-4bef-97e8-64c79ecc640d",
