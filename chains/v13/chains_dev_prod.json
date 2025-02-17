@@ -46,7 +46,7 @@
           "ramp",
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"polkadot\"]}&assets=[\"DOT\"]",
+        "coinbaseUrl": "addresses={\"{address}\":[\"polkadot\"]}&assets=[\"DOT\"]",
         "type": "normal",
         "priceProvider": {
             "type": "chainlink",
@@ -179,7 +179,7 @@
           "ramp",
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"kusama\"]}&assets=[\"KSM\"]",
+        "coinbaseUrl": "addresses={\"{address}\":[\"kusama\"]}&assets=[\"KSM\"]",
         "isUtility": true,
         "type": "normal"
       }
@@ -6538,7 +6538,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"ETH\"]",
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"ETH\"]",
         "priceProvider": {
             "type": "chainlink",
             "id": "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612",
@@ -6558,7 +6558,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"DAI\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"DAI\"]"
       },
       {
         "isUtility": false,
@@ -6573,7 +6573,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDT\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDT\"]"
       },
       {
         "isUtility": false,
@@ -6588,7 +6588,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDC\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDC\"]"
       },
       {
         "isUtility": false,
@@ -6603,7 +6603,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"AAVE\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"AAVE\"]"
       },
       {
         "isUtility": false,
@@ -6618,7 +6618,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"CRV\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"CRV\"]"
       },
       {
         "isUtility": false,
@@ -6633,7 +6633,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"UNI\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"UNI\"]"
       },
       {
         "isUtility": false,
@@ -6648,7 +6648,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"LINK\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"LINK\"]"
       },
       {
         "isUtility": false,
@@ -6663,7 +6663,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"1INCH\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"1INCH\"]"
       },
       {
         "isUtility": false,
@@ -6689,7 +6689,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"POL\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"POL\"]"
       },
       {
         "isUtility": false,
@@ -6759,7 +6759,7 @@
         "purchaseProviders": [
           "coinbase"
         ],
-        "coinbase_url": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"SAND\"]"
+        "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"SAND\"]"
       },
       {
         "isUtility": false,
