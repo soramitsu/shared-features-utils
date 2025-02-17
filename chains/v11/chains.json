@@ -1829,7 +1829,7 @@
     }
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "paraId": "2004",
@@ -1875,10 +1875,6 @@
       }
     ],
     "nodes": [
-      {
-        "url": "wss://api-khala.dwellir.com",
-        "name": "Dwellir node"
-      },
       {
         "url": "wss://khala-api.phala.network/ws",
         "name": "Phala node"
