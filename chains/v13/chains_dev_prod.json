@@ -6775,14 +6775,6 @@
     ],
     "nodes": [
       {
-        "url": "https://eth-mainnet.blastapi.io/",
-        "name": "Blast https"
-      },
-      {
-        "url": "https://ethereum.publicnode.com",
-        "name": "Public https"
-      },
-      {
         "url": "wss://ethereum.publicnode.com",
         "name": "Public wss"
       },
