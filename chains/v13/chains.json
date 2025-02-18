@@ -8682,7 +8682,7 @@
     "options": ["remoteAssets"]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "-3",
     "name": "Ton Testnet",
     "ecosystem": "ton",
