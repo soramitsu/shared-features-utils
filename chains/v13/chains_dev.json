@@ -9548,7 +9548,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ATLA.svg",
         "color": "FFFFFF",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -9601,7 +9600,6 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZCD.svg",
         "priceId": "zchains",
         "color": "E10600",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -9649,7 +9647,6 @@
         "priceId": "injective-protocol",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INJ.svg",
         "color": "00F2FE",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
@@ -9696,7 +9693,6 @@
         "precision": 18,
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/INJ.svg",
         "color": "00F2FE",
-        "type": "normal",
         "ethereumType": "normal"
       }
     ],
