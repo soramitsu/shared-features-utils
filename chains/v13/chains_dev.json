@@ -6881,7 +6881,6 @@
           "priceId": "ethereum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal",
           "purchaseProviders": [
             "moonpay",
@@ -6905,7 +6904,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6921,7 +6919,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
           "color": "26A17B",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6937,7 +6934,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6952,7 +6948,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
           "color": "B6509E",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6964,7 +6959,6 @@
           "priceId": "curve-dao-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
           "color": "B6509E",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6979,7 +6973,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
           "color": "FF007A",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -6995,7 +6988,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7007,7 +6999,6 @@
           "priceId": "1inch",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/1INCH.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7019,7 +7010,6 @@
           "priceId": "binancecoin",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
           "color": "F3BA2F",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7034,7 +7024,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
           "color": "8247E5",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7046,7 +7035,6 @@
           "priceId": "sora",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XOR.svg",
           "color": "EE2233",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7058,7 +7046,6 @@
           "priceId": "sora-validator-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VAL.svg",
           "color": "F3B966",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7070,7 +7057,6 @@
           "priceId": "polkaswap",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PSWAP.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7082,7 +7068,6 @@
           "priceId": "ceres",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CERES.svg",
           "color": "243579",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7094,7 +7079,6 @@
           "priceId": "crust-network",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRU.svg",
           "color": "FA8C16",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7106,7 +7090,6 @@
           "priceId": "sand",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SAND.svg",
           "color": "4AA4EB",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7118,7 +7101,6 @@
           "priceId": "fluence-2",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/FLT.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -7172,7 +7154,6 @@
           "priceId": "ethereum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -7184,7 +7165,6 @@
           "priceId": "dai",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7196,7 +7176,6 @@
           "priceId": "usd-coin",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -7254,7 +7233,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal",
           "priceProvider": {
             "type": "chainlink",
@@ -7271,7 +7249,6 @@
           "priceId": "dai",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7283,7 +7260,6 @@
           "priceId": "ethereum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7298,7 +7274,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7310,7 +7285,6 @@
           "priceId": "binance-usd",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
           "color": "F3BA2F",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7325,7 +7299,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TUSD.svg",
           "color": "005ADD",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7337,7 +7310,6 @@
           "priceId": "matic-network",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
           "color": "8247E5",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7349,7 +7321,6 @@
           "priceId": "pancakeswap-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAKE.svg",
           "color": "D1884F",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7361,7 +7332,6 @@
           "priceId": "biswap",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BSW.svg",
           "color": "E42648",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7373,7 +7343,6 @@
           "priceId": "hooked-protocol",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HOOK.svg",
           "color": "048EC8",
-          "type": "normal",
           "ethereumType": "bep20"
         },
         {
@@ -7385,7 +7354,6 @@
           "priceId": "venus",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XVS.svg",
           "color": "048EC8",
-          "type": "normal",
           "ethereumType": "bep20"
         }
       ],
@@ -7454,7 +7422,6 @@
           "priceId": "binancecoin",
           "color": "FF0066",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -7466,7 +7433,6 @@
           "priceId": "dai",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "bep20"
         }
       ],
@@ -7519,7 +7485,6 @@
           "priceId": "ethereum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -7531,7 +7496,6 @@
           "priceId": "dai",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7542,7 +7506,6 @@
           "precision": 12,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TANLOG.svg",
           "color": "9A74F7",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -7601,7 +7564,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal",
           "priceProvider": {
             "type": "chainlink",
@@ -7618,7 +7580,6 @@
           "priceId": "weth",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7634,7 +7595,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7650,7 +7610,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
           "color": "26A17B",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7662,7 +7621,6 @@
           "priceId": "binancecoin",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BNB.svg",
           "color": "F3BA2F",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7674,7 +7632,6 @@
           "priceId": "binance-usd",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BUSD.svg",
           "color": "F3BA2F",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7689,7 +7646,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "F9AF1A",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7701,7 +7657,6 @@
           "priceId": "aave",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AAVE.svg",
           "color": "B6509E",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7713,7 +7668,6 @@
           "priceId": "curve-dao-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CRV.svg",
           "color": "B6509E",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -7725,7 +7679,6 @@
           "priceId": "uniswap",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
           "color": "FF007A",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -7779,7 +7732,6 @@
           "priceId": "matic",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
           "color": "8247E5",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8026,7 +7978,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -8038,7 +7989,6 @@
           "priceId": "arbitrum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
           "color": "12AAFF",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -8096,7 +8046,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -8108,7 +8057,6 @@
           "priceId": "optimism",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OP.svg",
           "color": "FF0420",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -8173,7 +8121,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
           "color": "E84142",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8225,7 +8172,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8286,7 +8232,6 @@
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
           "color": "FFFFFF",
           "priceId": "okb",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8350,7 +8295,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -8365,7 +8309,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -8380,7 +8323,6 @@
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MATIC.svg",
           "color": "8247E5",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -8416,7 +8358,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ZETA.svg",
           "color": "235643",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8550,7 +8491,6 @@
           "priceId": "ethereum",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
           "color": "627EEA",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -8562,7 +8502,6 @@
           "priceId": "manta-network",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/MANTA.svg",
           "color": "8247E5",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -8745,7 +8684,6 @@
           "priceId": "oasys",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OAS.svg",
           "color": "00A84F",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8788,7 +8726,6 @@
           "priceId": "rootstock",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/RBTC.svg",
           "color": "",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8874,7 +8811,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LATEST.svg",
           "color": "FC81EA",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8912,7 +8848,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LATEST.svg",
           "color": "FC81EA",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -8949,7 +8884,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/CAGA.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -9187,7 +9121,6 @@
           "priceId": "klay-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KLAY.svg",
           "color": "DE1E41",
-          "type": "normal",
           "ethereumType": "normal"
         },
         {
@@ -9199,7 +9132,6 @@
           "priceId": "usd-coin",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -9211,7 +9143,6 @@
           "priceId": "tether",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
           "color": "26A17B",
-          "type": "normal",
           "ethereumType": "erc20"
         },
         {
@@ -9223,7 +9154,6 @@
           "priceId": "dai",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
           "color": "FF0066",
-          "type": "normal",
           "ethereumType": "erc20"
         }
       ],
@@ -9279,7 +9209,6 @@
           "priceId": "klay-token",
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/KAIA.svg",
           "color": "FFFFFF",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -9332,7 +9261,6 @@
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VIC.svg",
           "color": "FFFFFF",
           "priceId": "tomochain",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -9383,7 +9311,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
           "color": "071941",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
@@ -9434,7 +9361,6 @@
           "precision": 18,
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/5IRE.svg",
           "color": "071941",
-          "type": "normal",
           "ethereumType": "normal"
         }
       ],
