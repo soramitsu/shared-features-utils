@@ -7686,7 +7686,8 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LLD.svg",
         "color": "00437F",
         "isUtility": true,
-        "type": "normal"
+        "type": "normal",
+        "staking": "relaychain"
       },
       {
         "id": "30b43eb9-36b4-4b40-bf72-330d2e20ee86",
