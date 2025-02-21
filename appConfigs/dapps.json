@@ -19,24 +19,6 @@
                 "description": "TON Reputation Score is Live",
                 "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomisbg.png",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/nomis.png"
-            },
-            {
-                "identifier": "a4f64521-24bc-4c50-aa57-a2009f721336",
-                "chains": ["-239"],
-                "name": "LetsExchange",
-                "url": "https://letsexchange.io/swap",
-                "description": "Swap, buy, and sell crypto secure and hassle-free",
-                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/letsexchangebg.png",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/letsexchange.png"
-            },
-            {
-                "identifier": "da345123-6d6a-4440-b75f-875669cdb132",
-                "chains": ["-239"],
-                "name": "Tokr.fun",
-                "url": "https://tokr.fun/",
-                "description": "The ultimate meme coin launchpad on steroids!",
-                "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tokrfunbg.png",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tokrfun.jpg"
             }
         ]
     },
@@ -50,14 +32,6 @@
                 "url": "https://app.storm.tg/",
                 "description": "Perps DEX with ×100 leverage.",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/stormtrade.png"
-            },
-            {
-                "identifier": "7da02443-e7ed-4f82-aae3-baadba4e5f5a",
-                "chains": ["-239"],
-                "name": "Fanzee Battles",
-                "url": "https://battles-tg-app.fanz.ee/",
-                "description": "The biggest prediction market TMA in telegram",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/fanzee.jpg"
             }
         ]
     },      
@@ -116,35 +90,6 @@
                 "url": "https://tonscan.org/",
                 "description": "Explore The Open Network",
                 "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tonscan.jpg"
-            }
-        ]
-    },
-    {
-        "type": "nft",
-        "apps": [
-            {
-                "identifier": "a2737106-e725-445a-8165-e3d128c51fcd",
-                "chains": ["-239"],
-                "name": "TON Diamonds",
-                "url": "https://ton.diamonds/",
-                "description": "Marketplace for digital artists and high-quality collections. The first NFT on TON.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/tondiamonds.png"
-            },
-            {
-                "identifier": "327fcf07-18ed-4c84-a9d9-a0b3d8559540",
-                "chains": ["-239"],
-                "name": "Getgems.io",
-                "url": "https://getgems.io/",
-                "description": "The Home of NFT on The Open Network.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/getgems.jpg"
-            },
-            {
-                "identifier": "8c4ecf28-417e-40bf-99c8-c243d539d628",
-                "chains": ["-239"],
-                "name": "DAOLama",
-                "url": "https://app.daolama.co",
-                "description": "Use your NFTs as collateral to instantly get TON Coin.",
-                "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/develop-free/icons/dapps/daolama.png"
             }
         ]
     }
