@@ -5213,16 +5213,16 @@
     "ecosystem": "substrate",
     "externalApi": {
       "staking": {
-        "type": "soraSubquery",
+        "type": "sora",
+        "url": "https://fearless-wallet.squids.live/sora-fw/v/v12/graphql"
+      },
+      "pricing": {
+        "type": "sora",
         "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
       },
       "history": {
-        "type": "soraSubquery",
-        "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
-      },
-      "pricing": {
-          "type": "sora",
-          "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
+        "type": "sora",
+        "url": "https://fearless-wallet.squids.live/sora-fw/v/v12/graphql"
       },
       "explorers": [
         {
