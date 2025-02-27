@@ -43,8 +43,10 @@
         "staking": "relaychain",
         "purchaseProviders": [
           "moonpay",
-          "ramp"
+          "ramp",
+          "coinbase"
         ],
+        "coinbaseUrl": "addresses={\"{address}\":[\"polkadot\"]}&assets=[\"DOT\"]",
         "type": "normal",
         "priceProvider": {
             "type": "chainlink",
