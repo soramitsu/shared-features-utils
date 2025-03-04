@@ -1,0 +1,53 @@
+[
+  {
+    "disabled": false,
+    "chainId": "3266816be9fa51b32cfea58d3e33ca77246bc9618595a4300e44c8856a8d8a17",
+    "kind": "substrate",
+    "name": "SORA stage",
+    "staking": "relaychain",
+    "externalApi": {
+      "history": {
+        "type": "sora",
+        "url": "https://api.subquery.network/sq/sora-xor/sora-prod"
+      }
+    },
+    "tokens": {
+      "type": "sora",
+      "whitelist": "https://whitelist.polkaswap2.io/whitelist.json",
+      "utilityId": "0x0200000000000000000000000000000000000000000000000000000000000000"
+    },
+    "nodes": [
+      {
+        "url": "wss://ws.framenode-1.s1.stg1.sora2.soramitsu.co.jp",
+        "name": "Sora Test Node #1",
+        "enabled": true
+      },
+      {
+        "url": "wss://ws.framenode-2.s1.stg1.sora2.soramitsu.co.jp",
+        "name": "Sora Test Node #2",
+        "enabled": true
+      },
+      {
+        "url": "wss://ws.framenode-3.s2.stg1.sora2.soramitsu.co.jp",
+        "name": "Sora Test Node #3",
+        "enabled": true
+      },
+      {
+        "url": "wss://ws.framenode-4.s2.stg1.sora2.soramitsu.co.jp",
+        "name": "Sora Test Node #4",
+        "enabled": true
+      },
+      {
+        "url": "wss://ws.framenode-5.s3.stg1.sora2.soramitsu.co.jp",
+        "name": "Sora Test Node #5",
+        "enabled": true
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
+    "properties": {
+      "addressPrefix": "69",
+      "testnet": true,
+      "polkaswap": true
+    }
+  }
+]
