@@ -1561,7 +1561,7 @@
           }
         ]
       },
-      "ecosystem": "substrate",
+      "ecosystem": "ethereumBased",
       "nodes": [
         {
           "url": "wss://api-moonriver.dwellir.com",
@@ -3116,7 +3116,7 @@
           }
         ]
       },
-      "ecosystem": "substrate",
+      "ecosystem": "ethereumBased",
       "nodes": [
         {
           "url": "wss://api-moonbeam.dwellir.com",
@@ -3175,7 +3175,7 @@
           "type": "normal"
         }
       ],
-      "ecosystem": "substrate",
+      "ecosystem": "ethereumBased",
       "nodes": [
         {
           "url": "wss://wss.api.moonbase.moonbeam.network",
