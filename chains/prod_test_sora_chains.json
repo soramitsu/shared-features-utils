@@ -49,5 +49,82 @@
       "testnet": true,
       "polkaswap": true
     }
+  },
+  {
+    "disabled": false,
+    "chainId": "15b8706309a2407e6ae6615b44f08c2bee8eba3fe54a6a765e4068373feaf269",
+    "kind": "substrate",
+    "name": "SORA tst",
+    "externalApi": {
+      "history": {
+        "type": "sora",
+        "url": "https://api.subquery.network/sq/sora-xor/sora-test"
+      }
+    },
+    "tokens": {
+      "type": "sora",
+      "whitelist": "https://whitelist.polkaswap2.io/whitelist.json",
+      "utilityId": "0x0200000000000000000000000000000000000000000000000000000000000000"
+    },
+    "nodes": [
+      {
+        "url": "wss://ws.framenode-1.r0.tst.sora2.soramitsu.co.jp",
+        "name": "SORA Parliament Ministry of Finance Node",
+        "enabled": true
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/SORA.svg",
+    "properties": {
+      "addressPrefix": "69",
+      "rank": "0",
+      "polkaswap": true
+    }
+  },
+  {
+    "disabled": false,
+    "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "kind": "substrate",
+    "name": "westend",
+    "staking": "relaychain",
+    "externalApi": {
+      
+    },
+    "tokens": {
+      "type": "config",
+      "tokens": [
+        {
+          "id": "westend_utility_token_id",
+          "name": "westend",
+          "symbol": "wnd",
+          "isUtility": true,
+          "precision": 12,
+          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WND.svg",
+          "tokenProperties": {
+            "priceId": "",
+            "currencyId": "",
+            "color": "EE2233",
+            "type": "normal"
+          }
+        }
+      ]
+    },
+    "nodes": [
+      {
+        "url": "wss://westend-rpc.polkadot.io",
+        "name": "Parity node",
+        "enabled": true
+    },
+    {
+        "url": "wss://westend-rpc.dwellir.com",
+        "name": "Dwellir node",
+        "enabled": true
+    }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Westend.svg",
+    "properties": {
+      "addressPrefix": "42",
+      "testnet": true,
+      "polkaswap": false
+    }
   }
 ]
