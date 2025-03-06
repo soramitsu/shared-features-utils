@@ -5158,7 +5158,7 @@
       },
       {
         "id": "191c31de-62b1-41e4-aad3-15a5be1b4cd4",
-        "name": "dai",
+        "name": "dai stablecoin",
         "symbol": "dai",
         "currencyId": "0x0200060000000000000000000000000000000000000000000000000000000000",
         "precision": 18,
@@ -5427,7 +5427,7 @@
       },
       {
         "id": "1e6f8ba3-5aeb-41d8-b80e-a44ce0f33716",
-        "name": "dai",
+        "name": "dai stablecoin",
         "symbol": "dai",
         "currencyId": "0x0200060000000000000000000000000000000000000000000000000000000000",
         "precision": 18,
@@ -6792,7 +6792,7 @@
       {
         "isUtility": false,
         "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
-        "name": "DAI",
+        "name": "dai stablecoin",
         "symbol": "DAI",
         "precision": 18,
         "priceId": "dai",
@@ -7041,7 +7041,7 @@
       {
         "isUtility": false,
         "id": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-        "name": "dai",
+        "name": "dai stablecoin",
         "symbol": "dai",
         "precision": 18,
         "priceId": "dai",
@@ -7270,6 +7270,39 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ARB.svg",
         "color": "12AAFF",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+        "name": "dai stablecoin",
+        "symbol": "dai",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
@@ -7329,6 +7362,39 @@
         "priceId": "optimism",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/OP.svg",
         "color": "FF0420",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+        "name": "dai stablecoin",
+        "symbol": "dai",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
         "ethereumType": "erc20"
       }
     ],
@@ -7390,6 +7456,39 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
         "color": "E84142",
         "ethereumType": "normal"
+      },
+      {
+        "isUtility": false,
+        "id": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+        "name": "dai stablecoin",
+        "symbol": "dai.e",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
@@ -7452,6 +7551,39 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x37eAA0eF3549a5Bb7D431be78a3D99BD360d19e5",
+        "name": "usd coin",
+        "symbol": "usdc.e",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
+        "name": "dai stablecoin",
+        "symbol": "dai",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
         "ethereumType": "erc20"
       },
       {
