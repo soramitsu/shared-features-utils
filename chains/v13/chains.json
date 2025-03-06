@@ -6501,20 +6501,20 @@
     "name": "Ethereum",
     "ecosystem": "ethereum",
     "externalApi": {
+      "history": {
+        "type": "oklink",
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=ETH"
+      },
       "explorers": [
         {
-          "type": "etherscan",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
           ],
-          "url": "https://etherscan.io/{type}/{value}"
+          "url": "https://www.okx.com/web3/explorer/eth/{type}/{value}?channelID=flessw"
         }
-      ],
-      "history": {
-        "type": "etherscan",
-        "url": "https://api.etherscan.io/api"
-      }
+      ]
     },
     "assets": [
       {
@@ -6758,17 +6758,17 @@
     "ecosystem": "ethereum",
     "externalApi": {
       "history": {
-        "type": "etherscan",
-        "url": "https://api.bscscan.com/api"
+        "type": "oklink",
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=BSC"
       },
       "explorers": [
         {
-          "type": "etherscan",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
           ],
-          "url": "https://bscscan.com/{type}/{value}"
+          "url": "https://www.okx.com/web3/explorer/bsc/{type}/{value}?channelID=flessw"
         }
       ]
     },
@@ -6951,20 +6951,20 @@
     "name": "Polygon",
     "ecosystem": "ethereum",
     "externalApi": {
+      "history": {
+        "type": "oklink",
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=POLYGON"
+      },
       "explorers": [
         {
-          "type": "etherscan",
+          "type": "oklink",
           "types": [
             "tx",
             "address"
           ],
-          "url": "https://polygonscan.com/{type}/{value}"
+          "url": "https://www.okx.com/web3/explorer/polygon/{type}/{value}?channelID=flessw"
         }
-      ],
-      "history": {
-        "type": "etherscan",
-        "url": "https://api.polygonscan.com/api"
-      }
+      ]
     },
     "assets": [
       {
