@@ -6998,7 +6998,7 @@
         "isUtility": false,
         "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "name": "usd coin",
-        "symbol": "usdc",
+        "symbol": "usdc.e",
         "precision": 6,
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
