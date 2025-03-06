@@ -8638,7 +8638,7 @@
   {
     "disabled": false,
     "chainId": "-239",
-    "name": "Ton Mainnet",
+    "name": "TON Mainnet",
     "ecosystem": "ton",
     "iosMinAppVersion": "4.0.1",
     "externalApi": {
@@ -8684,7 +8684,7 @@
   {
     "disabled": true,
     "chainId": "-3",
-    "name": "Ton Testnet",
+    "name": "TON Testnet",
     "ecosystem": "ton",
     "iosMinAppVersion": "3.8.1",
     "externalApi": {
