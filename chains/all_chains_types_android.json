@@ -1164,8 +1164,9 @@
           "Index": "u32",
           "Phase": "frame_system::Phase",
           "H160": "[u8; 20]",
-          "0": "H160",
-          "Address": "0",
+          "0": "[u8; 20]",
+          "Address": "[u8; 20]",
+          "AccountId": "[u8; 20]",
           "EthereumSignature": {
             "type": "struct",
             "type_mapping": [
@@ -1183,10 +1184,10 @@
               ]
             ]
           },
-          "ExtrinsicSignature": "EthereumSignature",
+          "ExtrinsicSignature": "account::EthereumSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
-          "moonbase_runtime::Event": "GenericEvent",
-          "moonbase_runtime::Call": "GenericCall",
+          "moonbase_runtime::RuntimeEvent": "GenericEvent",
+          "moonbase_runtime::RuntimeCall": "GenericCall",
           "sp_core::crypto::AccountId32": "GenericAccountId"
         }
       }
