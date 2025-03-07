@@ -7458,6 +7458,17 @@
         "ethereumType": "normal"
       },
       {
+        "isUtility": true,
+        "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "name": "wrapped avax",
+        "symbol": "wavax",
+        "precision": 18,
+        "priceId": "avalanche-2",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
+        "color": "E84142",
+        "ethereumType": "erc20"
+      },
+      {
         "isUtility": false,
         "id": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
         "name": "dai stablecoin",
@@ -8120,6 +8131,61 @@
         "color": "FFFFFF",
         "priceId": "okb",
         "ethereumType": "normal"
+      },
+      {
+        "isUtility": true,
+        "id": "0xe538905cf8410324e03a5a23c1c177a474d59b2b",
+        "name": "wrapped okb",
+        "symbol": "wokb",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/XLOKB.svg",
+        "color": "FFFFFF",
+        "priceId": "okb",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4",
+        "name": "dai stablecoin",
+        "symbol": "dai",
+        "precision": 18,
+        "priceId": "dai",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
+        "color": "FF0066",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x1e4a5963abfd975d8c9021ce480b42188849d41d",
+        "name": "tether usd",
+        "symbol": "usdt",
+        "precision": 6,
+        "priceId": "tether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
+        "color": "26A17B",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x74b7f16337b8972027f6196a17a631ac6de26d22",
+        "name": "usd coin",
+        "symbol": "usdc",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x5a77f1443d16ee5761d310e38b62f77f726bc71c",
+        "name": "wrapped ether",
+        "symbol": "weth",
+        "precision": 18,
+        "priceId": "weth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
+        "color": "FFFFFF",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
