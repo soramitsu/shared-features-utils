@@ -7352,7 +7352,7 @@
         "isUtility": false,
         "id": "0x0fBcbaEA96Ce0cF7Ee00A8c19c3ab6f5Dc8E1921",
         "name": "wrapped steth",
-        "symbol": "weth",
+        "symbol": "wsteth",
         "precision": 18,
         "priceId": "wrapped-steth",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WSTETH.svg",
@@ -7462,6 +7462,83 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+        "name": "bridged usdc",
+        "symbol": "usdc.e",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+        "name": "wrapped btc",
+        "symbol": "wbtc",
+        "precision": 8,
+        "priceId": "wrapped-bitcoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WBTC.svg",
+        "color": "F09242",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+        "name": "chainlink",
+        "symbol": "link",
+        "precision": 18,
+        "priceId": "chainlink",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
+        "color": "FFFFFF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x4200000000000000000000000000000000000006",
+        "name": "wrapped ether",
+        "symbol": "weth",
+        "precision": 18,
+        "priceId": "weth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
+        "color": "FFFFFF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+        "name": "wrapped steth",
+        "symbol": "wsteth",
+        "precision": 18,
+        "priceId": "wrapped-steth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WSTETH.svg",
+        "color": "00A3FF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+        "name": "worldcoin",
+        "symbol": "wld",
+        "precision": 18,
+        "priceId": "worldcoin-wld",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WLD.svg",
+        "color": "FFFFFF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+        "name": "synthetix network",
+        "symbol": "snx",
+        "precision": 18,
+        "priceId": "havven",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WLD.svg",
+        "color": "00D1FF",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
@@ -7529,7 +7606,7 @@
         "name": "wrapped avax",
         "symbol": "wavax",
         "precision": 18,
-        "priceId": "avalanche-2",
+        "priceId": "wrapped-avax",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVAX.svg",
         "color": "E84142",
         "ethereumType": "erc20"
@@ -7565,6 +7642,28 @@
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
         "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+        "name": "bitcoin",
+        "symbol": "btc.b",
+        "precision": 8,
+        "priceId": "bitcoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BTC.svg",
+        "color": "F7931A",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "name": "wrapped ether",
+        "symbol": "weth.e",
+        "precision": 18,
+        "priceId": "weth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETHE.svg",
+        "color": "FFFFFF",
         "ethereumType": "erc20"
       }
     ],
