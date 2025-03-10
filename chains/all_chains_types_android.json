@@ -1184,7 +1184,7 @@
               ]
             ]
           },
-          "ExtrinsicSignature": "account::EthereumSignature",
+          "ExtrinsicSignature": "ecdsa::Signature",
           "ParaId": "polkadot_parachain::primitives::Id",
           "moonbase_runtime::RuntimeEvent": "GenericEvent",
           "moonbase_runtime::RuntimeCall": "GenericCall",
