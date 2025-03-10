@@ -1167,6 +1167,7 @@
           "0": "[u8; 20]",
           "Address": "[u8; 20]",
           "AccountId": "[u8; 20]",
+          "TransactionRecoveryId": "u64",
           "ethereum::transaction::TransactionSignature": {
             "type": "struct",
             "type_mapping": [
@@ -1180,7 +1181,7 @@
               ],
               [
                 "v",
-                "u64"
+                "TransactionRecoveryId"
               ]
             ]
           },
