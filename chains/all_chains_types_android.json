@@ -1167,7 +1167,7 @@
           "0": "[u8; 20]",
           "Address": "[u8; 20]",
           "AccountId": "[u8; 20]",
-          "EthereumSignature": {
+          "ethereum::transaction::TransactionSignature": {
             "type": "struct",
             "type_mapping": [
               [
@@ -1180,11 +1180,11 @@
               ],
               [
                 "v",
-                "u8"
+                "u64"
               ]
             ]
           },
-          "ExtrinsicSignature": "ecdsa::Signature",
+          "ExtrinsicSignature": "ethereum::transaction::TransactionSignature",
           "ParaId": "polkadot_parachain::primitives::Id",
           "moonbase_runtime::RuntimeEvent": "GenericEvent",
           "moonbase_runtime::RuntimeCall": "GenericCall",
