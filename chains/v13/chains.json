@@ -8351,6 +8351,28 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
         "color": "FFFFFF",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1",
+        "name": "wrapped btc",
+        "symbol": "wbtc",
+        "precision": 8,
+        "priceId": "wrapped-bitcoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WBTC.svg",
+        "color": "F09242",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x68286607a1d43602d880d349187c3c48c0fd05e6",
+        "name": "quickswap",
+        "symbol": "quick",
+        "precision": 18,
+        "priceId": "quickswap",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/QUICK.svg",
+        "color": "4188C9",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
