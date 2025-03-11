@@ -7783,6 +7783,50 @@
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/POL.svg",
         "color": "A229C5",
         "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9",
+        "name": "wrapped ether",
+        "symbol": "weth",
+        "precision": 18,
+        "priceId": "weth",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
+        "color": "FFFFFF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
+        "name": "wrapped btc",
+        "symbol": "wbtc",
+        "precision": 8,
+        "priceId": "wrapped-bitcoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WBTC.svg",
+        "color": "F09242",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0xFf8544feD5379D9ffa8D47a74cE6b91e632AC44D",
+        "name": "frax",
+        "symbol": "frax",
+        "precision": 18,
+        "priceId": "frax",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/FRAX.svg",
+        "color": "FFFFFFF",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x7c2aF1Fb79D0b1c67d4eb802d44C673D0A1D2C04",
+        "name": "staked frax ether",
+        "symbol": "frax",
+        "precision": 18,
+        "priceId": "staked-frax-ether",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SFRXETH.svg",
+        "color": "FFFFFFF",
+        "ethereumType": "erc20"
       }
     ],
     "nodes": [
