@@ -1788,5 +1788,52 @@
       "utilityFeePayment",
       "okx"
     ]
+  },
+  {
+    "disabled": false,
+    "chainId": "1329",
+    "name": "SEI Network",
+    "ecosystem": "ethereum",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://seitrace.com/{type}/{value}?chain=pacific-1"
+        }
+      ]
+    },
+    "assets": [
+        {
+            "isUtility": true,
+            "id": "4fba6c84-5523-4a65-8764-b505cb152157",
+            "name": "sei",
+            "symbol": "sei",
+            "precision": 18,
+            "priceId": "sei-network",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SEI.svg",
+            "color": "9D201A",
+            "ethereumType": "normal"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "https://evm-rpc.sei-apis.com/",
+            "name": "SEI http node"
+        },
+        {
+            "url": "wss://evm-ws.sei-apis.com",
+            "name": "SEI wss node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/seinetwork.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
   }
 ]
