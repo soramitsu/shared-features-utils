@@ -7536,7 +7536,7 @@
         "symbol": "snx",
         "precision": 18,
         "priceId": "havven",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WLD.svg",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SNX.svg",
         "color": "00D1FF",
         "ethereumType": "erc20"
       }
@@ -7821,7 +7821,7 @@
         "isUtility": false,
         "id": "0x7c2aF1Fb79D0b1c67d4eb802d44C673D0A1D2C04",
         "name": "staked frax ether",
-        "symbol": "frax",
+        "symbol": "sfrxeth",
         "precision": 18,
         "priceId": "staked-frax-ether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SFRXETH.svg",
