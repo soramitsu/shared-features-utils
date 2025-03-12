@@ -6997,8 +6997,19 @@
       {
         "isUtility": false,
         "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "name": "usd coin",
+        "name": "bridged usdc",
         "symbol": "usdc.e",
+        "precision": 6,
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
+        "color": "3E73C4",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "name": "usd coin",
+        "symbol": "usdc",
         "precision": 6,
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
@@ -7080,6 +7091,28 @@
         "priceId": "uniswap",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/UNI.svg",
         "color": "FF007A",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "name": "wrapped btc",
+        "symbol": "wbtc",
+        "precision": 8,
+        "priceId": "wrapped-bitcoin",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WBTC.svg",
+        "color": "F09242",
+        "ethereumType": "erc20"
+      },
+      {
+        "isUtility": false,
+        "id": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+        "name": "chainlink",
+        "symbol": "link",
+        "precision": 18,
+        "priceId": "chainlink",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LINK.svg",
+        "color": "FFFFFF",
         "ethereumType": "erc20"
       }
     ],
@@ -7732,7 +7765,7 @@
       {
         "isUtility": false,
         "id": "0x37eAA0eF3549a5Bb7D431be78a3D99BD360d19e5",
-        "name": "usd coin",
+        "name": "bridged usdc",
         "symbol": "usdc.e",
         "precision": 6,
         "priceId": "usd-coin",
