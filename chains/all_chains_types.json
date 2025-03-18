@@ -15199,5 +15199,24 @@
             }
         }
     ]
-  }
+  },
+  {
+    "chainId": "dcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+    "runtime_id": 1004000,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "bridge_hub_polkadot_runtime::RuntimeEvent",
+                "GenericCall": "bridge_hub_polkadot_runtime::RuntimeCall"
+            }
+        }
+    ]
+}
 ]
