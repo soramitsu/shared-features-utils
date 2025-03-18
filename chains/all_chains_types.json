@@ -15256,5 +15256,24 @@
           }
       }
   ]
+},
+{
+  "chainId": "61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+  "runtime_id": 2800,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "nexus_runtime::RuntimeEvent",
+              "GenericCall": "nexus_runtime::RuntimeCall"
+          }
+      }
+  ]
 }
 ]

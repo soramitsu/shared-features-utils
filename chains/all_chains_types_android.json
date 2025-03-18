@@ -15695,5 +15695,29 @@
         }
       }
     ]
+  },
+  {
+    "chainId": "61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+    "runtime_id": 2800,
+    "types": { },
+    "versioning": [
+      {
+        "runtime_range": [
+          0,
+          null
+        ],
+        "types": {
+          "Balance": "u128",
+          "Index": "u32",
+          "Phase": "frame_system::Phase",
+          "Address": "sp_runtime::multiaddress::MultiAddress",
+          "ExtrinsicSignature": "sp_runtime::MultiSignature",
+          "ParaId": "polkadot_parachain::primitives::Id",
+          "nexus_runtime::RuntimeEvent": "GenericEvent",
+          "nexus_runtime::RuntimeCall": "GenericCall",
+          "sp_core::crypto::AccountId32": "GenericAccountId"
+        }
+      }
+    ]
   }
 ]
