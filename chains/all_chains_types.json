@@ -15294,5 +15294,24 @@
           }
       }
   ]
+},
+{
+  "chainId": "7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+  "runtime_id": 1000000,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "polimec_runtime::RuntimeEvent",
+              "GenericCall": "polimec_runtime::RuntimeCall"
+          }
+      }
+  ]
 }
 ]
