@@ -3809,7 +3809,7 @@
     "chainId": "2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2013",
-    "name": "Litentry",
+    "name": "Heima",
     "ecosystem": "substrate",
     "externalApi": {
       "history": {
@@ -3820,12 +3820,12 @@
     "assets": [
       {
         "id": "10de552c-20cb-4a86-9bf8-cf5827ca2f71",
-        "name": "litentry",
-        "symbol": "lit",
+        "name": "heima",
+        "symbol": "hei",
         "precision": 18,
-        "priceId": "litentry",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LIT_DOT.svg",
-        "color": "02C86A",
+        "priceId": "heima",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HEI.svg",
+        "color": "8AD498",
         "isUtility": true,
         "type": "normal"
       }
@@ -3836,11 +3836,11 @@
         "name": "Dwellir node"
       },
       {
-        "url": "wss://rpc.litentry-parachain.litentry.io",
-        "name": "Litentry node"
+        "url": "wss://rpc.heima-parachain.heima.network",
+        "name": "Heima node"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Litentry.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/heima.svg",
     "addressPrefix": 31
   },
   {
