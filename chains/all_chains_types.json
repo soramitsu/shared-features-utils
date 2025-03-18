@@ -15275,5 +15275,24 @@
           }
       }
   ]
+},
+{
+  "chainId": "31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
+  "runtime_id": 13,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "invarch_runtime::RuntimeEvent",
+              "GenericCall": "invarch_runtime::RuntimeCall"
+          }
+      }
+  ]
 }
 ]
