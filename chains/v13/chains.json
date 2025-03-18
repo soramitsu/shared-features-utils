@@ -2511,7 +2511,7 @@
     ]
   },
   {
-    "disabled": false,
+    "disabled": true,
     "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2012",
@@ -3809,7 +3809,7 @@
     "chainId": "2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2013",
-    "name": "Litentry",
+    "name": "Heima",
     "ecosystem": "substrate",
     "externalApi": {
       "history": {
@@ -3820,12 +3820,12 @@
     "assets": [
       {
         "id": "10de552c-20cb-4a86-9bf8-cf5827ca2f71",
-        "name": "litentry",
-        "symbol": "lit",
+        "name": "heima",
+        "symbol": "hei",
         "precision": 18,
-        "priceId": "litentry",
-        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/LIT_DOT.svg",
-        "color": "02C86A",
+        "priceId": "heima",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/HEI.svg",
+        "color": "8AD498",
         "isUtility": true,
         "type": "normal"
       }
@@ -3836,11 +3836,11 @@
         "name": "Dwellir node"
       },
       {
-        "url": "wss://rpc.litentry-parachain.litentry.io",
-        "name": "Litentry node"
+        "url": "wss://rpc.heima-parachain.heima.network",
+        "name": "Heima node"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Litentry.svg",
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/heima.svg",
     "addressPrefix": 31
   },
   {
@@ -4389,7 +4389,7 @@
     "chainId": "724c168d8e86b78b831c641e2cc822b8d1bf99fa0b4b28fe59985cd6fd580215",
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "2039",
-    "name": "Integritee Shell",
+    "name": "Integritee Network (Polkadot)",
     "ecosystem": "substrate",
     "externalApi": {
       "history": {
@@ -7985,7 +7985,9 @@
   {
     "disabled": false,
     "chainId": "f3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "name": "Manta Parachain",
+    "paraId": "2104",
     "ecosystem": "substrate",
     "externalApi": {
       "explorers": [
