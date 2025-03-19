@@ -6998,7 +6998,7 @@
         "isUtility": false,
         "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "name": "usd coin",
-        "symbol": "usdc",
+        "symbol": "usdc.e",
         "precision": 6,
         "priceId": "usd-coin",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
@@ -8638,7 +8638,7 @@
   {
     "disabled": false,
     "chainId": "-239",
-    "name": "Ton Mainnet",
+    "name": "TON Mainnet",
     "ecosystem": "ton",
     "iosMinAppVersion": "4.0.1",
     "externalApi": {
@@ -8683,7 +8683,7 @@
   {
     "disabled": false,
     "chainId": "-3",
-    "name": "Ton Testnet",
+    "name": "TON Testnet",
     "ecosystem": "ton",
     "iosMinAppVersion": "3.8.1",
     "externalApi": {

@@ -241,6 +241,66 @@
                     }
                 ]
             }
+        },
+        {
+            "minVersion": "4.0.1",
+            "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/background.png",
+            "en-EN": {
+                "new":[
+                    {
+                        "title": {"text": "Step into the World of TON", "color": ""},
+                        "description": "The Fearless Wallet now supports TON! Seamlessly manage your TON assets alongside your multi-chain portfolio.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/1.png"
+                    },
+                    {
+                        "title": {"text": "Connect and Explore TON dApps", "color": ""},
+                        "description": "With TON Connect, effortlessly link to the growing TON ecosystem. Discover endless dApps and decentralized possibilities, right at your fingertips.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/2.png"
+                    },
+                    {
+                        "title": {"text": "Seamless dApp Browsing", "color": ""},
+                        "description": "Experience decentralized apps smoothly within Fearless Wallet’s integrated dApp browser—your gateway to all things DeFi on TON.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/3.png"
+                    },
+                    {
+                        "title": {"text": "Full Control at Your Fingertips", "color": ""},
+                        "description": "Keep tabs on every detail with updated balances, transfers, and transaction histories for TON and JETTON. Security and transparency, all in one place.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/4.png"
+                    },
+                    {
+                        "title": {"text": "Power Up Your DeFi Journey", "color": ""},
+                        "description": "The new Fearless Wallet update is packed with essential tools and security, helping you explore DeFi securely and confidently.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/5.png"
+                    }
+                ],
+                "regular":[
+                    {
+                        "title": {"text": "Step into the World of TON", "color": ""},
+                        "description": "The Fearless Wallet now supports TON! Seamlessly manage your TON assets alongside your multi-chain portfolio.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/1.png"
+                    },
+                    {
+                        "title": {"text": "Connect and Explore TON dApps", "color": ""},
+                        "description": "With TON Connect, effortlessly link to the growing TON ecosystem. Discover endless dApps and decentralized possibilities, right at your fingertips.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/2.png"
+                    },
+                    {
+                        "title": {"text": "Seamless dApp Browsing", "color": ""},
+                        "description": "Experience decentralized apps smoothly within Fearless Wallet’s integrated dApp browser—your gateway to all things DeFi on TON.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/3.png"
+                    },
+                    {
+                        "title": {"text": "Full Control at Your Fingertips", "color": ""},
+                        "description": "Keep tabs on every detail with updated balances, transfers, and transaction histories for TON and JETTON. Security and transparency, all in one place.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/4.png"
+                    },
+                    {
+                        "title": {"text": "Power Up Your DeFi Journey", "color": ""},
+                        "description": "The new Fearless Wallet update is packed with essential tools and security, helping you explore DeFi securely and confidently.",
+                        "image": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/5.png"
+                    }
+                ]
+            }
         }
     ]
 }
