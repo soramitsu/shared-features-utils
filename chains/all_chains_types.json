@@ -15199,5 +15199,119 @@
             }
         }
     ]
-  }
+  },
+  {
+    "chainId": "dcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+    "runtime_id": 1004000,
+    "types": { },
+    "versioning": [
+        {
+            "runtime_range": [
+                0,
+                null
+            ],
+            "types": {
+                "Balance": "u128",
+                "Index": "u32",
+                "GenericEvent": "bridge_hub_polkadot_runtime::RuntimeEvent",
+                "GenericCall": "bridge_hub_polkadot_runtime::RuntimeCall"
+            }
+        }
+    ]
+},
+{
+  "chainId": "46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+  "runtime_id": 1004000,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "collectives_polkadot_runtime::RuntimeEvent",
+              "GenericCall": "collectives_polkadot_runtime::RuntimeCall"
+          }
+      }
+  ]
+},
+{
+  "chainId": "8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+  "runtime_id": 84,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "avn_parachain_runtime::RuntimeEvent",
+              "GenericCall": "avn_parachain_runtime::RuntimeCall"
+          }
+      }
+  ]
+},
+{
+  "chainId": "61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+  "runtime_id": 2800,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "nexus_runtime::RuntimeEvent",
+              "GenericCall": "nexus_runtime::RuntimeCall"
+          }
+      }
+  ]
+},
+{
+  "chainId": "31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
+  "runtime_id": 13,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "invarch_runtime::RuntimeEvent",
+              "GenericCall": "invarch_runtime::RuntimeCall"
+          }
+      }
+  ]
+},
+{
+  "chainId": "7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+  "runtime_id": 1000000,
+  "types": { },
+  "versioning": [
+      {
+          "runtime_range": [
+              0,
+              null
+          ],
+          "types": {
+              "Balance": "u128",
+              "Index": "u32",
+              "GenericEvent": "polimec_runtime::RuntimeEvent",
+              "GenericCall": "polimec_runtime::RuntimeCall"
+          }
+      }
+  ]
+}
 ]
