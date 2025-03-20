@@ -9351,5 +9351,313 @@
         "remoteAssets",
         "testnet"
     ]
+  },
+  {
+    "disabled": false,
+    "chainId": "dcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "1002",
+    "name": "Polkadot BridgeHub",
+    "ecosystem": "substrate",
+    "externalApi":{
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://bridgehub-polkadot/{type}/{value}"
+        }
+      ],
+      "history": {
+        "type": "subquery",
+        "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---polkadot-bridgehub"
+      }
+    },
+    "assets": [
+      {
+        "id": "dcbd7f55-c9f2-4ddf-a051-24256aeef6c9",
+        "name": "polkadot",
+        "symbol": "dot",
+        "precision": 10,
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://api-polkadot-bridge-hub.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+        "name": "Parity node"
+      },
+      {
+        "url": "wss://sys.ibp.network/bridgehub-polkadot",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://bridge-hub-polkadot.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://rpc-bridge-hub-polkadot.luckyfriday.io",
+        "name": "LuckyFriday node"
+      },
+      {
+        "url": "wss://bridgehub-polkadot.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://dot-rpc.stakeworld.io/bridgehub",
+        "name": "Stakeworld node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Bridgehub.svg",
+    "addressPrefix": 0
+  },
+  {
+    "disabled": false,
+    "chainId": "46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "1001",
+    "name": "Polkadot Collectives",
+    "ecosystem": "substrate",
+    "externalApi":{
+      "explorers": [
+        {
+          "type": "subscan",
+          "types": [
+            "extrinsic",
+            "account"
+          ],
+          "url": "https://collectives-polkadot.subscan.io/{type}/{value}"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "33b5bb6a-7360-447a-b893-4322810499dc",
+        "name": "polkadot",
+        "symbol": "dot",
+        "precision": 10,
+        "priceId": "polkadot",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DOT.svg",
+        "color": "FF0066",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://polkadot-collectives-rpc.polkadot.io",
+        "name": "Parity node"
+      },
+      {
+        "url": "wss://sys.ibp.network/collectives-polkadot",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://collectives-polkadot.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://rpc-collectives-polkadot.luckyfriday.io",
+        "name": "LuckyFriday node"
+      },
+      {
+        "url": "wss://collectives.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://dot-rpc.stakeworld.io/collectives",
+        "name": "Stakeworld node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/collectives.svg",
+    "addressPrefix": 0
+  },
+  {
+    "disabled": false,
+    "chainId": "8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "3366",
+    "name": "AvN Polkadot",
+    "ecosystem": "substrate",
+    "externalApi": {
+      "history": [
+        {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aventus"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "182cd6c0-864c-4ba5-96f1-89ea05ab7ac5",
+        "name": "avt",
+        "symbol": "avt",
+        "precision": 18,
+        "priceId": "aventus",
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/AVT.svg",
+        "color": "5100FF",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://public-rpc.mainnet.aventus.io",
+        "name": "Aventus node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/aventus.svg",
+    "addressPrefix": 42
+  },
+  {
+    "disabled": false,
+    "chainId": "61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "3367",
+    "name": "Hyperbridge (Nexus)",
+    "ecosystem": "substrate",
+    "externalApi": {
+      "history": [
+        {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-hyperbridge"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "a7ac5f36-2004-4c10-8efa-2fc0f9419532",
+        "name": "bridge",
+        "symbol": "bridge",
+        "precision": 12,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/BRIDGE.svg",
+        "color": "6D4185",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://nexus.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://nexus.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://hyperbridge-nexus-rpc.blockops.network",
+        "name": "BlockOps node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/hyperbridge.svg",
+    "addressPrefix": 0
+  },
+  {
+    "disabled": false,
+    "chainId": "31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "3340",
+    "name": "InvArch Network",
+    "ecosystem": "substrate",
+    "externalApi": {
+      "history": [
+        {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---invarch"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "502b7bda-c8ce-458d-b1ff-afe4a80c0c60",
+        "name": "varch",
+        "symbol": "varch",
+        "precision": 12,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/VARCH.svg",
+        "color": "EA4683",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://api-invarch.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://invarch.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://invarch.dotters.network",
+        "name": "IBP2 node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/invarch.svg",
+    "addressPrefix": 117
+  },
+  {
+    "disabled": false,
+    "chainId": "7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+    "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "paraId": "3344",
+    "name": "Polimec",
+    "ecosystem": "substrate",
+    "externalApi": {
+      "history": [
+        {
+          "type": "subquery",
+          "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---polymec"
+        }
+      ]
+    },
+    "assets": [
+      {
+        "id": "a988210e-474a-40bd-93e1-584f4800f3f3",
+        "name": "plmc",
+        "symbol": "plmc",
+        "precision": 10,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PLMC.svg",
+        "color": "CAFFA0",
+        "priceId": "polimec",
+        "isUtility": true,
+        "type": "normal"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://polimec.rpc.amforc.com",
+        "name": "Amforc node"
+      },
+      {
+        "url": "wss://polimec.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://polimec.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://rpc.helikon.io/polimec",
+        "name": "Helikon node"
+      },
+      {
+        "url": "wss://rpc.polimec.org",
+        "name": "Polimec Foundation node"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/polimec.svg",
+    "addressPrefix": 41
   }
 ]
