@@ -9490,12 +9490,11 @@
     "name": "AvN Polkadot",
     "ecosystem": "substrate",
     "externalApi": {
-      "history": [
+      "history":
         {
           "type": "subquery",
           "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-aventus"
         }
-      ]
     },
     "assets": [
       {
@@ -9527,12 +9526,11 @@
     "name": "Hyperbridge (Nexus)",
     "ecosystem": "substrate",
     "externalApi": {
-      "history": [
+      "history":
         {
           "type": "subquery",
           "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-hyperbridge"
         }
-      ]
     },
     "assets": [
       {
@@ -9571,12 +9569,11 @@
     "name": "InvArch Network",
     "ecosystem": "substrate",
     "externalApi": {
-      "history": [
+      "history":
         {
           "type": "subquery",
           "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---invarch"
         }
-      ]
     },
     "assets": [
       {
@@ -9615,12 +9612,11 @@
     "name": "Polimec",
     "ecosystem": "substrate",
     "externalApi": {
-      "history": [
+      "history":
         {
           "type": "subquery",
           "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet---polymec"
         }
-      ]
     },
     "assets": [
       {
