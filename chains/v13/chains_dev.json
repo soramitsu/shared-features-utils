@@ -4687,40 +4687,6 @@
       "addressPrefix": 42
     },
     {
-      "disabled": false,
-      "chainId": "d42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-      "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-      "paraId": "2125",
-      "name": "InvArch Tinker Network",
-      "externalApi": {
-        "history": {
-          "type": "subquery",
-          "url": "https://api.subquery.network/sq/soramitsu/InvArch-Tinker-x-Fearless-Wallet"
-        }
-      },
-      "assets": [
-        {
-          "id": "8b58d683-fdc9-477e-a1b2-2c95b663e4a5",
-          "name": "tinkernet parachain",
-          "symbol": "tnkr",
-          "precision": 12,
-          "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/TNKR.svg",
-          "color": "AC2489",
-          "isUtility": true,
-          "type": "normal"
-        }
-      ],
-      "ecosystem": "substrate",
-      "nodes": [
-        {
-          "url": "wss://api-invarch.dwellir.com",
-          "name": "Dwellir node"
-        }
-      ],
-      "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/Tinkernet.svg",
-      "addressPrefix": 117
-    },
-    {
       "disabled": true,
       "chainId": "19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
       "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
