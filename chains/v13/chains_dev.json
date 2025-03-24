@@ -9812,6 +9812,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "1002",
     "name": "Polkadot BridgeHub",
+    "ecosystem": "substrate",
     "externalApi":{
       "explorers": [
         {
@@ -9880,6 +9881,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "1001",
     "name": "Polkadot Collectives",
+    "ecosystem": "substrate",
     "externalApi":{
       "explorers": [
         {
@@ -9940,6 +9942,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "3366",
     "name": "AvN Polkadot",
+    "ecosystem": "substrate",
     "externalApi": {
       "history": {
           "type": "subquery",
@@ -9975,6 +9978,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "3367",
     "name": "Hyperbridge (Nexus)",
+    "ecosystem": "substrate",
     "externalApi": {
       "history":
         {
@@ -10018,6 +10022,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "3340",
     "name": "InvArch Network",
+    "ecosystem": "substrate",
     "externalApi": {
       "history":
         {
@@ -10061,6 +10066,7 @@
     "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "paraId": "3344",
     "name": "Polimec",
+    "ecosystem": "substrate",
     "externalApi": {
       "history":
         {
