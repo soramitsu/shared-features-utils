@@ -6532,7 +6532,8 @@
         "color": "FF0066",
         "ethereumType": "normal",
         "purchaseProviders": [
-          "coinbase"
+          "coinbase",
+          "soracard"
         ],
         "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"ETH\"]",
         "priceProvider": {
@@ -6567,7 +6568,8 @@
         "color": "26A17B",
         "ethereumType": "erc20",
         "purchaseProviders": [
-          "coinbase"
+          "coinbase",
+          "soracard"
         ],
         "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDT\"]"
       },
@@ -6582,7 +6584,8 @@
         "color": "3E73C4",
         "ethereumType": "erc20",
         "purchaseProviders": [
-          "coinbase"
+          "coinbase",
+          "soracard"
         ],
         "coinbaseUrl": "addresses={\"{address}\":[\"ethereum\"]}&assets=[\"USDC\"]"
       },

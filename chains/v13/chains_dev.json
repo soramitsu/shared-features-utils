@@ -6850,7 +6850,8 @@
           "ethereumType": "normal",
           "purchaseProviders": [
             "moonpay",
-            "ramp"
+            "ramp",
+            "soracard"
           ],
           "priceProvider": {
             "type": "chainlink",
@@ -6881,7 +6882,8 @@
           "priceId": "tether",
           "purchaseProviders": [
             "moonpay",
-            "ramp"
+            "ramp",
+            "soracard"
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDT.svg",
           "color": "26A17B",
@@ -6896,7 +6898,8 @@
           "priceId": "usd-coin",
           "purchaseProviders": [
             "moonpay",
-            "ramp"
+            "ramp",
+            "soracard"
           ],
           "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/USDC.svg",
           "color": "3E73C4",
