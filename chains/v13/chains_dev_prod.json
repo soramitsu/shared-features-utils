@@ -6529,7 +6529,7 @@
         "precision": 18,
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
-        "color": "FF0066",
+        "color": "627EEA",
         "ethereumType": "normal",
         "purchaseProviders": [
           "coinbase",
