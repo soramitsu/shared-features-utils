@@ -6550,7 +6550,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20",
         "purchaseProviders": [
           "coinbase"
@@ -6852,7 +6852,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -6863,7 +6863,7 @@
         "precision": 18,
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
-        "color": "FF0066",
+        "color": "627EEA",
         "ethereumType": "bep20"
       },
       {
@@ -7345,7 +7345,7 @@
         "precision": 18,
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
-        "color": "FF0066",
+        "color": "627EEA",
         "ethereumType": "normal"
       },
       {
@@ -7367,7 +7367,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -7433,7 +7433,7 @@
         "precision": 18,
         "priceId": "weth",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WETH.svg",
-        "color": "FFFFFF",
+        "color": "627EEA",
         "ethereumType": "erc20"
       },
       {
@@ -7444,7 +7444,7 @@
         "precision": 18,
         "priceId": "wrapped-steth",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/WSTETH.svg",
-        "color": "00A3FF",
+        "color": "627EEA",
         "ethereumType": "erc20"
       },
       {
@@ -7504,7 +7504,7 @@
         "precision": 18,
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
-        "color": "FF0066",
+        "color": "627EEA",
         "ethereumType": "normal"
       },
       {
@@ -7526,7 +7526,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -7707,7 +7707,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -7803,7 +7803,7 @@
         "precision": 18,
         "priceId": "ethereum",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
-        "color": "FF0066",
+        "color": "627EEA",
         "ethereumType": "normal"
       },
       {
@@ -7836,7 +7836,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -7913,7 +7913,7 @@
         "precision": 18,
         "priceId": "staked-frax-ether",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SFRXETH.svg",
-        "color": "FFFFFFF",
+        "color": "FFFFFF",
         "ethereumType": "erc20"
       }
     ],
@@ -8495,7 +8495,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       },
       {
@@ -8852,7 +8852,7 @@
         "precision": 18,
         "priceId": "dai",
         "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/DAI.svg",
-        "color": "FF0066",
+        "color": "F9AF1A",
         "ethereumType": "erc20"
       }
     ],
@@ -9658,5 +9658,154 @@
     ],
     "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/polimec.svg",
     "addressPrefix": 41
+  },
+  {
+    "disabled": false,
+    "chainId": "369",
+    "name": "PulseChain",
+    "ecosystem": "ethereum",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "blockscout",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://scan.mypinata.cloud/ipfs/bafybeih3olry3is4e4lzm7rus5l3h6zrphcal5a7ayfkhzm5oivjro2cp4/#/{type}/{value}"
+        }
+      ],
+      "history": {
+        "type": "blockscout",
+        "url": "https://api.scan.pulsechain.com/api/v2"
+      }
+    },
+    "assets": [
+        {
+            "isUtility": true,
+            "id": "5c7334ab-b1c4-4e65-8cb2-845becaa4a60",
+            "name": "pulsechain",
+            "symbol": "pls",
+            "precision": 18,
+            "priceId": "pulsechain",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/PLS.svg",
+            "color": "E619E6",
+            "ethereumType": "normal"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "https://pulsechain-rpc.publicnode.com",
+            "name": "Public http node"
+        },
+        {
+            "url": "wss://pulsechain-rpc.publicnode.com",
+            "name": "Public wss node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/pulsechain.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "1329",
+    "name": "SEI Network",
+    "ecosystem": "ethereum",
+    "externalApi": {
+      "explorers": [
+        {
+          "type": "etherscan",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://seitrace.com/{type}/{value}?chain=pacific-1"
+        }
+      ]
+    },
+    "assets": [
+        {
+            "isUtility": true,
+            "id": "4fba6c84-5523-4a65-8764-b505cb152157",
+            "name": "sei",
+            "symbol": "sei",
+            "precision": 18,
+            "priceId": "sei-network",
+            "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/SEI.svg",
+            "color": "9D201A",
+            "ethereumType": "normal"
+        }
+    ],
+    "nodes": [
+        {
+            "url": "https://evm-rpc.sei-apis.com/",
+            "name": "SEI http node"
+        },
+        {
+            "url": "wss://evm-ws.sei-apis.com",
+            "name": "SEI wss node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/seinetwork.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
+  },
+  {
+    "disabled": false,
+    "chainId": "8453",
+    "name": "Base",
+    "ecosystem": "ethereum",
+    "externalApi": {
+      "history": {
+        "type": "oklink",
+        "url": "https://www.oklink.com/api/v5/explorer/address/transaction-list?chainShortName=BASE"
+      },
+      "explorers": [
+        {
+          "type": "oklink",
+          "types": [
+            "tx",
+            "address"
+          ],
+          "url": "https://www.okx.com/ru/web3/explorer/base/{type}/{value}?channelID=flessw"
+        }
+    ]
+    },
+    "assets": [
+      {
+        "isUtility": true,
+        "id": "3127335e-1716-40f3-b8e8-12a0fa923696",
+        "name": "ethereum",
+        "symbol": "ETH",
+        "precision": 18,
+        "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/tokens/coloured/ETH.svg",
+        "priceId": "ethereum",
+        "color": "627EEA",
+        "ethereumType": "normal"
+      }
+    ],
+    "nodes": [
+        {
+            "url": "https://base-rpc.publicnode.com",
+            "name": "Public http node"
+        },
+        {
+            "url": "wss://base-rpc.publicnode.com",
+            "name": "Public wss node"
+        }
+    ],
+    "icon": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/icons/chains/white/base.svg",
+    "addressPrefix": 0,
+    "options": [
+      "ethereum",
+      "utilityFeePayment"
+    ]
   }
 ]
