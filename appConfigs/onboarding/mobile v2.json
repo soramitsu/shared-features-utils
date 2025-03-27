@@ -91,7 +91,7 @@
             }
         },
         {
-            "minVersion": "4.0.3",
+            "minVersion": "4.0.4",
             "background": "https://raw.githubusercontent.com/soramitsu/shared-features-utils/master/appConfigs/onboarding/mob_v401/background.png",
             "en-EN": {
                 "new":[
