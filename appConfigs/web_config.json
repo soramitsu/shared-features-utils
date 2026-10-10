@@ -3,6 +3,5 @@
       "soraCard": true,
       "moonpay": true,
       "ramp": true
-    },
-    "ton": "https://tonscanner.org"
+    }
 }
