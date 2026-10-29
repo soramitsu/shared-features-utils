@@ -57,18 +57,6 @@
             "availableDestinations": [{
                     "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
                     "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["DOT"]
                 }
             ]
         },
@@ -285,21 +273,14 @@
             "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "RMRK", "USDt"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["RMRK"]
-                },
+            "availableDestinations": [
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 }
             ]
         },
@@ -369,18 +350,7 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": ["DOT", "USDt"],
-            "availableDestinations": [{
-                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["USDt"]
-                },
-                {
-                    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["USDt"]
-                }
+            "availableDestinations": [
             ]
         },
         "nodes": [{
@@ -556,18 +526,7 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": ["DOT", "AUSD", "ACA", "GLMR", "lcDOT"],
-            "availableDestinations": [{
-                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["AUSD", "ACA", "GLMR"]
-                },
-                {
-                    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["lcDOT", "ACA"]
-                }
+            "availableDestinations": [
             ]
         },
         "nodes": [{
@@ -948,21 +907,14 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "BNC", "AUSD", "KAR", "RMRK", "USDT", "MOVR"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
+            "availableDestinations": [
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["KSM", "BNC", "AUSD", "KAR"]
-                },
-                {
-                    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["KSM", "MOVR", "KAR", "AUSD"]
+                    "assets": ["KSM", "AUSD", "KAR"]
                 }
             ]
         },
@@ -1120,27 +1072,6 @@
                 "color": "FFFFFF"
             }
         ],
-        "xcm": {
-            "xcmVersion": "v3",
-            "availableAssets": ["MOVR", "KSM", "AUSD", "RMRK"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
-                {
-                    "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["MOVR", "KSM"]
-                },
-                {
-                    "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["AUSD"]
-                },
-                {
-                    "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["RMRK"]
-                }
-            ]
-        },
         "nodes": [{
                 "url": "wss://wss.moonriver.moonbeam.network",
                 "name": "PureStake node"
@@ -1391,21 +1322,14 @@
         "xcm": {
             "xcmVersion": "v3",
             "availableAssets": ["KSM", "BNC", "MOVR", "AUSD", "USDt"],
-            "availableDestinations": [{
-                    "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-                    "assets": ["KSM"]
-                },
+            "availableDestinations": [
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
                     "assets": ["USDt"]
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["KSM", "BNC", "AUSD"]
-                },
-                {
-                    "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-                    "assets": ["KSM", "BNC", "MOVR"]
+                    "assets": ["BNC", "AUSD"]
                 }
             ]
         },
@@ -2208,28 +2132,6 @@
                 "color": "DAFE6F"
             }
         ],
-        "xcm": {
-            "xcmVersion": "v1",
-            "availableAssets": ["DOT", "GLMR", "lcDOT", "ACA", "LDOT", "USDt"],
-            "availableDestinations": [{
-                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                    "assets": ["lcDOT", "ACA", "LDOT"]
-                },
-                {
-                    "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-                    "assets": ["GLMR"]
-                },
-                {
-                    "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-                    "assets": ["USDt"]
-                }
-
-            ]
-        },
         "nodes": [{
                 "url": "wss://rpc.parallel.fi",
                 "name": "Parallel node"
@@ -2437,23 +2339,6 @@
                 "color": "DAFE6F"
             }
         ],
-        "xcm": {
-            "xcmVersion": "v3",
-            "availableAssets": ["DOT", "GLMR", "AUSD", "ACA"],
-            "availableDestinations": [{
-                    "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-                    "assets": ["DOT"]
-                },
-                {
-                    "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-                    "assets": ["AUSD", "ACA", "GLMR"]
-                },
-                {
-                    "chainId": "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-                    "assets": ["GLMR"]
-                }
-            ]
-        },
         "nodes": [{
                 "url": "wss://wss.api.moonbeam.network",
                 "name": "Moonbeam Foundation node"
