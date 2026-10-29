@@ -276,11 +276,11 @@
             "availableDestinations": [
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 }
             ]
         },
@@ -910,11 +910,11 @@
             "availableDestinations": [
                 {
                     "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-                    "assets": ["RMRK", "USDt"]
+                    "assets": ["USDt"]
                 },
                 {
                     "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-                    "assets": ["KSM", "BNC", "AUSD", "KAR"]
+                    "assets": ["KSM", "AUSD", "KAR"]
                 }
             ]
         },
@@ -1329,7 +1329,7 @@
                 },
                 {
                     "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
-                    "assets": ["KSM", "BNC", "AUSD"]
+                    "assets": ["BNC", "AUSD"]
                 }
             ]
         },

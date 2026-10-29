@@ -333,10 +333,6 @@
           "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
           "assets": [
             {
-              "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-              "symbol": "RMRK"
-            },
-            {
               "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
               "symbol": "USDt"
             }
@@ -345,10 +341,6 @@
         {
           "chainId": "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
           "assets": [
-            {
-              "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-              "symbol": "RMRK"
-            },
             {
               "id": "043a5aba-075a-4b14-91ae-f5bffe640477",
               "symbol": "USDt"
@@ -1110,10 +1102,6 @@
           "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
           "assets": [
             {
-              "id": "c62c16f5-ac6b-410f-8804-4100dfb1bf33",
-              "symbol": "RMRK"
-            },
-            {
               "id": "af3ac245-db18-4d40-aa1c-6b70e724fc5e",
               "symbol": "USDt"
             }
@@ -1125,10 +1113,6 @@
             {
               "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
               "symbol": "KSM"
-            },
-            {
-              "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
-              "symbol": "BNC"
             },
             {
               "id": "a7e923a9-41d6-4d08-a4e2-2cf3efbb1061",
@@ -1574,10 +1558,6 @@
         {
           "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
           "assets": [
-            {
-              "id": "0ceffe96-8090-404e-815c-91118ee5dd65",
-              "symbol": "KSM"
-            },
             {
               "id": "cf0019d7-bbf7-48ca-b818-47f644ad97f6",
               "symbol": "BNC"
@@ -4575,15 +4555,6 @@
         }
       ],
       "availableDestinations": [
-        {
-          "chainId": "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
-          "assets": [
-            {
-              "id": "4d6baa42-c8ba-4c47-9992-2af0d55123b1",
-              "symbol": "ROC"
-            }
-          ]
-        }
       ]
     },
     "assets": [
@@ -7211,24 +7182,6 @@
         }
       ],
       "availableDestinations": [
-        {
-          "chainId": "7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
-          "assets": [
-            {
-              "id": "a6b83d39-a488-4b34-8352-280705a792e",
-              "symbol": "LLD",
-              "minAmount": "1000000000000"
-            },
-            {
-              "id": "30b43eb9-36b4-4b40-bf72-330d2e20ee86",
-              "symbol": "LLM"
-            },
-            {
-              "id": "2e7179c9-4308-420e-a654-43c92d119717",
-              "symbol": "XOR"
-            }
-          ]
-        }
       ]
     },
     "nodes": [
